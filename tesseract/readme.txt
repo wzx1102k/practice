@@ -143,6 +143,63 @@ UVWXYZ
 
 运行完成后 结果保存在result.txt里，可以看到对于比较规范的图片 还是轻松识别的
 
+五、程序里面调用ImageMagick 库
+
+1、下载 ImageMagick src code
+
+mkdir /home/cloud/imagemagick ; cd /home/cloud/imagemagick
+root@yq-pc:/home/cloud/imagemagick# git clone http://git.imagemagick.org/repos/ImageMagick
+
+2、编译ImageMagick lib
+
+<1>配置
+root@yq-pc:/home/cloud/imagemagick/ImageMagick# ./configure --disable-static --with-modules --without-perl --without-magick-plus-plus --with-quantum-depth=8
+
+运行完成 提示：
+    CXX             = g++
+    CXXFLAGS        = -g -O2 -pthread
+    FEATURES        = DPC HDRI Cipher OpenMP Modules
+    DELEGATES       = mpeg fontconfig freetype jbig jng jpeg lzma pango png ps tiff x zlib
+==============================================================================
+
+<2> 编译
+root@yq-pc:/home/cloud/imagemagick/ImageMagick# make -j16
+
+运行完提示：
+  CCLD     coders/svg.la
+  CCLD     utilities/magick
+make[1]:正在离开目录 `/home/cloud/imagemagick/ImageMagick'
+
+<3> 生成lib
+root@yq-pc:/home/cloud/imagemagick/ImageMagick# make install
+运行完提示：
+/usr/bin/install -c -m 644 MagickCore/ImageMagick.pc MagickCore/MagickCore.pc MagickCore/ImageMagick-7.Q8HDRI.pc MagickCore/MagickCore-7.Q8HDRI.pc MagickWand/MagickWand.pc MagickWand/MagickWand-7.Q8HDRI.pc '/usr/local/lib/pkgconfig'
+make[2]:正在离开目录 `/home/cloud/imagemagick/ImageMagick'
+make[1]:正在离开目录 `/home/cloud/imagemagick/ImageMagick'
+
+<4> 在/usr/local/lib 和 /usr/local/include 下 可以查看到 lib 和头文件
+root@yq-pc:/usr/local/lib# ls
+ImageMagick-7.0.2
+libMagickCore-7.Q8HDRI.la
+libMagickCore-7.Q8HDRI.so
+libMagickCore-7.Q8HDRI.so.0
+libMagickCore-7.Q8HDRI.so.0.0.0
+
+root@yq-pc:/usr/local/include# ls
+ImageMagick-7  leptonica  tesseract
+
+
+注： 如果执行ImageMagick 命令提示找不到so:
+root@yq-pc:/home/cloud/cloud-git-master/practice/tesseract# import ocr1.png 
+import: error while loading shared libraries: libMagickCore-7.Q8HDRI.so.0: cannot open shared object file: No such file or directory
+可执行ldconfig /usr/local/lib/  再运行命令即可成功
+ImageMagick 是一个很强大的图像编辑工具，图像格式转换、图像旋转、图像截取、图像加燥去燥、 图像二值化等等，具体参看如下链接。
+截取图像：
+执行 import ocr1.png 此时鼠标会变成四角光标，拖出一片区域并释放，则保存该区域图像到ocr1.png中。（和QQ截图操作一样）
+查看图片 display ocr1.png 即可看到之前截图的图片
+
+
+
 相关参考：
 http://www.eefocus.com/winter1988/blog/13-03/292209_03d5b.html
 http://stackoverflow.com/questions/14951784/how-to-force-tesseract-not-to-use-tessdata-prefix
@@ -150,6 +207,13 @@ http://www.cnblogs.com/cappuccino/p/4650665.html
 http://san-yun.iteye.com/blog/1954866
 http://www.linuxidc.com/Linux/2011-07/38728.htm
 https://github.com/tesseract-ocr
+http://git.imagemagick.org/repos/ImageMagick/tree/master/ImageMagick
+http://rmagick.rubyforge.org/install-linux.html
+http://blog.csdn.net/dj0379/article/details/7527955
+http://www.imagemagick.org/discourse-server/viewtopic.php?t=17059
+
+推荐看这一篇
+http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html
 
 
 
