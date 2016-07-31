@@ -212,8 +212,17 @@ http://rmagick.rubyforge.org/install-linux.html
 http://blog.csdn.net/dj0379/article/details/7527955
 http://www.imagemagick.org/discourse-server/viewtopic.php?t=17059
 
-推荐看这一篇
+imagemagick推荐看这篇
 http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html
+http://www.imagemagick.org/script/magick-core.php
+http://www.imagemagick.org/script/magick-wand.php
+http://blog.csdn.net/leixiaohua1020/article/details/26754089
+http://www.ibm.com/developerworks/cn/opensource/os-imagemagick/
+http://www.imagemagick.org/api/constitute.php
+http://www.cnblogs.com/jamesmile/archive/2010/10/19/1855469.html
+http://stackoverflow.com/questions/17562135/declaration-of-c-function-void-msgboxconst-char-const-char-conflicts-with
+
+
 
 
 
