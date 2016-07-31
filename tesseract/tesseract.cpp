@@ -6,12 +6,14 @@
 
 #define SRC_PATH argv[1]
 #define DES_PATH argv[2]
+#define OCR_TYPE argv[3]
+#define OCR_TYPE_MAX_LEN 255
 
 int main(int argc, char* argv[])
 {
 	int ret = 0;
 
-	if(argc < 3)
+	if(argc < 4)
 	{
 		printf("Usage: ./demo_tesseract src_path des_path\n");
 		return -1;
@@ -19,15 +21,25 @@ int main(int argc, char* argv[])
 
 	printf("src_path: %s\n", SRC_PATH);
 	printf("dec_path: %s\n", DES_PATH);
+	printf("ocr_type: %s\n", OCR_TYPE);
 
 	char* outText;
+	char* ocr_type = (char*) malloc(sizeof(char*) * OCR_TYPE_MAX_LEN);
+	if(ocr_type ==NULL)
+	{
+		fprintf(stderr, "malloc ocr_type fail\n");
+		return -1;
+	}
+
+	strcpy(ocr_type, OCR_TYPE);
 
 	tesseract::TessBaseAPI *api = new tesseract::TessBaseAPI();
 
 	//Initialize tesseract-ocr with English
-	if(api->Init(NULL, "eng"))
+	if(api->Init(NULL, ocr_type))
 	{
 		fprintf(stderr, "Could not initialize tesseract.\n");
+		free(ocr_type);
 		return -1;
 	}
 
@@ -57,6 +69,7 @@ ocr_finish:
 	api->End();
 	delete[] outText;
 	pixDestroy(&image);
+	free(ocr_type);
 
 	return 0;
 }
