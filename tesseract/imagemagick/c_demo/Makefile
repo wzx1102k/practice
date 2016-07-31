@@ -11,15 +11,23 @@ MAKEFILE = Makefile
 
 CC = cc
 
-all: demo_imagemagick
+all: demo_imagemagick convert.so
+
+$(APP_OBJS): %.o: %.c
+	$(CC) -c -fPIC $(Include) $*.c
 
 demo_imagemagick: $(OBJS)
 	$(CC) -o $@ $(OBJS) $(Include)
-$(APP_OBJS): %.o: %.c
-	$(CC) -c $(Include) $*.c
+#$(APP_OBJS): %.o: %.c
+#	$(CC) -c $(Include) $*.c
+
+convert.so: $(OBJS)
+	$(CC) -shared -fPIC -o $@ $(OBJS) $(Include)
+#$(APP_OBJS): %.o: %.c
+#	$(CC) -c -fPIC $(Include) $*.c
 
 clean:
-	rm -f $(OBJS) demo_imagemagick
+	rm -f $(OBJS) demo_imagemagick convert.so
 rebuild:
 	make clean
 	make

@@ -3,25 +3,32 @@
 #include <string.h>
 #include <time.h>
 #include <MagickCore/MagickCore.h>
+#include "demo_image.h"
 
 int main(int argc,char **argv)
+{
+	if (argc != 3)
+	{   
+		(void) fprintf(stdout,"Usage: %s image thumbnail\n",argv[0]);
+		exit(0);
+	}
+
+	convert(argv[1], argv[2]);
+	return 0;
+}
+
+int convert(const char* input, char* output)
 {
 	ExceptionInfo *exception;
 
 	Image *image, *images, *resize_image, *thumbnails;
 	ImageInfo *image_info;
 	
-	if (argc != 3)
-	{
-		(void) fprintf(stdout,"Usage: %s image thumbnail\n",argv[0]);
-		exit(0);
-	}
-
 	/*Initialize the image info structure and read an image.*/
-	MagickCoreGenesis(*argv,MagickTrue);
+	MagickCoreGenesis(input,MagickTrue);
 	exception=AcquireExceptionInfo();
 	image_info=CloneImageInfo((ImageInfo *) NULL);
-	(void) strcpy(image_info->filename,argv[1]);
+	(void) strcpy(image_info->filename,input);
 	images=ReadImage(image_info,exception);
 	if (exception->severity != UndefinedException)
 		CatchException(exception);
@@ -40,7 +47,7 @@ int main(int argc,char **argv)
 	}
 	
 	/*Write the image thumbnail.*/
-	(void) strcpy(thumbnails->filename,argv[2]);
+	(void) strcpy(thumbnails->filename,output);
 	WriteImage(image_info,thumbnails, exception);
 	
 	/*Destroy the image thumbnail and exit.*/
