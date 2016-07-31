@@ -2,18 +2,16 @@ APP_SRCS	= ${wildcard *.c}
 #APP_SRCS = convert.c
 
 APP_OBJS = $(APP_SRCS:.c=.o)
-#APP_OBJS = demo_conv.o
+
 CONV_OBJS = convert.o
 
-#OBJS = $(APP_OBJS)
-OBJS = demo_conv.o
+OBJS = $(APP_OBJS)
 SRCS = $(APP_SRCS)
 #Include += -I `Magick++-config --cppflags --cxxflags --ldflags --libs`
 #LIB_PATH += -L /usr/local/lib
 Include += `pkg-config --cflags --libs MagickCore`
 MAKEFILE = Makefile
-LIBS = -lconvert
-LIB_PATH += -L .
+
 #CC = cc
 CC = gcc
 
@@ -22,8 +20,8 @@ all: demo_conv libconvert.so
 $(APP_OBJS): %.o: %.c
 	$(CC) -c -fPIC $(Include) $*.c
 
-demo_conv: $(OBJS) libconvert.so
-	$(CC) -o $@ $(OBJS) $(LIBS) $(LIB_PATH)
+demo_conv: $(OBJS)
+	$(CC) -o $@ $(OBJS) $(Include)
 #$(APP_OBJS): %.o: %.c
 #	$(CC) -c $(Include) $*.c
 
@@ -33,7 +31,7 @@ libconvert.so: $(CONV_OBJS)
 #	$(CC) -c -fPIC $(Include) $*.c
 
 clean:
-	rm -f $(APP_OBJS) demo_conv libconvert.so
+	rm -f $(OBJS) demo_conv libconvert.so
 rebuild:
 	make clean
 	make

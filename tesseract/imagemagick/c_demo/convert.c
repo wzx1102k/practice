@@ -3,19 +3,7 @@
 #include <string.h>
 #include <time.h>
 #include <MagickCore/MagickCore.h>
-#include "demo_image.h"
-
-int main(int argc,char **argv)
-{
-	if (argc != 3)
-	{   
-		(void) fprintf(stdout,"Usage: %s image thumbnail\n",argv[0]);
-		exit(0);
-	}
-
-	convert(argv[1], argv[2]);
-	return 0;
-}
+#include "convert.h"
 
 int convert(const char* input, char* output)
 {
