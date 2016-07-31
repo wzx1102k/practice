@@ -15,7 +15,7 @@ int main(int argc,char **argv)
 	{
 		(void) fprintf(stdout,"Usage: %s image thumbnail\n",argv[0]);
 		exit(0);
-    }
+	}
 
 	/*Initialize the image info structure and read an image.*/
 	MagickCoreGenesis(*argv,MagickTrue);
