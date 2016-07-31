@@ -7,10 +7,11 @@ if [ -f result.txt ]; then
 fi
 
 for file in ./eng_jpg/*.jpg
-	do convert $file ${file%.*}.tif
-	echo $file
-	echo ${file%.*}.tif
-	./demo_tesseract ${file%.*}.tif ./eng_jpg/result.txt eng
+#	do convert $file ${file%.*}.tif
+#	echo $file
+#	echo ${file%.*}.tif
+#	./demo_tesseract ${file%.*}.tif ./eng_jpg/result.txt eng
+	do ./demo_tesseract ${file} ./eng_jpg/result.txt eng 
 done
 
 
