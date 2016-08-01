@@ -32,6 +32,7 @@ int main(int argc, char* argv[])
 
 	int len = strrchr(SRC_PATH, '.') - SRC_PATH;
 	strncpy(image_tif, SRC_PATH, len);
+	strcat(image_tif, ".tif");
 	printf("%s\n", strstr(SRC_PATH, "."));
 	printf("src_path: %s\n", SRC_PATH);
 	printf("image_tif: %s\n", image_tif);

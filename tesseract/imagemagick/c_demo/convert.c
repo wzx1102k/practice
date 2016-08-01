@@ -27,7 +27,8 @@ int convert(const char* input, char* output)
 	thumbnails=NewImageList();
 	while ((image=RemoveFirstImageFromList(&images)) != (Image *) NULL)
 	{
-		resize_image=ResizeImage(image,106,80,LanczosFilter,exception);
+		//resize_image=ResizeImage(image,106,80,LanczosFilter,exception);
+		resize_image=ResizeImage(image,480,480,LanczosFilter,exception);
 		if (resize_image == (Image *) NULL)
 			MagickError(exception->severity,exception->reason,exception->description);
 		(void) AppendImageToList(&thumbnails,resize_image);
