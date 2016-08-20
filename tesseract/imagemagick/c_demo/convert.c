@@ -11,7 +11,8 @@ int convert(const char* input, char* output)
 
 	Image *image, *images, *resize_image, *thumbnails;
 	ImageInfo *image_info;
-	
+
+	printf("convert init...\n");
 	/*Initialize the image info structure and read an image.*/
 	MagickCoreGenesis(input,MagickTrue);
 	exception=AcquireExceptionInfo();
@@ -22,7 +23,8 @@ int convert(const char* input, char* output)
 		CatchException(exception);
 	if (images == (Image *) NULL)
 		exit(1);
-	
+
+	printf("convert to tif...\n");
 	/*Convert the image to a thumbnail.*/
 	thumbnails=NewImageList();
 	while ((image=RemoveFirstImageFromList(&images)) != (Image *) NULL)
@@ -34,11 +36,13 @@ int convert(const char* input, char* output)
 		(void) AppendImageToList(&thumbnails,resize_image);
 		DestroyImage(image);
 	}
-	
+
+	printf("convert save image...\n");
 	/*Write the image thumbnail.*/
 	(void) strcpy(thumbnails->filename,output);
 	WriteImage(image_info,thumbnails, exception);
-	
+
+	printf("convert end...\n");
 	/*Destroy the image thumbnail and exit.*/
 	thumbnails=DestroyImageList(thumbnails);
 	image_info=DestroyImageInfo(image_info);
