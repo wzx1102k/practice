@@ -16,8 +16,8 @@ LIBS = -lconvert
 LIB_PATH += -L .
 #CC = cc
 CC = gcc
-
-all: demo_conv libconvert.so
+AR = ar r
+all: demo_conv libconvert.so libconvert.a
 
 $(APP_OBJS): %.o: %.c
 	$(CC) -c -fPIC $(Include) $*.c
@@ -32,8 +32,10 @@ libconvert.so: $(CONV_OBJS)
 #$(APP_OBJS): %.o: %.c
 #	$(CC) -c -fPIC $(Include) $*.c
 
+libconvert.a: $(CONV_OBJS)
+	$(AR) $@ $(CONV_OBJS)
 clean:
-	rm -f $(APP_OBJS) demo_conv libconvert.so
+	rm -f $(APP_OBJS) demo_conv libconvert.so libconvert.a
 rebuild:
 	make clean
 	make

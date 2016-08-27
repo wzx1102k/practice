@@ -3,7 +3,7 @@
 #include <string.h>
 #include <tesseract/baseapi.h>
 #include <leptonica/allheaders.h>
-#include <convert.h>
+//#include <convert.h>
 #define SRC_PATH argv[1]
 #define DES_PATH argv[2]
 #define OCR_TYPE argv[3]
@@ -39,7 +39,7 @@ int main(int argc, char* argv[])
 	printf("dec_path: %s\n", DES_PATH);
 	printf("ocr_type: %s\n", OCR_TYPE);
 
-	convert(SRC_PATH, image_tif);
+//	convert(SRC_PATH, image_tif);
 
 	char* outText;
 	char* ocr_type = (char*) malloc(sizeof(char*) * OCR_TYPE_MAX_LEN);
@@ -64,8 +64,8 @@ int main(int argc, char* argv[])
 	}
 
 	//Open input image with leptonica lib
-	//	Pix* image = pixRead(SRC_PATH);
-	Pix* image = pixRead(image_tif);
+		Pix* image = pixRead(SRC_PATH);
+//	Pix* image = pixRead(image_tif);
 	api->SetImage(image);
 	
 	//Get ocr result

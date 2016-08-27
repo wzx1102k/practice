@@ -1,4 +1,4 @@
-------------tesseract库使用说明--------------
+/bin/bash: 0: 未找到命令
 一、如果只是命令行执行相关命令，不需要将其做为lib合到自己的程序里，只需更新如下执行档：
 sudo apt-get install libjpeg62-dev  
 sudo apt-get install libtiff4-dev  
@@ -222,8 +222,9 @@ http://www.imagemagick.org/api/constitute.php
 http://www.cnblogs.com/jamesmile/archive/2010/10/19/1855469.html
 http://stackoverflow.com/questions/17562135/declaration-of-c-function-void-msgboxconst-char-const-char-conflicts-with
 
-
-
+jbig lib download
+https://launchpad.net/ubuntu/+source/jbigkit/2.1-3.1
+bio.gsi.de/DOCS/SOFTWARE/libjbig.html
 
 
 
