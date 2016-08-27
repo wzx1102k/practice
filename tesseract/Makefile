@@ -19,7 +19,7 @@ CC = g++
 all: demo_tesseract
 
 demo_tesseract: $(OBJS)
-	$(CC) -o $@ $(OBJS) $(LIBS) $(LIB_PATH)
+	$(CC) -o $@ $(OBJS) $(LIB_PATH) $(LIBS)
 $(APP_OBJS): %.o: %.cpp
 	$(CC) -c -fPIC $(Include) $*.cpp
 
