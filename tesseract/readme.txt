@@ -226,6 +226,8 @@ jbig lib download
 https://launchpad.net/ubuntu/+source/jbigkit/2.1-3.1
 bio.gsi.de/DOCS/SOFTWARE/libjbig.html
 
+static & dynamic lib
+http://www.cnblogs.com/chengxuyuancc/archive/2013/05/11/3072981.html
 
 
 

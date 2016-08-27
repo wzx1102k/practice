@@ -10,11 +10,14 @@ Include += -I ./imagemagick/c_demo
 Include += -I /usr/include
 Include += -I /home/cloud/cloud-git-master/practice/tesseract/jbig/jbigkit-2.1/libjbig
 #Include += `pkg-config --cflags --libs MagickCore`
-LIBS += -ltesseract -llept -ltiff -lpng -ljpeg -ljbig -llzma -lpthread -lz -lm
-LIB_PATH += -L /usr/local/lib
-LIB_PATH += -L /usr/lib/x86_64-linux-gnu
-LIB_PATH += -L ./imagemagick/c_demo
-LIB_PATH += -L /home/cloud/cloud-git-master/practice/tesseract/jbig/jbigkit-2.1/libjbig
+#LIBS += -ltesseract -llept -ltiff -lpng -ljpeg -ljbig -llzma -lpthread -lz -lm
+
+#LIB_PATH += -L /usr/local/lib
+#LIB_PATH += -L /usr/lib/x86_64-linux-gnu
+#LIB_PATH += -L ./imagemagick/c_demo
+#LIB_PATH += -L /home/cloud/cloud-git-master/practice/tesseract/jbig/jbigkit-2.1/libjbig
+LIBS += -locr_tesseract
+LIB_PATH += -L ./lib
 MAKEFILE = Makefile
 
 CC = g++
