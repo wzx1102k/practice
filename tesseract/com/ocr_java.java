@@ -2,8 +2,8 @@ package com;
 
 public class ocr_java {
     static {
-		//System.loadLibrary("ocr_tesseract");
-		System.loadLibrary("ocr_java");
+		System.loadLibrary("ocr_tesseract");
+		//System.loadLibrary("ocr_java");
    }
 	public native String OcrTesseract(String input, String output, String ocr_type);
 	public static void main(String[] args) {

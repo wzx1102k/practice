@@ -228,7 +228,9 @@ bio.gsi.de/DOCS/SOFTWARE/libjbig.html
 
 static & dynamic lib
 http://www.cnblogs.com/chengxuyuancc/archive/2013/05/11/3072981.html
-
+http://blog.chinaunix.net/uid-23069658-id-3142046.html
+http://blog.csdn.net/dream_it_life/article/details/8598616
+http://stackoverflow.com/questions/19768267/relocation-r-x86-64-32s-against-linking-error
 
 
 

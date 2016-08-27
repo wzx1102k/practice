@@ -8,25 +8,30 @@ OBJS = $(APP_OBJS)
 SRCS = $(APP_SRCS)
 
 Include += -I /usr/lib/jvm/java-7-openjdk-amd64/include
-LIBS += -locr_tesseract
+STATIC_LIBS += -locr_tesseract
+LIBS +=
 LIB_PATH += -L .
 MAKEFILE = Makefile
 
 CC = g++
 AR = ar rs
 
-all: ocr_demo libocr_java.a
+all: ocr_demo libocr_java.a libocr_java.so
 ocr_demo: $(OBJS)
-	$(CC) -o $@ $(OBJS) $(LIBS) $(LIB_PATH) -static
+	$(CC) -o $@ $(OBJS) $(STATIC_LIBS) $(LIB_PATH) -static
 $(APP_OBJS): %.o: %.cpp
-	$(CC) -c -static $(Include) $*.cpp
+	$(CC) -fPIC -c $(Include) $*.cpp
 
 libocr_java.a: $(OCR_JAVA_OBJS)
 	$(AR) $@ $(OCR_JAVA_OBJS)
 
+libocr_java.so: $(OCR_JAVA_OBJS)
+	$(CC) -fPIC -shared -o $@ $(OCR_JAVA_OBJS) $(LIBS) $(LIB_PATH)
 clean:
 	rm -f $(OBJS) ocr_demo libocr_java.a
-lib: libocr_java.a
+
+static_lib: libocr_java.a
+shared_lib: libocr_java.so
 rebuild:
 	make clean
 	make
