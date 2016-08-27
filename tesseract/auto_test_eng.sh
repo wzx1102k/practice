@@ -11,7 +11,7 @@ for file in ./eng_jpg/*.jpg
 #	echo $file
 #	echo ${file%.*}.tif
 #	./demo_tesseract ${file%.*}.tif ./eng_jpg/result.txt eng
-	do ./demo_tesseract ${file} ./eng_jpg/result.txt eng 
+	do ./ocr_demo ${file} ./eng_jpg/result.txt eng 
 done
 
 
