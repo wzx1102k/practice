@@ -5,13 +5,14 @@
 #include "ocr_tesseract.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <tesseract/baseapi.h>
-#include <leptonica/allheaders.h>
+#include "tesseract/baseapi.h"
+#include "leptonica/allheaders.h"
 
 char* ocr_tesseract(const char* input, const char* output, const char* ocr_type) {
 
     int ret = 0;
     static char result[128];
+	printf("ocr_tesseract start\n");
 
     tesseract::TessBaseAPI *api = new tesseract::TessBaseAPI();
     //Initialize tesseract-ocr with English
@@ -42,6 +43,7 @@ char* ocr_tesseract(const char* input, const char* output, const char* ocr_type)
     fclose(pf);
 
     ocr_finish:
+		printf("ocr finish\n");
         //Destroy used obj and release memory
         api->End();
         delete[] outText;
