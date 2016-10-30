@@ -32,9 +32,9 @@
         int sin_size,portnumber;  
         char hello[]="Hello! Are You Fine?\n";  
       
-        if((portnumber=atoi("8080"))<0)  
+        if((portnumber=atoi(argv[1]))<0)  
         {  
-            fprintf(stderr,"Usage:%s portnumber\a\n",argv[0]);  
+            fprintf(stderr,"Usage:%s portnumber\a\n",argv[1]);  
             exit(1);  
         }  
       
