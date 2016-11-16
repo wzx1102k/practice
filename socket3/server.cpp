@@ -1,4 +1,6 @@
 /* server.c */
+#include <opencv/cv.hpp>
+#include <opencv/highgui.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,10 +14,16 @@
 #include<sys/socket.h>   
 #include<pthread.h>   
 #include<fcntl.h>  
+#include <arpa/inet.h>  // inet_ntoa
+#include "base64.h"
+#include <iostream>
 //#include "wrap.h"
 
-#define MAXLINE 1024
+#define RCVLINE 4*1024
+#define MAXLINE 512*1024 //512K
 #define SERV_PORT 9000
+
+using namespace std;
 
 void sig_child(int signo);
 
@@ -26,7 +34,7 @@ int main(void)
         struct sockaddr_in servaddr,cliaddr;
         socklen_t cliaddr_len;
         int listenfd,connfd;
-        char buf[MAXLINE] = "good luck!!\r\n";
+        char buf[RCVLINE] = "good luck!!\r\n";
         char str[INET_ADDRSTRLEN];
         int i,n,m;
         
@@ -66,22 +74,37 @@ int main(void)
 					else if(m == 0)
 					{
 						char subbuf[MAXLINE];
+						char rcvbuf[RCVLINE];
 						char substr[INET_ADDRSTRLEN];
-						printf("buf = %s\n", buf);
+						int count = 0;
 						printf("fork \n");
 						while(1)
 							{
-                               ssize_t serrno = recv(connfd,subbuf,MAXLINE,0);
-                               printf("serrno = %d\n", serrno); 
+								printf("start to recv\n");
+                                ssize_t serrno = recv(connfd, subbuf+count,MAXLINE,0);
+                                printf("serrno = %ld\n", serrno); 
 								if((serrno <= 0)&&(!(serrno == EINTR || serrno == EWOULDBLOCK || serrno == EAGAIN))){
                                         printf("the other side has been closed.\n");
+										std::string str64(subbuf);
+										std::string pstr;
+										std::cout<<str64<<std::endl;
+										pstr = base64_decode(str64);
+										vector<char> data;
+										data.resize(pstr.size());
+    									data.assign(pstr.begin(),pstr.end());										
+										//std::cout<< pstr << std::endl;
+										cv::Mat image = cv::imdecode(cv::Mat(data),1);
+										//printf("content %s",subbuf);
+                                		//write(connfd, buf, RCVLINE);
+										cv::imshow("img", image);
+										cv::waitKey(0);
+										write(connfd, buf, RCVLINE);
                                         break;
                                 }
 								inet_ntop(AF_INET,&cliaddr.sin_addr,substr,sizeof(substr));
-								printf("received from %s at PORT %d\n",substr,ntohs(cliaddr.sin_port));
-                                printf("content %s",subbuf);
-                               write(connfd, buf, MAXLINE);
-								//send(connfd, buf, MAXLINE, 0);
+								printf("%d: received from %s at PORT %d\n",count, substr,ntohs(cliaddr.sin_port));
+								count += serrno ;
+								write(connfd, buf, RCVLINE);
 							}
                         
                         close(connfd);
