@@ -32,6 +32,9 @@ struct SrcPoint {
 	int rv;
 	int bv;
 	int gv;
+	double rb;
+	double rg;
+	double gb;
 	int label;
 };
 
@@ -40,9 +43,9 @@ vector<SrcPoint> src_means;
 vector<GrayPoint> gray_cluster;
 vector<SrcPoint>  src_cluster;
 
-static int kmeans_calDict(vector<int> dict1, vector<int> dict2);
+static double kmeans_calDict(vector<double> dict1, vector<double> dict2);
 
-int kmeans_src_init(vector<SrcPoint> &means, vector<SrcPoint> cluster, int knum) {
+int kmeans_src_init(vector<SrcPoint> &means, vector<SrcPoint> &cluster, int knum) {
 	int cnt = 0;
 	if((cluster.size() < 2) || (knum < 2)) {
 		printf("Kmeans init para error!\n");
@@ -50,8 +53,14 @@ int kmeans_src_init(vector<SrcPoint> &means, vector<SrcPoint> cluster, int knum)
 	}
 
 	vector<SrcPoint> xcluster;
+	cluster[0].rb = (double)cluster[0].rv/(double)cluster[0].bv;
+	cluster[0].rg = (double)cluster[0].rv/(double)cluster[0].gv;
+	cluster[0].gb = (double)cluster[0].gv/(double)cluster[0].bv;
 	xcluster.push_back(cluster[0]);
 	for(int i=0; i<cluster.size();i++) {
+		cluster[i].rb = (double)cluster[i].rv/(double)cluster[i].bv;
+		cluster[i].rg = (double)cluster[i].rv/(double)cluster[i].gv;
+		cluster[i].gb = (double)cluster[i].gv/(double)cluster[i].bv;
 		if(xcluster[cnt].x != cluster[i].x) {
 			xcluster.push_back(cluster[i]);
 			cnt ++; 
@@ -65,7 +74,7 @@ int kmeans_src_init(vector<SrcPoint> &means, vector<SrcPoint> cluster, int knum)
 	for(int i=0; i<knum; i++) {
 		means.push_back(xcluster[i*((cnt-1)/(knum-1))]);
 		means[i].label = i;
-		KDEBUG(printf("means init: x=%d, y=%d, rv=%d, gv=%d, bv=%d, label=%d\n", means[i].x, means[i].y, means[i].rv, means[i].gv, means[i].bv, means[i].label));			
+		KDEBUG(printf("means init: x=%d, y=%d, rv=%d, gv=%d, bv=%d, rg=%f, rb=%f, gb=%f, label=%d\n", means[i].x, means[i].y, means[i].rv, means[i].gv, means[i].bv, means[i].rg, means[i].rb, means[i].gb, means[i].label));			
 	}
 
 	return 0;
@@ -78,6 +87,9 @@ int kmeans_src_update(vector<SrcPoint> &means, vector<SrcPoint> cluster, vector<
 	point.gv = 0;
 	point.bv = 0;
 	point.rv = 0;
+	point.rb = 0;
+	point.rg = 0;
+	point.gb = 0;
 	point.label = 0;
 	int index = 0;
 
@@ -89,6 +101,9 @@ int kmeans_src_update(vector<SrcPoint> &means, vector<SrcPoint> cluster, vector<
 		means[index].rv += cluster[i].rv;
 		means[index].gv += cluster[i].gv;
 		means[index].bv += cluster[i].bv;
+		means[index].rb += cluster[i].rb;
+		means[index].rg += cluster[i].rg;
+		means[index].gb += cluster[i].gb;
 	}
 
 	for(int i=0; i<means.size(); i++) {
@@ -97,33 +112,49 @@ int kmeans_src_update(vector<SrcPoint> &means, vector<SrcPoint> cluster, vector<
 		means[i].rv /= cnt[i];
 		means[i].gv /= cnt[i];
 		means[i].bv /= cnt[i];
+		means[i].rg /= cnt[i];
+		means[i].rb /= cnt[i];
+		means[i].gb /= cnt[i];
 		means[i].label = i;
-		KDEBUG(printf("means init: x=%d, y=%d, rv=%d, gv=%d, bv=%d, label=%d\n", means[i].x, means[i].y, means[i].rv, means[i].gv, means[i].bv, means[i].label));	
+		KDEBUG(printf("means init: x=%d, y=%d, rv=%d, gv=%d, bv=%d, rg=%f, rb=%f, gb=%f, label=%d\n", means[i].x, means[i].y, means[i].rv, means[i].gv, means[i].bv, means[i].rg, means[i].rb, means[i].gb, means[i].label));	
 	}
 	return 0;
 }
 
-int kmeans_src_calDict(SrcPoint point1, SrcPoint point2) {
+double kmeans_src_calDict(SrcPoint point1, SrcPoint point2) {
 
-	vector<int> tmp1, tmp2;
-	tmp1.push_back(point1.x);
-	tmp1.push_back(point1.y);
-	tmp1.push_back(point1.rv);
-	tmp1.push_back(point1.gv);
-	tmp1.push_back(point1.bv);
+	vector<double> tmp1;
+	vector<double> tmp2;
+//	tmp1.push_back((double)point1.x);
+//	tmp1.push_back((double)point1.y);
+	tmp1.push_back(point1.rb);
+	tmp1.push_back(point1.rg);
+	tmp1.push_back(point1.gb);
 
-	tmp2.push_back(point2.x);
-	tmp2.push_back(point2.y);
-	tmp2.push_back(point2.rv);
-	tmp2.push_back(point2.gv);
-	tmp2.push_back(point2.bv);
+//	tmp2.push_back((double)point2.x);
+//	tmp2.push_back((double)point2.y);
+	tmp2.push_back(point2.rb);
+	tmp2.push_back(point2.rg);
+	tmp2.push_back(point2.gb);
+
+//	tmp1.push_back(point1.x);
+//	tmp1.push_back(point1.y);
+//	tmp1.push_back(point1.rv);
+//	tmp1.push_back(point1.gv);
+//	tmp1.push_back(point1.bv);
+
+//	tmp2.push_back(point2.x);
+//	tmp2.push_back(point2.y);
+//	tmp2.push_back(point2.rv);
+//	tmp2.push_back(point2.gv);
+//	tmp2.push_back(point2.bv);
 
 	return kmeans_calDict(tmp1, tmp2);
 }
 
 int kmeans_src_sort(SrcPoint &point, vector<SrcPoint> &means) {
-	int dict = 0;
-	int sum = 0;
+	double dict = 0;
+	double sum = 0;
 	dict = kmeans_src_calDict(point, means[0]);
 	point.label = 0;
 	for(int i=1; i < means.size(); i++) {
@@ -141,7 +172,7 @@ int kmeans_src_sortCluster(vector<SrcPoint> &means, vector<SrcPoint> &cluster, v
 	for(int i=0; i < cluster.size(); i++) {
 		kmeans_src_sort(cluster[i], means);
 		cnt[cluster[i].label] ++;
-		KDEBUG(printf("Sort cluster[%d] label is %d\n", i, cluster[i].label));
+//		KDEBUG(printf("Sort cluster[%d] label is %d\n", i, cluster[i].label));
 	}
 
 	for(int i=0; i<cnt.size(); i++) {
@@ -150,15 +181,15 @@ int kmeans_src_sortCluster(vector<SrcPoint> &means, vector<SrcPoint> &cluster, v
 	return 0;
 }
 
-int kmeans_src_calDeltaSum(vector<SrcPoint> &means, vector<SrcPoint> &cluster, long &sum) {
+int kmeans_src_calDeltaSum(vector<SrcPoint> &means, vector<SrcPoint> &cluster, double &sum) {
 	int index = 0;
 	sum = 0;
 	for(int i = 0; i < cluster.size(); i++) {
 		index = cluster[i].label;
-		sum += (long) kmeans_src_calDict(cluster[i], means[index]);
+		sum += kmeans_src_calDict(cluster[i], means[index]);
 	}
 
-	KDEBUG(printf("cluster dict means sum: %ld\n", sum));
+	//KDEBUG(printf("cluster dict means sum: %f\n", sum));
 	return 0;
 }
 
@@ -227,8 +258,8 @@ int kmeans_gray_calDict(GrayPoint point1, GrayPoint point2) {
 	tmp2.push_back(point2.x);
 	tmp2.push_back(point2.y);
 	tmp2.push_back(point2.v);
-
-	return kmeans_calDict(tmp1, tmp2);
+	return 0;
+	//return (int)kmeans_calDict(tmp1, tmp2);
 }
 
 
@@ -274,9 +305,9 @@ int kmeans_gray_calDeltaSum(vector<GrayPoint> &means, vector<GrayPoint> &cluster
 }
 // no use double and sqrt because waste time 
 // cal dict sqrt((x1-y1)**(x1-y1) + ... + (xn-yn)**(xn-yn))
-static int kmeans_calDict(vector<int> dict1, vector<int> dict2) {
-	int sum = 0;
-	int temp = 0;
+static double kmeans_calDict(vector<double> dict1, vector<double> dict2) {
+	double sum = 0;
+	double temp = 0;
 
 	if ((dict1.size() < 2) || (dict2.size() < 2) || (dict1.size() != dict2.size())) {
 		printf("Kmeans cal para error!\n");
@@ -288,7 +319,7 @@ static int kmeans_calDict(vector<int> dict1, vector<int> dict2) {
 		sum += temp * temp;
 	}
 
-	KDEBUG(printf("sum = %d\n", sum));
+	//KDEBUG(printf("sum = %d\n", sum));
 	return sum;
 }
 
@@ -353,14 +384,34 @@ int updateSrcSubImg(vector<SrcPoint> means, vector<SrcPoint> cluster, Mat mSrc, 
 	return 0;
 }
 
+int updateImg(vector<SrcPoint> means, vector<SrcPoint> cluster, Mat mSrc, const char* desPath) {
+	int index = 0;
+	Mat roiImg;
+	char cutPath[128] = {0};
+	for(int k = 0; k<means.size(); k++) {
+		mSrc.copyTo(roiImg);
+		int cnt = 0;
+		for(int i=0; i<cluster.size(); i++) {
+			uchar* ptr_m = roiImg.ptr<uchar>(cluster[i].y);
+			if(cluster[i].label != k)
+				ptr_m[cluster[i].x] = 255;
+		}
+		
+		memset(cutPath, 0, sizeof(cutPath));
+		snprintf(cutPath, sizeof(cutPath), "./%s/cut_%d.png", desPath, k);
+		imwrite(cutPath, roiImg);
+	}
+	return 0;
+}
+
 int main(int argc, const char* argv[]) {
 	Mat mSrc = imread(SRC_IMG, IMREAD_UNCHANGED);
 	Mat mGray = imread(SRC_IMG, IMREAD_GRAYSCALE);
 	int knum = atoi(KNUM);	
 	long gray_sum_old = 0;
 	long gray_sum = 0;
-	long src_sum_old = 0;
-	long src_sum = 0;
+	double src_sum_old = 0;
+	double src_sum = 0;
 	vector<int> gray_cnt(knum, 0);
 	vector<int> src_cnt(knum, 0);
 
@@ -408,7 +459,7 @@ int main(int argc, const char* argv[]) {
 		}
 	}
 
-#if 0	
+#if 0
 	kmeans_gray_init(gray_means, gray_cluster, knum);
 	kmeans_gray_sortCluster(gray_means, gray_cluster, gray_cnt);
 	kmeans_gray_calDeltaSum(gray_means, gray_cluster, gray_sum);
@@ -425,14 +476,15 @@ int main(int argc, const char* argv[]) {
 	kmeans_src_init(src_means, src_cluster, knum);
 	kmeans_src_sortCluster(src_means, src_cluster, src_cnt);
 	kmeans_src_calDeltaSum(src_means, src_cluster, src_sum);
-	while(abs(src_sum - src_sum_old) > 1) {
+	while(abs(src_sum - src_sum_old) > 0.0001) {
 		src_sum_old = src_sum;
 		kmeans_src_update(src_means, src_cluster, src_cnt);
 		kmeans_src_sortCluster(src_means, src_cluster, src_cnt);
 		kmeans_src_calDeltaSum(src_means, src_cluster, src_sum);
-		KDEBUG(printf("src_sum is %ld, src_sum_old is %ld\n", src_sum, src_sum_old));
+		KDEBUG(printf("src_sum is %f, src_sum_old is %f\n", src_sum, src_sum_old));
 	}
-	updateSrcSubImg(src_means, src_cluster, mSrc, DES_IMG);
+	//updateSrcSubImg(src_means, src_cluster, mSrc, DES_IMG);
+	updateImg(src_means, src_cluster, mGray, DES_IMG);
 #endif
 	//imshow("SrcImg", mSrc);
 	//imshow("GrayImg", mGray);
