@@ -1,4 +1,6 @@
 #! /bin/bash
 
-#./server
-./client 127.0.0.1 8080 send/1.png
+for i in {1..20}
+do
+java Client 1468528018308.png 
+done
