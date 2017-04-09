@@ -7,6 +7,7 @@ from db import MysqlDb
 import xlwt
 import datetime
 import re
+import os,sys
 
 class lagou(object):
     def __init__(self):
@@ -29,6 +30,7 @@ class lagou(object):
             self._db = MysqlDb(self.conf['user'], self.conf['password'], self.conf['db'], self.conf['host'], int(self.conf['port'])).set_table(self.conf['table'])
             self._db.create('lagou.sql')
             self._db.create('job.sql')
+        #excel init
         self.excel = 'job.xls'
         self.title = ['职位名称', '公司名称', '融资情况', '教育程度', '工作年限', '薪资水平', '员工人数', '创建时间', '职位网址']
         self.workbook = xlwt.Workbook(encoding="utf-8")
@@ -85,6 +87,8 @@ class lagou(object):
 
 
     def split_str2int(self, raw, splitChar):
+        if raw == None:
+            return(0, 0)
         if splitChar in raw:
             low, high = raw.split(splitChar)
             low = int(re.sub("\D", "", low))
@@ -99,6 +103,9 @@ class lagou(object):
         return (low, high)
 
     def translate(self, jsData):
+        for item in jsData:
+            if jsData[item] == None:
+                jsData[item] = 'NULL'
         res = {
             'job_id': jsData['positionId'],
             'job_name': jsData['positionName'],
@@ -122,6 +129,9 @@ class lagou(object):
         return res
 
     def translate_simple(self, jsData):
+        for item in jsData:
+            if jsData[item] == None:
+                jsData[item] = 'NULL'
         res = {
             'job_id': jsData['positionId'],
             'job_name': jsData['positionName'],
@@ -135,9 +145,9 @@ class lagou(object):
         res['staffs_low'], res['staffs_high'] = self.split_str2int(jsData['companySize'], '-')
         return res
 
-    def get_jobs(self, scity='深圳'):
-        for idx in range(1,8):
-            page = self.get_page(pn=idx, city=scity)
+    def get_jobs(self, skeyword=None, scity=None):
+        for idx in range(1,self.max_pn):
+            page = self.get_page(pn=idx, keyword=skeyword, city=scity)
             self.get_job(page)
 
     def save2excel(self, jsData, excel=None):
@@ -155,8 +165,18 @@ class lagou(object):
 
 
 if __name__ == '__main__':
+    cnt = len(sys.argv)
+    if cnt == 2:
+        keyword = sys.argv[1]
+        city = None
+    elif cnt == 3:
+        keyword = sys.argv[1]
+        city = sys.argv[2]
+    else:
+        keyword = None
+        city = None
     lagouSpider = lagou()
-    lagouSpider.get_jobs()
+    lagouSpider.get_jobs(keyword, city)
 
 
 
