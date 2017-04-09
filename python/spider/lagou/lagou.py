@@ -33,6 +33,12 @@ class lagou(object):
         self.title = ['职位名称', '公司名称', '融资情况', '教育程度', '工作年限', '薪资水平', '员工人数', '创建时间', '职位网址']
         self.workbook = xlwt.Workbook(encoding="utf-8")
         self.booksheet = self.workbook.add_sheet('job', cell_overwrite_ok=True)
+        self.booksheet.col(0).width = 256 * 30
+        self.booksheet.col(1).width = 256 * 30
+        self.booksheet.col(2).width = 256 * 15
+        self.booksheet.col(7).width = 256 * 18
+        self.booksheet.col(8).width = 256 * 30
+
         self.excel_cnt = 0
         for j, col in enumerate(self.title):
                 self.booksheet.write(self.excel_cnt, j, col)
