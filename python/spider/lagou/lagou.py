@@ -24,9 +24,10 @@ class lagou(object):
         self.city = "深圳"
         self.url = r'http://www.lagou.com/jobs/positionAjax.json?city=' + parse.quote(self.city)
         with open('config.txt', 'r') as fd:
-            conf = json.load(fd)
-            self._db = MysqlDb(conf['user'], conf['password'], conf['db'], conf['host'], int(conf['port'])).set_table(conf['table'])
+            self.conf = json.load(fd)
+            self._db = MysqlDb(self.conf['user'], self.conf['password'], self.conf['db'], self.conf['host'], int(self.conf['port'])).set_table(self.conf['table'])
             self._db.create('lagou.sql')
+            self._db.create('job.sql')
     def get_page(self, headers=None, url=None, pn=None, keyword=None, city=None):
         if headers == None:
             headers = self.headers
@@ -58,11 +59,12 @@ class lagou(object):
         if js['success'] == False:
             print("获取工作数据失败！！")
             return False
-        print(js)
         for item in js['content']['positionResult']['result']:
-            self._db.insert(self.translate(item))
-            #print(item)
-            #print(item['positionId'])
+            if self.conf['table'] == 'simplejob':
+                self._db.insert(self.translate_simple(item))
+            elif self.conf['table'] == 'job':
+                self._db.insert(self.translate(item))
+
 
     def split_str2int(self, raw, splitChar):
         if splitChar in raw:
@@ -79,7 +81,6 @@ class lagou(object):
         return (low, high)
 
     def translate(self, jsData):
-        print(jsData['companyLabelList'])
         res = {
             'job_id': jsData['positionId'],
             'job_name': jsData['positionName'],
@@ -102,15 +103,29 @@ class lagou(object):
         res['staffs_low'], res['staffs_high'] = self.split_str2int(jsData['companySize'], '-')
         return res
 
-    def get_pages(self):
-        pass
+    def translate_simple(self, jsData):
+        res = {
+            'job_id': jsData['positionId'],
+            'job_name': jsData['positionName'],
+            'education': jsData['education'],
+            'company_full_name': jsData['companyFullName'],
+            'finance_stage': jsData['financeStage'],
+            'create_time': jsData['createTime'],
+        }
+        res['salary_low'], res['salary_high'] = self.split_str2int(jsData['salary'], '-')
+        res['work_year_low'], res['work_year_high'] = self.split_str2int(jsData['workYear'], '-')
+        res['staffs_low'], res['staffs_high'] = self.split_str2int(jsData['companySize'], '-')
+        return res
 
+    def get_jobs(self, scity='深圳'):
+        for idx in range(1,8):
+            page = self.get_page(pn=idx, city=scity)
+            self.get_job(page)
 
 if __name__ == '__main__':
     lagouSpider = lagou()
-    page = lagouSpider.get_page(pn=4, city="深圳")
-    lagouSpider.get_job(page)
-    #print(page)
+    lagouSpider.get_jobs()
+
 
 
 

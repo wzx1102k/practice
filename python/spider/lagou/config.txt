@@ -4,5 +4,5 @@
 "user":"root",
 "password":"123456",
 "db":"lagou",
-"table":"job"
+"table":"simplejob"
 }
