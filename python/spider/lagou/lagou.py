@@ -4,6 +4,7 @@ from urllib import request, parse
 from bs4 import BeautifulSoup as Bs
 import json
 from db import MysqlDb
+import xlwt
 import datetime
 import re
 
@@ -28,6 +29,15 @@ class lagou(object):
             self._db = MysqlDb(self.conf['user'], self.conf['password'], self.conf['db'], self.conf['host'], int(self.conf['port'])).set_table(self.conf['table'])
             self._db.create('lagou.sql')
             self._db.create('job.sql')
+        self.excel = 'job.xls'
+        self.title = ['职位名称', '公司名称', '融资情况', '教育程度', '工作年限', '薪资水平', '员工人数', '创建时间', '职位网址']
+        self.workbook = xlwt.Workbook(encoding="utf-8")
+        self.booksheet = self.workbook.add_sheet('job', cell_overwrite_ok=True)
+        self.excel_cnt = 0
+        for j, col in enumerate(self.title):
+                self.booksheet.write(self.excel_cnt, j, col)
+        self.workbook.save(self.excel)
+
     def get_page(self, headers=None, url=None, pn=None, keyword=None, city=None):
         if headers == None:
             headers = self.headers
@@ -60,8 +70,10 @@ class lagou(object):
             print("获取工作数据失败！！")
             return False
         for item in js['content']['positionResult']['result']:
+            self.save2excel(item)
             if self.conf['table'] == 'simplejob':
-                self._db.insert(self.translate_simple(item))
+                jsData = self.translate_simple(item)
+                self._db.insert(jsData)
             elif self.conf['table'] == 'job':
                 self._db.insert(self.translate(item))
 
@@ -121,6 +133,20 @@ class lagou(object):
         for idx in range(1,8):
             page = self.get_page(pn=idx, city=scity)
             self.get_job(page)
+
+    def save2excel(self, jsData, excel=None):
+        jsDataType= ['positionName', 'companyFullName', 'financeStage', 'education', 'workYear', 'salary', 'companySize', 'createTime', 'url']
+        if excel == None:
+            excel = self.excel
+        self.excel_cnt += 1
+        for j, col in enumerate(jsDataType):
+            if col == 'url':
+                url = 'https://www.lagou.com/jobs/'+str(jsData['positionId'])+'.html'
+                self.booksheet.write(self.excel_cnt, j, url)
+            else:
+                self.booksheet.write(self.excel_cnt, j, jsData[col])
+        self.workbook.save(excel)
+
 
 if __name__ == '__main__':
     lagouSpider = lagou()
