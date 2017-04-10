@@ -19,7 +19,7 @@ class zhilian(object):
         self.max_pn = 30
         self.city='深圳'
         self.keyword = "图像"
-        self.url = r'http: // sou.zhaopin.com / jobs / searchresult.ashx'
+        self.url = r'http://sou.zhaopin.com/jobs/searchresult.ashx'
 
     def get_page(self, headers=None, url=None, pn=None, keyword=None, city=None):
         if headers == None:
@@ -37,34 +37,49 @@ class zhilian(object):
         else:
             boo = 'false'
         data = parse.urlencode([
-            ('first', boo),
             ('jl', city),
-            ('pn', pn),
-            ('kd', keyword)
+            ('kw', keyword),
+            ('p', pn)
         ])
-        req = request.Request(url, data, headers)
-        #page = request.urlopen(req).read()
+        #post
+        u = url + '?' + data
+        req = request.Request(u)
         page = request.urlopen(req).read()
-        page = page.decode('utf-8')
-        #request = urllib.Request(url)
-        #page = urllib.urlopen(request)
-        print(page)
         return page
 
+    def get_job(self, page):
+        soup = Bs(page, "lxml")
+        cnt = 0
+        for td in soup.find_all('td'):
+            #print(td)
+            tdList = td.attrs
+            if 'class' in tdList.keys():
+                if tdList['class'] == ['zwmc'] or tdList['class'] == ['gsmc']:
+                    print(td.find_all('a'))
+            for li in td.find_all('li'):
+                liList = li.attrs
+                if liList['class'] == ['newlist_deatil_two']:
+                    print(li)
+
+    def get_jobs(self, skeyword=None, scity=None):
+        for idx in range(1,self.max_pn):
+            page = self.get_page(pn=idx, keyword=skeyword, city=scity)
+            self.get_job(page)
 
 if __name__ == '__main__':
     cnt = len(sys.argv)
     if cnt == 2:
-        skeyword = sys.argv[1]
-        scity = None
+        keyword = sys.argv[1]
+        city = None
     elif cnt == 3:
-        skeyword = sys.argv[1]
-        scity = sys.argv[2]
+        keyword = sys.argv[1]
+        city = sys.argv[2]
     else:
-        skeyword = None
-        scity = None
+        keyword = None
+        city = None
     zhilianSpider = zhilian()
-    zhilianSpider.get_page(keyword=skeyword, city=scity)
+    zhilianSpider.get_jobs(keyword, city)
+
 
 
 
