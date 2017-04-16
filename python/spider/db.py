@@ -1,5 +1,5 @@
 import pymysql
-from utils import dict2str
+
 class MysqlDb:
     def __init__(self, User, Password, Db, Host, Port=3306):
         try:
@@ -46,6 +46,17 @@ class MysqlDb:
         return True
     def update(self, dataDict, condDict):
         sql = 'update ' + self._table + ' set '
+
+    def dict2str(dataDict):
+        res = ''
+        for key in dataDict:
+            res += key + '='
+            if isinstance(dataDict[key], str):
+                res += '"' + dataDict[key] + '"'
+            else:
+                res += str(dataDict[key])
+            res += ','
+        return res[0:-1]
     
     def query(self, fieldList, condDict=None):
         sql = 'select '
@@ -60,7 +71,7 @@ class MysqlDb:
             return False
         sql += self._table
         if condDict != None:
-            sql += ' where ' + dict2str(condDict)
+            sql += ' where ' + self.dict2str(condDict)
         print(sql)
         cursor = self._conn.cursor()
         cursor.execute(sql)

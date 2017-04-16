@@ -25,11 +25,7 @@ class spider(object):
         #city: 深圳
         self.city = "深圳"
         self.url = r'http://www.lagou.com/jobs/positionAjax.json?city=' + parse.quote(self.city)
-        with open('config.txt', 'r') as fd:
-            self.conf = json.load(fd)
-            self._db = MysqlDb(self.conf['user'], self.conf['password'], self.conf['db'], self.conf['host'], int(self.conf['port'])).set_table(self.conf['table'])
-            self._db.create('lagou.sql')
-            self._db.create('job.sql')
+
         #excel init
         self.excel = 'job.xls'
         self.title = ['职位名称', '公司名称', '融资情况', '教育程度', '工作年限', '薪资水平', '员工人数', '创建时间', '职位网址']
