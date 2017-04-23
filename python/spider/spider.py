@@ -28,6 +28,19 @@ class spider(object):
 
         #excel init
         self.excel = 'job.xls'
+        self.res = {
+            'job_id': None,
+            'job_name': None,
+            'education': None,
+            'company_full_name': None,
+            'finance_stage': None,
+            'create_time': None,
+            'salary_low': 0,
+            'salary_high': 0,
+            'work_year_low': 0,
+            'staffs_low': 0,
+            'staffs_high': 0,
+        }
         self.title = ['职位名称', '公司名称', '融资情况', '教育程度', '工作年限', '薪资水平', '员工人数', '创建时间', '职位网址']
         self.workbook = xlwt.Workbook(encoding="utf-8")
         self.booksheet = self.workbook.add_sheet('job', cell_overwrite_ok=True)
@@ -64,6 +77,24 @@ class spider(object):
                 high = low
         return (low, high)
 
+    def split_str(self, target, splitStart, splitEnd, eStart=0, eEnd=0):
+        if splitStart != '':
+            posStart = str(target).find(splitStart)
+        else:
+            posStart = 0
+        if splitEnd != '':
+            posEnd = str(target).find(splitEnd)
+        else:
+            posEnd = -1
+        if posStart == -1 or posEnd == -1:
+            return None
+        else:
+            if eStart == 0:
+                posStart = posStart + len(splitStart)
+            if eEnd != 0:
+                posEnd = posEnd + len(splitEnd)
+            return str(target)[posStart:posEnd]
+
     def translate_simple(self, jsData):
         return jsData
 
@@ -73,16 +104,12 @@ class spider(object):
             self.get_job(page)
 
     def save2excel(self, jsData, excel=None):
-        jsDataType= ['positionName', 'companyFullName', 'financeStage', 'education', 'workYear', 'salary', 'companySize', 'createTime', 'url']
+        jsDataType= ['positionName', 'companyFullName', 'financeStage', 'education', 'workYear', 'salary', 'companySize', 'createTime', 'job_url']
         if excel == None:
             excel = self.excel
         self.excel_cnt += 1
         for j, col in enumerate(jsDataType):
-            if col == 'url':
-                url = 'https://www.lagou.com/jobs/'+str(jsData['positionId'])+'.html'
-                self.booksheet.write(self.excel_cnt, j, url)
-            else:
-                self.booksheet.write(self.excel_cnt, j, jsData[col])
+            self.booksheet.write(self.excel_cnt, j, jsData[col])
         self.workbook.save(excel)
 
 

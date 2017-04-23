@@ -63,18 +63,18 @@ class lagou(spider):
             print("获取工作数据失败！！")
             return False
         for item in js['content']['positionResult']['result']:
+            item['job_url'] = 'https://www.lagou.com/jobs/'+str(item['positionId'])+'.html'
             self.save2excel(item)
             if self.conf['table'] == 'simplejob':
                 jsData = self.translate_simple(item)
-                self._db.insert(jsData)
-            elif self.conf['table'] == 'job':
-                self._db.insert(self.translate(item))
+                print(jsData)
+                #self._db.insert(jsData)
 
     def translate_simple(self, jsData):
         for item in jsData:
             if jsData[item] == None:
                 jsData[item] = 'NULL'
-        res = {
+        self.res = {
             'job_id': jsData['positionId'],
             'job_name': jsData['positionName'],
             'education': jsData['education'],
@@ -82,10 +82,11 @@ class lagou(spider):
             'finance_stage': jsData['financeStage'],
             'create_time': jsData['createTime'],
         }
-        res['salary_low'], res['salary_high'] = self.split_str2int(jsData['salary'], '-')
-        res['work_year_low'], res['work_year_high'] = self.split_str2int(jsData['workYear'], '-')
-        res['staffs_low'], res['staffs_high'] = self.split_str2int(jsData['companySize'], '-')
-        return res
+
+        self.res['salary_low'], self.res['salary_high'] = self.split_str2int(jsData['salary'], '-')
+        self.res['work_year_low'], self.res['work_year_high'] = self.split_str2int(jsData['workYear'], '-')
+        self.res['staffs_low'], self.res['staffs_high'] = self.split_str2int(jsData['companySize'], '-')
+        return self.res
 
 if __name__ == '__main__':
     cnt = len(sys.argv)
