@@ -60,44 +60,53 @@ class zhilian(spider):
                 liList = li.attrs
                 if liList['class'] == ['newlist_deatil_two']:
                     info.append(li)
-                    self.translate_simple(info)
-                    info = []
+        self.translate_simple(info)
 
     def translate_simple(self, jsData):
         infoList = []
-        #print(jsData)
         for info in jsData:
             splitString = self.split_str(info, 'http://jobs.zhaopin.com/', 'htm', eStart=1, eEnd=1)
             if splitString != None:
                 infoList.append(splitString)
             elif str(info).find('xiaoyuan') != -1:
                 return jsData
-            posStart = str(info).find('_blank\">')
             splitString = self.split_str(info, '_blank\">', '</a>', eStart=0, eEnd=0)
             if splitString != None:
-                print(splitString)
                 splitString = splitString.replace('</b>', '')
                 splitString = splitString.replace('<b>', '')
                 infoList.append(splitString)
             splitString = self.split_str(info, '公司规模：', '人', eStart=0, eEnd=1)
             if splitString != None:
                 infoList.append(splitString)
-            splitString = self.split_str(info, '经验：', '年', eStart=0, eEnd=1)
-            if splitString != None:
-                infoList.append(splitString)
-            splitString = self.split_str(info, '学历：', '职位月薪', eStart=0, eEnd=0)
-            if splitString != None:
-                splitString1 = self.split_str(splitString, '', '</span>', eStart=0, eEnd=0)
-                print(splitString1)
-                if splitString1 != None:
-                    infoList.append(splitString1)
-                else:
+                splitString = self.split_str(info, '经验：', '年', eStart=0, eEnd=1)
+                if splitString != None:
                     infoList.append(splitString)
-            splitString = self.split_str(info, '职位月薪：', '/月', eStart=0, eEnd=1)
-            if splitString != None:
-                infoList.append(splitString)
-        print(infoList)
-        return jsData
+                else:
+                    infoList.append('')
+                splitString = self.split_str(info, '学历：', '</span>', eStart=0, eEnd=0)
+                if splitString != None:
+                    infoList.append(splitString)
+                else:
+                    infoList.append('')
+                splitString = self.split_str(info, '职位月薪：', '/月', eStart=0, eEnd=1)
+                if splitString != None:
+                    infoList.append(splitString)
+                else:
+                    infoList.append('')
+                print(infoList)
+                self.job['job_url'] = infoList[0]
+                self.job['positionName'] = infoList[1]
+                self.job['companyFullName'] = infoList[2]
+                self.job['companySize'] = infoList[3]
+                self.job['workYear'] = infoList[4]
+                self.job['education'] = infoList[5]
+                self.job['salary'] = infoList[6]
+                if (self.job['positionName'] != None):
+                    print("************************")
+                    print(self.job)
+                    self.save2excel(self.job)
+                infoList=[]
+        return self.job
 
 
 if __name__ == '__main__':
