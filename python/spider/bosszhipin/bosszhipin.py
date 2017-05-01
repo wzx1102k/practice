@@ -50,6 +50,9 @@ class bosszhipin(spider):
             "广州": "101280100",
             "杭州": "101210100"
         }
+        if city not in citycode.keys():
+            print("Select city is not support, change to 深圳")
+            city = "深圳"
         data = parse.urlencode([
             ('scity', citycode[city]),
             ('query', keyword),
