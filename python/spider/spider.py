@@ -41,6 +41,18 @@ class spider(object):
             'staffs_low': 0,
             'staffs_high': 0,
         }
+        self.job_type= ['positionName', 'companyFullName', 'financeStage', 'education', 'workYear', 'salary', 'companySize', 'createTime', 'job_url']
+        self.job = {
+            'positionName': None,
+            'companyFullName': None,
+            'financeStage': None,
+            'education': None,
+            'workYear': None,
+            'salary': None,
+            'companySize': None,
+            'createTime': None,
+            'job_url': None,
+        }
         self.title = ['职位名称', '公司名称', '融资情况', '教育程度', '工作年限', '薪资水平', '员工人数', '创建时间', '职位网址']
         self.workbook = xlwt.Workbook(encoding="utf-8")
         self.booksheet = self.workbook.add_sheet('job', cell_overwrite_ok=True)
@@ -78,37 +90,39 @@ class spider(object):
         return (low, high)
 
     def split_str(self, target, splitStart, splitEnd, eStart=0, eEnd=0):
+        stringTarget = str(target)
         if splitStart != '':
-            posStart = str(target).find(splitStart)
+            posStart = stringTarget.find(splitStart)
         else:
             posStart = 0
         if splitEnd != '':
-            posEnd = str(target).find(splitEnd)
+            posEnd = stringTarget[posStart:].find(splitEnd)
         else:
             posEnd = -1
         if posStart == -1 or posEnd == -1:
             return None
         else:
+            if eEnd != 0:
+                posEnd = posEnd + len(splitEnd) + posStart
+            else:
+                posEnd = posEnd + posStart
             if eStart == 0:
                 posStart = posStart + len(splitStart)
-            if eEnd != 0:
-                posEnd = posEnd + len(splitEnd)
-            return str(target)[posStart:posEnd]
+            return stringTarget[posStart:posEnd]
 
     def translate_simple(self, jsData):
         return jsData
 
     def get_jobs(self, skeyword=None, scity=None):
-        for idx in range(1,self.max_pn):
+        for idx in range(0,self.max_pn):
             page = self.get_page(pn=idx, keyword=skeyword, city=scity)
             self.get_job(page)
 
     def save2excel(self, jsData, excel=None):
-        jsDataType= ['positionName', 'companyFullName', 'financeStage', 'education', 'workYear', 'salary', 'companySize', 'createTime', 'job_url']
         if excel == None:
             excel = self.excel
         self.excel_cnt += 1
-        for j, col in enumerate(jsDataType):
+        for j, col in enumerate(self.job_type):
             self.booksheet.write(self.excel_cnt, j, jsData[col])
         self.workbook.save(excel)
 

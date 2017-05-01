@@ -18,6 +18,7 @@ class liepin(spider):
         super(liepin, self).__init__()
         self.pn = 0
         self.max_pn = 5
+        #self.max_pn = 1
         self.headers = {
             'Accept-Encoding': 'deflate',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
@@ -56,19 +57,24 @@ class liepin(spider):
 
     def get_job(self, page):
         soup = Bs(page, "lxml")
-        print(soup)
-        return soup
-        info = []
-        for td in soup.find_all('td'):
-            tdList = td.attrs
-            if 'class' in tdList.keys():
-                if tdList['class'] == ['zwmc'] or tdList['class'] == ['gsmc']:
-                    info.append(td.find_all('a'))
-            for li in td.find_all('li'):
-                liList = li.attrs
-                if liList['class'] == ['newlist_deatil_two']:
-                    info.append(li)
-        self.translate_simple(info)
+        for li in soup.find_all('li'):
+            info = []
+            span = li.find('span', {"class": "job-name"})
+            if span == None:
+                continue
+            a = span.find('a')
+            if a != None:
+                info.append(a['href'])
+            else:
+                continue
+            info.append(span.span.string)
+            p = li.find('p', {"class": "company-name"})
+            a = p.find('a')
+            info.append(a.string.split(' ')[-1])
+            p = li.find('p', {"class": "condition clearfix"})
+            for element in p.find_all('span'):
+                info.append(element.string)
+            self.translate_simple(info)
 
     def to_city(self, var_str):
         if isinstance(var_str, str):
@@ -83,49 +89,19 @@ class liepin(spider):
             return ''
 
     def translate_simple(self, jsData):
-        infoList = []
-        for info in jsData:
-            splitString = self.split_str(info, 'https://www.liepin.com/zhaopin/', 'htm', eStart=1, eEnd=1)
-            if splitString != None:
-                infoList.append(splitString)
-            elif str(info).find('xiaoyuan') != -1:
-                return jsData
-            splitString = self.split_str(info, '_blank\">', '</a>', eStart=0, eEnd=0)
-            if splitString != None:
-                splitString = splitString.replace('</b>', '')
-                splitString = splitString.replace('<b>', '')
-                infoList.append(splitString)
-            splitString = self.split_str(info, '公司规模：', '人', eStart=0, eEnd=1)
-            if splitString != None:
-                infoList.append(splitString)
-                splitString = self.split_str(info, '经验：', '年', eStart=0, eEnd=1)
-                if splitString != None:
-                    infoList.append(splitString)
-                else:
-                    infoList.append('')
-                splitString = self.split_str(info, '学历：', '</span>', eStart=0, eEnd=0)
-                if splitString != None:
-                    infoList.append(splitString)
-                else:
-                    infoList.append('')
-                splitString = self.split_str(info, '职位月薪：', '/月', eStart=0, eEnd=1)
-                if splitString != None:
-                    infoList.append(splitString)
-                else:
-                    infoList.append('')
-                print(infoList)
-                self.job['job_url'] = infoList[0]
-                self.job['positionName'] = infoList[1]
-                self.job['companyFullName'] = infoList[2]
-                self.job['companySize'] = infoList[3]
-                self.job['workYear'] = infoList[4]
-                self.job['education'] = infoList[5]
-                self.job['salary'] = infoList[6]
-                if (self.job['positionName'] != None):
-                    print("************************")
-                    print(self.job)
-                    self.save2excel(self.job)
-                infoList=[]
+        infoList = jsData
+        self.job['job_url'] = infoList[0]
+        self.job['positionName'] = infoList[1]
+        self.job['companyFullName'] = infoList[2]
+        self.job['companySize'] = None
+        self.job['workYear'] = infoList[6]
+        self.job['education'] = infoList[5]
+        self.job['salary'] = infoList[3]
+        if (self.job['positionName'] != None):
+            print("************************")
+            print(self.job)
+            self.save2excel(self.job)
+        infoList=[]
         return self.job
 
 
