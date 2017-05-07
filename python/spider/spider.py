@@ -1,13 +1,16 @@
 #! -*-coding:utf-8 -*-
 
 from urllib import request, parse
+from urllib.parse import urlencode
 from bs4 import BeautifulSoup as Bs
 import json
 from db import MysqlDb
 import xlwt
+import httplib2
 import datetime
 import re
 import os,sys
+import pinyin
 
 class spider(object):
     def __init__(self):
@@ -66,12 +69,56 @@ class spider(object):
                 self.booksheet.write(self.excel_cnt, j, col)
         self.workbook.save(self.excel)
 
-    def get_page(self, headers=None, url=None, pn=None, keyword=None, city=None):
-        pass
+    def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
+        url = ''
+        para = ''
+        type = ''
+        return url, para, type
 
     def get_job(self, page):
         pass
 
+    def http_get_header(self, url=None):
+        if url == None:
+            return None
+        else:
+            h = httplib2.Http(".cache")
+            resp_headers, content = h.request(url, "GET")
+            return resp_headers
+
+    def get_page(self, _url=None, _type="GET", _para=None):
+        if _url == None:
+            return None
+        else:
+            httplib2.debuglevel = 1
+            h = httplib2.Http(".cache")
+            if _para == None:
+                response, content = h.request(_url, _type)
+            else:
+                response, content = h.request(_url, _type, urlencode(_para))
+            '''print(len(content))
+            print(response.status)
+            print(response.fromcache)
+            print(response)'''
+            soup = Bs(content, "lxml")
+            return soup
+
+    def to_city(self, var_str, type):
+        if isinstance(var_str, str):
+            if var_str == 'None':
+                return ''
+            else:
+                stringHead = ''
+                stringFull = ''
+                for single in var_str:
+                    stringFull += pinyin.get(single, format='strip', delimiter="")
+                    stringHead += pinyin.get(single, format='strip', delimiter="")[0]
+                if type == "FULL":
+                    return stringFull
+                elif type == "HEAD":
+                    return stringHead
+        else:
+            return ''
 
     def split_str2int(self, raw, splitChar):
         if raw == None:
@@ -115,7 +162,13 @@ class spider(object):
 
     def get_jobs(self, skeyword=None, scity=None):
         for idx in range(0,self.max_pn):
-            page = self.get_page(pn=idx, keyword=skeyword, city=scity)
+            url, para, type = self.set_url_info(_pn=idx, _keyword=skeyword, _city=scity)
+            print(url)
+            print(para)
+            print(type)
+            page = self.get_page(_url=url, _para=para, _type=type)
+            print("*************************************************")
+            print(page)
             self.get_job(page)
 
     def save2excel(self, jsData, excel=None):

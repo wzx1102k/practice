@@ -37,7 +37,7 @@ class liepin(spider):
             city = self.city
         else:
             self.city = city
-            cityHeader = self.to_city(city)
+            cityHeader = self.to_city(city, "HEAD")
             self.url = r'https://www.liepin.com/' + cityHeader + r'/zhaopin/'
         if url == None:
             url = self.url
@@ -75,18 +75,6 @@ class liepin(spider):
             for element in p.find_all('span'):
                 info.append(element.string)
             self.translate_simple(info)
-
-    def to_city(self, var_str):
-        if isinstance(var_str, str):
-            if var_str == 'None':
-                return ''
-            else:
-                stringHead = ''
-                for single in var_str:
-                    stringHead += pinyin.get(single, format='strip', delimiter="")[0]
-                return stringHead
-        else:
-            return ''
 
     def translate_simple(self, jsData):
         infoList = jsData

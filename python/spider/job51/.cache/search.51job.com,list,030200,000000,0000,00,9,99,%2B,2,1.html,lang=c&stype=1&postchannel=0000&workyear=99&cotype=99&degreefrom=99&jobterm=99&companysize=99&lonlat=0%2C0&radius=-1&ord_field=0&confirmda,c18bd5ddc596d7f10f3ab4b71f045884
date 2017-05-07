@@ -1,0 +1,1793 @@
+status: 200
+content-length: 188556
+content-location: http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=
+server: Apache
+date: Sun, 07 May 2017 03:18:01 GMT
+cache-control: private
+content-type: text/html
+-content-encoding: gzip
+set-cookie: guid=14941270818151780024; path=/; domain=.51job.com; httponly, guid=14941270818252750043; path=/; domain=.51job.com; httponly, search=jobarea%7E%60030200%7C%21; expires=Mon, 07-May-2018 03:18:01 GMT; path=/; domain=.51job.com; httponly, nsearch=jobarea%3D%26%7C%26ord_field%3D%26%7C%26recentSearch0%3D%26%7C%26recentSearch1%3D%26%7C%26recentSearch2%3D%26%7C%26recentSearch3%3D%26%7C%26recentSearch4%3D%26%7C%26collapse_expansion%3D; expires=Mon, 07-May-2018 03:18:01 GMT; path=/; domain=.51job.com; httponly, search=jobarea%7E%60030200%7C%21ord_field%7E%600%7C%21; expires=Mon, 07-May-2018 03:18:01 GMT; path=/; domain=.51job.com; httponly, nsearch=jobarea%3D%26%7C%26ord_field%3D%26%7C%26recentSearch0%3D%26%7C%26recentSearch1%3D%26%7C%26recentSearch2%3D%26%7C%26recentSearch3%3D%26%7C%26recentSearch4%3D%26%7C%26collapse_expansion%3D; expires=Mon, 07-May-2018 03:18:01 GMT; path=/; domain=.51job.com; httponly, search=jobarea%7E%60030200%7C%21ord_field%7E%600%7C%21recentSearch0%7E%601%A1%FB%A1%FA030200%2C00%A1%FB%A1%FA000000%A1%FB%A1%FA0000%A1%FB%A1%FA00%A1%FB%A1%FA9%A1%FB%A1%FA99%A1%FB%A1%FA99%A1%FB%A1%FA99%A1%FB%A1%FA99%A1%FB%A1%FA99%A1%FB%A1%FA99%A1%FB%A1%FA%A1%FB%A1%FA2%A1%FB%A1%FA%A1%FB%A1%FA-1%A1%FB%A1%FA1494127081%A1%FB%A1%FA0%A1%FB%A1%FA%A1%FB%A1%FA%7C%21; expires=Mon, 07-May-2018 03:18:01 GMT; path=/; domain=.51job.com; httponly, nsearch=jobarea%3D%26%7C%26ord_field%3D%26%7C%26recentSearch0%3D%26%7C%26recentSearch1%3D%26%7C%26recentSearch2%3D%26%7C%26recentSearch3%3D%26%7C%26recentSearch4%3D%26%7C%26collapse_expansion%3D; expires=Mon, 07-May-2018 03:18:01 GMT; path=/; domain=.51job.com; httponly, guid=14941270818553320020; path=/; domain=.51job.com; httponly, NSC_tfbsdi.51kpc.dpn-159=ffffffffc3a01b2245525d5f4f58455e445a4a423660;expires=Sun, 07-May-2017 06:38:01 GMT;path=/;httponly
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+<title>【广州招聘，求职】-前程无忧</title>
+<meta name="description" content="前程无忧为您提供最新最全的广州招聘，求职信息。网聚全国各城市的人才信息，找好工作，找好员工，上前程无忧。">
+<meta name="keywords" content="找工作,求职,人才,招聘">
+<meta name="mobile-agent" content="format=html5; url= http://m.51job.com/search/joblist.php?jobarea=030200&keyword=&partner=webmeta">
+<meta name="mobile-agent" content="format=xhtml; url= http://3g.51job.com/sc/joblist.php?jobarea=030200&keyword=&partner=webmeta">
+<meta name="robots" content="all">
+<link href="http://js.51jobcdn.com/in/css/style.css" rel="stylesheet" type="text/css" />
+<link href="http://js.51jobcdn.com/in/css/search.css?20170314" rel="stylesheet" type="text/css" />
+<link href="http://js.51jobcdn.com/in/css/jobs/reset.css?20170314" rel="stylesheet" type="text/css" />
+<link href="http://js.51jobcdn.com/in/css/jobs/tForm.css?20161130" rel="stylesheet" type="text/css" />
+<link href="http://js.51jobcdn.com/in/css/jobs/tSearch-layout.css?20170314" rel="stylesheet" type="text/css" />
+<link href="http://js.51jobcdn.com/in/css/jobs/dw_joblist.css?20170314" rel="stylesheet" type="text/css" />
+<link href="http://js.51jobcdn.com/in/css/jobs/panel-pop.css" rel="stylesheet" type="text/css" />
+<link href="http://js.51jobcdn.com/in/css/jobs/tpad.css" rel="stylesheet" type="text/css" />
+<link href="http://js.51jobcdn.com/in/css/2017/public/base.css?20170314" rel="stylesheet" type="text/css" />
+<link href="http://js.51jobcdn.com/in/css/2017/public/panel-pop.css?20170314" rel="stylesheet" type="text/css" />
+<link href="http://js.51jobcdn.com/in/css/2017/public/form.css?20170314" rel="stylesheet" type="text/css" />
+<script language="javascript">
+    var _tkd = _tkd || []; //点击量统计用
+    var lang = [];
+    var supporthttps = 1; //浏览器是否支持https
+    var currenthttps = (window.location.protocol === 'https:') ? '1' : '0'; //当前是否为https
+    var systemtime = 1494127081932;
+    var d_system_client_time = systemtime - new Date().getTime();
+    var trackConfig = {
+        'guid': '',
+        'ip': '111.148.0.249',
+        'accountid': ''
+    };
+
+    window.cfg = {
+        domain : {
+            my : 'http://my.51job.com',
+            login : (currenthttps === '1') ? 'https://login.51job.com' : 'http://login.51job.com',
+            search : 'http://search.51job.com'
+        }
+    };
+
+window.cfg.lang = 'c';
+window.cfg.fullLang = 'Chinese';
+window.cfg.url = {
+root : 'http://search.51job.com/jobsearch',
+image : 'http://img03.51jobcdn.com/im/2009',
+image_search : 'http://images.51job.com/im/2009/search'
+}
+window.cfg.fileName = 'search_result.php';
+window.cfg.root = 'http://search.51job.com/jobsearch';
+window.cfg.root_userset_ajax = 'http://i.51job.com/userset/ajax';
+window.cfg.isSearchDomain = '1';
+window.cfg.langs = {
+sqzwml : 'applyjob',
+qzzwqdg : '请在要选择的职位前打勾!',
+myml : 'my',
+ts_qxjzw : '请选择职位',
+queren : '确认',
+guanbi : '关闭',
+nzdnxj : '您最多能选择',
+xiang : '项',
+xzdq : '选择地区',
+xj_xg : '选择/修改',
+zycs : '主要城市',
+sysf : '所有省份',
+tspd : '特殊频道',
+buxian : '不限',
+qingxj : '请选择',
+yixuan : '已选',
+znlb : '职能类别',
+hylb : '行业类别',
+gzdd : '工作地点',
+quanbu : '全部',
+zhineng : '职能',
+hangye : '行业',
+didian : '地点',
+qsrgjz : '请输入关键字',
+srpcgjz : '输入排除关键字'
+}
+window.cfg.stype = '1';
+window.cfg.isJobview = '1';
+</script>
+
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/cv/CV_QuickApply.js?20160810"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/cv/Qpost_set.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/Base.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/Base.ZzLayer.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/Base.ZzLayer.ExtZzLayer.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/jquery.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/jquery.placeholder.min.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/JsBase.js?20170314"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/login.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/search/Base.Search_Transition.js?20170503"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/search/search_data_c.js?20170113"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/search/search_box.js?20170314"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/search/search_result.js?20170314"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/component/mobile.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/delivery/delivery.js?20170314"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/search/search.js?20170503"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/my/my_collection.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/layer/layer.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/layer/common_layer.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/layer/common_select.js?20170314"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/layer/layer_main_map.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/layer/layer_main.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/layer/layer_main_navigation.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/layer/association_main.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/layer/common_association.js?20170314"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/merge_data_c.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/layer/area_array_c.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/layer/layer_c.js?20170314"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/layer/indtype_array_c.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2016/layer/funtype_array_c.js"></script>
+</head>
+<body>
+<div class="header">
+    <!-- bar start -->
+    <div class="bar">
+        <div class="in">
+            <div class="language">
+                <ul id="languagelist">
+                                            <li class="tle"><span class="list">简</span><em class="icon_arrow"></em></li>
+                        <li><a href="http://big5.51job.com/gate/big5/www.51job.com/">繁</a></li>
+                        <li class="last"><a href="http://www.51job.com/default-e.php">EN</a></li>
+                                        <script language="javascript">             
+                        if(location.hostname == "big5.51job.com")
+                        {
+                            $('#languagelist li span').html("繁");
+                            $('#languagelist li:nth-child(2) a').html("简");
+                            $('#languagelist li:nth-child(2) a').attr('href','javascript:void(0)');
+                            $('#languagelist li:nth-child(2) a').click(function(){location.href="ht" + "tp://www.51job.com"});
+                            $('#languagelist li:nth-child(3) a').attr('href','javascript:void(0)');
+                            $('#languagelist li:nth-child(3) a').click(function(){location.href="ht" + "tp://www.51job.com/default-e.php"});
+                        }
+                    </script>       
+                </ul>
+            </div>
+            <span class="l">|</span>
+            <div class="app">
+                <ul>
+                    <li><em class="e_icon"></em><a href="http://www.51job.com/pm/app/index.html">APP下载</a><em class="icon_arrow"></em></li>
+                    <li>
+                        <img width="80" height="80" src="http://img03.51jobcdn.com/im/2016/code/app_download.png" alt="app download">
+                        <p><a href="http://www.51job.com/pm/app/index.html">APP下载</a></p>
+                    </li>
+                </ul>
+            </div>
+            <p class="rlk">
+                <a href="http://jobs.51job.com" target="_blank">招聘信息</a>
+                <span class="l">|</span>
+                <a href="http://ehire.51job.com" target="_blank">企业服务</a>
+            </p>
+            <div class="uer">
+                <p class="op">
+                                            <a href="https://login.51job.com/login.php?lang=c&url=http%3A%2F%2Fsearch.51job.com%2Flist%2F030200%2C000000%2C0000%2C00%2C9%2C99%2C%252B%2C2%2C1.html%3Flang%3Dc%26stype%3D1%26postchannel%3D0000%26workyear%3D99%26cotype%3D99%26degreefrom%3D99%26jobterm%3D99%26companysize%3D99%26lonlat%3D0%252C0%26radius%3D-1%26ord_field%3D0%26confirmdate%3D9%26fromType%3D%26dibiaoid%3D0%26address%3D%26line%3D%26specialarea%3D00%26from%3D%26welfare%3D">登录</a> / <a href="https://login.51job.com/register.php?lang=c&url=http%3A%2F%2Fsearch.51job.com%2Flist%2F030200%2C000000%2C0000%2C00%2C9%2C99%2C%252B%2C2%2C1.html%3Flang%3Dc%26stype%3D1%26postchannel%3D0000%26workyear%3D99%26cotype%3D99%26degreefrom%3D99%26jobterm%3D99%26companysize%3D99%26lonlat%3D0%252C0%26radius%3D-1%26ord_field%3D0%26confirmdate%3D9%26fromType%3D%26dibiaoid%3D0%26address%3D%26line%3D%26specialarea%3D00%26from%3D%26welfare%3D">注册</a></p>
+                                                                 
+                <span class="l">|</span>
+                <ul>
+                    <li class="tle"><span><a href="http://i.51job.com/userset/my_51job.php?lang=c">我的51Job</a><em class="icon_arrow"></em></span></li>
+                    <li class="e1 e_icon"><a href="http://i.51job.com/resume/resume_center.php?lang=c">简历中心</a></li>
+                    <li class="e2 e_icon"><a href="http://i.51job.com/userset/resume_browsed.php?lang=c">谁看过我</a></li>
+                    <li class="e3 e_icon"><a href="http://i.51job.com/userset/my_collection.php?lang=c">我的收藏</a></li>
+                    <li class="e4 e_icon last2"><a href="http://i.51job.com/userset/my_apply.php?lang=c">我的申请</a></li>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+    <!-- top end -->
+	<!-- 英文版为body添加class -->
+	<script>
+			</script>
+    <!-- nag start -->
+    <div class="pop-city" style="display:none;position: absolute; z-index: 1000;" id="area_channel_layer">
+    <div class="tle">
+        地区选择        <em class="close" onclick="jvascript:$('#area_channel_layer,#area_channel_layer_backdrop').hide();"></em>
+    </div>
+    <div class="pcon">
+        <div class="ht">
+            <label>热门城市</label>
+                            <a href="http://www.51job.com/beijing">北京</a>
+                <a href="http://www.51job.com/shanghai">上海</a>
+                <a href="http://www.51job.com/guangzhou">广州</a>
+                <a href="http://www.51job.com/shenzhen">深圳</a>
+                <a href="http://www.51job.com/wuhan">武汉</a>
+                <a href="http://www.51job.com/xian">西安</a>
+                <a href="http://www.51job.com/hangzhou">杭州</a>
+                <a href="http://www.51job.com/nanjing">南京</a>
+                <a href="http://www.51job.com/chengdu">成都</a>
+                <a href="http://www.51job.com/chongqing">重庆</a>
+                        </div>
+        <div class="cbox">
+            <ul  id="area_channel_layer_list">
+                <li class="on" onclick="areaChannelChangeTab('abc', this)">A B C</li>
+                <li onclick="areaChannelChangeTab('def', this)">D E F</li>
+                <li onclick="areaChannelChangeTab('ghj', this)">G H J</li>
+                <li onclick="areaChannelChangeTab('klm', this)">K L M</li>
+                <li onclick="areaChannelChangeTab('nqs', this)">N Q S</li>
+                <li onclick="areaChannelChangeTab('twx', this)">T W X</li>
+                <li onclick="areaChannelChangeTab('yz', this)">Y Z</li>
+            </ul>
+            <div class="clst"  id="area_channel_layer_all">
+                                    <div class="e" name="area_channel_div_abc">
+                        <span><a href="http://www.51job.com/anshan">鞍山</a></span>
+                        <span><a href="http://www.51job.com/beijing">北京</a></span>
+                        <span><a href="http://www.51job.com/baotou">包头</a></span>
+                        <span><a href="http://www.51job.com/baoding">保定</a></span>
+                        <span><a href="http://www.51job.com/changchun">长春</a></span>
+                        <span><a href="http://www.51job.com/changsha">长沙</a></span>
+                        <span><a href="http://www.51job.com/chengdu">成都</a></span>
+                        <span><a href="http://www.51job.com/chongqing">重庆</a></span>
+                        <span><a href="http://www.51job.com/changzhou">常州</a></span>
+                        <span><a href="http://www.51job.com/changde">常德</a></span>
+                        <span><a href="http://www.51job.com/changshu">常熟</a></span>
+                    </div>
+                    <div class="e" name="area_channel_div_def" style="display:none">
+                        <span><a href="http://www.51job.com/dalian">大连</a></span>
+                        <span><a href="http://www.51job.com/dongguan">东莞</a></span>
+                        <span><a href="http://www.51job.com/dandong">丹东</a></span>
+                        <span><a href="http://www.51job.com/daqing">大庆</a></span>
+                        <span><a href="http://www.51job.com/eerduosi">鄂尔多斯</a></span>
+                        <span><a href="http://www.51job.com/fuzhou">福州</a></span>
+                        <span><a href="http://www.51job.com/foshan">佛山</a></span>
+                        <span><a href="http://www.51job.com/fushun">抚顺</a></span>
+                    </div>
+                    <div class="e" name="area_channel_div_ghj" style="display:none">
+                        <span><a href="http://www.51job.com/guangzhou">广州</a></span>
+                        <span><a href="http://www.51job.com/guiyang">贵阳</a></span>
+                        <span><a href="http://www.51job.com/ganzhou">赣州</a></span>
+                        <span><a href="http://www.51job.com/harbin">哈尔滨</a></span>
+                        <span><a href="http://www.51job.com/hangzhou">杭州</a></span>
+                        <span><a href="http://www.51job.com/hefei">合肥</a></span>
+                        <span><a href="http://www.51job.com/haikou">海口</a></span>
+                        <span><a href="http://www.51job.com/huhhot">呼和浩特</a></span>
+                        <span><a href="http://www.51job.com/huizhou">惠州</a></span>
+                        <span><a href="http://www.51job.com/hengyang">衡阳</a></span>
+                        <span><a href="http://www.51job.com/huaian">淮安</a></span>
+                        <span><a href="http://www.51job.com/huzhou">湖州</a></span>
+                        <span><a href="http://www.51job.com/handan">邯郸</a></span>
+                        <span><a href="http://www.51job.com/jinan">济南</a></span>
+                        <span><a href="http://www.51job.com/jiaxing">嘉兴</a></span>
+                        <span><a href="http://www.51job.com/jinhua">金华</a></span>
+                        <span><a href="http://www.51job.com/jilin">吉林</a></span>
+                        <span><a href="http://www.51job.com/jiangmen">江门</a></span>
+                        <span><a href="http://www.51job.com/jingzhou">荆州</a></span>
+                        <span><a href="http://www.51job.com/jiangyin">江阴</a></span>
+                        <span><a href="http://www.51job.com/jining">济宁</a></span>
+                        <span><a href="http://www.51job.com/jiujiang">九江</a></span>
+                    </div>
+                    <div class="e" name="area_channel_div_klm" style="display:none">
+                        <span><a href="http://www.51job.com/kunming">昆明</a></span>
+                        <span><a href="http://www.51job.com/kunshan">昆山</a></span>
+                        <span><a href="http://www.51job.com/lanzhou">兰州</a></span>
+                        <span><a href="http://www.51job.com/langfang">廊坊</a></span>
+                        <span><a href="http://www.51job.com/linyi">临沂</a></span>
+                        <span><a href="http://www.51job.com/luoyang">洛阳</a></span>
+                        <span><a href="http://www.51job.com/lianyungang">连云港</a></span>
+                        <span><a href="http://www.51job.com/liuzhou">柳州</a></span>
+                        <span><a href="http://www.51job.com/mianyang">绵阳</a></span>
+                    </div>
+                    <div class="e" name="area_channel_div_nqs" style="display:none">
+                        <span><a href="http://www.51job.com/nanjing">南京</a></span>
+                        <span><a href="http://www.51job.com/ningbo">宁波</a></span>
+                        <span><a href="http://www.51job.com/nanchang">南昌</a></span>
+                        <span><a href="http://www.51job.com/nantong">南通</a></span>
+                        <span><a href="http://www.51job.com/nanning">南宁</a></span>
+                        <span><a href="http://www.51job.com/qingdao">青岛</a></span>
+                        <span><a href="http://www.51job.com/quanzhou">泉州</a></span>
+                        <span><a href="http://www.51job.com/qinhuangdao">秦皇岛</a></span>
+                        <span><a href="http://www.51job.com/qingyuan">清远</a></span>
+                        <span><a href="http://www.51job.com/shanghai">上海</a></span>
+                        <span><a href="http://www.51job.com/shenzhen">深圳</a></span>
+                        <span><a href="http://www.51job.com/shenyang">沈阳</a></span>
+                        <span><a href="http://www.51job.com/shijiazhuang">石家庄</a></span>
+                        <span><a href="http://www.51job.com/suzhou">苏州</a></span>
+                        <span><a href="http://www.51job.com/sanya">三亚</a></span>
+                        <span><a href="http://www.51job.com/shaoxing">绍兴</a></span>
+                        <span><a href="http://www.51job.com/shantou">汕头</a></span>
+                        <span><a href="http://www.51job.com/shunde">顺德</a></span>
+                    </div>
+                    <div class="e" name="area_channel_div_twx" style="display:none">
+                        <span><a href="http://www.51job.com/tianjin">天津</a></span>
+                        <span><a href="http://www.51job.com/taiyuan">太原</a></span>
+                        <span><a href="http://www.51job.com/tz">台州</a></span>
+                        <span><a href="http://www.51job.com/tangshan">唐山</a></span>
+                        <span><a href="http://www.51job.com/taizhou">泰州</a></span>
+                        <span><a href="http://www.51job.com/tieling">铁岭</a></span>
+                        <span><a href="http://www.51job.com/wuhan">武汉</a></span>
+                        <span><a href="http://www.51job.com/wuxi">无锡</a></span>
+                        <span><a href="http://www.51job.com/wenzhou">温州</a></span>
+                        <span><a href="http://www.51job.com/urumqi">乌鲁木齐</a></span>
+                        <span><a href="http://www.51job.com/wuhu">芜湖</a></span>
+                        <span><a href="http://www.51job.com/weifang">潍坊</a></span>
+                        <span><a href="http://www.51job.com/weihai">威海</a></span>
+                        <span><a href="http://www.51job.com/xian">西安</a></span>
+                        <span><a href="http://www.51job.com/xiamen">厦门</a></span>
+                        <span><a href="http://www.51job.com/xuzhou">徐州</a></span>
+                        <span><a href="http://www.51job.com/xiangyang">襄阳</a></span>
+                        <span><a href="http://www.51job.com/xiangtan">湘潭</a></span>
+                        <span><a href="http://www.51job.com/xianyang">咸阳</a></span>
+                    </div>
+                    <div class="e" name="area_channel_div_yz" style="display:none">
+                        <span><a href="http://www.51job.com/yantai">烟台</a></span>
+                        <span><a href="http://www.51job.com/yangzhou">扬州</a></span>
+                        <span><a href="http://www.51job.com/yichang">宜昌</a></span>
+                        <span><a href="http://www.51job.com/yancheng">盐城</a></span>
+                        <span><a href="http://www.51job.com/yiwu">义乌</a></span>
+                        <span><a href="http://www.51job.com/yingkou">营口</a></span>
+                        <span><a href="http://www.51job.com/yinchuan">银川</a></span>
+                        <span><a href="http://www.51job.com/zhangzhou">漳州</a></span>
+                        <span><a href="http://www.51job.com/zhengzhou">郑州</a></span>
+                        <span><a href="http://www.51job.com/zhongshan">中山</a></span>
+                        <span><a href="http://www.51job.com/zhuhai">珠海</a></span>
+                        <span><a href="http://www.51job.com/zhenjiang">镇江</a></span>
+                        <span><a href="http://www.51job.com/zhuzhou">株洲</a></span>
+                        <span><a href="http://www.51job.com/zhanjiang">湛江</a></span>
+                        <span><a href="http://www.51job.com/zhaoqing">肇庆</a></span>
+                        <span><a href="http://www.51job.com/zhangjiagang">张家港</a></span>
+                        <span><a href="http://www.51job.com/zibo">淄博</a></span>
+                    </div>
+                            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+
+<div id="area_channel_layer_backdrop" class="layer_back_drop_class" style="z-index:999;position:absolute;z-index:999;left:0;top:0;display:none"></div>
+<script>
+    function areaChannelChangeTab(sName, oEvent)
+    {
+        $("#area_channel_layer_all").children().hide();
+        $("#area_channel_layer_list").children().removeClass("on");
+        $(oEvent).addClass("on");
+        $("#area_channel_layer_all").children("div[name='area_channel_div_" + sName + "']").show();
+        $("#area_channel_layer_backdrop").show();
+    }
+
+    function openAreaChannelLayer()
+    {
+        setLayerPosition();
+        $("#area_channel_layer,#area_channel_layer_backdrop").show();
+    }
+
+    function setLayerPosition()
+    {
+        var dl = $(document).scrollLeft();
+        var dt = $(document).scrollTop();
+        var ww = $(document).width();
+        var dwh = $(document).height();
+        var wwh = $(window).height();
+        var ow = $("#area_channel_layer").width();
+        var oh = $("#area_channel_layer").height();
+        var fLeft = (ww - ow) / 2 + dl;
+        var fTop = (wwh - oh) * 382 / 1000 + dt;//黄金比例
+        $("#area_channel_layer").css({'left': Math.max(parseInt(fLeft), dl), 'top': Math.max(parseInt(fTop), dt)});
+        $("#area_channel_layer_backdrop").css({'width': ww + 'px', 'height': dwh + 'px'});
+    }
+
+    $(window).resize(function(){
+        if(!$("#area_channel_layer").is(":hidden"))
+        {
+            setLayerPosition();
+        }
+    });
+</script>    <div class="nag">
+        <div class="in">
+            <a href="http://www.51job.com"><img class="logo" width="90" height="40" src="http://img06.51jobcdn.com/im/2016/logo/logo_90x40.png" alt="前程无忧"></a>
+                <img class="slogen" width="162" height="17" src="http://img05.51jobcdn.com/im/2016/header/slogen.png">
+            
+<p class="nlink">
+    <a class="" href="http://www.51job.com/">首页</a>
+    <a class="on" href="http://search.51job.com/jobsearch/search_result.php">职位搜索</a>
+    <a class="" href="javascript:openAreaChannelLayer();">地区频道</a>
+    <a class="" href="http://www.51job.com/default_res.php">职场资讯</a>
+    <a class="" href="http://xy.51job.com/default-xs.php">校园招聘</a>
+    <a href="http://my.51job.com/my/gojingying.php?direct=http%3A%2F%2Fwww.51jingying.com%2Fcommon%2Fsearchcase.php%3F5CC4CE%3D1008" target="_blank">无忧精英</a>
+</p>        </div>
+    </div>
+    <!-- nag end -->
+</div><script>
+    </script>
+<div class="dw_wp">	
+    <a name="search"></a>
+    <form name="searchForm" method="post" action="" autocomplete="off">
+        <input type="hidden" name="lang" value="c">
+        <input type="hidden" name="stype" value="2">
+        <input type="hidden" name="postchannel" value="0000">
+        <input type="hidden" name="fromType" value="1">
+        <input type="hidden" name="line" value="">
+        <input id="confirmdate" type="hidden" name="confirmdate" value="9">
+        <input type="hidden" name="from" value="">
+        <input name="keywordtype" id="keywordtype" type="hidden" value="2" />
+        <!--搜索条件-->
+        <div class="dw_search Fm">
+            <!--关键词框 -->
+            <div class="el on" style="width:448px">
+                <ul id="kwdTypeSelUl">
+                </ul>
+                <p class="ipt"><em class="search_but dicon Dm"></em><input type="text" maxlength="200" id="kwdselectid" placeholder="请输入关键字" autocomplete="off" vindex="-1" name="keyword" value="" class="mytxt" preval="" /></p>
+                                <p class="addbut" id="work_position_click">
+                    <input id="work_position_input" type="button" value="广州" class="at">
+                    <em class="dicon"></em>
+                </p>
+                <input name="jobarea" id="jobarea" type="hidden" value="030200" />
+                <!--搜索结果 -->
+                <div class="ul" id="KwdSearchResult" style="display:none;">
+                </div>
+                <!--搜索历史 -->
+                <div class="ul" id="searchHistory" style="display:none;">
+    <span class="tl off"><span class="bg b_his">历史记录</span></span>
+            <span><a href="javascript:void(0);">暂无</a></span>
+    </div>
+            </div>
+            <!-- 行业 -->
+            <div id="indtype_click" class="el">
+                <input autocomplete="off" id="indtype_input" readonly="readonly" type="text" class="val" placeholder="行业类别" value="">
+                <span id="select_expect_indtype" class="add"><em class="dicon Dm"></em></span>
+                <input name="industrytype" type="hidden" id="indtype_code" value=""/>
+            </div>
+            <!-- 职能 -->
+            <div class="el" id="funtype_click">
+                <input autocomplete="off" id="funtype_input" readonly="readonly" type="text" class="val" placeholder="职能类别" value="" />
+                <span id="select_expect_funtype" class="add"><em class="dicon Dm"></em></span>
+                <input name="funtype" type="hidden" id="funtype_code" value=""/>
+            </div>
+            <input class="s_but" type="image" src="http://images.51job.com/im/jobs/btn_search.png" />
+        </div>
+        <!--搜索条件 END-->
+    </form>
+
+    <!--过滤条件-->
+                    
+    <div class="dw_filter">
+        
+                <div class="el mk" id="filter_providesalary">
+                    <span class="title">月薪范围</span>
+                                            <span class="more dicon Dm">更多</span>
+                                                                <span class="dx dicon Dm" onclick="multipleChoose('providesalary');">多选</span>
+                                        <ul>
+                                                                                                                                            <li><a class="dw_c_orange" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=21&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">所有</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,01,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=21&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">2千以下</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,02,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=21&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">2-3千</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,03,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=21&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">3-4.5千</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,04,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=21&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">4.5-6千</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,05,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=21&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">6-8千</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,06,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=21&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">0.8-1万</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,07,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=21&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">1-1.5万</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,08,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=21&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">1.5-2万</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,09,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=21&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">2-3万</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,10,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=21&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">3-4万</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,11,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=21&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">4-5万</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,12,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=21&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">5万以上</a></li>
+                                            </ul>
+                    <div class="clear"></div>
+                </div>
+                
+                <div class="el" id="filter_cotype">
+                    <span class="title">公司性质</span>
+                                            <span class="more dicon Dm">更多</span>
+                                                                <span class="dx dicon Dm" onclick="multipleChoose('cotype');">多选</span>
+                                        <ul>
+                                                                                                                                            <li><a class="dw_c_orange" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=8&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">所有</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=01&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=8&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">外资(欧美)</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=02&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=8&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">外资(非欧美)</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=03&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=8&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">合资</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=04&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=8&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">国企</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=05&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=8&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">民营公司</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=06&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=8&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">外企代表处</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=07&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=8&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">政府机关</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=08&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=8&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">事业单位</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=09&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=8&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">非营利机构</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=10&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=8&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">上市公司</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=11&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=8&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">创业公司</a></li>
+                                            </ul>
+                    <div class="clear"></div>
+                </div>
+                
+                <div class="el" id="filter_workyear">
+                    <span class="title">工作年限</span>
+                                                                <span class="dx dicon Dm" onclick="multipleChoose('workyear');">多选</span>
+                                        <ul>
+                                                                                                                                            <li><a class="dw_c_orange" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=6&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">所有</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=01&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=6&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">无经验</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=02&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=6&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">1-3年</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=03&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=6&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">3-5年</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=04&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=6&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">5-10年</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=05&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=6&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">10年以上</a></li>
+                                            </ul>
+                    <div class="clear"></div>
+                </div>
+                
+                <div class="el" id="filter_degreefrom">
+                    <span class="title">学历要求</span>
+                                                                <span class="dx dicon Dm" onclick="multipleChoose('degreefrom');">多选</span>
+                                        <ul>
+                                                                                                                                            <li><a class="dw_c_orange" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=7&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">所有</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=01&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=7&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">初中及以下</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=02&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=7&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">高中/中技/中专</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=03&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=7&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">大专</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=04&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=7&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">本科</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=05&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=7&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">硕士</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=06&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=7&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">博士</a></li>
+                                            </ul>
+                    <div class="clear"></div>
+                </div>
+                
+                <div class="el" id="filter_companysize">
+                    <span class="title">公司规模</span>
+                                                                <span class="dx dicon Dm" onclick="multipleChoose('companysize');">多选</span>
+                                        <ul>
+                                                                                                                                            <li><a class="dw_c_orange" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">所有</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=01&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">少于50人</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=02&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">50-150人</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=03&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">150-500人</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=04&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">500-1000人</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=05&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">1000-5000人</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=06&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">5000-10000人</a></li>
+                                                                                                                                            <li><a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=07&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">10000人以上</a></li>
+                                            </ul>
+                    <div class="clear"></div>
+                </div>
+                
+
+<div class="el e2 show">
+    <span class="title">其他筛选</span>
+    <ul class="ote" id="otherFilter">
+        <li onclick="showFilterOther('filter_p_keyword', this);">
+      <span>薪资福利</span>        </li>
+        <li onclick="showFilterOther('filter_p_issuedate', this);;">
+      <span>发布日期</span>        </li>
+        <li onclick="showFilterOther('filter_p_jobterm', this);;">
+      <span>工作类型</span>        </li>
+                <li onclick="showFilterOther('filter_p_jobarea', this);">
+            <span>地区地标</span>        </li>
+                        <li onclick="showFilterOther('filter_p_line', this);">
+            <span>地铁沿线</span>        </li>
+            </ul>
+    <div class="clear"></div>
+</div>
+<div class="kel" style="display:none;">
+    
+    <p id="filter_p_providesalary" style="display:none;">
+
+
+    </p>
+
+    <p id="filter_p_cotype" style="display:none;">
+
+
+    </p>
+
+    <p id="filter_p_workyear" style="display:none;">
+
+
+    </p>
+
+    <p id="filter_p_degreefrom" style="display:none;">
+
+
+    </p>
+
+    <p id="filter_p_companysize" style="display:none;">
+
+
+    </p>
+
+    <p id="filter_p_issuedate" style="display:none;">
+
+
+                <a class="dw_c_orange" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=5&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">所有</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,0,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=5&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">24小时内</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,1,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=5&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">近三天</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,2,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=5&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">近一周</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,3,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=5&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">近一月</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,4,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=5&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">其他</a>
+          
+    </p>
+
+    <p id="filter_p_jobterm" style="display:none;">
+
+
+                <a class="dw_c_orange" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=22&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">所有</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=01&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=22&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">全职</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=02&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=22&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">兼职</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=03&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=22&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">实习全职</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=04&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=22&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">实习兼职</a>
+          
+    </p>
+
+    <p id="filter_p_keyword" style="display:none;">
+
+
+                <a class="dw_c_orange" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">所有</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%91%A8%E6%9C%AB%E5%8F%8C%E4%BC%91">周末双休</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%B8%A6%E8%96%AA%E5%B9%B4%E5%81%87">带薪年假</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E4%BA%94%E9%99%A9%E4%B8%80%E9%87%91">五险一金</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%B9%B4%E7%BB%88%E5%8F%8C%E8%96%AA">年终双薪</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E7%BB%A9%E6%95%88%E5%A5%96%E9%87%91">绩效奖金</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%B9%B4%E7%BB%88%E5%88%86%E7%BA%A2">年终分红</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E4%BA%BA%E6%89%8D%E6%8E%A8%E8%8D%90%E5%A5%96">人才推荐奖</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%8A%A0%E7%8F%AD%E8%A1%A5%E8%B4%B4">加班补贴</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E4%BA%A4%E9%80%9A%E8%A1%A5%E8%B4%B4">交通补贴</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%87%BA%E5%B7%AE%E8%A1%A5%E8%B4%B4">出差补贴</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E4%BD%8F%E6%88%BF%E8%A1%A5%E8%B4%B4">住房补贴</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E9%80%9A%E8%AE%AF%E8%A1%A5%E8%B4%B4">通讯补贴</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E9%A4%90%E9%A5%AE%E8%A1%A5%E8%B4%B4">餐饮补贴</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E9%87%87%E6%9A%96%E8%A1%A5%E8%B4%B4">采暖补贴</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E9%AB%98%E6%B8%A9%E8%A1%A5%E8%B4%B4">高温补贴</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E8%8A%82%E6%97%A5%E7%A6%8F%E5%88%A9">节日福利</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E4%B8%93%E4%B8%9A%E5%9F%B9%E8%AE%AD">专业培训</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E8%82%A1%E7%A5%A8%E6%9C%9F%E6%9D%83">股票期权</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E7%AB%8B%E5%8D%B3%E4%B8%8A%E5%B2%97">立即上岗</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%85%8D%E8%B4%B9%E7%8F%AD%E8%BD%A6">免费班车</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%BC%B9%E6%80%A7%E5%B7%A5%E4%BD%9C">弹性工作</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E8%A1%A5%E5%85%85%E5%8C%BB%E7%96%97%E4%BF%9D%E9%99%A9">补充医疗保险</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E8%A1%A5%E5%85%85%E5%85%AC%E7%A7%AF%E9%87%91">补充公积金</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E8%A1%A5%E5%85%85%E5%85%BB%E8%80%81%E4%BF%9D%E9%99%A9">补充养老保险</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%AE%9A%E6%9C%9F%E4%BD%93%E6%A3%80">定期体检</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%91%98%E5%B7%A5%E6%97%85%E6%B8%B8">员工旅游</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%87%BA%E5%9B%BD%E6%9C%BA%E4%BC%9A">出国机会</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%B9%B4%E7%BB%88%E5%A5%96%E9%87%91">年终奖金</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%AD%A3%E5%BA%A6%E5%A5%96%E9%87%91">季度奖金</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%9B%A2%E9%98%9F%E8%81%9A%E9%A4%90">团队聚餐</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E6%AF%8F%E5%B9%B4%E5%A4%9A%E6%AC%A1%E8%B0%83%E8%96%AA">每年多次调薪</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E8%90%BD%E6%88%B7%E5%8A%9E%E7%90%86">落户办理</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%85%8D%E6%81%AF%E6%88%BF%E8%B4%B7">免息房贷</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%85%A8%E5%91%98%E6%8C%81%E8%82%A1">全员持股</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%AD%90%E5%A5%B3%E6%95%99%E8%82%B2%E6%B4%A5%E8%B4%B4">子女教育津贴</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%AD%90%E5%A5%B3%E4%BF%9D%E9%99%A9">子女保险</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%AE%B6%E4%BA%BA%E5%85%8D%E8%B4%B9%E4%BD%93%E6%A3%80">家人免费体检</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%AE%B6%E5%B1%9E%E5%85%8D%E8%B4%B9%E5%8C%BB%E7%96%97">家属免费医疗</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%A4%96%E6%B4%BE%E6%B4%A5%E8%B4%B4">外派津贴</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E7%94%B5%E8%84%91%E8%A1%A5%E5%8A%A9">电脑补助</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E6%B2%B9%E8%B4%B9%E8%A1%A5%E8%B4%B4">油费补贴</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E8%81%8C%E4%BD%8D%E6%B4%A5%E8%B4%B4">职位津贴</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E9%85%8D%E8%BD%A6">配车</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E4%B8%8D%E5%8A%A0%E7%8F%AD">不加班</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E7%A7%91%E7%A0%94%E5%A5%96%E5%8A%B1">科研奖励</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%9C%A8%E8%81%8C%E7%A0%94%E7%A9%B6%E7%94%9F">在职研究生</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%81%A5%E8%BA%AB%E4%BF%B1%E4%B9%90%E9%83%A8">健身俱乐部</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E6%8E%A2%E4%BA%B2%E5%81%87">探亲假</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E6%AF%8D%E5%A9%B4%E5%AE%A4">母婴室</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%81%9A%E4%BA%94%E4%BC%91%E4%BA%8C">做五休二</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%81%9A%E5%85%AD%E4%BC%91%E4%B8%80">做六休一</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%81%9A%E4%B8%80%E4%BC%91%E4%B8%80">做一休一</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%8C%85%E5%90%83">包吃</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%8C%85%E4%BD%8F">包住</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%8C%85%E5%90%83%E5%8C%85%E4%BD%8F">包吃包住</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E6%97%A0%E8%AF%95%E7%94%A8%E6%9C%9F">无试用期</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%B7%A5%E4%BD%9C%E6%9C%8D">工作服</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%A4%AB%E5%A6%BB%E6%88%BF">夫妻房</a>
+          
+                <a class="" href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=%E5%85%A8%E5%8B%A4%E5%A5%96">全勤奖</a>
+          
+    </p>
+
+    <p id="filter_p_jobarea" style="display:none;">
+
+                            <a class="dw_c_orange" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">所有</a>
+                                          <a href="javascript:void(0)"
+                                                onclick="showHotdibiaoid(this);return false;">热门地标</a>
+                            
+                    <a class="" href="javascript:void(0)" onclick="showDibiao('http://search.51job.com', '030201', this);return false;">越秀区</a>
+                         
+                    <a class="" href="javascript:void(0)" onclick="showDibiao('http://search.51job.com', '030202', this);return false;">荔湾区</a>
+                         
+                    <a class="" href="javascript:void(0)" onclick="showDibiao('http://search.51job.com', '030203', this);return false;">海珠区</a>
+                         
+                    <a class="" href="javascript:void(0)" onclick="showDibiao('http://search.51job.com', '030204', this);return false;">天河区</a>
+                         
+                    <a class="" href="javascript:void(0)" onclick="showDibiao('http://search.51job.com', '030205', this);return false;">白云区</a>
+                         
+                    <a class="" href="javascript:void(0)" onclick="showDibiao('http://search.51job.com', '030206', this);return false;">黄埔区</a>
+                         
+                    <a class="" href="javascript:void(0)" onclick="showDibiao('http://search.51job.com', '030207', this);return false;">番禺区</a>
+                         
+                    <a class="" href="javascript:void(0)" onclick="showDibiao('http://search.51job.com', '030208', this);return false;">花都区</a>
+                         
+                    <a class="" href="javascript:void(0)" onclick="showDibiao('http://search.51job.com', '030209', this);return false;">南沙区</a>
+                         
+                    <a class="" href="javascript:void(0)" onclick="showDibiao('http://search.51job.com', '030210', this);return false;">萝岗区</a>
+                         
+                    <a class="" href="javascript:void(0)" onclick="showDibiao('http://search.51job.com', '030211', this);return false;">增城</a>
+                         
+                    <a class="" href="javascript:void(0)" onclick="showDibiao('http://search.51job.com', '030212', this);return false;">从化</a>
+           
+    </p>
+
+    <p id="filter_p_dibiaoid"  class="nk" style="display:none;">
+
+
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=91&address=%E5%A4%A9%E6%B2%B3%E4%BD%93%E8%82%B2%E4%B8%AD%E5%BF%83&line=&specialarea=00&from=&welfare=">天河体育中心</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=88&address=%E7%9F%B3%E7%89%8C&line=&specialarea=00&from=&welfare=">石牌</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=98&address=%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E&line=&specialarea=00&from=&welfare=">珠江新城</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=89&address=%E5%B8%82%E6%A1%A5&line=&specialarea=00&from=&welfare=">市桥</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=74&address=%E5%A4%A7%E7%9F%B3&line=&specialarea=00&from=&welfare=">大石</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=85&address=%E4%B8%89%E5%85%83%E9%87%8C&line=&specialarea=00&from=&welfare=">三元里</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=83&address=%E7%A7%91%E5%AD%A6%E5%9F%8E&line=&specialarea=00&from=&welfare=">科学城</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=79&address=%E7%8E%AF%E5%B8%82%E4%B8%9C%E8%B7%AF&line=&specialarea=00&from=&welfare=">环市东路</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=96&address=%E4%B8%AD%E5%8D%8E%E5%B9%BF%E5%9C%BA&line=&specialarea=00&from=&welfare=">中华广场</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=86&address=%E4%B8%8A%E4%B8%8B%E4%B9%9D&line=&specialarea=00&from=&welfare=">上下九</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=72&address=%E5%8C%97%E4%BA%AC%E8%B7%AF&line=&specialarea=00&from=&welfare=">北京路</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=82&address=%E5%BC%80%E5%8F%91%E5%8C%BA&line=&specialarea=00&from=&welfare=">开发区</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=94&address=%E6%B0%B8%E5%92%8C%E7%BB%8F%E6%B5%8E%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91%E5%8C%BA&line=&specialarea=00&from=&welfare=">永和经济技术开发区</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=90&address=%E5%A4%A9%E6%B2%B3%E8%BD%AF%E4%BB%B6%E5%9B%AD&line=&specialarea=00&from=&welfare=">天河软件园</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=92&address=%E4%BA%94%E7%BE%8A%E6%96%B0%E5%9F%8E&line=&specialarea=00&from=&welfare=">五羊新城</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=84&address=%E5%8D%97%E6%B2%99%E7%BB%8F%E6%B5%8E%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91%E5%8C%BA&line=&specialarea=00&from=&welfare=">南沙经济技术开发区</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=81&address=%E9%87%91%E6%B2%99%E6%B4%B2&line=&specialarea=00&from=&welfare=">金沙洲</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=77&address=%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%9F%8E&line=&specialarea=00&from=&welfare=">广州大学城</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=1834&address=%E7%8F%A0%E5%90%89%E5%85%AC%E8%B7%AF&line=&specialarea=00&from=&welfare=">珠吉公路</a>
+      
+                <a class="" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=1835&address=%E4%B8%83%E5%A4%95%E5%B9%BF%E5%9C%BA&line=&specialarea=00&from=&welfare=">七夕广场</a>
+      
+    </p>
+
+    <p id="filter_p_line" style="display:none;">
+
+                                            <a class="dw_c_orange" href="http://search.51job.com/list/030200,030200,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=17&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">所有</a>
+                                                                <a class="" href="javascript:void(0);" onclick="showLine('http://search.51job.com', 1, this); return false;">地铁1号线</a>
+                                                                                    <a class="" href="javascript:void(0);" onclick="showLine('http://search.51job.com', 2, this); return false;">地铁2号线</a>
+                                                                                    <a class="" href="javascript:void(0);" onclick="showLine('http://search.51job.com', 3, this); return false;">地铁3号线</a>
+                                                                                    <a class="" href="javascript:void(0);" onclick="showLine('http://search.51job.com', 4, this); return false;">地铁4号线</a>
+                                                                                    <a class="" href="javascript:void(0);" onclick="showLine('http://search.51job.com', 5, this); return false;">地铁5号线</a>
+                                                                                    <a class="" href="javascript:void(0);" onclick="showLine('http://search.51job.com', 6, this); return false;">地铁8号线</a>
+                                                                                    <a class="" href="javascript:void(0);" onclick="showLine('http://search.51job.com', 7, this); return false;">广佛线</a>
+                                                                                    <a class="" href="javascript:void(0);" onclick="showLine('http://search.51job.com', 8, this); return false;">APM</a>
+                                                                                    <a class="" href="javascript:void(0);" onclick="showLine('http://search.51job.com', 9, this); return false;">地铁6号线</a>
+                                        
+    </p>
+</div>
+
+        <div class="op" onclick="collapseExpansionSearch('http://search.51job.com', 'dw_filter', this);">
+            <span>展开更多选项<em class="dicon Dm"></em></span>
+        </div>
+    </div>
+    <!--过滤条件 END-->
+
+    <!--你是不是想找-->
+        <!--相似职位 END-->
+
+    <!--已选条件-->
+    <div id="dw_choice_mk"></div>
+    <div class="dw_choice">
+        <div class="in">
+            <span class="title dicon Dm">已选条件：</span>
+            <p>广州</p>
+            <a class="og_but" href="#search">修改</a>
+        </div>
+    </div>
+    <!--已选条件 END-->
+
+    <!-- 关键字广告 start -->
+        <!-- 关键字广告 end -->
+    <!--列表表格-->
+    <div class="dw_table" id="resultList">
+        <div class="dw_tlc">
+            <div class="chall">
+                <span>
+                    <input type="checkbox" onclick="selectAllJobs(this);" value="" name="select_all" id="top_select_all_jobs_checkbox" class="checkbox" />
+                </span>
+                全选
+            </div>
+            <div class="op">
+                <span onclick="delivery('delivery_jobid', '2', 'http://my.51job.com', 'c', 'http://search.51job.com', '01', '01', 'http://img03.51jobcdn.com');" class="but_sq"><i class="dicon Dm"></i>申请职位</span><span onclick="saveCollection('');" class="but_sc"><i class="dicon Dm"></i>收藏职位</span>
+            </div>
+
+                            
+                                            
+                                        
+            <div class="rt">
+                共100000条职位
+            </div>
+
+           <div class="rt">
+                <span id="rtPrev" class="dicon Dm"></span><span class="dw_c_orange">1</span> / 2000<a href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,2.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=" id="rtNext" class="dicon Dm on" onclick="zzSearch.jumpPage(this.href);return false;"></a>            </div>
+
+                                                                                        
+            <div class="rt order_time">
+                <em class="dicon Dm "></em><a href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=1&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">发布时间</a>
+            </div>
+            <div class="rt order_auto dw_c_orange">
+                <em class="dicon Dm  on"></em><a href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">智能排序</a>
+            </div>
+        </div>
+
+        <div class="el title">
+            <span class="t1">职位名</span>
+            <span class="t2">公司名</span>
+            <span class="t3">工作地点</span>
+            <span class="t4">薪资</span>
+            <span class="t5">发布时间</span>
+        </div>
+
+                    
+            
+            
+            
+                                                                                                                <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89065639" jt="0" />
+                            <span>
+                                <a target="_blank" title="急招在线销售客服（月入5K+朝九晚六+双休+奖金）" href="http://jobs.51job.com/guangzhou-hzq/89065639.html?s=01&t=0" onmousedown="">
+                                    急招在线销售客服（月入5K+朝九晚六+双休+奖金）                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州九娱互联网服务有限公司" href="http://jobs.51job.com/all/co4327158.html">广州九娱互联网服务有限公司</a></span>
+                        <span class="t3">广州-海珠区</span>
+                        <span class="t4">6-8千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="86822222" jt="0" />
+                            <span>
+                                <a target="_blank" title="准上市教育机构+绩效不封顶+课程咨询师/销售顾问" href="http://jobs.51job.com/guangzhou-thq/86822222.html?s=01&t=0" onmousedown="">
+                                    准上市教育机构+绩效不封顶+课程咨询师/销售顾问                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="尚德机构" href="http://jobs.51job.com/all/co2578875.html">尚德机构</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">6-8千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069354" jt="0" />
+                            <span>
+                                <a target="_blank" title="微胖模特/展示不一样的美" href="http://jobs.51job.com/guangzhou-hpq/89069354.html?s=01&t=0" onmousedown="">
+                                    微胖模特/展示不一样的美                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="佛山市人行道广告有限公司" href="http://jobs.51job.com/all/co4318020.html">佛山市人行道广告有限公司</a></span>
+                        <span class="t3">广州-黄埔区</span>
+                        <span class="t4">600元/天</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="88852274" jt="0" />
+                            <span>
+                                <a target="_blank" title="资深平面设计师（木门品牌VI设计）" href="http://jobs.51job.com/guangzhou-thq/88852274.html?s=01&t=0" onmousedown="">
+                                    资深平面设计师（木门品牌VI设计）                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="索菲亚家居股份有限公司" href="http://jobs.51job.com/all/co2547254.html">索菲亚家居股份有限公司</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">0.8-1万/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="86165116" jt="0" />
+                            <span>
+                                <a target="_blank" title="门店推广业务主管" href="http://jobs.51job.com/guangzhou/86165116.html?s=01&t=0" onmousedown="">
+                                    门店推广业务主管                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广东钻生爱珠宝有限公司" href="http://jobs.51job.com/all/co4123790.html">广东钻生爱珠宝有限公司</a></span>
+                        <span class="t3">广州</span>
+                        <span class="t4">0.8-1万/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="73150463" jt="0" />
+                            <span>
+                                <a target="_blank" title="投资顾问（无责任底薪3000）" href="http://jobs.51job.com/guangzhou-thq/73150463.html?s=01&t=0" onmousedown="">
+                                    投资顾问（无责任底薪3000）                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州富捷投资管理有限公司" href="http://jobs.51job.com/all/co3791902.html">广州富捷投资管理有限公司</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">3-4.5千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069325" jt="0" />
+                            <span>
+                                <a target="_blank" title="实习生优先 底薪3500包住宿《小区环境》房地产销售" href="http://jobs.51job.com/guangzhou-yxq/89069325.html?s=01&t=0" onmousedown="">
+                                    实习生优先 底薪3500包住宿《小区环境》房地产销售                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州裕丰咨询顾问有限公司明月分公司" href="http://jobs.51job.com/all/co4249923.html">广州裕丰咨询顾问有限公司明月分公司</a></span>
+                        <span class="t3">广州-越秀区</span>
+                        <span class="t4">1-1.5万/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="85414080" jt="0" />
+                            <span>
+                                <a target="_blank" title="法务专员" href="http://jobs.51job.com/guangzhou-byq/85414080.html?s=01&t=0" onmousedown="">
+                                    法务专员                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="OPPO[粤北]" href="http://jobs.51job.com/all/co3189631.html">OPPO[粤北]</a></span>
+                        <span class="t3">广州-白云区</span>
+                        <span class="t4">4-6千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069320" jt="0" />
+                            <span>
+                                <a target="_blank" title="行政文员5K+享（免费员工宿舍+年底13薪）" href="http://jobs.51job.com/guangzhou-thq/89069320.html?s=01&t=0" onmousedown="">
+                                    行政文员5K+享（免费员工宿舍+年底13薪）                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="天津融一联科技发展有限公司" href="http://jobs.51job.com/all/co3960312.html">天津融一联科技发展有限公司</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">3-4.5千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069315" jt="0" />
+                            <span>
+                                <a target="_blank" title="内销业务员" href="http://jobs.51job.com/guangzhou/89069315.html?s=01&t=0" onmousedown="">
+                                    内销业务员                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州唯尚工艺品有限公司" href="http://jobs.51job.com/all/co2637583.html">广州唯尚工艺品有限公司</a></span>
+                        <span class="t3">广州</span>
+                        <span class="t4">5-8万/年</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069313" jt="0" />
+                            <span>
+                                <a target="_blank" title="月薪过万，三个月即可买房买车" href="http://jobs.51job.com/guangzhou-hpq/89069313.html?s=01&t=0" onmousedown="">
+                                    月薪过万，三个月即可买房买车                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="深圳市家家顺控股集团有限公司" href="http://jobs.51job.com/all/co4340593.html">深圳市家家顺控股集团有限公司</a></span>
+                        <span class="t3">广州-黄埔区</span>
+                        <span class="t4">1.5-2万/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069291" jt="0" />
+                            <span>
+                                <a target="_blank" title="采购部文员/助理五险一金双休接受应届生" href="http://jobs.51job.com/guangzhou-thq/89069291.html?s=01&t=0" onmousedown="">
+                                    采购部文员/助理五险一金双休接受应届生                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="天津人瑞教育信息咨询有限公司" href="http://jobs.51job.com/all/co3946389.html">天津人瑞教育信息咨询有限公司</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">3-4.5千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 tg">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069283" jt="0" />
+                            <span>
+                                <a target="_blank" title="房地产销售+应届毕业生+专业培训+高薪提成" href="http://jobs.51job.com/guangzhou-yxq/89069283.html?s=01&t=0" onmousedown="">
+                                    房地产销售+应届毕业生+专业培训+高薪提成                                </a>
+                                <img class="tag1" width="27" height="14" src="http://img02.51jobcdn.com/im/jobs/tag_shixi.jpg" alt="实习">                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州仁隆房地产销售代理有限公司寺右新马路第二分公司" href="http://jobs.51job.com/all/co4404557.html">广州仁隆房地产销售代理有限公司寺...</a></span>
+                        <span class="t3">广州-越秀区</span>
+                        <span class="t4">0.8-1万/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="88474276" jt="0" />
+                            <span>
+                                <a target="_blank" title="销售行政助理" href="http://jobs.51job.com/guangzhou-thq/88474276.html?s=01&t=0" onmousedown="">
+                                    销售行政助理                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州市康汇电子科技有限公司" href="http://jobs.51job.com/all/co328802.html">广州市康汇电子科技有限公司</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">2-3千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069272" jt="0" />
+                            <span>
+                                <a target="_blank" title="淘宝/京东客服双休五险一金4000以上" href="http://jobs.51job.com/guangzhou-thq/89069272.html?s=01&t=0" onmousedown="">
+                                    淘宝/京东客服双休五险一金4000以上                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州向宏贸易有限公司" href="http://jobs.51job.com/all/co3822745.html">广州向宏贸易有限公司</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">3-4.5千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069261" jt="0" />
+                            <span>
+                                <a target="_blank" title="教务助理" href="http://jobs.51job.com/guangzhou-hpq/89069261.html?s=01&t=0" onmousedown="">
+                                    教务助理                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州市黄埔区圆梦职业培训学校" href="http://jobs.51job.com/all/co3134818.html">广州市黄埔区圆梦职业培训学校</a></span>
+                        <span class="t3">广州-黄埔区</span>
+                        <span class="t4">2-3千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069260" jt="0" />
+                            <span>
+                                <a target="_blank" title="销售顾问 4300起步高底薪 50起步高提成" href="http://jobs.51job.com/guangzhou-byq/89069260.html?s=01&t=0" onmousedown="">
+                                    销售顾问 4300起步高底薪 50起步高提成                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="深圳市家家顺控股集团有限公司" href="http://jobs.51job.com/all/co4412576.html">深圳市家家顺控股集团有限公司</a></span>
+                        <span class="t3">广州-白云区</span>
+                        <span class="t4">4.8-6.8千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="60904596" jt="0" />
+                            <span>
+                                <a target="_blank" title="互联网广告销售代表（大平台、精英共事、双休）" href="http://jobs.51job.com/guangzhou/60904596.html?s=01&t=0" onmousedown="">
+                                    互联网广告销售代表（大平台、精英共事、双休）                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州天拓网络技术有限公司" href="http://jobs.51job.com/all/co146841.html">广州天拓网络技术有限公司</a></span>
+                        <span class="t3">广州</span>
+                        <span class="t4">6-8千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069251" jt="0" />
+                            <span>
+                                <a target="_blank" title="人事行政专员/助理包吃包住双休" href="http://jobs.51job.com/guangzhou-byq/89069251.html?s=01&t=0" onmousedown="">
+                                    人事行政专员/助理包吃包住双休                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州市兆利电器实业有限公司" href="http://jobs.51job.com/all/co3683221.html">广州市兆利电器实业有限公司</a></span>
+                        <span class="t3">广州-白云区</span>
+                        <span class="t4">3-4.5千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069246" jt="0" />
+                            <span>
+                                <a target="_blank" title="珠江新城 豪宅专家 精英销售团队" href="http://jobs.51job.com/guangzhou/89069246.html?s=01&t=0" onmousedown="">
+                                    珠江新城 豪宅专家 精英销售团队                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广东合富房地产置业有限公司天河猎德大道营业部" href="http://jobs.51job.com/all/co4210958.html">广东合富房地产置业有限公司天河猎...</a></span>
+                        <span class="t3">广州</span>
+                        <span class="t4">0.5-2万/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="82751660" jt="0" />
+                            <span>
+                                <a target="_blank" title="大区销售经理（华南）" href="http://meituan.51job.com/sc/job_shuoming.php?jobid=82751660" onmousedown="zzSearch.jobview('82751660');">
+                                    大区销售经理（华南）                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="美团点评" href=" http://meituan.51job.com">美团点评</a></span>
+                        <span class="t3">广州</span>
+                        <span class="t4">2.5-3万/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89067464" jt="0" />
+                            <span>
+                                <a target="_blank" title="SEO专员/网络推广专员" href="http://jobs.51job.com/guangzhou-thq/89067464.html?s=01&t=0" onmousedown="">
+                                    SEO专员/网络推广专员                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州米尼琪贸易有限公司" href="http://jobs.51job.com/all/co2731380.html">广州米尼琪贸易有限公司</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">4.5-6千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069190" jt="0" />
+                            <span>
+                                <a target="_blank" title="国内期货、国际期货操盘手+要3年以上实盘经验" href="http://jobs.51job.com/guangzhou-byq/89069190.html?s=01&t=0" onmousedown="">
+                                    国内期货、国际期货操盘手+要3年以上实盘经验                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广东粤富网络科技有限公司" href="http://jobs.51job.com/all/co4117166.html">广东粤富网络科技有限公司</a></span>
+                        <span class="t3">广州-白云区</span>
+                        <span class="t4">100万以上/年</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069179" jt="0" />
+                            <span>
+                                <a target="_blank" title="需要新面孔业余平面模特" href="http://jobs.51job.com/guangzhou-yxq/89069179.html?s=01&t=0" onmousedown="">
+                                    需要新面孔业余平面模特                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州郑明明化妆品有限公司" href="http://jobs.51job.com/all/co4407712.html">广州郑明明化妆品有限公司</a></span>
+                        <span class="t3">广州-越秀区</span>
+                        <span class="t4">500元/天</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069168" jt="0" />
+                            <span>
+                                <a target="_blank" title="跟单文员" href="http://jobs.51job.com/guangzhou-lwq/89069168.html?s=01&t=0" onmousedown="">
+                                    跟单文员                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州市荔湾区蓝钦电子商行" href="http://jobs.51job.com/all/co3949797.html">广州市荔湾区蓝钦电子商行</a></span>
+                        <span class="t3">广州-荔湾区</span>
+                        <span class="t4">2.8-3.8千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="75902754" jt="0" />
+                            <span>
+                                <a target="_blank" title="人事专员+供住宿+全勤奖+补助+总经理奖3k-6k" href="http://jobs.51job.com/guangzhou-yxq/75902754.html?s=01&t=0" onmousedown="">
+                                    人事专员+供住宿+全勤奖+补助+总经理奖3k-6k                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="共享健康科技股份有限公司广州分公司" href="http://jobs.51job.com/all/co2919034.html">共享健康科技股份有限公司广州分公司</a></span>
+                        <span class="t3">广州-越秀区</span>
+                        <span class="t4">2-5千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="88841728" jt="0" />
+                            <span>
+                                <a target="_blank" title="大客户销售（上市公司）" href="http://jobs.51job.com/guangzhou-thq/88841728.html?s=01&t=0" onmousedown="">
+                                    大客户销售（上市公司）                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="上海宝鸟服饰有限公司" href="http://jobs.51job.com/all/co2827513.html">上海宝鸟服饰有限公司</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">0.4-1.5万/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="84049245" jt="0" />
+                            <span>
+                                <a target="_blank" title="前台主管" href="http://jobs.51job.com/guangzhou-lwq/84049245.html?s=01&t=0" onmousedown="">
+                                    前台主管                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州市朗动体育组织有限公司" href="http://jobs.51job.com/all/co4077408.html">广州市朗动体育组织有限公司</a></span>
+                        <span class="t3">广州-荔湾区</span>
+                        <span class="t4">2.5-6千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="78266364" jt="0" />
+                            <span>
+                                <a target="_blank" title="销售代表（上市公司+地铁口）" href="http://jobs.51job.com/guangzhou/78266364.html?s=01&t=0" onmousedown="">
+                                    销售代表（上市公司+地铁口）                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州中院生物科技有限公司" href="http://jobs.51job.com/all/co3054753.html">广州中院生物科技有限公司</a></span>
+                        <span class="t3">广州</span>
+                        <span class="t4">4.5-6千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="88573140" jt="0" />
+                            <span>
+                                <a target="_blank" title="抵押经理（储备干部）" href="http://jobs.51job.com/guangzhou-pyq/88573140.html?s=01&t=0" onmousedown="">
+                                    抵押经理（储备干部）                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="平安普惠投资咨询有限公司广州捷进二路分公司" href="http://jobs.51job.com/all/co4379801.html">平安普惠投资咨询有限公司广州捷进...</a></span>
+                        <span class="t3">广州-番禺区</span>
+                        <span class="t4">0.8-1万/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="88563495" jt="0" />
+                            <span>
+                                <a target="_blank" title="美博城美容仪器销售业务员" href="http://jobs.51job.com/guangzhou-yxq/88563495.html?s=01&t=0" onmousedown="">
+                                    美博城美容仪器销售业务员                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州市越秀区决点美容用品商行" href="http://jobs.51job.com/all/co4377556.html">广州市越秀区决点美容用品商行</a></span>
+                        <span class="t3">广州-越秀区</span>
+                        <span class="t4">6-8千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 tg">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="87798796" jt="0" />
+                            <span>
+                                <a target="_blank" title="高薪诚聘招商顾问+免费食宿+优厚福利奖金" href="http://jobs.51job.com/guangzhou-hpq/87798796.html?s=01&t=0" onmousedown="">
+                                    高薪诚聘招商顾问+免费食宿+优厚福利奖金                                </a>
+                                <img class="tag1" width="27" height="14" src="http://img02.51jobcdn.com/im/jobs/tag_shixi.jpg" alt="实习">                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州品尊餐饮管理有限公司" href="http://jobs.51job.com/all/co4134366.html">广州品尊餐饮管理有限公司</a></span>
+                        <span class="t3">广州-黄埔区</span>
+                        <span class="t4">6-8千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="86213165" jt="0" />
+                            <span>
+                                <a target="_blank" title="贷款顾问" href="http://jobs.51job.com/guangzhou-thq/86213165.html?s=01&t=0" onmousedown="">
+                                    贷款顾问                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州百佳资产管理有限公司" href="http://jobs.51job.com/all/co3629726.html">广州百佳资产管理有限公司</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">0.8-1万/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="81558267" jt="0" />
+                            <span>
+                                <a target="_blank" title="区域经理" href="http://jobs.51job.com/guangzhou/81558267.html?s=01&t=0" onmousedown="">
+                                    区域经理                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州箔霏德建材有限公司" href="http://jobs.51job.com/all/co3355925.html">广州箔霏德建材有限公司</a></span>
+                        <span class="t3">广州</span>
+                        <span class="t4">0.6-1万/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="70974536" jt="0" />
+                            <span>
+                                <a target="_blank" title="急聘促销员/导购员" href="http://jobs.51job.com/guangzhou-byq/70974536.html?s=01&t=0" onmousedown="">
+                                    急聘促销员/导购员                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州市欧朵日用品有限公司" href="http://jobs.51job.com/all/co3635679.html">广州市欧朵日用品有限公司</a></span>
+                        <span class="t3">广州-白云区</span>
+                        <span class="t4">3-5千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069077" jt="0" />
+                            <span>
+                                <a target="_blank" title="急招淘宝女装修图师" href="http://jobs.51job.com/guangzhou-hzq/89069077.html?s=01&t=0" onmousedown="">
+                                    急招淘宝女装修图师                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州淘麦信息科技有限公司" href="http://jobs.51job.com/all/co4345779.html">广州淘麦信息科技有限公司</a></span>
+                        <span class="t3">广州-海珠区</span>
+                        <span class="t4">6-8千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069065" jt="0" />
+                            <span>
+                                <a target="_blank" title="国内期货、国际期货操盘手+要3年以上实盘经验" href="http://jobs.51job.com/guangzhou/89069065.html?s=01&t=0" onmousedown="">
+                                    国内期货、国际期货操盘手+要3年以上实盘经验                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广东越富实业有限公司" href="http://jobs.51job.com/all/co4331922.html">广东越富实业有限公司</a></span>
+                        <span class="t3">广州</span>
+                        <span class="t4">10万以上/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="81887126" jt="0" />
+                            <span>
+                                <a target="_blank" title="物理师" href="http://jobs.51job.com/guangzhou-lgq/81887126.html?s=01&t=0" onmousedown="">
+                                    物理师                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州科莱瑞迪医疗器材股份有限公司" href="http://jobs.51job.com/all/co2015167.html">广州科莱瑞迪医疗器材股份有限公司</a></span>
+                        <span class="t3">广州-萝岗区</span>
+                        <span class="t4">6-8千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="88442607" jt="0" />
+                            <span>
+                                <a target="_blank" title="销售代表" href="http://jobs.51job.com/guangzhou-lwq/88442607.html?s=01&t=0" onmousedown="">
+                                    销售代表                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州飞歌精密刀具有限公司" href="http://jobs.51job.com/all/co3720224.html">广州飞歌精密刀具有限公司</a></span>
+                        <span class="t3">广州-荔湾区</span>
+                        <span class="t4">0.8-1万/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89069045" jt="0" />
+                            <span>
+                                <a target="_blank" title="市场企划专员/市场推广/市场专员/活动策划" href="http://jobs.51job.com/guangzhou-thq/89069045.html?s=01&t=0" onmousedown="">
+                                    市场企划专员/市场推广/市场专员/活动策划                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="深圳市凌雄租赁服务有限公司" href="http://jobs.51job.com/all/co4024301.html">深圳市凌雄租赁服务有限公司</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">5-8千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="85420275" jt="0" />
+                            <span>
+                                <a target="_blank" title="均月薪8000元以上销售代表" href="http://jobs.51job.com/guangzhou-thq/85420275.html?s=01&t=0" onmousedown="">
+                                    均月薪8000元以上销售代表                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广东广播电视台越声理财公司" href="http://jobs.51job.com/all/co3802772.html">广东广播电视台越声理财公司</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">0.8-1万/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="87573820" jt="0" />
+                            <span>
+                                <a target="_blank" title="Android开发工程师" href="http://jobs.51job.com/guangzhou-thq/87573820.html?s=01&t=0" onmousedown="">
+                                    Android开发工程师                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州秒乐网络科技有限公司" href="http://jobs.51job.com/all/co4335393.html">广州秒乐网络科技有限公司</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">6-8千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="83394049" jt="0" />
+                            <span>
+                                <a target="_blank" title="销售/销售代表/客服文员（双休包吃+无责底+高提成" href="http://jobs.51job.com/guangzhou-thq/83394049.html?s=01&t=0" onmousedown="">
+                                    销售/销售代表/客服文员（双休包吃+无责底+高提成                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州湘传投资咨询有限公司" href="http://jobs.51job.com/all/co4127386.html">广州湘传投资咨询有限公司</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">4.5-6千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="88805144" jt="0" />
+                            <span>
+                                <a target="_blank" title="操盘手（底薪5000+佣金+双休）" href="http://jobs.51job.com/guangzhou-thq/88805144.html?s=01&t=0" onmousedown="">
+                                    操盘手（底薪5000+佣金+双休）                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州市壬泰实业投资有限责任公司" href="http://jobs.51job.com/all/co4403500.html">广州市壬泰实业投资有限责任公司</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">0.6-1万/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="88954945" jt="0" />
+                            <span>
+                                <a target="_blank" title="业余试衣拍摄///直招认证" href="http://jobs.51job.com/guangzhou-lwq/88954945.html?s=01&t=0" onmousedown="">
+                                    业余试衣拍摄///直招认证                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州汇仹服饰有限公司" href="http://jobs.51job.com/all/co4351413.html">广州汇仹服饰有限公司</a></span>
+                        <span class="t3">广州-荔湾区</span>
+                        <span class="t4">650元/天</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="66795358" jt="0" />
+                            <span>
+                                <a target="_blank" title="销售代表(花都区）" href="http://jobs.51job.com/guangzhou-hdq/66795358.html?s=01&t=0" onmousedown="">
+                                    销售代表(花都区）                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州点球体育科技有限公司" href="http://jobs.51job.com/all/co3557433.html">广州点球体育科技有限公司</a></span>
+                        <span class="t3">广州-花都区</span>
+                        <span class="t4">0.8-1万/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="86686518" jt="0" />
+                            <span>
+                                <a target="_blank" title="金融管培生（培训+双休）" href="http://jobs.51job.com/guangzhou-thq/86686518.html?s=01&t=0" onmousedown="">
+                                    金融管培生（培训+双休）                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州睿禾智企业管理服务有限公司" href="http://jobs.51job.com/all/co4227898.html">广州睿禾智企业管理服务有限公司</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">6-8千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="85278179" jt="0" />
+                            <span>
+                                <a target="_blank" title="金融实习生（底薪5000+佣金+奖金）" href="http://jobs.51job.com/guangzhou-thq/85278179.html?s=01&t=0" onmousedown="">
+                                    金融实习生（底薪5000+佣金+奖金）                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州市壬泰实业投资有限责任公司" href="http://jobs.51job.com/all/co4226042.html">广州市壬泰实业投资有限责任公司</a></span>
+                        <span class="t3">广州-天河区</span>
+                        <span class="t4">0.6-1.2万/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89068994" jt="0" />
+                            <span>
+                                <a target="_blank" title="急聘小学初中高中数学老师" href="http://jobs.51job.com/guangzhou-byq/89068994.html?s=01&t=0" onmousedown="">
+                                    急聘小学初中高中数学老师                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="佛山市卓才智上科技有限公司" href="http://jobs.51job.com/all/co4230178.html">佛山市卓才智上科技有限公司</a></span>
+                        <span class="t3">广州-白云区</span>
+                        <span class="t4">8-10万/年</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="89068986" jt="0" />
+                            <span>
+                                <a target="_blank" title="品控专员 QC专员（服装）" href="http://jobs.51job.com/guangzhou-zc/89068986.html?s=01&t=0" onmousedown="">
+                                    品控专员 QC专员（服装）                                </a>
+                                                            </span>
+                        </p>
+                        <span class="t2"><a target="_blank" title="广州银创服饰有限公司" href="http://jobs.51job.com/all/co3640949.html">广州银创服饰有限公司</a></span>
+                        <span class="t3">广州-增城</span>
+                        <span class="t4">6-8千/月</span>
+                        <span class="t5">05-07</span>
+                    </div>
+                                            <div class="dw_tlc">
+            <input type="hidden" value="" id="advice_email"/>
+            <div class="chall">
+                <input class="checkbox" type="checkbox" id="bottom_select_all_jobs_checkbox" name="select_all" value="" onclick="selectAllJobs(this);"/>
+                全选
+            </div>
+            <div class="op">
+                <span onclick="delivery('delivery_jobid', '2', 'http://my.51job.com', 'c', 'http://search.51job.com', '01', '01', 'http://img04.51jobcdn.com');" class="but_sq"><i class="dicon Dm"></i>申请职位</span><span onclick="saveCollection('');" class="but_sc"><i class="dicon Dm"></i>收藏职位</span>
+            </div>
+
+            <div class="sbox">
+                <form name="excludeForm" method="post" action="">
+                    <p class="ipt"><input class="mytxt" type="text" placeholder="输入排除关键字" name="keyword" maxlength="100" value="" /></p>
+                    <input type="image" class="list_tab_search_btn" value="确定" src="http://img06.51jobcdn.com/im/jobs/confirm.png" />
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--列表表格 END-->
+
+    <!--分页-->
+                
+                    
+                <div class="dw_page">
+                                <div class="p_box">
+                                    <div class="p_wp">
+                                        <div class="p_in">
+                                            <ul><li class="bk"><span>上一页</span></li><li class="on">1</li><li><a href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,2.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">2</a></li><li><a href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,3.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">3</a></li><li><a href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,4.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">4</a></li><li><a href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,5.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">5</a></li><li><a href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,6.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">6</a></li><li class="bk"><a href="http://search.51job.com/list/030200,000000,0000,00,9,99,%2B,2,2.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=">下一页</a></li></ul><span class="td">共2000页，到第</span><input id="jump_page" class="mytxt" type="text" value="1"/><span class="td">页</span><span class="og_but" onclick="jumpPage('2000');">确定</span></div></div></div></div>    <!--分页 END-->
+
+    <a href="#top" id="goTop">回到<br>顶部</a>
+    <a href="http://i.51job.com/userset/advice.php?from=search" target="_blank"  class="dw_fb">意见反馈</a>
+
+    <!-- BANNER 广告 -->
+    <div class="mainleft s_search search_btm0">
+        <table border=0 cellspacing=0 cellpadding=4><tr>
+	<td><a adid="24257255" onmousedown="return AdsClick(24257255)" href="http://companyadc.51job.com/companyads/2017vip/gz/51jobsy0428a_7069wh/index.htm" title="前程无忧 51job.com（广州）" target="_blank" onfocus="blur()"><img src="http://img05.51jobcdn.com/im/images/2015/gz/51gz0424a_8889wh.gif" border="0" width="150" height="60"></a></td>
+	<td><a adid="23991927" onmousedown="return AdsClick(23991927)" href="http://companyadc.51job.com/companyads/2017/sh/ku0411_7329wh/index.htm" title="上海星峰工贸有限公司" target="_blank" onfocus="blur()"><img src="http://img05.51jobcdn.com/im/images/2017/sh/xing0412a_7235wh.gif" border="0" width="150" height="60"></a></td>
+	<td><a adid="24125555" onmousedown="return AdsClick(24125555)" href="http://companyadc.51job.com/companyads/2017vip/nj/jiangcheng0420_7147wh/index.htm" title="南京江城工程项目管理有限公司" target="_blank" onfocus="blur()"><img src="http://img05.51jobcdn.com/im/images/2017/nj/jiangcheng0420b_7147wh.gif" border="0" width="150" height="60"></a></td>
+	<td><a adid="23919392" onmousedown="return AdsClick(23919392)" href="http://companyadc.51job.com/companyads/2017/sh/maidanglao0407b_7235wh/index.htm" title="上海麦当劳食品有限公司" target="_blank" onfocus="blur()"><img src="http://img05.51jobcdn.com/im/images/2017/sh/maidanglao0407c_7235wh.gif" border="0" width="150" height="60"></a></td>
+	<td><a adid="24255825" onmousedown="return AdsClick(24255825)" href="http://companyadc.51job.com/companyads/2017/wuh/yinglun0428_7069wh/index.htm" title="武汉英伦美家设计工程有限公司" target="_blank" onfocus="blur()"><img src="http://img05.51jobcdn.com/im/images/2017/bj/yinglun0428cc_7069wh.gif" border="0" width="150" height="60"></a></td>
+	<td><a adid="24139310" onmousedown="return AdsClick(24139310)" href="http://companyadc.51job.com/companyads/2017/sh/shachi0424_7343wh/index.htm" title="上海沙驰服饰有限公司" target="_blank" onfocus="blur()"><img src="http://img05.51jobcdn.com/im/images/2017/sh/shachi0425_7343wh.gif" border="0" width="150" height="60"></a></td>
+</tr>
+</table>    </div>
+    <!-- 广告 end -->
+
+    <div class="tResult_bottom_roll  tResult_bottom_roll_w ">
+        <div class="rollBox" style="border-bottom:#dfdfdf 1px solid; margin-bottom:10px;">
+            <style type="text/css">
+ul {
+	margin: 0px;
+	padding: 0px;
+	clear:both;
+}
+#announcement {
+	width:auto;
+}
+#announcement div {
+	padding:0px 5px 0px 5px;
+	overflow-y:hidden;
+	line-height: 30px;
+	height: 30px;
+}
+#announcement li {
+	font-size: 14px;
+	float: left;
+	list-style-type: none;
+	margin-right: 11px;
+	margin-left: -5px;
+	white-space: nowrap;
+}
+#announcement a {
+	text-decoration: none;
+	color:#666;
+}
+#announcement a:hover {
+	text-decoration:none;
+    color:#ff7300;
+}
+.st_one{
+	margin-left:-22px;
+
+}
+</style>
+
+<div  id="announcement">
+<div  id="announcementbody">
+ <ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/beijing">北京招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/baotou">包头招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/shijiazhuang">石家庄招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/tianjin">天津招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/taiyuan">太原招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/huhhot">呼和浩特招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/baoding">保定招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/langfang">廊坊招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/qinhuangdao">秦皇岛招聘</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/tangshan">唐山招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/changchun">长春招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/dalian">大连招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/shenyang">沈阳招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/harbin">哈尔滨招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/jilin">吉林招聘</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/nanjing">南京招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/nanchang">南昌招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/ningbo">宁波招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/nantong">南通招聘</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/changzhou">常州招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/qingdao">青岛招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/quanzhou">泉州招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/shanghai">上海招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/suzhou">苏州招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/shaoxing">绍兴招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/fuzhou">福州招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/tz">台州招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/wuxi">无锡招聘</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/changzhou">常州招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/wenzhou">温州招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/hangzhou">杭州招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/hefei">合肥招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/xiamen">厦门招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/xuzhou">徐州招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/jinan">济南招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/jiaxing">嘉兴招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/jinhua">金华招聘</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/yantai">烟台招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/yangzhou">扬州招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/kunshan">昆山招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/changshu">常熟招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/zhangjiagang">张家港招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/yancheng">盐城招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/lianyungang">连云港招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/huaian">淮安招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/taizhou">泰州招聘</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/zhangzhou">漳州招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/zhenjiang">镇江招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/linyi">临沂招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/wuhu">芜湖招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/weifang">潍坊招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/weihai">威海招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/huzhou">湖州招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/yiwu">义乌招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/zibo">淄博招聘</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/jining">济宁招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/nanning">南宁招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/changsha">长沙招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/dongguan">东莞招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/sanya">三亚招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/shenzhen">深圳招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/guangzhou">广州招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/wuhan">武汉招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/zhengzhou">郑州招聘</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/zhongshan">中山招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/zhuhai">珠海招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/haikou">海口招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/foshan">佛山招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/huizhou">惠州招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/jiangmen">江门招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/shantou">汕头招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/zhanjiang">湛江招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/qingyuan">清远招聘</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/luoyang">洛阳招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/yichang">宜昌招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/xiangyang">襄阳招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/jingzhou">荆州招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/zhuzhou">株洲招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/hengyang">衡阳招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/xiangtan">湘潭招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/changde">常德招聘</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/chengdu">成都招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/chongqing">重庆招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/guiyang">贵阳招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/kunming">昆明招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/mianyang">绵阳招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/urumqi">乌鲁木齐招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/xian">西安招聘</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/lanzhou">兰州招聘</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/beijing">北京人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/baotou">包头人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/shijiazhuang">石家庄人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/tianjin">天津人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/taiyuan">太原人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/huhhot">呼和浩特人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/baoding">保定人才网</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/langfang">廊坊人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/qinhuangdao">秦皇岛人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/tangshan">唐山人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/changchun">长春人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/dalian">大连人才网</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/shenyang">沈阳人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/harbin">哈尔滨人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/jilin">吉林人才网</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/nanjing">南京人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/nanchang">南昌人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/ningbo">宁波人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/nantong">南通人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/changzhou">常州人才网</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/qingdao">青岛人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/quanzhou">泉州人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/shanghai">上海人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/suzhou">苏州人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/shaoxing">绍兴人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/fuzhou">福州人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/tz">台州人才网</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/wuxi">无锡人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/changzhou">常州人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/wenzhou">温州人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/hangzhou">杭州人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/hefei">合肥人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/xiamen">厦门人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/xuzhou">徐州人才网</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/jinan">济南人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/jiaxing">嘉兴人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/jinhua">金华人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/yantai">烟台人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/yangzhou">扬州人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/kunshan">昆山人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/changshu">常熟人才网</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/zhangjiagang">张家港人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/yancheng">盐城人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/lianyungang">连云港人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/huaian">淮安人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/taizhou">泰州人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/zhangzhou">漳州人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/zhenjiang">镇江人才网</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/linyi">临沂人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/wuhu">芜湖人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/weifang">潍坊人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/weihai">威海人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/huzhou">湖州人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/yiwu">义乌人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/zibo">淄博人才网</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/jining">济宁人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/nanning">南宁人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/changsha">长沙人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/dongguan">东莞人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/sanya">三亚人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/shenzhen">深圳人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/guangzhou">广州人才网</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/wuhan">武汉人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/zhengzhou">郑州人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/zhongshan">中山人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/zhuhai">珠海人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/haikou">海口人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/foshan">佛山人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/huizhou">惠州人才网</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/jiangmen">江门人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/shantou">汕头人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/zhanjiang">湛江人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/qingyuan">清远人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/luoyang">洛阳人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/yichang">宜昌人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/xiangyang">襄阳人才网</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/jingzhou">荆州人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/zhuzhou">株洲人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/hengyang">衡阳人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/xiangtan">湘潭人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/changde">常德人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/chengdu">成都人才网</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li><li class="st_one"><a target="_blank" href="http://www.51job.com/chongqing">重庆人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/guiyang">贵阳人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/kunming">昆明人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/mianyang">绵阳人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/urumqi">乌鲁木齐人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/xian">西安人才网</a></li><li class="st_one"><a target="_blank" href="http://www.51job.com/lanzhou">兰州人才网</a></li></ul><ul><li style="font-weight: bold; font-size: 14px; color: rgb(102, 102, 102);">地区人才网招聘</li></ul></div>
+</div>
+
+<script src="http://js.51jobcdn.com/in/js/2009/ScrollText.js" language="javascript"></script>
+<script>
+  if(document.getElementById("announcementbody")){
+            var scrollup = new ScrollText("announcementbody",'','','',30);
+        scrollup.Amount = 1;
+    scrollup.Delay = 20;
+    scrollup.Start();
+  }
+</script>        </div>
+
+        
+<div class="rollBox">
+    <h3>个人简历模版-简历指导</h3>
+    <div class="rollBox_twoRow f14">
+        <style type="text/css">
+            .resumeGuide{
+                clear:both;
+                padding:0px;
+            }
+            .resumeGuide li{
+                float:left;
+                width:224px;
+                margin-left:0px;
+                list-style-type:none;
+                white-space: nowrap;
+            line-height:30px;            }
+            #resumeGuideTopicsBody{
+                height:52px;
+                width:auto;
+                overflow-y:hidden;
+            }
+        </style>
+        <div id="resumeGuideTopicsBody" style="height:60px;width:auto;overflow-y:hidden;">
+        </div>
+        <div id="resumeGuideTopics" style="display:none">
+            <div><ul class="resumeGuide"><li><a target="_blank" href="http://jianli.51job.com/fengmian/" title="简历封面">简历封面</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/fengmian/9795.html" title="[简历封面下载]机会">[简历封面下载]机会</a></li><li><a target="_blank" href="http://jianli.51job.com/jianlifanwen/" title="简历范文">简历范文</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/jianlifanwen/14367.html" title="图书编目加工部主管简历范文">图书编目加工部...</a></li><li><a target="_blank" href="http://jianli.51job.com/biaoge/" title="个人简历表格">个人简历表格</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/biaoge/1329.html" title="互联网开发个人简历表格">互联网开发...</a></li><li><a target="_blank" href="http://jianli.51job.com/jianliyangben/" title="简历样本">简历样本</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/jianliyangben/128.html" title="中国现当代文学简历样本">中国现当代文学...</a></li><li><a target="_blank" href="http://jianli.51job.com/gaoxiao/" title="高校简历模板">高校简历模板</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/gaoxiao/193.html" title="南昌航空大学高校简历模版">南昌航空大...</a></li><li><a target="_blank" href="http://jianli.51job.com/zhuanye/" title="专业简历模板">专业简历模板</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/zhuanye/196.html" title="冶金工程专业">冶金工程专业</a></li><li><a target="_blank" href="http://jianli.51job.com/xiaohui/" title="高校校徽下载">高校校徽下载</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/xiaohui/347.html" title="深圳大学">深圳大学</a></li><li><a target="_blank" href="http://jianli.51job.com/jianliyangben/" title="简历样本">简历样本</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/jianliyangben/126.html" title="业务员简历样本">业务员简历样本</a></li></ul></div><div><ul class="resumeGuide"><li><a target="_blank" href="http://jianli.51job.com/biaoge/" title="个人简历表格">个人简历表格</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/biaoge/1323.html" title="电子商务专业本科毕业生个人简历表格">电子商务专...</a></li><li><a target="_blank" href="http://jianli.51job.com/xiaohui/" title="高校校徽下载">高校校徽下载</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/xiaohui/346.html" title="上海理工大学">上海理工大学</a></li><li><a target="_blank" href="http://jianli.51job.com/fengmian/" title="简历封面">简历封面</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/fengmian/9801.html" title="[简历封面下载]激情">[简历封面下载]激情</a></li><li><a target="_blank" href="http://jianli.51job.com/gaoxiao/" title="高校简历模板">高校简历模板</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/gaoxiao/211.html" title="杭州师范大学高校简历模版">杭州师范大...</a></li><li><a target="_blank" href="http://jianli.51job.com/zhuanye/" title="专业简历模板">专业简历模板</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/zhuanye/187.html" title="经营管理专业">经营管理专业</a></li><li><a target="_blank" href="http://jianli.51job.com/jianliyangben/" title="简历样本">简历样本</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/jianliyangben/104.html" title="人力资源总监简历样本">人力资源总监简...</a></li><li><a target="_blank" href="http://jianli.51job.com/jianlifanwen/" title="简历范文">简历范文</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/jianlifanwen/14356.html" title="商务总监简历范文">商务总监简历范文</a></li><li><a target="_blank" href="http://jianli.51job.com/zhuanye/" title="专业简历模板">专业简历模板</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/zhuanye/192.html" title="广播电视新闻专业">广播电视新...</a></li></ul></div><div><ul class="resumeGuide"><li><a target="_blank" href="http://jianli.51job.com/biaoge/" title="个人简历表格">个人简历表格</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/biaoge/1271.html" title="应届毕业生个人简历表格">应届毕业生...</a></li><li><a target="_blank" href="http://jianli.51job.com/gaoxiao/" title="高校简历模板">高校简历模板</a><span style="color:#266EBA"> | </span><a target="_blank" href="http://jianli.51job.com/gaoxiao/128.html" title="同济大学高校简历模版">同济大学高...</a></li></ul></div>        </div>
+        <script src="http://js.51jobcdn.com/in/js/2009/NewScrollText.js" language="javascript"></script>
+        <script>
+            if(document.getElementById("resumeGuideTopics") && document.getElementById("resumeGuideTopicsBody")){
+                var newScrolltext = new NewScrollText("resumeGuideTopics","resumeGuideTopicsBody",25,10,2);
+                newScrolltext.initMarquee();
+            };
+        </script>
+        </div>
+</div>
+
+    </div>
+    <!-- getPageFormHtml start -->
+    <form name="pageForm" action="" method="post" style="display:none">
+    <input type="hidden" name="postchannel"		value="0000">
+    <input type="hidden" name="stype"			value="1">
+    <input type="hidden" name="jobarea"			value="030200,00">
+    <input type="hidden" name="district"		value="000000">
+    <input type="hidden" name="dibiaoid"		value="0">
+    <input type="hidden" name="address"			value="">
+    <input type="hidden" name="lonlat"			value="0,0">
+    <input type="hidden" name="line"			value="">
+    <input type="hidden" name="radius"			value="-1">
+    <input type="hidden" name="funtype"			value="0000">
+    <input type="hidden" name="industrytype"	value="00">
+    <input type="hidden" name="issuedate"		value="9">
+    <input type="hidden" name="keywordtype"		value="2">
+    <input type="hidden" name="keyword"			value="">
+    <input type="hidden" id="workyear" name="workyear"		value="99">
+    <input type="hidden" id="providesalary" name="providesalary"	value="99">
+    <input type="hidden" id="cotype" name="cotype"			value="99">
+    <input type="hidden" id="degreefrom" name="degreefrom"		value="99">
+    <input type="hidden" name="jobterm"			value="99">
+    <input type="hidden" name="ord_field"		value="0">
+    <input type="hidden" name="list_type"		value="0">
+    <input type="hidden" name="curr_page"		value="1">
+    <input type="hidden" name="nStart"			value="1">
+    <input type="hidden" name="ppc_num"			value="0">
+    <input type="hidden" name="ads_num"			value="0">
+    <input type="hidden" name="personnel_department_ad_num"   value="0">
+    <input type="hidden" name="jobid_list"		value="89065639~86822222~89069354~88852274~86165116~73150463~89069325~85414080~89069320~89069315~89069313~89069291~89069283~88474276~89069272~89069261~89069260~60904596~89069251~89069246~82751660~89067464~89069190~89069179~89069168~75902754~88841728~84049245~78266364~88573140~88563495~87798796~86213165~81558267~70974536~89069077~89069065~81887126~88442607~89069045~85420275~87573820~83394049~88805144~88954945~66795358~86686518~85278179~89068994~89068986~88911758~89068929~89068923~74172484~88962924~73094640~89068901~85529236~89068887~88933357~89066031~89068866~89068079~87786830~88246532~89029006~89026993~88834530~71931686~89068811~88548865~89068779~89068753~88674445~55991115~88105248~89068701~86978208~88395518~89065810~77262985~89068678~67323077~89067636~60761221~89068666~89068581~85403045~88151324~89068570~86258317~85263248~87462204~69959333~89066381~54796111~89068491~89068475~83972049~87955387~78589813~45893708~89068445~89068442~89068393~83744037~89065799~89068334~89065938~89068313~87775791~81490546~76961972~83715153~81706720~82720048~88946330~75088215~89068853~86494106~88626185~86478267~81292869~87457595~89066893~85504484~89068166~86296198~88665420~89068121~78586559~81271073~88770967~81757202~88620841~66794096~85855067~88944163~85658169~88700125~81683679~82264797~87782882~59958846~74931647~87833014~88993165~75445695~81737790~88791949~62437052~59162273~75092995~88381239~88497549~76702598~87138191~88725438~88256559~88817116~89067955~80351759~88945845~88547670~79533049~88833177~58188914~89049237~89067567~89067585~89067579~89067624~88804462~84349054~84448702~80606643~88046556~89067897~89064420~89067957~89068063~70992275~89068151~89068145~89068210~89068361~89067870~89067860~88813890~89068593~89050467~89068664~89068709~89068755~89068736~89068346~89067836~75094389~87466554~64634449">
+    <input type="hidden" name="jobid_count"		value="100000">
+    <input type="hidden" name="schTime"			value="982">
+    <input type="hidden" name="confirmdate"	value="9">
+    <input type="hidden" name="welfare"	value="">
+    <input type="hidden" name="fromType"		value="">
+    <input type="hidden" id="companysize" name="companysize"		value="99">
+    <input type="hidden" name="from"		value="">
+    <input type="hidden" id="providesalary_tmp" name="providesalary_tmp"	value="99">
+    <input type="hidden" id="cotype_tmp" name="cotype_tmp"	value="99">
+    <input type="hidden" id="workyear_tmp" name="workyear_tmp"	value="99">
+    <input type="hidden" id="degreefrom_tmp" name="degreefrom_tmp"	value="99">
+    <input type="hidden" id="companysize_tmp" name="companysize_tmp"	value="99">
+</form>
+    <!-- getPageFormHtml end -->
+    <script>
+        $(function(){//返回顶部
+            var stop='';
+            $(window).scroll(function(){
+                $('#goTop').hide();
+                stop=$(this).scrollTop();
+                if(stop>0){
+                    $('#goTop').show();
+                }else{
+                    $('#goTop').hide();
+                }
+            });
+        })
+    </script>
+</div>
+<script>
+    document.write(unescape("%3Cscript src='http://js.51jobcdn.com/in/js/2016/trace/trackData.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<div class="footer">
+    <div class="in">
+        <div class="nag">
+            <div class="e e_first">
+                <label>销售热线：</label>400-886-0051&nbsp;&nbsp;027-87810888<br>
+                <label>客服热线：</label>400-620-5100<br>
+                400-820-5100<br>
+                <label>Email：</label><a href="mailto:club@51job.com">club@51job.com</a>（个人）<br>
+                <a href="mailto:hr@51job.com">hr@51job.com</a>（公司）            </div>
+            <div class="e">
+                <strong>简介</strong><br>
+                <a href="http://www.51job.com/bo/AboutUs.php" target="_blank">关于我们</a><br>
+                <a href="http://www.51job.com/bo/service.php" target="_blank">服务声明</a><br>
+                <a href="http://www.51job.com/bo/media/media.php" target="_blank">媒体报道</a><br>
+                <a href="http://ir.51job.com" target="_blank">Investor Relations</a>
+            </div>
+            <div class="e">
+                <strong>合作</strong><br>
+                <a href="http://www.51job.com/bo/jobs/new_joinus.php" target="_blank">加入我们</a><br>
+                <a href="http://www.51job.com/bo/contact.php" target="_blank">联系我们</a><br>
+                <a href="http://www.51job.com/link.php" target="_blank">友情链接</a>
+            </div>
+            <div class="e">
+                <strong>帮助</strong><br>
+                <a href="http://www.51job.com/help/help.htm" target="_blank">帮助中心</a><br>
+                <a href="http://www.51job.com/help/help.htm" target="_blank">常见问题</a><br>
+                <a href="http://www.51job.com/help/help.htm" target="_blank">新手引导</a>
+            </div>
+            <div class="e">
+                <strong>导航</strong><br>
+                <a href="http://www.51job.com/bo/sitemap.php" target="_blank">网站地图</a><br>
+                <a href="http://search.51job.com/jobsearch/search_result.php" target="_blank">职位搜索</a><br>
+                <a href="http://i.51job.com/resume/resume_center.php?lang=c" target="_blank">简历中心</a>
+            </div>
+            <div class="code c_first">
+                <img width="80" height="80" src="http://img01.51jobcdn.com/im/2016/code/app_download.png" alt="APP下载">
+                <span><a href="http://www.51job.com/pm/app/index.html">APP下载</a></span>
+            </div>
+            <div class="code">
+                <img width="80" height="80" src="http://img01.51jobcdn.com/im/2016/code/weixin.png" alt="官方微信">
+                <span>官方微信</span>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <p class="note nag">
+    <span>未经51Job同意，不得转载本网站之所有招聘信息及作品 | 无忧工作网版权所有&copy;1999-2017</span>
+    
+</p>         
+    </div>
+</div>
+</body>
+</html>
