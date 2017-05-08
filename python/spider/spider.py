@@ -28,7 +28,7 @@ class spider(object):
         #city: 深圳
         self.city = "深圳"
         self.url = r'http://www.lagou.com/jobs/positionAjax.json?city=' + parse.quote(self.city)
-
+        self.search_type = "DIRECT"
         #excel init
         self.excel = 'job.xls'
         self.res = {
@@ -75,7 +75,7 @@ class spider(object):
         type = ''
         return url, para, type
 
-    def get_job(self, page):
+    def get_job(self, _page, _type):
         pass
 
     def http_get_header(self, url=None):
@@ -86,22 +86,25 @@ class spider(object):
             resp_headers, content = h.request(url, "GET")
             return resp_headers
 
-    def get_page(self, _url=None, _type="GET", _para=None):
+    def get_page(self, _url=None, _type="GET",  _header=None):
         if _url == None:
             return None
         else:
-            httplib2.debuglevel = 1
+            httplib2.debuglevel = 0
             h = httplib2.Http(".cache")
-            if _para == None:
-                response, content = h.request(_url, _type)
+            if _header == None:
+                response, content = h.request(uri=_url, method=_type)
             else:
-                response, content = h.request(_url, _type, urlencode(_para))
-            '''print(len(content))
+                response, content = h.request(uri=_url, method=_type, headers=_header)
+            '''
+            print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
+            print(len(content))
             print(response.status)
             print(response.fromcache)
-            print(response)'''
-            soup = Bs(content, "lxml")
-            return soup
+            print(response)
+            print(content)
+            print("################################")'''
+            return content
 
     def to_city(self, var_str, type):
         if isinstance(var_str, str):
@@ -162,14 +165,9 @@ class spider(object):
 
     def get_jobs(self, skeyword=None, scity=None):
         for idx in range(0,self.max_pn):
-            url, para, type = self.set_url_info(_pn=idx, _keyword=skeyword, _city=scity)
-            print(url)
-            print(para)
-            print(type)
-            page = self.get_page(_url=url, _para=para, _type=type)
-            print("*************************************************")
-            print(page)
-            self.get_job(page)
+            url, header, type = self.set_url_info(_pn=idx, _keyword=skeyword, _city=scity)
+            page = self.get_page(_url=url, _header=header, _type=type)
+            self.get_job(_page=page, _type=self.search_type)
 
     def save2excel(self, jsData, excel=None):
         if excel == None:

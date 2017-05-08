@@ -65,9 +65,9 @@ class job51(spider):
         #return _url, para, 'POST'
         return u, '', 'GET'
 
-    def get_job(self, page):
+    def get_job(self, _page, _type):
         __cityname = self.to_city(self.city, "FULL")
-        for a in page.find_all('a'):
+        for a in _page.find_all('a'):
             aList = a.attrs
             if 'href' in aList.keys():
                 if "http://jobs.51job.com/" + __cityname in (a['href']):
@@ -78,12 +78,8 @@ class job51(spider):
                         ('t', '0'),
                     ])
                     u = url + '?' + data
-                    '''self.headers = self.get_header(url)
-                    print(self.headers)
-                    req = request.Request(u, headers=self.headers)
-                    page1 =request.urlopen(req).read()'''
-                    #page1 = self.get_page(_url=u)
-                    #print(page1)
+                    page1 = self.get_page(_url=u)
+                    print(page1)
                     break
             #if 'href' in a.attrs():
             #    print(a['href'])

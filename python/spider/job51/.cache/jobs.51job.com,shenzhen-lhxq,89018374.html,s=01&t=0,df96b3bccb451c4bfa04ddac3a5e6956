@@ -1,12 +1,12 @@
 status: 200
--content-encoding: gzip
-set-cookie: guid=14941268932537100041; expires=Tue, 16-Mar-2027 03:14:53 GMT; path=/; domain=.51job.com
-content-location: http://jobs.51job.com/shenzhen-lhxq/89018374.html?s=01&t=0
-content-length: 64722
-date: Sun, 07 May 2017 03:14:53 GMT
-content-type: text/html
+date: Sun, 07 May 2017 03:58:40 GMT
 server: Apache
+content-length: 64720
+content-location: http://jobs.51job.com/shenzhen-lhxq/89018374.html?s=01&t=0
+set-cookie: guid=14941295206914540088; expires=Tue, 16-Mar-2027 03:58:40 GMT; path=/; domain=.51job.com
 cache-control: private
+content-type: text/html
+-content-encoding: gzip
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -343,7 +343,7 @@ var index = Math.floor(Math.random()*2+1);var ad = ads[index];if(ad){document.ge
 				民营公司    		    			&nbsp;&nbsp;|&nbsp;&nbsp;50-150人    		    		    			&nbsp;&nbsp;|&nbsp;&nbsp;医疗设备/器械,计算机服务(系统、数据服务、维修)    					</p>
 		</div>					
 		<div class="op">
-			<a class="but_sq" id="app_ck" href="javascript:void(0);" onclick="delivery('hidJobID','1','http://my.51job.com/','c','','01','01','http://img06.51jobcdn.com/');return false;"><img width="22" height="22" src="http://img06.51jobcdn.com/im/jobs/but_img_sq.png" alt="" />申请职位</a>
+			<a class="but_sq" id="app_ck" href="javascript:void(0);" onclick="delivery('hidJobID','1','http://my.51job.com/','c','','01','01','http://img04.51jobcdn.com/');return false;"><img width="22" height="22" src="http://img04.51jobcdn.com/im/jobs/but_img_sq.png" alt="" />申请职位</a>
 			<a class="icon_b i_collect" href="javascript:void(0);" onclick="saveCollection('89018374');return false;">收藏</a><a class="icon_b i_upline" href="javascript:void(0);"  onclick="GetCompetition(89018374,0,'http://my.51job.com/',1,1 );return false;">比比你的竞争力</a>
 		</div>
 		<div class="clear"></div>
@@ -425,7 +425,7 @@ var index = Math.floor(Math.random()*2+1);var ad = ads[index];if(ad){document.ge
 													<a class="op icon_b i_reflash" href="javascript:;"  id="changeRecommend" >换一换</a>
 											</h2>
 					<div class="rjlist" id="job_recommend">
-						<input value="BmVTMF87VTcAZABjUHkFNQgyVTZWYFV9ATcHOA1pUjQGKVQ7VThSMAlsVD8Nawg%2FDDMHKFZl" name="frompara" id="frompara" type="hidden" >
+						<input value="AGNfPANnUzEEYFEyVXxUZA40BWYHMVtzATdTbFczUzVWeVM8UD0FZwRhUDsMagE2XGMFKlZl" name="frompara" id="frompara" type="hidden" >
 <div class="e">
 	<a class="name" target="_blank" href="http://jobs.51job.com/shenzhen-lhxq/76358439.html?t=2&s=01" title="VC C#高级软件工程师 (职位编号：6)">VC C#高级软件工程师 (职位编号：6)</a><strong>1-1.5万/月</strong>
 	<a target="_blank" href="http://jobs.51job.com/shenzhen-lhxq/co3334090.html" title="深圳宇维斯科技有限公司">深圳宇维斯科技有限公司</a><span>深圳-龙华新区</span>

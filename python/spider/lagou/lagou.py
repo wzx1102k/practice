@@ -31,34 +31,39 @@ class lagou(spider):
             self._db.create('job.sql')
         #excel init
 
-    def get_page(self, headers=None, url=None, pn=None, keyword=None, city=None):
-        if headers == None:
-            headers = self.headers
-        if url == None:
-            if city !=None:
-                self.city = city
-                self.url = r'http://www.lagou.com/jobs/positionAjax.json?city=' + parse.quote(city)
-            url = self.url
-        if pn == None:
-            pn = self.pn
-        if keyword == None:
-            keyword = self.keyword
-        if pn == 1:
+    def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
+        if _headers == None:
+            _headers = self.headers
+        if _url == None:
+            if _city !=None:
+                self.city = _city
+                self.url = r'http://www.lagou.com/jobs/positionAjax.json?city=' + parse.quote(_city)
+            _url = self.url
+        if _pn == None:
+            _pn = self.pn
+        if _keyword == None:
+            _keyword = self.keyword
+        if _pn == 1:
             boo = 'true'
         else:
             boo = 'false'
-        data = parse.urlencode([
+        para = parse.urlencode([
             ('first', boo),
-            ('pn', pn),
-            ('kd', keyword)
+            ('pn', _pn),
+            ('kd', _keyword)
         ])
-        req = request.Request(url, headers=headers)
-        page = request.urlopen(req, data=data.encode('utf-8')).read()
-        page = page.decode('utf-8')
-        return page
+        u = _url + '?' + para
+        print("******************************")
+        print(u)
+        print("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&")
+        print(_headers)
+        #return _url, para, 'POST'
+        return u, None, 'POST'
+        #return u, _headers, 'POST'
 
-    def get_job(self, page):
-        js = json.loads(page)
+    def get_job(self, _page, _type):
+        js = json.loads(_page.decode('utf-8'))
+        print(js)
         if js['success'] == False:
             print("获取工作数据失败！！")
             return False
