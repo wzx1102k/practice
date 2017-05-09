@@ -19,11 +19,13 @@ class lagou(spider):
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) '
                       'Chrome/45.0.2454.85 Safari/537.36 115Browser/6.0.3',
         'Host': 'www.lagou.com',
-        'Cookie': 'LGMOID=20160610174652-B505B4662B5ADF9B09C3C257938303AC; user_trace_token=20160610174654-4391abd9-2ef0-11e6-a31a-5254005c3644;',
+        'Cookie': 'user_trace_token=20160522122749-8a4d6717-1fd5-11e6-963e-5254005c3644;',
+        'Accept-Encoding': 'gzip, deflate',
+        'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6',
         'Connection': 'keep-alive',
         'Origin': 'http://www.lagou.com'
         }
-        self.url = r'http://www.lagou.com/jobs/positionAjax.json?city=' + parse.quote(self.city)
+        self.url = r'http://www.lagou.com/jobs/positionAjax.json'
         with open('config.txt', 'r') as fd:
             self.conf = json.load(fd)
             self._db = MysqlDb(self.conf['user'], self.conf['password'], self.conf['db'], self.conf['host'], int(self.conf['port'])).set_table(self.conf['table'])
@@ -32,38 +34,32 @@ class lagou(spider):
         #excel init
 
     def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
-        if _headers == None:
-            _headers = self.headers
-        if _url == None:
-            if _city !=None:
-                self.city = _city
-                self.url = r'http://www.lagou.com/jobs/positionAjax.json?city=' + parse.quote(_city)
-            _url = self.url
-        if _pn == None:
-            _pn = self.pn
-        if _keyword == None:
-            _keyword = self.keyword
-        if _pn == 1:
+        if _headers != None:
+            self.headers = _headers
+        if _city !=None:
+            self.city = _city
+        if _pn != None:
+            self.pn = _pn
+        if _keyword != None:
+            self.keyword = _keyword
+        if self.pn == 1:
             boo = 'true'
         else:
             boo = 'false'
-        para = parse.urlencode([
+        _body = parse.urlencode([
             ('first', boo),
-            ('pn', _pn),
-            ('kd', _keyword)
+            ('pn', self.pn),
+            ('kd', self.keyword),
+            ('city', self.city)
         ])
-        u = _url + '?' + para
-        print("******************************")
-        print(u)
-        print("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&")
-        print(_headers)
-        #return _url, para, 'POST'
-        return u, None, 'POST'
-        #return u, _headers, 'POST'
+        _url = r'http://www.lagou.com/jobs/positionAjax.json'
+        u = _url + '?' + _body
+        print(_body)
+        _body = ''
+        return u, _body, _headers, 'POST'
 
     def get_job(self, _page, _type):
         js = json.loads(_page.decode('utf-8'))
-        print(js)
         if js['success'] == False:
             print("获取工作数据失败！！")
             return False
