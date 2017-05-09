@@ -71,9 +71,10 @@ class spider(object):
 
     def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
         url = ''
-        para = ''
+        body = ''
+        header = ''
         type = ''
-        return url, para, type
+        return url, body, header, type
 
     def get_job(self, _page, _type):
         pass
@@ -86,16 +87,16 @@ class spider(object):
             resp_headers, content = h.request(url, "GET")
             return resp_headers
 
-    def get_page(self, _url=None, _type="GET",  _header=None):
+    def get_page(self, _url=None, _body=None, _type="GET",  _header=None):
         if _url == None:
             return None
         else:
             httplib2.debuglevel = 0
             h = httplib2.Http(".cache")
-            if _header == None:
+            if _type == "GET":
                 response, content = h.request(uri=_url, method=_type)
             else:
-                response, content = h.request(uri=_url, method=_type, headers=_header)
+                response, content = h.request(uri=_url, method=_type, body=_body, headers=_header)
             '''
             print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
             print(len(content))
@@ -165,8 +166,8 @@ class spider(object):
 
     def get_jobs(self, skeyword=None, scity=None):
         for idx in range(0,self.max_pn):
-            url, header, type = self.set_url_info(_pn=idx, _keyword=skeyword, _city=scity)
-            page = self.get_page(_url=url, _header=header, _type=type)
+            url, body, header, type = self.set_url_info(_pn=idx, _keyword=skeyword, _city=scity)
+            page = self.get_page(_url=url, _body=body, _header=header, _type=type)
             self.get_job(_page=page, _type=self.search_type)
 
     def save2excel(self, jsData, excel=None):

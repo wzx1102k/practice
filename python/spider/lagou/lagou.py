@@ -19,9 +19,7 @@ class lagou(spider):
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) '
                       'Chrome/45.0.2454.85 Safari/537.36 115Browser/6.0.3',
         'Host': 'www.lagou.com',
-        'Cookie': 'user_trace_token=20160522122749-8a4d6717-1fd5-11e6-963e-5254005c3644;',
-        'Accept-Encoding': 'gzip, deflate',
-        'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6',
+        'Cookie': 'user_trace_token=20160610174654-4391abd9-2ef0-11e6-a31a-5254005c3644;',
         'Connection': 'keep-alive',
         'Origin': 'http://www.lagou.com'
         }
@@ -54,15 +52,15 @@ class lagou(spider):
         ])
         _url = r'http://www.lagou.com/jobs/positionAjax.json'
         u = _url + '?' + _body
-        print(_body)
-        _body = ''
-        return u, _body, _headers, 'POST'
+        return u, _body, self.headers, 'POST'
 
     def get_job(self, _page, _type):
         js = json.loads(_page.decode('utf-8'))
         if js['success'] == False:
             print("获取工作数据失败！！")
             return False
+        if js['content']['positionResult']['result'] == []:
+            return
         for item in js['content']['positionResult']['result']:
             item['job_url'] = 'https://www.lagou.com/jobs/'+str(item['positionId'])+'.html'
             self.save2excel(item)
