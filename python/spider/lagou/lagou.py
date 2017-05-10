@@ -40,6 +40,8 @@ class lagou(spider):
             self.pn = _pn
         if _keyword != None:
             self.keyword = _keyword
+        if _url != None:
+            self.url = _url
         if self.pn == 1:
             boo = 'true'
         else:
@@ -50,9 +52,8 @@ class lagou(spider):
             ('kd', self.keyword),
             ('city', self.city)
         ])
-        _url = r'http://www.lagou.com/jobs/positionAjax.json'
-        u = _url + '?' + _body
-        return u, _body, self.headers, 'POST'
+        _url = self.url + '?' + _body
+        return _url, _body, self.headers, 'POST'
 
     def get_job(self, _page, _type):
         js = json.loads(_page.decode('utf-8'))

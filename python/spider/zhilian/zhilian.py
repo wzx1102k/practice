@@ -22,34 +22,29 @@ class zhilian(spider):
         }
         self.url = r'http://sou.zhaopin.com/jobs/searchresult.ashx'
 
-    def get_page(self, headers=None, url=None, pn=None, keyword=None, city=None):
-        if headers == None:
-            headers = self.headers
-        if pn == None:
-            pn = self.pn
-        if keyword == None:
-            keyword = self.keyword
-        if city == None:
-            city = self.city
-        if url == None:
-            url = self.url
-        if pn == 1:
-            boo = 'true'
-        else:
-            boo = 'false'
-        data = parse.urlencode([
-            ('jl', city),
-            ('kw', keyword),
-            ('p', pn)
-        ])
-        #post
-        u = url + '?' + data
-        req = request.Request(u)
-        page = request.urlopen(req).read()
-        return page
+    def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
+        if _headers != None:
+            self.headers = _headers
+        if _city !=None:
+            self.city = _city
+        if _pn != None:
+            self.pn = _pn
+        if _keyword != None:
+            self.keyword = _keyword
+        if _url != None:
+            self.url = _url
 
-    def get_job(self, page):
-        soup = Bs(page, "lxml")
+        _body = parse.urlencode([
+            ('jl', self.city),
+            ('kw', self.keyword),
+            ('p', self.pn)
+        ])
+
+        _u = self.url + '?' + _body
+        return _u, _body, self.headers, 'GET'
+
+    def get_job(self, _page, _type):
+        soup = Bs(_page, "lxml")
         info = []
         for td in soup.find_all('td'):
             tdList = td.attrs

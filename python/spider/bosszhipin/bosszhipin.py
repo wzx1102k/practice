@@ -26,23 +26,18 @@ class bosszhipin(spider):
         }
         self.url = r'https://www.zhipin.com/job_detail/'
 
-    def get_page(self, headers=None, url=None, pn=None, keyword=None, city=None):
-        if headers == None:
-            headers = self.headers
-        if pn == None:
-            pn = self.pn
-        if keyword == None:
-            keyword = self.keyword
-        if city == None:
-            city = self.city
-        else:
-            self.city = city
-        if url == None:
-            url = self.url
-        if pn == 1:
-            boo = 'true'
-        else:
-            boo = 'false'
+    def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
+        if _headers != None:
+            self.headers = _headers
+        if _city !=None:
+            self.city = _city
+        if _pn != None:
+            self.pn = _pn
+        if _keyword != None:
+            self.keyword = _keyword
+        if _url != None:
+            self.url = _url
+
         citycode = {
             "深圳": "101280600",
             "上海": "101020100",
@@ -50,22 +45,21 @@ class bosszhipin(spider):
             "广州": "101280100",
             "杭州": "101210100"
         }
-        if city not in citycode.keys():
+        if self.city not in citycode.keys():
             print("Select city is not support, change to 深圳")
-            city = "深圳"
-        data = parse.urlencode([
-            ('scity', citycode[city]),
-            ('query', keyword),
-            ('page', pn)
-        ])
-        #post
-        u = url + '?' + data
-        req = request.Request(u)
-        page = request.urlopen(req).read()
-        return page
+            self.city = "深圳"
 
-    def get_job(self, page):
-        soup = Bs(page, "lxml")
+        _body = parse.urlencode([
+            ('scity', citycode[self.city]),
+            ('query', self.keyword),
+            ('page', self.pn)
+        ])
+
+        _u = self.url + '?' + _body
+        return _u, _body, self.headers, 'GET'
+
+    def get_job(self, _page, _type):
+        soup = Bs(_page, "lxml")
         for li in soup.find_all('li'):
             info = []
             h3 = li.find('h3', {"class": "name"})
@@ -104,18 +98,6 @@ class bosszhipin(spider):
                     splitString1 = ''
                 info.append(splitString1)
             self.translate_simple(info)
-
-    def to_city(self, var_str):
-        if isinstance(var_str, str):
-            if var_str == 'None':
-                return ''
-            else:
-                stringHead = ''
-                for single in var_str:
-                    stringHead += pinyin.get(single, format='strip', delimiter="")[0]
-                return stringHead
-        else:
-            return ''
 
     def translate_simple(self, jsData):
         infoList = jsData

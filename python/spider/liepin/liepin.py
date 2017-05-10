@@ -26,37 +26,30 @@ class liepin(spider):
         }
         self.url = r'https://www.liepin.com/sz/zhaopin/'
 
-    def get_page(self, headers=None, url=None, pn=None, keyword=None, city=None):
-        if headers == None:
-            headers = self.headers
-        if pn == None:
-            pn = self.pn
-        if keyword == None:
-            keyword = self.keyword
-        if city == None:
-            city = self.city
-        else:
-            self.city = city
-            cityHeader = self.to_city(city, "HEAD")
+    def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
+        if _headers != None:
+            self.headers = _headers
+        if _city !=None:
+            self.city = _city
+            cityHeader = self.to_city(self.city, "HEAD")
             self.url = r'https://www.liepin.com/' + cityHeader + r'/zhaopin/'
-        if url == None:
-            url = self.url
-        if pn == 1:
-            boo = 'true'
-        else:
-            boo = 'false'
-        data = parse.urlencode([
-            ('key', keyword),
-            ('curPage', pn)
-        ])
-        #post
-        u = url + '?' + data
-        req = request.Request(u)
-        page = request.urlopen(req).read()
-        return page
+        if _pn != None:
+            self.pn = _pn
+        if _keyword != None:
+            self.keyword = _keyword
+        if _url != None:
+            self.url = _url
 
-    def get_job(self, page):
-        soup = Bs(page, "lxml")
+        _body = parse.urlencode([
+            ('key', self.keyword),
+            ('curPage', self.pn)
+        ])
+
+        _u = self.url + '?' + _body
+        return _u, _body, self.headers, 'GET'
+
+    def get_job(self, _page, _type):
+        soup = Bs(_page, "lxml")
         for li in soup.find_all('li'):
             info = []
             span = li.find('span', {"class": "job-name"})
