@@ -70,11 +70,9 @@ class spider(object):
         self.workbook.save(self.excel)
 
     def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
-        url = ''
-        body = ''
-        header = ''
-        type = ''
-        return url, body, header, type
+        _body = ''
+        _type = ''
+        return _url, _body, _headers, _type
 
     def get_job(self, _page, _type):
         pass

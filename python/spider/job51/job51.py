@@ -17,7 +17,7 @@ class job51(spider):
     def __init__(self):
         super(job51, self).__init__()
         self.pn = 0
-        self.max_pn = 1
+        self.max_pn = 5
         #self.max_pn = 1
         self.headers = {
             'Server': 'Apache',
@@ -28,18 +28,16 @@ class job51(spider):
         self.url = r'http://search.51job.com/jobsearch/search_result.php'
 
     def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
-        if _headers == None:
-            _headers = self.headers
-        if _pn == None:
-            _pn = self.pn
-        if _keyword == None:
-            _keyword = self.keyword
-        if _city == None:
-            _city = self.city
-        else:
-            self.city = _city
-        if _url == None:
-            _url = self.url
+        if _headers != None:
+            self.headers = _headers
+        if _pn != None:
+            self.pn = _pn
+        if _keyword != None:
+            self.keyword = _keyword
+        if _city != None:
+            self.city
+        if _url != None:
+            self.url = _url
         citycode = {
             "深圳": "040000",
             "上海": "020000",
@@ -47,78 +45,49 @@ class job51(spider):
             "广州": "030200",
             "杭州": "080200"
         }
-        if _city not in citycode.keys():
+        if self.city not in citycode.keys():
             print("Select city is not support, change to 深圳")
-            _city = "深圳"
-        para = parse.urlencode([
-            ('fromJs', 1),
-            ('jobarea', citycode[_city]),
-            ('keyword', _keyword),
-            ('keywordtype', 2),
-            ('lang', 'c'),
-            ('stype', 2),
-            ('postchannel', '0000'),
-            ('fromType', '1'),
-            ('startpage', _pn),
+            self.city = "深圳"
+        _body = parse.urlencode([
+            ('jobarea', citycode[self.city]),
+            ('keyword', self.keyword),
+            ('startpage', self.pn),
         ])
-        u = _url + '?' + para
-        #return _url, para, 'POST'
-        return u, '', 'GET'
+        u = self.url + '?' + _body
+        return u, _body, self.headers, 'GET'
 
     def get_job(self, _page, _type):
+        soup = Bs(_page, "lxml")
         __cityname = self.to_city(self.city, "FULL")
-        for a in _page.find_all('a'):
+        for a in soup.find_all('a'):
             aList = a.attrs
             if 'href' in aList.keys():
-                if "http://jobs.51job.com/" + __cityname in (a['href']):
+                if "http://m.51job.com/search/jobdetail.php" in (a['href']):
+                    self.job['job_url'] = a['href']
                     print(a['href'])
-                    url = r'http://jobs.51job.com/shenzhen-lhxq/89018374.html'
                     data = parse.urlencode([
                         ('s', '01'),
                         ('t', '0'),
                     ])
-                    u = url + '?' + data
-                    page1 = self.get_page(_url=u)
-                    print(page1)
-                    break
-            #if 'href' in a.attrs():
-            #    print(a['href'])
-
-        '''
-        for li in soup.find_all('li'):
-            info = []
-            span = li.find('span', {"class": "job-name"})
-            if span == None:
-                continue
-            a = span.find('a')
-            if a != None:
-                info.append(a['href'])
-            else:
-                continue
-            info.append(span.span.string)
-            p = li.find('p', {"class": "company-name"})
-            a = p.find('a')
-            info.append(a.string.split(' ')[-1])
-            p = li.find('p', {"class": "condition clearfix"})
-            for element in p.find_all('span'):
-                info.append(element.string)
-            self.translate_simple(info)'''
-
-    def translate_simple(self, jsData):
-        infoList = jsData
-        self.job['job_url'] = infoList[0]
-        self.job['positionName'] = infoList[1]
-        self.job['companyFullName'] = infoList[2]
-        self.job['companySize'] = None
-        self.job['workYear'] = infoList[6]
-        self.job['education'] = infoList[5]
-        self.job['salary'] = infoList[3]
-        if (self.job['positionName'] != None):
-            print("************************")
-            print(self.job)
-            self.save2excel(self.job)
-        infoList=[]
-        return self.job
+                    page = self.get_page(_url=self.job['job_url']+'&'+data, _type='GET')
+                    soup = Bs(page, "lxml")
+                    #print(soup)
+                    self.job['positionName'] = soup.find('p', {"class": "xtit"}).string
+                    self.job['companyFullName'] = soup.find('a', {"class": "xqa"}).string
+                    t = soup.find_all('label')
+                    self.job['financeStage'] = self.split_str(t[0], '</span>', '</label>', eStart=0, eEnd=0)
+                    self.job['salary'] = self.split_str(t[2], '</span>', '</label>', eStart=0, eEnd=0)
+                    self.job['companySize'] = self.split_str(t[4], '</span>', '</label>', eStart=0, eEnd=0)
+                    tempString = self.split_str(t[5], '|', '</', eStart=0, eEnd=1).replace(' ', '')
+                    self.job['education'] = self.split_str(tempString, '', '|', eStart=1, eEnd=0)
+                    tempString = self.split_str(tempString, '|', '</', eStart=0, eEnd=0)
+                    tempString1 = self.split_str(tempString, '', '|', eStart=1, eEnd=0)
+                    if tempString1 == None:
+                        self.job['workYear'] = tempString
+                    else:
+                        self.job['workYear'] = tempString1
+                    print(self.job)
+                    self.save2excel(self.job)
 
 
 if __name__ == '__main__':
