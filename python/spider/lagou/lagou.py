@@ -24,11 +24,12 @@ class lagou(spider):
         'Origin': 'http://www.lagou.com'
         }
         self.url = r'http://www.lagou.com/jobs/positionAjax.json'
-        with open('config.txt', 'r') as fd:
+        self.excel = 'lagou.xls'
+        '''with open('config.txt', 'r') as fd:
             self.conf = json.load(fd)
             self._db = MysqlDb(self.conf['user'], self.conf['password'], self.conf['db'], self.conf['host'], int(self.conf['port'])).set_table(self.conf['table'])
             self._db.create('lagou.sql')
-            self._db.create('job.sql')
+            self._db.create('job.sql')'''
         #excel init
 
     def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
@@ -65,10 +66,11 @@ class lagou(spider):
         for item in js['content']['positionResult']['result']:
             item['job_url'] = 'https://www.lagou.com/jobs/'+str(item['positionId'])+'.html'
             self.save2excel(item)
-            if self.conf['table'] == 'simplejob':
+            print(item)
+            '''if self.conf['table'] == 'simplejob':
                 jsData = self.translate_simple(item)
                 print(jsData)
-                #self._db.insert(jsData)
+                #self._db.insert(jsData)'''
 
     def translate_simple(self, jsData):
         for item in jsData:

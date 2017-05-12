@@ -21,11 +21,15 @@ class job51(spider):
         #self.max_pn = 1
         self.headers = {
             'Server': 'Apache',
-            'Set-Cookie': 'guid=14941209152493340079; expires=Tue, 16-Mar-2027 01:35:15 GMT; path=/; domain=.51job.com; httponly',
+            'Set-Cookie': 'guid=14946128161423380040; path=/; domain=.51job.com; httponly',
             'Set-Cookie': 'usign=DTRTOQZlAipcPF01Uj9dcAMzByhVZwJhB30CYV1jAjtcYFs1AmkAMlA1WjNSN1BlAjkCNgN5VUIBNF19CnRRZQ%3D%3D; path=/; httponly',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+            'Location': 'http://m.51job.com/search/jobsearch.php',
+            'Cache-control': 'no-cache, no-store',
+            'Pragma' : 'no-cache',
             'Content-Type': 'text/html',
         }
+        self.excel = 'job51.xls'
         self.url = r'http://search.51job.com/jobsearch/search_result.php'
 
     def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
@@ -71,7 +75,11 @@ class job51(spider):
                         ('s', '01'),
                         ('t', '0'),
                     ])
-                    page = self.get_page(_url=self.job['job_url']+'&'+data, _type='GET')
+                    url = self.job['job_url']+'&'+data
+                    print(url)
+                    req = request.Request(url, headers=self.headers)
+                    page = request.urlopen(req, data=data.encode('utf-8'), timeout=10).read()
+                    #page = self.get_page(_url=self.job['job_url']+'&'+data, _type='GET')
                     soup = Bs(page, "lxml")
                     #print(soup)
                     self.job['positionName'] = soup.find('p', {"class": "xtit"}).string

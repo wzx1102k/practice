@@ -12,6 +12,7 @@ import re
 import os,sys
 import pinyin
 
+
 class spider(object):
     def __init__(self):
         self.headers = {
@@ -22,6 +23,7 @@ class spider(object):
         'Connection': 'keep-alive',
         'Origin': 'http://www.lagou.com'
         }
+        self.timeout = 60
         self.pn = 1
         self.max_pn = 30
         self.keyword = "图像"
@@ -90,7 +92,7 @@ class spider(object):
             return None
         else:
             httplib2.debuglevel = 0
-            h = httplib2.Http(".cache")
+            h = httplib2.Http(cache='.cache', timeout=self.timeout)
             if _type == "GET":
                 response, content = h.request(uri=_url, method=_type)
             else:
@@ -178,18 +180,8 @@ class spider(object):
 
 
 if __name__ == '__main__':
-    cnt = len(sys.argv)
-    if cnt == 2:
-        keyword = sys.argv[1]
-        city = None
-    elif cnt == 3:
-        keyword = sys.argv[1]
-        city = sys.argv[2]
-    else:
-        keyword = None
-        city = None
-    demoSpider = spider()
-    demoSpider.get_jobs(keyword, city)
+    pass
+
 
 
 
