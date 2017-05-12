@@ -21,7 +21,8 @@ class job51(spider):
         #self.max_pn = 1
         self.headers = {
             'Server': 'Apache',
-            'Set-Cookie': 'guid=14941209152493340079; expires=Tue, 16-Mar-2027 01:35:15 GMT; path=/; domain=.51job.com',
+            'Set-Cookie': 'guid=14941209152493340079; expires=Tue, 16-Mar-2027 01:35:15 GMT; path=/; domain=.51job.com; httponly',
+            'Set-Cookie': 'usign=DTRTOQZlAipcPF01Uj9dcAMzByhVZwJhB30CYV1jAjtcYFs1AmkAMlA1WjNSN1BlAjkCNgN5VUIBNF19CnRRZQ%3D%3D; path=/; httponly',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
             'Content-Type': 'text/html',
         }
@@ -51,6 +52,7 @@ class job51(spider):
         _body = parse.urlencode([
             ('jobarea', citycode[self.city]),
             ('keyword', self.keyword),
+            ('keywordtype', 2),
             ('startpage', self.pn),
         ])
         u = self.url + '?' + _body
@@ -64,7 +66,7 @@ class job51(spider):
             if 'href' in aList.keys():
                 if "http://m.51job.com/search/jobdetail.php" in (a['href']):
                     self.job['job_url'] = a['href']
-                    print(a['href'])
+                    #print(a['href'])
                     data = parse.urlencode([
                         ('s', '01'),
                         ('t', '0'),
@@ -75,17 +77,24 @@ class job51(spider):
                     self.job['positionName'] = soup.find('p', {"class": "xtit"}).string
                     self.job['companyFullName'] = soup.find('a', {"class": "xqa"}).string
                     t = soup.find_all('label')
-                    self.job['financeStage'] = self.split_str(t[0], '</span>', '</label>', eStart=0, eEnd=0)
-                    self.job['salary'] = self.split_str(t[2], '</span>', '</label>', eStart=0, eEnd=0)
-                    self.job['companySize'] = self.split_str(t[4], '</span>', '</label>', eStart=0, eEnd=0)
-                    tempString = self.split_str(t[5], '|', '</', eStart=0, eEnd=1).replace(' ', '')
-                    self.job['education'] = self.split_str(tempString, '', '|', eStart=1, eEnd=0)
-                    tempString = self.split_str(tempString, '|', '</', eStart=0, eEnd=0)
-                    tempString1 = self.split_str(tempString, '', '|', eStart=1, eEnd=0)
-                    if tempString1 == None:
-                        self.job['workYear'] = tempString
-                    else:
-                        self.job['workYear'] = tempString1
+                    for t_temp in t:
+                        tSingle = str(t_temp)
+                        if "性质" in tSingle:
+                            self.job['financeStage'] = self.split_str(tSingle, '</span>', '</label>', eStart=0, eEnd=0)
+                        elif "薪资" in tSingle:
+                            self.job['salary'] = self.split_str(tSingle, '</span>', '</label>', eStart=0, eEnd=0)
+                        elif "规模" in tSingle:
+                            self.job['companySize'] = self.split_str(tSingle, '</span>', '</label>', eStart=0, eEnd=0)
+                        elif "招聘" in tSingle:
+                            tempString = self.split_str(tSingle, '|', '</', eStart=0, eEnd=1).replace(' ', '')
+                            self.job['education'] = self.split_str(tempString, '', '|', eStart=1, eEnd=0)
+                            tempString = self.split_str(tempString, '|', '</', eStart=0, eEnd=0)
+                            tempString1 = self.split_str(tempString, '', '|', eStart=1, eEnd=0)
+                            if tempString1 == None:
+                                self.job['workYear'] = tempString
+                            else:
+                                self.job['workYear'] = tempString1
+                    print("*********************************************")
                     print(self.job)
                     self.save2excel(self.job)
 
