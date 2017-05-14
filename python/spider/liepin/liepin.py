@@ -10,7 +10,6 @@ import os,sys
 import pinyin
 
 sys.path.append('../')
-from db import MysqlDb
 from spider import spider
 
 class liepin(spider):

@@ -4,7 +4,6 @@ from urllib import request, parse
 from urllib.parse import urlencode
 from bs4 import BeautifulSoup as Bs
 import json
-from db import MysqlDb
 import xlwt
 import httplib2
 import datetime

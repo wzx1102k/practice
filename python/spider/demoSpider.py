@@ -2,7 +2,6 @@ from urllib import request, parse
 from urllib.parse import urlencode
 from bs4 import BeautifulSoup as Bs
 import json
-from db import MysqlDb
 import xlwt
 import xlrd
 from xlutils.copy import copy
@@ -25,7 +24,7 @@ from job51 import job51
 from liepin import liepin
 from bosszhipin import bosszhipin
 
-def mergeExcel(path):
+def mergeExcel(path, keyword):
     print("**************************************")
     print("Start to merge excel...")
     print("**************************************")
@@ -41,6 +40,7 @@ def mergeExcel(path):
     excel_cnt = 0
     for j, col in enumerate(title):
         booksheet.write(excel_cnt, j, col)
+    workbook.save('job.xls')
     for xls in list:
         if 'xls' in xls:
             rb = xlrd.open_workbook(xls, formatting_info=True)
@@ -48,12 +48,17 @@ def mergeExcel(path):
             nrows = table.nrows  # 行数
             for rownum in range(1, nrows):
                 row = table.row_values(rownum)
-                if '图像' in row[0] \
+                if keyword == "图像":
+                    if '图像' in row[0] \
                         or '算法' in row[0] \
                         or '视觉' in row[0] \
                         or '机器' in row[0] \
                         or '学习' in row[0] \
                         or '智能' in row[0]:
+                        excel_cnt += 1
+                        for j in range(0, len(title)):
+                            booksheet.write(excel_cnt, j, row[j])
+                else:
                     excel_cnt += 1
                     for j in range(0, len(title)):
                         booksheet.write(excel_cnt, j, row[j])
@@ -88,4 +93,4 @@ if __name__ == '__main__':
         liepinSpider.get_jobs(keyword, city)
         bosszhipinSpider.get_jobs(keyword, city)
         job51Spider.get_jobs(keyword, city)
-    mergeExcel("./")
+    mergeExcel("./", keyword)

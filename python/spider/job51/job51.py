@@ -3,7 +3,6 @@ from urllib import request, parse
 from bs4 import BeautifulSoup as Bs
 from socket import timeout
 import json
-#from db import MysqlDb
 import xlwt
 import datetime
 import re
@@ -11,7 +10,6 @@ import os,sys
 import pinyin
 
 sys.path.append('../')
-from db import MysqlDb
 from spider import spider
 
 class job51(spider):

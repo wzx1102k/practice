@@ -9,7 +9,6 @@ import re
 import os,sys
 
 sys.path.append('../')
-from db import MysqlDb
 from spider import spider
 
 class zhilian(spider):
