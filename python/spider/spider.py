@@ -69,7 +69,6 @@ class spider(object):
         self.excel_cnt = 0
         for j, col in enumerate(self.title):
                 self.booksheet.write(self.excel_cnt, j, col)
-        self.workbook.save(self.excel)
 
     def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
         _body = ''

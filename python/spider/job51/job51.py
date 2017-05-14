@@ -1,6 +1,7 @@
 #! -*-coding:utf-8 -*-
 from urllib import request, parse
 from bs4 import BeautifulSoup as Bs
+from socket import timeout
 import json
 #from db import MysqlDb
 import xlwt
@@ -76,35 +77,38 @@ class job51(spider):
                         ('t', '0'),
                     ])
                     url = self.job['job_url']+'&'+data
-                    print(url)
-                    req = request.Request(url, headers=self.headers)
-                    page = request.urlopen(req, data=data.encode('utf-8'), timeout=10).read()
-                    #page = self.get_page(_url=self.job['job_url']+'&'+data, _type='GET')
-                    soup = Bs(page, "lxml")
-                    #print(soup)
-                    self.job['positionName'] = soup.find('p', {"class": "xtit"}).string
-                    self.job['companyFullName'] = soup.find('a', {"class": "xqa"}).string
-                    t = soup.find_all('label')
-                    for t_temp in t:
-                        tSingle = str(t_temp)
-                        if "性质" in tSingle:
-                            self.job['financeStage'] = self.split_str(tSingle, '</span>', '</label>', eStart=0, eEnd=0)
-                        elif "薪资" in tSingle:
-                            self.job['salary'] = self.split_str(tSingle, '</span>', '</label>', eStart=0, eEnd=0)
-                        elif "规模" in tSingle:
-                            self.job['companySize'] = self.split_str(tSingle, '</span>', '</label>', eStart=0, eEnd=0)
-                        elif "招聘" in tSingle:
-                            tempString = self.split_str(tSingle, '|', '</', eStart=0, eEnd=1).replace(' ', '')
-                            self.job['education'] = self.split_str(tempString, '', '|', eStart=1, eEnd=0)
-                            tempString = self.split_str(tempString, '|', '</', eStart=0, eEnd=0)
-                            tempString1 = self.split_str(tempString, '', '|', eStart=1, eEnd=0)
-                            if tempString1 == None:
-                                self.job['workYear'] = tempString
-                            else:
-                                self.job['workYear'] = tempString1
-                    print("*********************************************")
-                    print(self.job)
-                    self.save2excel(self.job)
+                    #git print(url)
+                    try:
+                        req = request.Request(url, headers=self.headers)
+                        page = request.urlopen(req, data=data.encode('utf-8'), timeout=10).read()
+                        #page = self.get_page(_url=self.job['job_url']+'&'+data, _type='GET')
+                        soup = Bs(page, "lxml")
+                        #print(soup)
+                        self.job['positionName'] = soup.find('p', {"class": "xtit"}).string
+                        self.job['companyFullName'] = soup.find('a', {"class": "xqa"}).string
+                        t = soup.find_all('label')
+                        for t_temp in t:
+                            tSingle = str(t_temp)
+                            if "性质" in tSingle:
+                                self.job['financeStage'] = self.split_str(tSingle, '</span>', '</label>', eStart=0, eEnd=0)
+                            elif "薪资" in tSingle:
+                                self.job['salary'] = self.split_str(tSingle, '</span>', '</label>', eStart=0, eEnd=0)
+                            elif "规模" in tSingle:
+                                self.job['companySize'] = self.split_str(tSingle, '</span>', '</label>', eStart=0, eEnd=0)
+                            elif "招聘" in tSingle:
+                                tempString = self.split_str(tSingle, '|', '</', eStart=0, eEnd=1).replace(' ', '')
+                                self.job['education'] = self.split_str(tempString, '', '|', eStart=1, eEnd=0)
+                                tempString = self.split_str(tempString, '|', '</', eStart=0, eEnd=0)
+                                tempString1 = self.split_str(tempString, '', '|', eStart=1, eEnd=0)
+                                if tempString1 == None:
+                                    self.job['workYear'] = tempString
+                                else:
+                                    self.job['workYear'] = tempString1
+                        print("*********************************************")
+                        print(self.job)
+                        self.save2excel(self.job)
+                    except timeout:
+                        print("urllib2 timeout")
 
 
 if __name__ == '__main__':

@@ -66,10 +66,9 @@ class lagou(spider):
         for item in js['content']['positionResult']['result']:
             item['job_url'] = 'https://www.lagou.com/jobs/'+str(item['positionId'])+'.html'
             self.save2excel(item)
-            print(item)
-            '''if self.conf['table'] == 'simplejob':
-                jsData = self.translate_simple(item)
-                print(jsData)
+            jsData = self.translate_simple(item)
+            print("******************************************")
+            print(jsData)
                 #self._db.insert(jsData)'''
 
     def translate_simple(self, jsData):

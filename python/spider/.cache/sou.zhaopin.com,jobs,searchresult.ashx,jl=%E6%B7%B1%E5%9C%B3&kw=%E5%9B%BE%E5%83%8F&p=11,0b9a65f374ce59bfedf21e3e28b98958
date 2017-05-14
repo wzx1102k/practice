@@ -1,16 +1,16 @@
 status: 200
-server: openresty
+x-via: 1.1 yidong18:1 (Cdn Cache Server V2.0)
+connection: keep-alive
 -content-encoding: gzip
 cache-control: private
-connection: keep-alive
 content-type: text/html; charset=utf-8
-x-powered-by: ASP.NET
-x-via: 1.1 yidong18:1 (Cdn Cache Server V2.0)
-content-length: 373836
-set-cookie: JSSearchModel=0; domain=zhaopin.com; expires=Mon, 12-Jun-2017 18:44:44 GMT; path=/, LastCity%5Fid=765; domain=zhaopin.com; expires=Mon, 12-Jun-2017 18:44:44 GMT; path=/, LastCity=%e6%b7%b1%e5%9c%b3; domain=zhaopin.com; expires=Mon, 12-Jun-2017 18:44:44 GMT; path=/, LastJobTag=%e4%ba%94%e9%99%a9%e4%b8%80%e9%87%91%7c%e8%8a%82%e6%97%a5%e7%a6%8f%e5%88%a9%7c%e5%b8%a6%e8%96%aa%e5%b9%b4%e5%81%87%7c%e7%bb%a9%e6%95%88%e5%a5%96%e9%87%91%7c%e5%91%98%e5%b7%a5%e6%97%85%e6%b8%b8%7c%e5%b9%b4%e5%ba%95%e5%8f%8c%e8%96%aa%7c%e5%ae%9a%e6%9c%9f%e4%bd%93%e6%a3%80%7c%e5%85%a8%e5%8b%a4%e5%a5%96%7c%e9%a4%90%e8%a1%a5%7c%e5%bc%b9%e6%80%a7%e5%b7%a5%e4%bd%9c%7c%e5%b9%b4%e7%bb%88%e5%88%86%e7%ba%a2%7c%e9%80%9a%e8%ae%af%e8%a1%a5%e8%b4%b4%7c%e5%8a%a0%e7%8f%ad%e8%a1%a5%e5%8a%a9%7c%e5%8c%85%e4%bd%8f%7c%e4%ba%a4%e9%80%9a%e8%a1%a5%e5%8a%a9%7c%e8%82%a1%e7%a5%a8%e6%9c%9f%e6%9d%83%7c%e8%a1%a5%e5%85%85%e5%8c%bb%e7%96%97%e4%bf%9d%e9%99%a9%7c%e5%8c%85%e5%90%83%7c%e6%88%bf%e8%a1%a5%7c%e5%85%8d%e8%b4%b9%e7%8f%ad%e8%bd%a6%7c%e9%ab%98%e6%b8%a9%e8%a1%a5%e8%b4%b4; expires=Sun, 11-Jun-2017 18:44:44 GMT; path=/, LastSearchHistory=%7b%22Id%22%3a%22065d329e-9d31-4e5f-9521-29ee4d30476d%22%2c%22Name%22%3a%22%e5%9b%be%e5%83%8f+%2b+%e6%b7%b1%e5%9c%b3%22%2c%22SearchUrl%22%3a%22http%3a%2f%2fsou.zhaopin.com%2fjobs%2fsearchresult.ashx%3fjl%3d%25e6%25b7%25b1%25e5%259c%25b3%26kw%3d%25e5%259b%25be%25e5%2583%258f%26p%3d11%22%2c%22SaveTime%22%3a%22%5c%2fDate(1494614684853%2b0800)%5c%2f%22%7d; domain=zhaopin.com; expires=Sun, 11-Jun-2017 18:44:44 GMT; path=/
+server: openresty
+set-cookie: JSSearchModel=0; domain=zhaopin.com; expires=Wed, 14-Jun-2017 03:34:24 GMT; path=/, LastCity%5Fid=765; domain=zhaopin.com; expires=Wed, 14-Jun-2017 03:34:24 GMT; path=/, LastCity=%e6%b7%b1%e5%9c%b3; domain=zhaopin.com; expires=Wed, 14-Jun-2017 03:34:24 GMT; path=/, LastJobTag=%e4%ba%94%e9%99%a9%e4%b8%80%e9%87%91%7c%e8%8a%82%e6%97%a5%e7%a6%8f%e5%88%a9%7c%e7%bb%a9%e6%95%88%e5%a5%96%e9%87%91%7c%e5%b8%a6%e8%96%aa%e5%b9%b4%e5%81%87%7c%e5%91%98%e5%b7%a5%e6%97%85%e6%b8%b8%7c%e5%b9%b4%e5%ba%95%e5%8f%8c%e8%96%aa%7c%e5%ae%9a%e6%9c%9f%e4%bd%93%e6%a3%80%7c%e5%85%a8%e5%8b%a4%e5%a5%96%7c%e9%a4%90%e8%a1%a5%7c%e5%bc%b9%e6%80%a7%e5%b7%a5%e4%bd%9c%7c%e5%b9%b4%e7%bb%88%e5%88%86%e7%ba%a2%7c%e9%80%9a%e8%ae%af%e8%a1%a5%e8%b4%b4%7c%e5%8a%a0%e7%8f%ad%e8%a1%a5%e5%8a%a9%7c%e5%8c%85%e4%bd%8f%7c%e4%ba%a4%e9%80%9a%e8%a1%a5%e5%8a%a9%7c%e8%82%a1%e7%a5%a8%e6%9c%9f%e6%9d%83%7c%e8%a1%a5%e5%85%85%e5%8c%bb%e7%96%97%e4%bf%9d%e9%99%a9%7c%e5%8c%85%e5%90%83%7c%e6%88%bf%e8%a1%a5%7c%e5%85%8d%e8%b4%b9%e7%8f%ad%e8%bd%a6%7c%e9%ab%98%e6%b8%a9%e8%a1%a5%e8%b4%b4; expires=Tue, 13-Jun-2017 03:34:24 GMT; path=/, LastSearchHistory=%7b%22Id%22%3a%22a40cccb0-faea-4382-a0b5-dc2ac5e1d05b%22%2c%22Name%22%3a%22%e5%9b%be%e5%83%8f+%2b+%e6%b7%b1%e5%9c%b3%22%2c%22SearchUrl%22%3a%22http%3a%2f%2fsou.zhaopin.com%2fjobs%2fsearchresult.ashx%3fjl%3d%25e6%25b7%25b1%25e5%259c%25b3%26kw%3d%25e5%259b%25be%25e5%2583%258f%26p%3d11%22%2c%22SaveTime%22%3a%22%5c%2fDate(1494732864722%2b0800)%5c%2f%22%7d; domain=zhaopin.com; expires=Tue, 13-Jun-2017 03:34:24 GMT; path=/
+date: Sun, 14 May 2017 03:34:24 GMT
 content-location: http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&p=11
-date: Fri, 12 May 2017 18:44:44 GMT
 x-aspnet-version: 4.0.30319
+x-powered-by: ASP.NET
+content-length: 374268
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -185,7 +185,7 @@ x-aspnet-version: 4.0.30319
                     </span>
                 </div>
                 <div class="search_newlist_topmain2 fl" id="search_jobtype_tag">
-                    <a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1" class="xzbold">不限</a>> <a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=160000" class="">软件/互联网开发/系统集成(<font color="red">549</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=2100708" class="">艺术/设计(<font color="red">191</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=2120000" class="">影视/媒体/出版/印刷(<font color="red">66</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=160100" class="">电子/电器/半导体/仪器仪表(<font color="red">59</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=4010200" class="">销售业务(<font color="red">51</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=160200" class="">互联网产品/运营管理(<font color="red">38</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=160300" class="">硬件开发(<font color="red">37</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=4082000" class="">市场(<font color="red">33</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=4000000" class="">客服/售前/售后技术支持(<font color="red">21</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=201300" class="">项目管理/项目协调(<font color="red">20</font>)</a>
+                    <a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1" class="xzbold">不限</a>> <a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=160000" class="">软件/互联网开发/系统集成(<font color="red">549</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=2100708" class="">艺术/设计(<font color="red">189</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=2120000" class="">影视/媒体/出版/印刷(<font color="red">66</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=160100" class="">电子/电器/半导体/仪器仪表(<font color="red">58</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=4010200" class="">销售业务(<font color="red">51</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=160200" class="">互联网产品/运营管理(<font color="red">37</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=160300" class="">硬件开发(<font color="red">37</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=4082000" class="">市场(<font color="red">31</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=4000000" class="">客服/售前/售后技术支持(<font color="red">21</font>)</a><a href="/jobs/searchresult.ashx?jl=%E6%B7%B1%E5%9C%B3&kw=%E5%9B%BE%E5%83%8F&isfilter=1&p=1&bj=201300" class="">项目管理/项目协调(<font color="red">19</font>)</a>
                 </div>
                 <div class="search_newlist_toplast2 fr" style="display:none" id="jobtypeswitch">
                     <a href="javascript:;"></a>
@@ -355,7 +355,7 @@ x-aspnet-version: 4.0.30319
 <!--已选条件、订阅邮箱等功能组-->
 <div class="seach_yx">
     <span class="search_yx_tj">
-        共<em>1275</em>个职位满足条件
+        共<em>1266</em>个职位满足条件
     </span>
         <a class="search_yb" href="javascript:">
             保存搜索条件
@@ -659,6 +659,171 @@ x-aspnet-version: 4.0.30319
             <div class="newlist_list_content" id="newlist_list_content_table">
                 <table width="853" class="newlist" cellpadding="0" cellspacing="0"><tr><th class="zwmc" style="width:250px;"><span>职位名称</span></th><th style="width:60px;">反馈率</th><th class="gsmc">公司名称</th>	<th class="zwyx">职位月薪</th><th class="gzdd">工作地点</th><th class="gxsj">发布日期</th></tr></table>
                                         <table cellpadding="0" cellspacing="0" width="853" class="newlist">
+                            <tr>
+                                <td class="zwmc" style="width: 250px;">
+                                    <input plog="CC156238319J90250563000,CC156238319" type="checkbox" name="vacancyid" value="CC156238319J90250563000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
+                                    <div style="width: 224px;*width: 218px; _width:200px; float: left">
+                                        <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/156238319250563.htm" target="_blank" onclick="submitLog(6,'CC156238319J90250563000,CC156238319');">算法工程师</a>
+                                    </div>
+                                </td>
+                                <td style="width: 60px;" class="fk_lv"><span></span></td>
+                                <td class="gsmc"><a href="http://company.zhaopin.com/P2/CC1562/3831/CC156238319.htm" target="_blank">深圳市爱康生物科技有限公司</a></td>
+                                <td class="zwyx">10000-20000</td>
+                                <td class="gzdd">深圳</td>
+                                <td class="gxsj"><span>04-30</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
+                            </tr>
+                            <tr style="display: none" class="newlist_tr_detail">
+                                <td width="833px" style="line-height: 0;" colspan="6">
+                                    <div class="newlist_detail">
+                                        <div class="clearfix">
+                                            <ul>
+                                                <li class="newlist_deatil_two"><span>地点：深圳</span><span>公司性质：民营</span><span>公司规模：500-999人</span><span>学历：不限</span><span>职位月薪：10000-20000元/月</span><li class="newlist_deatil_last"> 岗位职责：  1、负责<b>图像</b>识别  2、负责工序调度算法的优化  3、负责其他设备的算法封装和优化      任职要求：        1、计算机、通信、电子技术相关专业本科及以上学历；  2、有良好的数学背景，乐于接受挑战，善于学习，能阅读英语科技文献；   3、熟悉模式识别、机器视...</li></li>
+                                            </ul>
+                                            <dl>
+                                                <dt>
+                                                    <a href="javascript:void(0)" onclick="submitLog(1,'CC156238319J90250563000,CC156238319');return zlapply.searchjob.ajaxApplyBrig1('CC156238319J90250563000_765','ssi','_1_03_201__2_');">
+                                                        <img src="/assets/images/newlist_sqimg_03.jpg" />
+                                                    </a>
+                                                </dt>
+                                                <dd><a href="javascript:zlapply.searchjob.saveOne('CC156238319J90250563000_765');submitLog(7,'CC156238319J90250563000,CC156238319');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                            </tr>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" width="853" class="newlist">
+                            <tr>
+                                <td class="zwmc" style="width: 250px;">
+                                    <input plog="CC315171127J90250509000,CC315171127" type="checkbox" name="vacancyid" value="CC315171127J90250509000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
+                                    <div style="width: 224px;*width: 218px; _width:200px; float: left">
+                                        <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/315171127250509.htm" target="_blank" onclick="submitLog(6,'CC315171127J90250509000,CC315171127');">清华大学深圳研究生院现代通信实验室硬件工程师</a>
+                                    </div>
+                                </td>
+                                <td style="width: 60px;" class="fk_lv"><span>57%</span></td>
+                                <td class="gsmc"><a href="http://company.zhaopin.com/%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E6%B7%B1%E5%9C%B3%E7%A0%94%E7%A9%B6%E7%94%9F%E9%99%A2_CC315171127.htm" target="_blank">清华大学深圳研究生院</a></td>
+                                <td class="zwyx">5000-8000</td>
+                                <td class="gzdd">深圳</td>
+                                <td class="gxsj"><span>15天前</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
+                            </tr>
+                            <tr style="display: none" class="newlist_tr_detail">
+                                <td width="833px" style="line-height: 0;" colspan="6">
+                                    <div class="newlist_detail">
+                                        <div class="clearfix">
+                                            <ul>
+                                                <li class="newlist_deatil_two"><span>地点：深圳</span><span>公司性质：事业单位</span><span>公司规模：500-999人</span><span>学历：大专</span><span>职位月薪：5000-8000元/月</span><li class="newlist_deatil_last">...<b>图像</b>处理经验，或有蓝牙通信模块开发经验的申请者；  3.从事过一定规模硬件设备的开发工作，熟悉硬件开发流程；  4.熟练掌握原理图设计工具、PCB设计工具，熟练使用示波器等仪器；  5.学习能力强，有一定的抗压能力，有良好的团队协作精神；  6.具有良好的英文表达，交流和写作能力...</li></li>
+                                            </ul>
+                                            <dl>
+                                                <dt>
+                                                    <a href="javascript:void(0)" onclick="submitLog(1,'CC315171127J90250509000,CC315171127');return zlapply.searchjob.ajaxApplyBrig1('CC315171127J90250509000_765','ssi','_1_03_201__2_');">
+                                                        <img src="/assets/images/newlist_sqimg_03.jpg" />
+                                                    </a>
+                                                </dt>
+                                                <dd><a href="javascript:zlapply.searchjob.saveOne('CC315171127J90250509000_765');submitLog(7,'CC315171127J90250509000,CC315171127');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                            </tr>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" width="853" class="newlist">
+                            <tr>
+                                <td class="zwmc" style="width: 250px;">
+                                    <input plog="CZ729518940J00008660807,CZ729518940" type="checkbox" name="vacancyid" value="CZ729518940J00008660807_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
+                                    <div style="width: 224px;*width: 218px; _width:200px; float: left">
+                                        <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/CZ729518940J00008660807.htm" target="_blank" onclick="submitLog(6,'CZ729518940J00008660807,CZ729518940');">前装销售总监</a>
+                                    </div>
+                                </td>
+                                <td style="width: 60px;" class="fk_lv"><span></span></td>
+                                <td class="gsmc"><a href="http://company.zhaopin.com/CZ729518940.htm" target="_blank">平顶山市深达电子科技有限公司深圳分公司</a></td>
+                                <td class="zwyx">8000-16000</td>
+                                <td class="gzdd">深圳</td>
+                                <td class="gxsj"><span>15天前</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
+                            </tr>
+                            <tr style="display: none" class="newlist_tr_detail">
+                                <td width="833px" style="line-height: 0;" colspan="6">
+                                    <div class="newlist_detail">
+                                        <div class="clearfix">
+                                            <ul>
+                                                <li class="newlist_deatil_two"><span>地点：深圳</span><span>公司性质：民营</span><span>公司规模：100-499人</span><span>经验：5-10年</span><span>学历：大专</span><span>职位月薪：8000-16000元/月</span><li class="newlist_deatil_last"> 岗位职责：      1.    负责汽车前装市场的开发与维护，根据公司营销战略制订该市场的营销实施    ；     2. 负责产品推广和渠道开发，能够完成公司分配的市场销售任务；制定客户发展策略及市场营销计划，与客户协同推广销售方案并落实相关宣传活动；     3. 具备优秀的沟通能力和团队合...</li></li>
+                                            </ul>
+                                            <dl>
+                                                <dt>
+                                                    <a href="javascript:void(0)" onclick="submitLog(1,'CZ729518940J00008660807,CZ729518940');return zlapply.searchjob.ajaxApplyBrig1('CZ729518940J00008660807_765','ssi','_1_03_201__2_');">
+                                                        <img src="/assets/images/newlist_sqimg_03.jpg" />
+                                                    </a>
+                                                </dt>
+                                                <dd><a href="javascript:zlapply.searchjob.saveOne('CZ729518940J00008660807_765');submitLog(7,'CZ729518940J00008660807,CZ729518940');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                            </tr>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" width="853" class="newlist">
+                            <tr>
+                                <td class="zwmc" style="width: 250px;">
+                                    <input plog="CZ729518940J00008651107,CZ729518940" type="checkbox" name="vacancyid" value="CZ729518940J00008651107_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
+                                    <div style="width: 224px;*width: 218px; _width:200px; float: left">
+                                        <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/CZ729518940J00008651107.htm" target="_blank" onclick="submitLog(6,'CZ729518940J00008651107,CZ729518940');">总经理助理</a>
+                                    </div>
+                                </td>
+                                <td style="width: 60px;" class="fk_lv"><span></span></td>
+                                <td class="gsmc"><a href="http://company.zhaopin.com/CZ729518940.htm" target="_blank">平顶山市深达电子科技有限公司深圳分公司</a></td>
+                                <td class="zwyx">10000-20000</td>
+                                <td class="gzdd">深圳</td>
+                                <td class="gxsj"><span>15天前</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
+                            </tr>
+                            <tr style="display: none" class="newlist_tr_detail">
+                                <td width="833px" style="line-height: 0;" colspan="6">
+                                    <div class="newlist_detail">
+                                        <div class="clearfix">
+                                            <ul>
+                                                <li class="newlist_deatil_two"><span>地点：深圳</span><span>公司性质：民营</span><span>公司规模：100-499人</span><span>经验：5-10年</span><span>学历：本科</span><span>职位月薪：10000-20000元/月</span><li class="newlist_deatil_last"> 职位描述：     1、负责总经办会议纪要的整理成文以及公司经营决策的传达、落实与信息反馈工作；    2、协调公司各部门之间及外部客户的工作关系；以及对外公共关系和重大事件的协调管理；    3、负责总经办函件的处理，重要文件的分类规档工作；    4、工作认真细致，逻辑思考能力好，具有良好书面...</li></li>
+                                            </ul>
+                                            <dl>
+                                                <dt>
+                                                    <a href="javascript:void(0)" onclick="submitLog(1,'CZ729518940J00008651107,CZ729518940');return zlapply.searchjob.ajaxApplyBrig1('CZ729518940J00008651107_765','ssi','_1_03_201__2_');">
+                                                        <img src="/assets/images/newlist_sqimg_03.jpg" />
+                                                    </a>
+                                                </dt>
+                                                <dd><a href="javascript:zlapply.searchjob.saveOne('CZ729518940J00008651107_765');submitLog(7,'CZ729518940J00008651107,CZ729518940');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                            </tr>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" width="853" class="newlist">
+                            <tr>
+                                <td class="zwmc" style="width: 250px;">
+                                    <input plog="CZ729518940J00008651807,CZ729518940" type="checkbox" name="vacancyid" value="CZ729518940J00008651807_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
+                                    <div style="width: 224px;*width: 218px; _width:200px; float: left">
+                                        <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/CZ729518940J00008651807.htm" target="_blank" onclick="submitLog(6,'CZ729518940J00008651807,CZ729518940');">销售商务助理</a>
+                                    </div>
+                                </td>
+                                <td style="width: 60px;" class="fk_lv"><span></span></td>
+                                <td class="gsmc"><a href="http://company.zhaopin.com/CZ729518940.htm" target="_blank">平顶山市深达电子科技有限公司深圳分公司</a></td>
+                                <td class="zwyx">4500-8000</td>
+                                <td class="gzdd">深圳</td>
+                                <td class="gxsj"><span>15天前</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
+                            </tr>
+                            <tr style="display: none" class="newlist_tr_detail">
+                                <td width="833px" style="line-height: 0;" colspan="6">
+                                    <div class="newlist_detail">
+                                        <div class="clearfix">
+                                            <ul>
+                                                <li class="newlist_deatil_two"><span>地点：深圳</span><span>公司性质：民营</span><span>公司规模：100-499人</span><span>经验：3-5年</span><span>学历：本科</span><span>职位月薪：4500-8000元/月</span><li class="newlist_deatil_last"> 职位描述：     1、负责公司销售合同及其他营销文件资料的管理、归类、整理、建档和保管工作。     2、负责各类销售指标的月度、季度、年度统计报表的制作及建立客户档案。，以及合同签定后的后续跟踪事宜。    3、协助整理客户资料；协助经理处理市场策划、推广，客户挖掘、客户服务等工作。    4...</li></li>
+                                            </ul>
+                                            <dl>
+                                                <dt>
+                                                    <a href="javascript:void(0)" onclick="submitLog(1,'CZ729518940J00008651807,CZ729518940');return zlapply.searchjob.ajaxApplyBrig1('CZ729518940J00008651807_765','ssi','_1_03_201__2_');">
+                                                        <img src="/assets/images/newlist_sqimg_03.jpg" />
+                                                    </a>
+                                                </dt>
+                                                <dd><a href="javascript:zlapply.searchjob.saveOne('CZ729518940J00008651807_765');submitLog(7,'CZ729518940J00008651807,CZ729518940');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                            </tr>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" width="853" class="newlist">
                             <tr>
                                 <td class="zwmc" style="width: 250px;">
                                     <input plog="CC157355312J90250028000,CC157355312" type="checkbox" name="vacancyid" value="CC157355312J90250028000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
@@ -1453,6 +1618,39 @@ x-aspnet-version: 4.0.30319
                         <table cellpadding="0" cellspacing="0" width="853" class="newlist">
                             <tr>
                                 <td class="zwmc" style="width: 250px;">
+                                    <input plog="CC550610528J90250252000,CC550610528" type="checkbox" name="vacancyid" value="CC550610528J90250252000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
+                                    <div style="width: 224px;*width: 218px; _width:200px; float: left">
+                                        <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/550610528250252.htm" target="_blank" onclick="submitLog(6,'CC550610528J90250252000,CC550610528');">行政专员</a>
+                                    </div>
+                                </td>
+                                <td style="width: 60px;" class="fk_lv"><span>54%</span></td>
+                                <td class="gsmc"><a href="http://company.zhaopin.com/CC550610528.htm" target="_blank">深圳市中港星金融服务有限公司</a></td>
+                                <td class="zwyx">4001-6000</td>
+                                <td class="gzdd">深圳-罗湖区</td>
+                                <td class="gxsj"><span>15天前</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
+                            </tr>
+                            <tr style="display: none" class="newlist_tr_detail">
+                                <td width="833px" style="line-height: 0;" colspan="6">
+                                    <div class="newlist_detail">
+                                        <div class="clearfix">
+                                            <ul>
+                                                <li class="newlist_deatil_two"><span>地点：深圳-罗湖区</span><span>公司性质：民营</span><span>公司规模：100-499人</span><span>经验：1-3年</span><span>学历：大专</span><span>职位月薪：4001-6000元/月</span><li class="newlist_deatil_last"> 一、岗位职责：   1、熟悉文控工作流程；   2、熟悉采购流程，具有洽谈能力；  3、熟练使用办公软件、能够简单处理<b>图像</b>；       二、任职要求：    1、2年行政工作经验，大专以上学历；  2、行政、工商管理、人力资源等相关专业；  3、了解采购知识与文控管理知识；  4、...</li></li>
+                                            </ul>
+                                            <dl>
+                                                <dt>
+                                                    <a href="javascript:void(0)" onclick="submitLog(1,'CC550610528J90250252000,CC550610528');return zlapply.searchjob.ajaxApplyBrig1('CC550610528J90250252000_765','ssi','_1_03_201__2_');">
+                                                        <img src="/assets/images/newlist_sqimg_03.jpg" />
+                                                    </a>
+                                                </dt>
+                                                <dd><a href="javascript:zlapply.searchjob.saveOne('CC550610528J90250252000_765');submitLog(7,'CC550610528J90250252000,CC550610528');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                            </tr>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" width="853" class="newlist">
+                            <tr>
+                                <td class="zwmc" style="width: 250px;">
                                     <input plog="CZ161397410J00006489106,CC161397419" type="checkbox" name="vacancyid" value="CZ161397410J00006489106_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
                                     <div style="width: 224px;*width: 218px; _width:200px; float: left">
                                         <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/CZ161397410J00006489106.htm" target="_blank" onclick="submitLog(6,'CZ161397410J00006489106,CC161397419');">售后工程师</a>
@@ -1643,39 +1841,6 @@ x-aspnet-version: 4.0.30319
                                                     </a>
                                                 </dt>
                                                 <dd><a href="javascript:zlapply.searchjob.saveOne('CZ726469940J00015460903_765');submitLog(7,'CZ726469940J00015460903,CZ726469940');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
-                                            </dl>
-                                        </div>
-                                    </div>
-                            </tr>
-                        </table>
-                        <table cellpadding="0" cellspacing="0" width="853" class="newlist">
-                            <tr>
-                                <td class="zwmc" style="width: 250px;">
-                                    <input plog="CC550610528J90250252000,CC550610528" type="checkbox" name="vacancyid" value="CC550610528J90250252000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
-                                    <div style="width: 224px;*width: 218px; _width:200px; float: left">
-                                        <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/550610528250252.htm" target="_blank" onclick="submitLog(6,'CC550610528J90250252000,CC550610528');">行政专员</a>
-                                    </div>
-                                </td>
-                                <td style="width: 60px;" class="fk_lv"><span></span></td>
-                                <td class="gsmc"><a href="http://company.zhaopin.com/CC550610528.htm" target="_blank">深圳市中港星金融服务有限公司</a></td>
-                                <td class="zwyx">4001-6000</td>
-                                <td class="gzdd">深圳-罗湖区</td>
-                                <td class="gxsj"><span>15天前</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
-                            </tr>
-                            <tr style="display: none" class="newlist_tr_detail">
-                                <td width="833px" style="line-height: 0;" colspan="6">
-                                    <div class="newlist_detail">
-                                        <div class="clearfix">
-                                            <ul>
-                                                <li class="newlist_deatil_two"><span>地点：深圳-罗湖区</span><span>公司性质：民营</span><span>公司规模：100-499人</span><span>经验：1-3年</span><span>学历：大专</span><span>职位月薪：4001-6000元/月</span><li class="newlist_deatil_last"> 一、岗位职责：   1、熟悉文控工作流程；   2、熟悉采购流程，具有洽谈能力；  3、熟练使用办公软件、能够简单处理<b>图像</b>；       二、任职要求：    1、2年行政工作经验，大专以上学历；  2、行政、工商管理、人力资源等相关专业；  3、了解采购知识与文控管理知识；  4、...</li></li>
-                                            </ul>
-                                            <dl>
-                                                <dt>
-                                                    <a href="javascript:void(0)" onclick="submitLog(1,'CC550610528J90250252000,CC550610528');return zlapply.searchjob.ajaxApplyBrig1('CC550610528J90250252000_765','ssi','_1_03_201__2_');">
-                                                        <img src="/assets/images/newlist_sqimg_03.jpg" />
-                                                    </a>
-                                                </dt>
-                                                <dd><a href="javascript:zlapply.searchjob.saveOne('CC550610528J90250252000_765');submitLog(7,'CC550610528J90250252000,CC550610528');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
                                             </dl>
                                         </div>
                                     </div>
@@ -2179,39 +2344,6 @@ x-aspnet-version: 4.0.30319
                         <table cellpadding="0" cellspacing="0" width="853" class="newlist">
                             <tr>
                                 <td class="zwmc" style="width: 250px;">
-                                    <input plog="CC574880622J90250376000,CC574880622" type="checkbox" name="vacancyid" value="CC574880622J90250376000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
-                                    <div style="width: 224px;*width: 218px; _width:200px; float: left">
-                                        <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/574880622250376.htm" target="_blank" onclick="submitLog(6,'CC574880622J90250376000,CC574880622');">自动化工程总监</a>
-                                    </div>
-                                </td>
-                                <td style="width: 60px;" class="fk_lv"><span></span></td>
-                                <td class="gsmc"><a href="http://company.zhaopin.com/CC574880622.htm" target="_blank">深圳市德富莱智能科技股份有限公司</a></td>
-                                <td class="zwyx">20001-30000</td>
-                                <td class="gzdd">深圳-宝安区</td>
-                                <td class="gxsj"><span>15天前</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
-                            </tr>
-                            <tr style="display: none" class="newlist_tr_detail">
-                                <td width="833px" style="line-height: 0;" colspan="6">
-                                    <div class="newlist_detail">
-                                        <div class="clearfix">
-                                            <ul>
-                                                <li class="newlist_deatil_two"><span>地点：深圳-宝安区</span><span>公司性质：上市公司</span><span>公司规模：100-499人</span><span>经验：10年以上</span><span>学历：本科</span><span>职位月薪：20001-30000元/月</span><li class="newlist_deatil_last"> 任职要求：  1、本科以上学历，机械、自动化相关专业；  2、在非标自动化领域有8-10年以上设计开发工作经验；  3、有扎实的理论基础和丰富的设计经验，精通机械结构、原理、应用方法，善于化繁为简。熟悉电气设计，运动控制及视觉<b>图像</b>软件优先；  4. 能够把握非标自动化行业技术发展趋势...</li></li>
-                                            </ul>
-                                            <dl>
-                                                <dt>
-                                                    <a href="javascript:void(0)" onclick="submitLog(1,'CC574880622J90250376000,CC574880622');return zlapply.searchjob.ajaxApplyBrig1('CC574880622J90250376000_765','ssi','_1_03_201__2_');">
-                                                        <img src="/assets/images/newlist_sqimg_03.jpg" />
-                                                    </a>
-                                                </dt>
-                                                <dd><a href="javascript:zlapply.searchjob.saveOne('CC574880622J90250376000_765');submitLog(7,'CC574880622J90250376000,CC574880622');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
-                                            </dl>
-                                        </div>
-                                    </div>
-                            </tr>
-                        </table>
-                        <table cellpadding="0" cellspacing="0" width="853" class="newlist">
-                            <tr>
-                                <td class="zwmc" style="width: 250px;">
                                     <input plog="CC574880622J90250377000,CC574880622" type="checkbox" name="vacancyid" value="CC574880622J90250377000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
                                     <div style="width: 224px;*width: 218px; _width:200px; float: left">
                                         <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/574880622250377.htm" target="_blank" onclick="submitLog(6,'CC574880622J90250377000,CC574880622');">测试总监</a>
@@ -2237,6 +2369,39 @@ x-aspnet-version: 4.0.30319
                                                     </a>
                                                 </dt>
                                                 <dd><a href="javascript:zlapply.searchjob.saveOne('CC574880622J90250377000_765');submitLog(7,'CC574880622J90250377000,CC574880622');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                            </tr>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" width="853" class="newlist">
+                            <tr>
+                                <td class="zwmc" style="width: 250px;">
+                                    <input plog="CC574880622J90250376000,CC574880622" type="checkbox" name="vacancyid" value="CC574880622J90250376000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
+                                    <div style="width: 224px;*width: 218px; _width:200px; float: left">
+                                        <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/574880622250376.htm" target="_blank" onclick="submitLog(6,'CC574880622J90250376000,CC574880622');">自动化工程总监</a>
+                                    </div>
+                                </td>
+                                <td style="width: 60px;" class="fk_lv"><span></span></td>
+                                <td class="gsmc"><a href="http://company.zhaopin.com/CC574880622.htm" target="_blank">深圳市德富莱智能科技股份有限公司</a></td>
+                                <td class="zwyx">20001-30000</td>
+                                <td class="gzdd">深圳-宝安区</td>
+                                <td class="gxsj"><span>15天前</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
+                            </tr>
+                            <tr style="display: none" class="newlist_tr_detail">
+                                <td width="833px" style="line-height: 0;" colspan="6">
+                                    <div class="newlist_detail">
+                                        <div class="clearfix">
+                                            <ul>
+                                                <li class="newlist_deatil_two"><span>地点：深圳-宝安区</span><span>公司性质：上市公司</span><span>公司规模：100-499人</span><span>经验：10年以上</span><span>学历：本科</span><span>职位月薪：20001-30000元/月</span><li class="newlist_deatil_last"> 任职要求：  1、本科以上学历，机械、自动化相关专业；  2、在非标自动化领域有8-10年以上设计开发工作经验；  3、有扎实的理论基础和丰富的设计经验，精通机械结构、原理、应用方法，善于化繁为简。熟悉电气设计，运动控制及视觉<b>图像</b>软件优先；  4. 能够把握非标自动化行业技术发展趋势...</li></li>
+                                            </ul>
+                                            <dl>
+                                                <dt>
+                                                    <a href="javascript:void(0)" onclick="submitLog(1,'CC574880622J90250376000,CC574880622');return zlapply.searchjob.ajaxApplyBrig1('CC574880622J90250376000_765','ssi','_1_03_201__2_');">
+                                                        <img src="/assets/images/newlist_sqimg_03.jpg" />
+                                                    </a>
+                                                </dt>
+                                                <dd><a href="javascript:zlapply.searchjob.saveOne('CC574880622J90250376000_765');submitLog(7,'CC574880622J90250376000,CC574880622');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
                                             </dl>
                                         </div>
                                     </div>
@@ -2278,39 +2443,6 @@ x-aspnet-version: 4.0.30319
                         <table cellpadding="0" cellspacing="0" width="853" class="newlist">
                             <tr>
                                 <td class="zwmc" style="width: 250px;">
-                                    <input plog="CC442607911J90250039000,CC442607911" type="checkbox" name="vacancyid" value="CC442607911J90250039000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
-                                    <div style="width: 224px;*width: 218px; _width:200px; float: left">
-                                        <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/442607911250039.htm" target="_blank" onclick="submitLog(6,'CC442607911J90250039000,CC442607911');">网站美工欧美潮品嘻哈帽饰</a>
-                                    </div>
-                                </td>
-                                <td style="width: 60px;" class="fk_lv"><span></span></td>
-                                <td class="gsmc"><a href="http://special.zhaopin.com/pagepublish/44260791/index.html" target="_blank">深圳昂冠帽业有限公司</a></td>
-                                <td class="zwyx">4001-6000</td>
-                                <td class="gzdd">深圳</td>
-                                <td class="gxsj"><span>15天前</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
-                            </tr>
-                            <tr style="display: none" class="newlist_tr_detail">
-                                <td width="833px" style="line-height: 0;" colspan="6">
-                                    <div class="newlist_detail">
-                                        <div class="clearfix">
-                                            <ul>
-                                                <li class="newlist_deatil_two"><span>地点：深圳</span><span>公司性质：民营</span><span>公司规模：100-499人</span><span>经验：1-3年</span><span>学历：中专</span><span>职位月薪：4001-6000元/月</span><li class="newlist_deatil_last"> 岗位职责：    1.负责阿里国际站&amp;官网页面风格定位、设计和装修；  2.配合运营主管定期更新页面banner；  3.公司产品目录、海报等设计；  4.学习国外店铺风格；  5.运营部临时性工作。   任职资格：    1.熟练操作PS、AI等<b>图像</b>图形设计软件  2. 熟...</li></li>
-                                            </ul>
-                                            <dl>
-                                                <dt>
-                                                    <a href="javascript:void(0)" onclick="submitLog(1,'CC442607911J90250039000,CC442607911');return zlapply.searchjob.ajaxApplyBrig1('CC442607911J90250039000_765','ssi','_1_03_201__2_');">
-                                                        <img src="/assets/images/newlist_sqimg_03.jpg" />
-                                                    </a>
-                                                </dt>
-                                                <dd><a href="javascript:zlapply.searchjob.saveOne('CC442607911J90250039000_765');submitLog(7,'CC442607911J90250039000,CC442607911');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
-                                            </dl>
-                                        </div>
-                                    </div>
-                            </tr>
-                        </table>
-                        <table cellpadding="0" cellspacing="0" width="853" class="newlist">
-                            <tr>
-                                <td class="zwmc" style="width: 250px;">
                                     <input plog="CC442607911J90250040000,CC442607911" type="checkbox" name="vacancyid" value="CC442607911J90250040000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
                                     <div style="width: 224px;*width: 218px; _width:200px; float: left">
                                         <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/442607911250040.htm" target="_blank" onclick="submitLog(6,'CC442607911J90250040000,CC442607911');">网站美工平面设计员</a>
@@ -2336,6 +2468,39 @@ x-aspnet-version: 4.0.30319
                                                     </a>
                                                 </dt>
                                                 <dd><a href="javascript:zlapply.searchjob.saveOne('CC442607911J90250040000_765');submitLog(7,'CC442607911J90250040000,CC442607911');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                            </tr>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" width="853" class="newlist">
+                            <tr>
+                                <td class="zwmc" style="width: 250px;">
+                                    <input plog="CC442607911J90250039000,CC442607911" type="checkbox" name="vacancyid" value="CC442607911J90250039000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
+                                    <div style="width: 224px;*width: 218px; _width:200px; float: left">
+                                        <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/442607911250039.htm" target="_blank" onclick="submitLog(6,'CC442607911J90250039000,CC442607911');">网站美工欧美潮品嘻哈帽饰</a>
+                                    </div>
+                                </td>
+                                <td style="width: 60px;" class="fk_lv"><span></span></td>
+                                <td class="gsmc"><a href="http://special.zhaopin.com/pagepublish/44260791/index.html" target="_blank">深圳昂冠帽业有限公司</a></td>
+                                <td class="zwyx">4001-6000</td>
+                                <td class="gzdd">深圳</td>
+                                <td class="gxsj"><span>15天前</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
+                            </tr>
+                            <tr style="display: none" class="newlist_tr_detail">
+                                <td width="833px" style="line-height: 0;" colspan="6">
+                                    <div class="newlist_detail">
+                                        <div class="clearfix">
+                                            <ul>
+                                                <li class="newlist_deatil_two"><span>地点：深圳</span><span>公司性质：民营</span><span>公司规模：100-499人</span><span>经验：1-3年</span><span>学历：中专</span><span>职位月薪：4001-6000元/月</span><li class="newlist_deatil_last"> 岗位职责：    1.负责阿里国际站&amp;官网页面风格定位、设计和装修；  2.配合运营主管定期更新页面banner；  3.公司产品目录、海报等设计；  4.学习国外店铺风格；  5.运营部临时性工作。   任职资格：    1.熟练操作PS、AI等<b>图像</b>图形设计软件  2. 熟...</li></li>
+                                            </ul>
+                                            <dl>
+                                                <dt>
+                                                    <a href="javascript:void(0)" onclick="submitLog(1,'CC442607911J90250039000,CC442607911');return zlapply.searchjob.ajaxApplyBrig1('CC442607911J90250039000_765','ssi','_1_03_201__2_');">
+                                                        <img src="/assets/images/newlist_sqimg_03.jpg" />
+                                                    </a>
+                                                </dt>
+                                                <dd><a href="javascript:zlapply.searchjob.saveOne('CC442607911J90250039000_765');submitLog(7,'CC442607911J90250039000,CC442607911');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
                                             </dl>
                                         </div>
                                     </div>
@@ -2410,39 +2575,6 @@ x-aspnet-version: 4.0.30319
                         <table cellpadding="0" cellspacing="0" width="853" class="newlist">
                             <tr>
                                 <td class="zwmc" style="width: 250px;">
-                                    <input plog="CC388623980J90250012000,CC388623980" type="checkbox" name="vacancyid" value="CC388623980J90250012000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
-                                    <div style="width: 224px;*width: 218px; _width:200px; float: left">
-                                        <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/388623980250012.htm" target="_blank" onclick="submitLog(6,'CC388623980J90250012000,CC388623980');">助理设计师</a>
-                                    </div>
-                                </td>
-                                <td style="width: 60px;" class="fk_lv"><span>100%</span></td>
-                                <td class="gsmc"><a href="http://company.zhaopin.com/CC388623980.htm" target="_blank">深圳诚筑设计有限公司</a></td>
-                                <td class="zwyx">4001-6000</td>
-                                <td class="gzdd">深圳</td>
-                                <td class="gxsj"><span>15天前</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
-                            </tr>
-                            <tr style="display: none" class="newlist_tr_detail">
-                                <td width="833px" style="line-height: 0;" colspan="6">
-                                    <div class="newlist_detail">
-                                        <div class="clearfix">
-                                            <ul>
-                                                <li class="newlist_deatil_two"><span>地点：深圳</span><span>公司性质：民营</span><span>公司规模：20-99人</span><span>学历：大专</span><span>职位月薪：4001-6000元/月</span><li class="newlist_deatil_last"> 职位要求：  1、配合方案设计师完成部分CAD平面、立面、剖面绘制工作；  2、配合项目主创，使用手绘或电脑<b>图像</b>表现软件（Sketchup、PS等），对项目汇报方案进行效果表现，并在方案设计师的指导下完成汇报文件的平面排版和文字组织工作；  4、有较强的审美能力，负责平时的设计概念图...</li></li>
-                                            </ul>
-                                            <dl>
-                                                <dt>
-                                                    <a href="javascript:void(0)" onclick="submitLog(1,'CC388623980J90250012000,CC388623980');return zlapply.searchjob.ajaxApplyBrig1('CC388623980J90250012000_765','ssi','_1_03_201__2_');">
-                                                        <img src="/assets/images/newlist_sqimg_03.jpg" />
-                                                    </a>
-                                                </dt>
-                                                <dd><a href="javascript:zlapply.searchjob.saveOne('CC388623980J90250012000_765');submitLog(7,'CC388623980J90250012000,CC388623980');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
-                                            </dl>
-                                        </div>
-                                    </div>
-                            </tr>
-                        </table>
-                        <table cellpadding="0" cellspacing="0" width="853" class="newlist">
-                            <tr>
-                                <td class="zwmc" style="width: 250px;">
                                     <input plog="CC189282118J90250791000,CC189282118" type="checkbox" name="vacancyid" value="CC189282118J90250791000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
                                     <div style="width: 224px;*width: 218px; _width:200px; float: left">
                                         <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/189282118250791.htm" target="_blank" onclick="submitLog(6,'CC189282118J90250791000,CC189282118');">字幕师</a>
@@ -2506,138 +2638,6 @@ x-aspnet-version: 4.0.30319
                                     </div>
                             </tr>
                         </table>
-                        <table cellpadding="0" cellspacing="0" width="853" class="newlist">
-                            <tr>
-                                <td class="zwmc" style="width: 250px;">
-                                    <input plog="CC269958186J90250025000,CC269958186" type="checkbox" name="vacancyid" value="CC269958186J90250025000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
-                                    <div style="width: 224px;*width: 218px; _width:200px; float: left">
-                                        <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/269958186250025.htm" target="_blank" onclick="submitLog(6,'CC269958186J90250025000,CC269958186');">外贸专员/外贸业务员/外贸跟单/外贸助理/外贸销售</a>
-                                    </div>
-                                </td>
-                                <td style="width: 60px;" class="fk_lv"><span>100%</span></td>
-                                <td class="gsmc"><a href="http://company.zhaopin.com/CC269958186.htm" target="_blank">深圳市迈兴隆科技有限公司</a></td>
-                                <td class="zwyx">4001-6000</td>
-                                <td class="gzdd">深圳</td>
-                                <td class="gxsj"><span>15天前</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
-                            </tr>
-                            <tr style="display: none" class="newlist_tr_detail">
-                                <td width="833px" style="line-height: 0;" colspan="6">
-                                    <div class="newlist_detail">
-                                        <div class="clearfix">
-                                            <ul>
-                                                <li class="newlist_deatil_two"><span>地点：深圳</span><span>公司性质：其它</span><span>公司规模：20人以下</span><span>学历：大专</span><span>职位月薪：4001-6000元/月</span><li class="newlist_deatil_last">...<b>图像</b>处理软件，简单的网站维护。 3，能承受一定的工作压力，工作踏实认真，吃苦耐劳，责任心强。 4，具备足够的耐心与韧性，能长期自我激励 。 5，工资待遇:月底薪+提成+奖金+年终分红;买社保。 6，综合素质较高的国际贸易、英语相关专业的应届毕业生优先考虑。</li></li>
-                                            </ul>
-                                            <dl>
-                                                <dt>
-                                                    <a href="javascript:void(0)" onclick="submitLog(1,'CC269958186J90250025000,CC269958186');return zlapply.searchjob.ajaxApplyBrig1('CC269958186J90250025000_765','ssi','_1_03_201__2_');">
-                                                        <img src="/assets/images/newlist_sqimg_03.jpg" />
-                                                    </a>
-                                                </dt>
-                                                <dd><a href="javascript:zlapply.searchjob.saveOne('CC269958186J90250025000_765');submitLog(7,'CC269958186J90250025000,CC269958186');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
-                                            </dl>
-                                        </div>
-                                    </div>
-                            </tr>
-                        </table>
-                        <table cellpadding="0" cellspacing="0" width="853" class="newlist">
-                            <tr>
-                                <td class="zwmc" style="width: 250px;">
-                                    <input plog="CC269958186J90250032000,CC269958186" type="checkbox" name="vacancyid" value="CC269958186J90250032000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
-                                    <div style="width: 224px;*width: 218px; _width:200px; float: left">
-                                        <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/269958186250032.htm" target="_blank" onclick="submitLog(6,'CC269958186J90250032000,CC269958186');">外贸专员/外贸业务员/外贸跟单/外贸助理</a>
-                                    </div>
-                                </td>
-                                <td style="width: 60px;" class="fk_lv"><span>100%</span></td>
-                                <td class="gsmc"><a href="http://company.zhaopin.com/CC269958186.htm" target="_blank">深圳市迈兴隆科技有限公司</a></td>
-                                <td class="zwyx">4001-6000</td>
-                                <td class="gzdd">深圳-宝安区</td>
-                                <td class="gxsj"><span>15天前</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
-                            </tr>
-                            <tr style="display: none" class="newlist_tr_detail">
-                                <td width="833px" style="line-height: 0;" colspan="6">
-                                    <div class="newlist_detail">
-                                        <div class="clearfix">
-                                            <ul>
-                                                <li class="newlist_deatil_two"><span>地点：深圳-宝安区</span><span>公司性质：其它</span><span>公司规模：20人以下</span><span>学历：大专</span><span>职位月薪：4001-6000元/月</span><li class="newlist_deatil_last">...<b>图像</b>处理软件，简单的网站维护。 3，能承受一定的工作压力，工作踏实认真，吃苦耐劳，责任心强。 4，具备足够的耐心与韧性，能长期自我激励 。 5，工资待遇:月底薪+提成+奖金+房补+年终分红;入职即买社保。 6，综合素质较高的国际贸易、英语相关专业的应届毕业生优先考虑。</li></li>
-                                            </ul>
-                                            <dl>
-                                                <dt>
-                                                    <a href="javascript:void(0)" onclick="submitLog(1,'CC269958186J90250032000,CC269958186');return zlapply.searchjob.ajaxApplyBrig1('CC269958186J90250032000_765','ssi','_1_03_201__2_');">
-                                                        <img src="/assets/images/newlist_sqimg_03.jpg" />
-                                                    </a>
-                                                </dt>
-                                                <dd><a href="javascript:zlapply.searchjob.saveOne('CC269958186J90250032000_765');submitLog(7,'CC269958186J90250032000,CC269958186');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
-                                            </dl>
-                                        </div>
-                                    </div>
-                            </tr>
-                        </table>
-                        <table cellpadding="0" cellspacing="0" width="853" class="newlist">
-                            <tr>
-                                <td class="zwmc" style="width: 250px;">
-                                    <input plog="CC310288582J90250027000,CC310288582" type="checkbox" name="vacancyid" value="CC310288582J90250027000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
-                                    <div style="width: 224px;*width: 218px; _width:200px; float: left">
-                                        <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/310288582250027.htm" target="_blank" onclick="submitLog(6,'CC310288582J90250027000,CC310288582');">急聘 高级软件架构师，C# 软件工程师</a>
-                                    </div>
-                                </td>
-                                <td style="width: 60px;" class="fk_lv"><span>99%</span></td>
-                                <td class="gsmc"><a href="http://company.zhaopin.com/CC310288582.htm" target="_blank">深圳百迈技术有限公司</a></td>
-                                <td class="zwyx">15001-20000</td>
-                                <td class="gzdd">深圳</td>
-                                <td class="gxsj"><span>15天前</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
-                            </tr>
-                            <tr style="display: none" class="newlist_tr_detail">
-                                <td width="833px" style="line-height: 0;" colspan="6">
-                                    <div class="newlist_detail">
-                                        <div class="clearfix">
-                                            <ul>
-                                                <li class="newlist_deatil_two"><span>地点：深圳</span><span>公司性质：民营</span><span>公司规模：20-99人</span><span>经验：5-10年</span><span>学历：本科</span><span>职位月薪：15001-20000元/月</span><li class="newlist_deatil_last"> 1. 软件架构设计;    2. C# Winform软件开发；    任职要求：  1.对软件架构有深刻理解，尤其是，组件封装技术，执行流程定制化等大型软件的经验。  2.专业要求：计算机类、数理类，本科或以上学历（有丰富经验者学历不限）；。  3. 精通C# Winfom技术。  4. 具有<...</li></li>
-                                            </ul>
-                                            <dl>
-                                                <dt>
-                                                    <a href="javascript:void(0)" onclick="submitLog(1,'CC310288582J90250027000,CC310288582');return zlapply.searchjob.ajaxApplyBrig1('CC310288582J90250027000_765','ssi','_1_03_201__2_');">
-                                                        <img src="/assets/images/newlist_sqimg_03.jpg" />
-                                                    </a>
-                                                </dt>
-                                                <dd><a href="javascript:zlapply.searchjob.saveOne('CC310288582J90250027000_765');submitLog(7,'CC310288582J90250027000,CC310288582');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
-                                            </dl>
-                                        </div>
-                                    </div>
-                            </tr>
-                        </table>
-                        <table cellpadding="0" cellspacing="0" width="853" class="newlist">
-                            <tr>
-                                <td class="zwmc" style="width: 250px;">
-                                    <input plog="CC297673482J90250056000,CC297673482" type="checkbox" name="vacancyid" value="CC297673482J90250056000_765_1_03_201__1_" onclick="zlapply.uncheckAll('allvacancyid')" />
-                                    <div style="width: 224px;*width: 218px; _width:200px; float: left">
-                                        <a style="font-weight: bold" par="ssidkey=y&amp;ss=201&amp;ff=03" href="http://jobs.zhaopin.com/297673482250056.htm" target="_blank" onclick="submitLog(6,'CC297673482J90250056000,CC297673482');">急招《软件工程师》</a>
-                                    </div>
-                                </td>
-                                <td style="width: 60px;" class="fk_lv"><span>94%</span></td>
-                                <td class="gsmc"><a href="http://company.zhaopin.com/CC297673482.htm" target="_blank">深圳市爱多维摄影器材有限公司</a></td>
-                                <td class="zwyx">4001-6000</td>
-                                <td class="gzdd">深圳-龙华新区</td>
-                                <td class="gxsj"><span>15天前</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
-                            </tr>
-                            <tr style="display: none" class="newlist_tr_detail">
-                                <td width="833px" style="line-height: 0;" colspan="6">
-                                    <div class="newlist_detail">
-                                        <div class="clearfix">
-                                            <ul>
-                                                <li class="newlist_deatil_two"><span>地点：深圳-龙华新区</span><span>公司性质：股份制企业</span><span>公司规模：20-99人</span><span>学历：不限</span><span>职位月薪：4001-6000元/月</span><li class="newlist_deatil_last"> 岗位职责：   要求熟悉   vs c++,vs c#,  图形<b>图像</b>处理，针对ps的二次开发，有调用PS实现PS的部份功能，非诚勿扰。      任职要求：有经验优先！</li></li>
-                                            </ul>
-                                            <dl>
-                                                <dt>
-                                                    <a href="javascript:void(0)" onclick="submitLog(1,'CC297673482J90250056000,CC297673482');return zlapply.searchjob.ajaxApplyBrig1('CC297673482J90250056000_765','ssi','_1_03_201__2_');">
-                                                        <img src="/assets/images/newlist_sqimg_03.jpg" />
-                                                    </a>
-                                                </dt>
-                                                <dd><a href="javascript:zlapply.searchjob.saveOne('CC297673482J90250056000_765');submitLog(7,'CC297673482J90250056000,CC297673482');"><img src="/assets/images/newlist_scimg_06.jpg" /></a></dd>
-                                            </dl>
-                                        </div>
-                                    </div>
-                            </tr>
-                        </table>
                             </div>
             <p class="newlist_list_top clearfix">
                 <label>
@@ -2651,18 +2651,18 @@ x-aspnet-version: 4.0.30319
 
         <div class="pagesDown" style="_width:570px">
             <ul>
-<li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=6d643f6f9ad64d70a764260d04cb701e&p=10" class="pre-page">上一页</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=6d643f6f9ad64d70a764260d04cb701e&p=1">1</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=6d643f6f9ad64d70a764260d04cb701e&p=8" class="pagesmore">...</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=6d643f6f9ad64d70a764260d04cb701e&p=9">9</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=6d643f6f9ad64d70a764260d04cb701e&p=10">10</a></li><li><a href="#" class="current" >11</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=6d643f6f9ad64d70a764260d04cb701e&p=12">12</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=6d643f6f9ad64d70a764260d04cb701e&p=13">13</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=6d643f6f9ad64d70a764260d04cb701e&p=14">14</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=6d643f6f9ad64d70a764260d04cb701e&p=15" class="pagesmore">...</a></li><li class="pagesDown-pos"><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=6d643f6f9ad64d70a764260d04cb701e&p=12" class="next-page">下一页</a><li class="nextpagego-box"><input type="hidden" id="guid" value="6d643f6f9ad64d70a764260d04cb701e" />到&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页<input type="text" class="pagesnum" name="goto" id="goto" value="11" onkeyup="zlapply.searchjob.fnCheckInt(this,event)" onchange="zlapply.searchjob.fnCheckInt(this,event)" onkeypress="zlapply.searchjob.enter2Page(this,event,22)"  /><button type="button" class="nextpagego-btn" name="go" onclick="zlapply.searchjob.gotoPage(this.form.goto.value,22,'','6d643f6f9ad64d70a764260d04cb701e')"></button></li>                <li class="clearfix"></li>
+<li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=8c4e6849ec414ba4b5240756549f2a9b&p=10" class="pre-page">上一页</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=8c4e6849ec414ba4b5240756549f2a9b&p=1">1</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=8c4e6849ec414ba4b5240756549f2a9b&p=8" class="pagesmore">...</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=8c4e6849ec414ba4b5240756549f2a9b&p=9">9</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=8c4e6849ec414ba4b5240756549f2a9b&p=10">10</a></li><li><a href="#" class="current" >11</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=8c4e6849ec414ba4b5240756549f2a9b&p=12">12</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=8c4e6849ec414ba4b5240756549f2a9b&p=13">13</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=8c4e6849ec414ba4b5240756549f2a9b&p=14">14</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=8c4e6849ec414ba4b5240756549f2a9b&p=15" class="pagesmore">...</a></li><li class="pagesDown-pos"><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%b7%b1%e5%9c%b3&kw=%e5%9b%be%e5%83%8f&sg=8c4e6849ec414ba4b5240756549f2a9b&p=12" class="next-page">下一页</a><li class="nextpagego-box"><input type="hidden" id="guid" value="8c4e6849ec414ba4b5240756549f2a9b" />到&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页<input type="text" class="pagesnum" name="goto" id="goto" value="11" onkeyup="zlapply.searchjob.fnCheckInt(this,event)" onchange="zlapply.searchjob.fnCheckInt(this,event)" onkeypress="zlapply.searchjob.enter2Page(this,event,22)"  /><button type="button" class="nextpagego-btn" name="go" onclick="zlapply.searchjob.gotoPage(this.form.goto.value,22,'','8c4e6849ec414ba4b5240756549f2a9b')"></button></li>                <li class="clearfix"></li>
             </ul>
         </div>
     </div>
-    <input type="hidden" name="h_job_id" id="h_job_id" value="CC157355312J90250028000_765_1_03_201__1__1|CC157355312J90250147000_765_1_03_201__1__1|CZ724339640J00013251305_765_1_03_201__1__1|CC661312729J90250466000_765_1_03_201__1__1|CZ726295040J00047775201_765_1_03_201__1__1|CZ724223540J00015533603_765_1_03_201__1__1|CZ724223540J00015533203_765_1_03_201__1__1|CC327900489J90250080000_765_1_03_201__1__1|CC130455223J90250364000_765_1_03_201__1__1|CZ161397410J00006506506_765_1_03_201__1__1|CC663839420J90250001000_765_1_03_201__1__1|CC342700039J90250025000_765_1_03_201__1__1|CC000347481J90250733000_765_1_03_201__1__1|CC370823582J90250181000_765_1_03_201__1__1|CZ724147840J00047694401_765_1_03_201__1__1|CC286299889J90250120000_765_1_03_201__1__1|CC120072290J90288505000_765_1_03_201__1__1|CZ739381040J00047685601_765_1_03_201__1__1|CC189465123J90250338000_765_1_03_201__1__1|CC120188733J90251379000_765_1_03_201__1__1|CC120482196J90250284000_765_1_03_201__1__1|CC667883422J90250011000_765_1_03_201__1__1|CZ759447840J00040671901_765_1_03_201__1__1|CC148581875J90251298000_765_1_03_201__1__1|CZ161397410J00006489106_765_1_03_201__1__1|CZ161397410J00006489006_765_1_03_201__1__1|CZ161397410J00005129906_765_1_03_201__1__1|CZ161397410J00005129106_765_1_03_201__1__1|CZ161397410J00005184306_765_1_03_201__1__1|CZ726469940J00015460903_765_1_03_201__1__1|CC550610528J90250252000_765_1_03_201__1__1|CZ745493940J00047649701_765_1_03_201__1__1|CC516964926J90250741000_765_1_03_201__1__1|CZ724196840J00013175805_765_1_03_201__1__1|CC494802933J90250003000_765_1_03_201__1__1|CC377928332J90250023000_765_1_03_201__1__1|CC132757177J90251075000_765_1_03_201__1__1|CC409723285J90250015000_765_1_03_201__1__1|CC509492928J90250041000_765_1_03_201__1__1|CC509492928J90250037000_765_1_03_201__1__1|CZ726469940J00014825203_765_1_03_201__1__1|CC131083318J90260751000_765_1_03_201__1__1|CC231904616J90250085000_765_1_03_201__1__1|CC131083318J90260747000_765_1_03_201__1__1|CC481201986J90250011000_765_1_03_201__1__1|CC404464885J90250085000_765_1_03_201__1__1|CC574880622J90250376000_765_1_03_201__1__1|CC574880622J90250377000_765_1_03_201__1__1|CZ724303640J00013141605_765_1_03_201__1__1|CC442607911J90250039000_765_1_03_201__1__1|CC442607911J90250040000_765_1_03_201__1__1|CC121022543J90251022000_765_1_03_201__1__1|CC687164524J90250175000_765_1_03_201__1__1|CC388623980J90250012000_765_1_03_201__1__1|CC189282118J90250791000_765_1_03_201__1__1|CC475618829J90250102000_765_1_03_201__1__1|CC269958186J90250025000_765_1_03_201__1__1|CC269958186J90250032000_765_1_03_201__1__1|CC310288582J90250027000_765_1_03_201__1__1|CC297673482J90250056000_765_1_03_201__1__1" />
+    <input type="hidden" name="h_job_id" id="h_job_id" value="CC156238319J90250563000_765_1_03_201__1__1|CC315171127J90250509000_765_1_03_201__1__1|CZ729518940J00008660807_765_1_03_201__1__1|CZ729518940J00008651107_765_1_03_201__1__1|CZ729518940J00008651807_765_1_03_201__1__1|CC157355312J90250028000_765_1_03_201__1__1|CC157355312J90250147000_765_1_03_201__1__1|CZ724339640J00013251305_765_1_03_201__1__1|CC661312729J90250466000_765_1_03_201__1__1|CZ726295040J00047775201_765_1_03_201__1__1|CZ724223540J00015533603_765_1_03_201__1__1|CZ724223540J00015533203_765_1_03_201__1__1|CC327900489J90250080000_765_1_03_201__1__1|CC130455223J90250364000_765_1_03_201__1__1|CZ161397410J00006506506_765_1_03_201__1__1|CC663839420J90250001000_765_1_03_201__1__1|CC342700039J90250025000_765_1_03_201__1__1|CC000347481J90250733000_765_1_03_201__1__1|CC370823582J90250181000_765_1_03_201__1__1|CZ724147840J00047694401_765_1_03_201__1__1|CC286299889J90250120000_765_1_03_201__1__1|CC120072290J90288505000_765_1_03_201__1__1|CZ739381040J00047685601_765_1_03_201__1__1|CC189465123J90250338000_765_1_03_201__1__1|CC120188733J90251379000_765_1_03_201__1__1|CC120482196J90250284000_765_1_03_201__1__1|CC667883422J90250011000_765_1_03_201__1__1|CZ759447840J00040671901_765_1_03_201__1__1|CC148581875J90251298000_765_1_03_201__1__1|CC550610528J90250252000_765_1_03_201__1__1|CZ161397410J00006489106_765_1_03_201__1__1|CZ161397410J00006489006_765_1_03_201__1__1|CZ161397410J00005129906_765_1_03_201__1__1|CZ161397410J00005129106_765_1_03_201__1__1|CZ161397410J00005184306_765_1_03_201__1__1|CZ726469940J00015460903_765_1_03_201__1__1|CZ745493940J00047649701_765_1_03_201__1__1|CC516964926J90250741000_765_1_03_201__1__1|CZ724196840J00013175805_765_1_03_201__1__1|CC494802933J90250003000_765_1_03_201__1__1|CC377928332J90250023000_765_1_03_201__1__1|CC132757177J90251075000_765_1_03_201__1__1|CC409723285J90250015000_765_1_03_201__1__1|CC509492928J90250041000_765_1_03_201__1__1|CC509492928J90250037000_765_1_03_201__1__1|CZ726469940J00014825203_765_1_03_201__1__1|CC131083318J90260751000_765_1_03_201__1__1|CC231904616J90250085000_765_1_03_201__1__1|CC131083318J90260747000_765_1_03_201__1__1|CC481201986J90250011000_765_1_03_201__1__1|CC404464885J90250085000_765_1_03_201__1__1|CC574880622J90250377000_765_1_03_201__1__1|CC574880622J90250376000_765_1_03_201__1__1|CZ724303640J00013141605_765_1_03_201__1__1|CC442607911J90250040000_765_1_03_201__1__1|CC442607911J90250039000_765_1_03_201__1__1|CC121022543J90251022000_765_1_03_201__1__1|CC687164524J90250175000_765_1_03_201__1__1|CC189282118J90250791000_765_1_03_201__1__1|CC475618829J90250102000_765_1_03_201__1__1" />
     <input type="hidden" name="h_method" id="h_method" value="_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_" />
-    <input type="hidden" name="h_job_title" id="h_job_title" value="机器学习研发工程师|DSP开发工程师|平面设计师|软件工程师|led显示屏女业务员底薪加提成|影视后期制作|广告文案|项目经理|技术部部门经理（售前）|知识产权专员|软件工程师（Labview)|技术合伙人或技术总监|算法工程师（工作地点：光明新区，班车接送，午餐免费）|ADAS设计工程师|JAVA&amp;nbsp;Web开发工程师|企划专员|17520-U3D手游客户端开发工程师(深圳)|商业摄影师|资深软件开发工程师|销售工程师（深圳）|嵌入式软件工程师|室内效果图制作|投影机技术工程师|人工智能算法工程师|售后工程师|外贸跟单|结构工程师|人力资源部经理|出纳|连锁运营经理|行政专员|led电子结构工程师|Android开发工程师|机器视觉工程师|美工|UI设计师|女装主设计师（休闲系列）|高薪（急聘）效果图设计师|测试工程师|C++开发工程师|大客户销售|图形开发工程师|平面/网站美工 （双休+社保+高薪）|智能算法工程师|视频制作/视频编辑师（双休+高薪）|图传工程师|自动化工程总监|测试总监|平面设计主管|网站美工欧美潮品嘻哈帽饰|网站美工平面设计员|骨科影像设备销售经理|平面设计|助理设计师|字幕师|计算机视觉工程师（表情判断）|外贸专员/外贸业务员/外贸跟单/外贸助理/外贸销售|外贸专员/外贸业务员/外贸跟单/外贸助理|急聘 高级软件架构师，C# 软件工程师|急招《软件工程师》" />
-    <input type="hidden" name="h_company" id="h_company" value="深圳市高巨创新科技开发有限公司|深圳市中联讯科技有限公司|深圳市锐纳装饰设计工程有限公司|深圳市沃来士企业管理咨询有限公司|深圳市合利通光电有限公司|深圳爱吉影视传媒有限公司|深圳爱吉影视传媒有限公司|深圳市深网视界科技有限公司|深圳市先创数字技术有限公司|深圳市创显光电有限公司|深圳市泰科盛自动化系统有限公司|深圳正则科技有限公司|深圳雷杜生命科学股份有限公司|福建省汽车工业集团云度新能源汽车股份有限公司|深圳市艾廷思技术有限公司|深圳市镭神智能系统有限公司|深圳腾讯计算机系统有限公司|深圳市墨言文化传媒有限公司|深圳市华信天线技术有限公司|中国大恒(集团)有限公司北京&lt;b&gt;图像&lt;/b&gt;视觉技术分公司|浩德科技股份有限公司|深圳市符号数字&lt;b&gt;图像&lt;/b&gt;有限公司|深圳市圳原电子有限公司|深圳市金溢科技股份有限公司|深圳市创显光电有限公司|深圳市创显光电有限公司|深圳市创显光电有限公司|深圳市创显光电有限公司|深圳市创显光电有限公司|深圳市汇美影像文化股份有限公司|深圳市中港星金融服务有限公司|深圳市吉丰光电有限公司|深圳市赛维网络科技有限公司|深圳市睿晟自动化技术有限公司|钰焱电子(深圳)有限公司|江西省零息实业有限公司深圳分公司|卡尔丹顿服饰股份有限公司|深圳凌锐数字&lt;b&gt;图像&lt;/b&gt;有限公司|深圳市中达瑞和科技有限公司|深圳市中达瑞和科技有限公司|深圳市汇美影像文化股份有限公司|深圳国泰安教育技术股份有限公司|深圳市鑫立达宏科技有限公司|深圳国泰安教育技术股份有限公司|云界网络服务（深圳）有限公司|坎德拉(深圳)科技创新有限公司|深圳市德富莱智能科技股份有限公司|深圳市德富莱智能科技股份有限公司|深圳前海吉粮商业科技发展有限公司|深圳昂冠帽业有限公司|深圳昂冠帽业有限公司|北京东方惠尔&lt;b&gt;图像&lt;/b&gt;技术有限公司|深圳金道黄金有限公司|深圳诚筑设计有限公司|深圳宜和股份有限公司（深视宜和购物频道）|亚兴科技|深圳市迈兴隆科技有限公司|深圳市迈兴隆科技有限公司|深圳百迈技术有限公司|深圳市爱多维摄影器材有限公司" />
-    <input type="hidden" name="h_city" id="h_city" value="深圳|深圳|深圳|深圳|深圳|深圳|深圳|深圳|深圳|深圳|深圳-宝安区|深圳-南山区|深圳-光明新区|深圳|深圳|深圳-光明新区|深圳|深圳|深圳|深圳-南山区|深圳-南山区|深圳-福田区|深圳|深圳|深圳|深圳|深圳|深圳|深圳|深圳|深圳-罗湖区|深圳|深圳-龙岗区|深圳|深圳-坪山新区|深圳|深圳|深圳|深圳-南山区|深圳-南山区|深圳|深圳|深圳|深圳|深圳-福田区|深圳|深圳-宝安区|深圳-宝安区|深圳|深圳|深圳|深圳|深圳-龙岗区|深圳|深圳|深圳-南山区|深圳|深圳-宝安区|深圳|深圳-龙华新区" />
+    <input type="hidden" name="h_job_title" id="h_job_title" value="算法工程师|清华大学深圳研究生院现代通信实验室硬件工程师|前装销售总监|总经理助理|销售商务助理|机器学习研发工程师|DSP开发工程师|平面设计师|软件工程师|led显示屏女业务员底薪加提成|影视后期制作|广告文案|项目经理|技术部部门经理（售前）|知识产权专员|软件工程师（Labview)|技术合伙人或技术总监|算法工程师（工作地点：光明新区，班车接送，午餐免费）|ADAS设计工程师|JAVA&amp;nbsp;Web开发工程师|企划专员|17520-U3D手游客户端开发工程师(深圳)|商业摄影师|资深软件开发工程师|销售工程师（深圳）|嵌入式软件工程师|室内效果图制作|投影机技术工程师|人工智能算法工程师|行政专员|售后工程师|外贸跟单|结构工程师|人力资源部经理|出纳|连锁运营经理|led电子结构工程师|Android开发工程师|机器视觉工程师|美工|UI设计师|女装主设计师（休闲系列）|高薪（急聘）效果图设计师|测试工程师|C++开发工程师|大客户销售|图形开发工程师|平面/网站美工 （双休+社保+高薪）|智能算法工程师|视频制作/视频编辑师（双休+高薪）|图传工程师|测试总监|自动化工程总监|平面设计主管|网站美工平面设计员|网站美工欧美潮品嘻哈帽饰|骨科影像设备销售经理|平面设计|字幕师|计算机视觉工程师（表情判断）" />
+    <input type="hidden" name="h_company" id="h_company" value="深圳市爱康生物科技有限公司|清华大学深圳研究生院|平顶山市深达电子科技有限公司深圳分公司|平顶山市深达电子科技有限公司深圳分公司|平顶山市深达电子科技有限公司深圳分公司|深圳市高巨创新科技开发有限公司|深圳市中联讯科技有限公司|深圳市锐纳装饰设计工程有限公司|深圳市沃来士企业管理咨询有限公司|深圳市合利通光电有限公司|深圳爱吉影视传媒有限公司|深圳爱吉影视传媒有限公司|深圳市深网视界科技有限公司|深圳市先创数字技术有限公司|深圳市创显光电有限公司|深圳市泰科盛自动化系统有限公司|深圳正则科技有限公司|深圳雷杜生命科学股份有限公司|福建省汽车工业集团云度新能源汽车股份有限公司|深圳市艾廷思技术有限公司|深圳市镭神智能系统有限公司|深圳腾讯计算机系统有限公司|深圳市墨言文化传媒有限公司|深圳市华信天线技术有限公司|中国大恒(集团)有限公司北京&lt;b&gt;图像&lt;/b&gt;视觉技术分公司|浩德科技股份有限公司|深圳市符号数字&lt;b&gt;图像&lt;/b&gt;有限公司|深圳市圳原电子有限公司|深圳市金溢科技股份有限公司|深圳市中港星金融服务有限公司|深圳市创显光电有限公司|深圳市创显光电有限公司|深圳市创显光电有限公司|深圳市创显光电有限公司|深圳市创显光电有限公司|深圳市汇美影像文化股份有限公司|深圳市吉丰光电有限公司|深圳市赛维网络科技有限公司|深圳市睿晟自动化技术有限公司|钰焱电子(深圳)有限公司|江西省零息实业有限公司深圳分公司|卡尔丹顿服饰股份有限公司|深圳凌锐数字&lt;b&gt;图像&lt;/b&gt;有限公司|深圳市中达瑞和科技有限公司|深圳市中达瑞和科技有限公司|深圳市汇美影像文化股份有限公司|深圳国泰安教育技术股份有限公司|深圳市鑫立达宏科技有限公司|深圳国泰安教育技术股份有限公司|云界网络服务（深圳）有限公司|坎德拉(深圳)科技创新有限公司|深圳市德富莱智能科技股份有限公司|深圳市德富莱智能科技股份有限公司|深圳前海吉粮商业科技发展有限公司|深圳昂冠帽业有限公司|深圳昂冠帽业有限公司|北京东方惠尔&lt;b&gt;图像&lt;/b&gt;技术有限公司|深圳金道黄金有限公司|深圳宜和股份有限公司（深视宜和购物频道）|亚兴科技" />
+    <input type="hidden" name="h_city" id="h_city" value="深圳|深圳|深圳|深圳|深圳|深圳|深圳|深圳|深圳|深圳|深圳|深圳|深圳|深圳|深圳|深圳-宝安区|深圳-南山区|深圳-光明新区|深圳|深圳|深圳-光明新区|深圳|深圳|深圳|深圳-南山区|深圳-南山区|深圳-福田区|深圳|深圳|深圳-罗湖区|深圳|深圳|深圳|深圳|深圳|深圳|深圳|深圳-龙岗区|深圳|深圳-坪山新区|深圳|深圳|深圳|深圳-南山区|深圳-南山区|深圳|深圳|深圳|深圳|深圳-福田区|深圳|深圳-宝安区|深圳-宝安区|深圳|深圳|深圳|深圳|深圳-龙岗区|深圳|深圳-南山区" />
     <input type="hidden" name="h_job_url" id="h_job_url" />
-    <input type="hidden" name="vacancyids" id="vacancyids" value="CC157355312J90250028000_765_1_03_201__1_,CC157355312J90250147000_765_1_03_201__1_,CZ724339640J00013251305_765_1_03_201__1_,CC661312729J90250466000_765_1_03_201__1_,CZ726295040J00047775201_765_1_03_201__1_,CZ724223540J00015533603_765_1_03_201__1_,CZ724223540J00015533203_765_1_03_201__1_,CC327900489J90250080000_765_1_03_201__1_,CC130455223J90250364000_765_1_03_201__1_,CZ161397410J00006506506_765_1_03_201__1_,CC663839420J90250001000_765_1_03_201__1_,CC342700039J90250025000_765_1_03_201__1_,CC000347481J90250733000_765_1_03_201__1_,CC370823582J90250181000_765_1_03_201__1_,CZ724147840J00047694401_765_1_03_201__1_,CC286299889J90250120000_765_1_03_201__1_,CC120072290J90288505000_765_1_03_201__1_,CZ739381040J00047685601_765_1_03_201__1_,CC189465123J90250338000_765_1_03_201__1_,CC120188733J90251379000_765_1_03_201__1_,CC120482196J90250284000_765_1_03_201__1_,CC667883422J90250011000_765_1_03_201__1_,CZ759447840J00040671901_765_1_03_201__1_,CC148581875J90251298000_765_1_03_201__1_,CZ161397410J00006489106_765_1_03_201__1_,CZ161397410J00006489006_765_1_03_201__1_,CZ161397410J00005129906_765_1_03_201__1_,CZ161397410J00005129106_765_1_03_201__1_,CZ161397410J00005184306_765_1_03_201__1_,CZ726469940J00015460903_765_1_03_201__1_,CC550610528J90250252000_765_1_03_201__1_,CZ745493940J00047649701_765_1_03_201__1_,CC516964926J90250741000_765_1_03_201__1_,CZ724196840J00013175805_765_1_03_201__1_,CC494802933J90250003000_765_1_03_201__1_,CC377928332J90250023000_765_1_03_201__1_,CC132757177J90251075000_765_1_03_201__1_,CC409723285J90250015000_765_1_03_201__1_,CC509492928J90250041000_765_1_03_201__1_,CC509492928J90250037000_765_1_03_201__1_,CZ726469940J00014825203_765_1_03_201__1_,CC131083318J90260751000_765_1_03_201__1_,CC231904616J90250085000_765_1_03_201__1_,CC131083318J90260747000_765_1_03_201__1_,CC481201986J90250011000_765_1_03_201__1_,CC404464885J90250085000_765_1_03_201__1_,CC574880622J90250376000_765_1_03_201__1_,CC574880622J90250377000_765_1_03_201__1_,CZ724303640J00013141605_765_1_03_201__1_,CC442607911J90250039000_765_1_03_201__1_,CC442607911J90250040000_765_1_03_201__1_,CC121022543J90251022000_765_1_03_201__1_,CC687164524J90250175000_765_1_03_201__1_,CC388623980J90250012000_765_1_03_201__1_,CC189282118J90250791000_765_1_03_201__1_,CC475618829J90250102000_765_1_03_201__1_,CC269958186J90250025000_765_1_03_201__1_,CC269958186J90250032000_765_1_03_201__1_,CC310288582J90250027000_765_1_03_201__1_,CC297673482J90250056000_765_1_03_201__1_," />
-    <input type="hidden" name="h_log_info" id="h_log_info" value="CC157355312J90250028000,CC157355312|CC157355312J90250147000,CC157355312|CZ724339640J00013251305,CZ724339640|CC661312729J90250466000,CC661312729|CZ726295040J00047775201,CZ726295040|CZ724223540J00015533603,CZ724223540|CZ724223540J00015533203,CZ724223540|CC327900489J90250080000,CC327900489|CC130455223J90250364000,CC130455223|CZ161397410J00006506506,CC161397419|CC663839420J90250001000,CC663839420|CC342700039J90250025000,CC342700039|CC000347481J90250733000,CC000347481|CC370823582J90250181000,CC370823582|CZ724147840J00047694401,CZ724147840|CC286299889J90250120000,CC286299889|CC120072290J90288505000,CC120072290|CZ739381040J00047685601,CZ739381040|CC189465123J90250338000,CC189465123|CC120188733J90251379000,CC120188733|CC120482196J90250284000,CC120482196|CC667883422J90250011000,CC667883422|CZ759447840J00040671901,CC759447848|CC148581875J90251298000,CC148581875|CZ161397410J00006489106,CC161397419|CZ161397410J00006489006,CC161397419|CZ161397410J00005129906,CC161397419|CZ161397410J00005129106,CC161397419|CZ161397410J00005184306,CC161397419|CZ726469940J00015460903,CZ726469940|CC550610528J90250252000,CC550610528|CZ745493940J00047649701,CZ745493940|CC516964926J90250741000,CC516964926|CZ724196840J00013175805,CZ724196840|CC494802933J90250003000,CC494802933|CC377928332J90250023000,CC377928332|CC132757177J90251075000,CC132757177|CC409723285J90250015000,CC409723285|CC509492928J90250041000,CC509492928|CC509492928J90250037000,CC509492928|CZ726469940J00014825203,CZ726469940|CC131083318J90260751000,CC131083318|CC231904616J90250085000,CC231904616|CC131083318J90260747000,CC131083318|CC481201986J90250011000,CC481201986|CC404464885J90250085000,CC404464885|CC574880622J90250376000,CC574880622|CC574880622J90250377000,CC574880622|CZ724303640J00013141605,CZ724303640|CC442607911J90250039000,CC442607911|CC442607911J90250040000,CC442607911|CC121022543J90251022000,CC121022543|CC687164524J90250175000,CC687164524|CC388623980J90250012000,CC388623980|CC189282118J90250791000,CC189282118|CC475618829J90250102000,CC475618829|CC269958186J90250025000,CC269958186|CC269958186J90250032000,CC269958186|CC310288582J90250027000,CC310288582|CC297673482J90250056000,CC297673482" />
+    <input type="hidden" name="vacancyids" id="vacancyids" value="CC156238319J90250563000_765_1_03_201__1_,CC315171127J90250509000_765_1_03_201__1_,CZ729518940J00008660807_765_1_03_201__1_,CZ729518940J00008651107_765_1_03_201__1_,CZ729518940J00008651807_765_1_03_201__1_,CC157355312J90250028000_765_1_03_201__1_,CC157355312J90250147000_765_1_03_201__1_,CZ724339640J00013251305_765_1_03_201__1_,CC661312729J90250466000_765_1_03_201__1_,CZ726295040J00047775201_765_1_03_201__1_,CZ724223540J00015533603_765_1_03_201__1_,CZ724223540J00015533203_765_1_03_201__1_,CC327900489J90250080000_765_1_03_201__1_,CC130455223J90250364000_765_1_03_201__1_,CZ161397410J00006506506_765_1_03_201__1_,CC663839420J90250001000_765_1_03_201__1_,CC342700039J90250025000_765_1_03_201__1_,CC000347481J90250733000_765_1_03_201__1_,CC370823582J90250181000_765_1_03_201__1_,CZ724147840J00047694401_765_1_03_201__1_,CC286299889J90250120000_765_1_03_201__1_,CC120072290J90288505000_765_1_03_201__1_,CZ739381040J00047685601_765_1_03_201__1_,CC189465123J90250338000_765_1_03_201__1_,CC120188733J90251379000_765_1_03_201__1_,CC120482196J90250284000_765_1_03_201__1_,CC667883422J90250011000_765_1_03_201__1_,CZ759447840J00040671901_765_1_03_201__1_,CC148581875J90251298000_765_1_03_201__1_,CC550610528J90250252000_765_1_03_201__1_,CZ161397410J00006489106_765_1_03_201__1_,CZ161397410J00006489006_765_1_03_201__1_,CZ161397410J00005129906_765_1_03_201__1_,CZ161397410J00005129106_765_1_03_201__1_,CZ161397410J00005184306_765_1_03_201__1_,CZ726469940J00015460903_765_1_03_201__1_,CZ745493940J00047649701_765_1_03_201__1_,CC516964926J90250741000_765_1_03_201__1_,CZ724196840J00013175805_765_1_03_201__1_,CC494802933J90250003000_765_1_03_201__1_,CC377928332J90250023000_765_1_03_201__1_,CC132757177J90251075000_765_1_03_201__1_,CC409723285J90250015000_765_1_03_201__1_,CC509492928J90250041000_765_1_03_201__1_,CC509492928J90250037000_765_1_03_201__1_,CZ726469940J00014825203_765_1_03_201__1_,CC131083318J90260751000_765_1_03_201__1_,CC231904616J90250085000_765_1_03_201__1_,CC131083318J90260747000_765_1_03_201__1_,CC481201986J90250011000_765_1_03_201__1_,CC404464885J90250085000_765_1_03_201__1_,CC574880622J90250377000_765_1_03_201__1_,CC574880622J90250376000_765_1_03_201__1_,CZ724303640J00013141605_765_1_03_201__1_,CC442607911J90250040000_765_1_03_201__1_,CC442607911J90250039000_765_1_03_201__1_,CC121022543J90251022000_765_1_03_201__1_,CC687164524J90250175000_765_1_03_201__1_,CC189282118J90250791000_765_1_03_201__1_,CC475618829J90250102000_765_1_03_201__1_," />
+    <input type="hidden" name="h_log_info" id="h_log_info" value="CC156238319J90250563000,CC156238319|CC315171127J90250509000,CC315171127|CZ729518940J00008660807,CZ729518940|CZ729518940J00008651107,CZ729518940|CZ729518940J00008651807,CZ729518940|CC157355312J90250028000,CC157355312|CC157355312J90250147000,CC157355312|CZ724339640J00013251305,CZ724339640|CC661312729J90250466000,CC661312729|CZ726295040J00047775201,CZ726295040|CZ724223540J00015533603,CZ724223540|CZ724223540J00015533203,CZ724223540|CC327900489J90250080000,CC327900489|CC130455223J90250364000,CC130455223|CZ161397410J00006506506,CC161397419|CC663839420J90250001000,CC663839420|CC342700039J90250025000,CC342700039|CC000347481J90250733000,CC000347481|CC370823582J90250181000,CC370823582|CZ724147840J00047694401,CZ724147840|CC286299889J90250120000,CC286299889|CC120072290J90288505000,CC120072290|CZ739381040J00047685601,CZ739381040|CC189465123J90250338000,CC189465123|CC120188733J90251379000,CC120188733|CC120482196J90250284000,CC120482196|CC667883422J90250011000,CC667883422|CZ759447840J00040671901,CC759447848|CC148581875J90251298000,CC148581875|CC550610528J90250252000,CC550610528|CZ161397410J00006489106,CC161397419|CZ161397410J00006489006,CC161397419|CZ161397410J00005129906,CC161397419|CZ161397410J00005129106,CC161397419|CZ161397410J00005184306,CC161397419|CZ726469940J00015460903,CZ726469940|CZ745493940J00047649701,CZ745493940|CC516964926J90250741000,CC516964926|CZ724196840J00013175805,CZ724196840|CC494802933J90250003000,CC494802933|CC377928332J90250023000,CC377928332|CC132757177J90251075000,CC132757177|CC409723285J90250015000,CC409723285|CC509492928J90250041000,CC509492928|CC509492928J90250037000,CC509492928|CZ726469940J00014825203,CZ726469940|CC131083318J90260751000,CC131083318|CC231904616J90250085000,CC231904616|CC131083318J90260747000,CC131083318|CC481201986J90250011000,CC481201986|CC404464885J90250085000,CC404464885|CC574880622J90250377000,CC574880622|CC574880622J90250376000,CC574880622|CZ724303640J00013141605,CZ724303640|CC442607911J90250040000,CC442607911|CC442607911J90250039000,CC442607911|CC121022543J90251022000,CC121022543|CC687164524J90250175000,CC687164524|CC189282118J90250791000,CC189282118|CC475618829J90250102000,CC475618829" />
 <!--beg 反馈通 -->
 <link href="http://img01.zhaopin.cn/2014/common/css/reset-min.css" rel="stylesheet" type="text/css" />
 <link href="http://img01.zhaopin.cn/2014/common/css/feedback/feedback-tip.css" rel="stylesheet" type="text/css" />
@@ -2731,7 +2731,7 @@ x-aspnet-version: 4.0.30319
 <a href="http://www.zhaopin.com/guangzhou/" target="_blank" >广州招聘</a><a href="http://www.zhaopin.com/dongguan/" target="_blank" >东莞招聘</a><a href="http://www.zhaopin.com/zhuhai/" target="_blank" >珠海招聘</a><a href="http://www.zhaopin.com/shantou/" target="_blank" >汕头招聘</a><a href="http://www.zhaopin.com/shaoguan/" target="_blank" >韶关招聘</a><a href="http://www.zhaopin.com/zhanjiang/" target="_blank" >湛江招聘</a><a href="http://www.zhaopin.com/zhongshan/" target="_blank" >中山招聘</a><a href="http://www.zhaopin.com/jiangmen/" target="_blank" >江门招聘</a><a href="http://www.zhaopin.com/maoming/" target="_blank" >茂名招聘</a></li>
 <li>
     <h2>招聘热门职位：</h2>
-<a href="http://jobs.zhaopin.com/sj3049/ju_qcwgsjs/" target="_blank">汽车外观设计师</a><a href="http://jobs.zhaopin.com/sj3049/ju_qcwxsjs/" target="_blank">汽车外形设计师</a><a href="http://jobs.zhaopin.com/sj814/ju_xfxmjl/" target="_blank">消防项目经理</a><a href="http://jobs.zhaopin.com/sj670/ju_cdnq02/" target="_blank">车队内勤</a><a href="http://jobs.zhaopin.com/sj3005/ju_jrxyfxs/" target="_blank">金融行业分析师</a><a href="http://jobs.zhaopin.com/sj205/ju_zkxs01/" target="_blank">直客销售</a><a href="http://jobs.zhaopin.com/sj4056/ju_jjy03/" target="_blank">竞价员</a><a href="http://jobs.zhaopin.com/sj477/ju_ppqh/" target="_blank">品牌企划</a><a href="http://jobs.zhaopin.com/sj5076/ju_zl42/" target="_blank">质量qc</a><a href="http://jobs.zhaopin.com/sj116/ju_zl48/" target="_blank">ebay助理</a></li>
+<a href="http://jobs.zhaopin.com/sj1006/ju_jcywgl/" target="_blank">基础运维管理</a><a href="http://jobs.zhaopin.com/sj004/ju_cpyycs/" target="_blank">产品应用测试</a><a href="http://jobs.zhaopin.com/sj328/ju_cwxzzj/" target="_blank">财务行政总监</a><a href="http://jobs.zhaopin.com/sj192/ju_wzch03/" target="_blank">网站策划</a><a href="http://jobs.zhaopin.com/sj331/ju_aqsc/" target="_blank">安全审查</a><a href="http://jobs.zhaopin.com/sj5089/ju_hqglzy/" target="_blank">后勤管理专员</a><a href="http://jobs.zhaopin.com/sj007/ju_gggxzy/" target="_blank">公共关系专员</a><a href="http://jobs.zhaopin.com/sj173/ju_gggxzg/" target="_blank">公共关系主管</a><a href="http://jobs.zhaopin.com/sj116/ju_gggxzl/" target="_blank">公共关系助理</a><a href="http://jobs.zhaopin.com/sj646/ju_zydf/" target="_blank">中医大夫</a></li>
                 </ul>
             </div>
         </form>
@@ -2750,7 +2750,7 @@ x-aspnet-version: 4.0.30319
         <div class="alt_select m_top5 m_bottom10">
             <select id="box_select_company" name="" class="box_select01 f_left" onchange="unit_layer.onSelect_limit();">
                 <option>请选择要排除的公司</option>
-<option c_name="深圳市创显光电有限公司" value="CC161397419">深圳市创显光电有限公司</option><option c_name="深圳市高巨创新科技开发有限公司" value="CC157355312">深圳市高巨创新科技开发有限公司</option><option c_name="深圳爱吉影视传媒有限公司" value="CZ724223540">深圳爱吉影视传媒有限公司</option><option c_name="深圳市汇美影像文化股份有限公司" value="CZ726469940">深圳市汇美影像文化股份有限公司</option><option c_name="深圳市中达瑞和科技有限公司" value="CC509492928">深圳市中达瑞和科技有限公司</option><option c_name="深圳国泰安教育技术股份有限公司" value="CC131083318">深圳国泰安教育技术股份有限公司</option><option c_name="深圳市德富莱智能科技股份有限公司" value="CC574880622">深圳市德富莱智能科技股份有限公司</option><option c_name="深圳昂冠帽业有限公司" value="CC442607911">深圳昂冠帽业有限公司</option><option c_name="深圳市迈兴隆科技有限公司" value="CC269958186">深圳市迈兴隆科技有限公司</option>            </select>
+<option c_name="深圳市创显光电有限公司" value="CC161397419">深圳市创显光电有限公司</option><option c_name="平顶山市深达电子科技有限公司深圳分公司" value="CZ729518940">平顶山市深达电子科技有限公司深圳分公司</option><option c_name="深圳市高巨创新科技开发有限公司" value="CC157355312">深圳市高巨创新科技开发有限公司</option><option c_name="深圳爱吉影视传媒有限公司" value="CZ724223540">深圳爱吉影视传媒有限公司</option><option c_name="深圳市汇美影像文化股份有限公司" value="CZ726469940">深圳市汇美影像文化股份有限公司</option><option c_name="深圳市中达瑞和科技有限公司" value="CC509492928">深圳市中达瑞和科技有限公司</option><option c_name="深圳国泰安教育技术股份有限公司" value="CC131083318">深圳国泰安教育技术股份有限公司</option><option c_name="深圳市德富莱智能科技股份有限公司" value="CC574880622">深圳市德富莱智能科技股份有限公司</option><option c_name="深圳昂冠帽业有限公司" value="CC442607911">深圳昂冠帽业有限公司</option>            </select>
             <input type="button" value="" id="close_save_com_layer" class="btn_submit01 f_left m_left10 __ga__button_forbidcompwithsou_forbidcomp_forbid_001" />
         </div>
         <div class="line_bottom m_right10 ">
