@@ -1,17 +1,17 @@
 status: 200
-vary: Accept-Encoding
-content-type: text/html;charset=UTF-8
-date: Sun, 14 May 2017 03:49:19 GMT
 content-location: https://www.liepin.com/sz/zhaopin/?key=%E5%9B%BE%E5%83%8F&curPage=4
-content-language: en-US
-pragma: no-cache
--content-encoding: gzip
-cache-control: no-cache
-p3p: CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
 connection: keep-alive
-content-length: 179029
-set-cookie: abtest=0; Domain=.liepin.com; Expires=Mon, 15-May-2017 03:49:19 GMT; Path=/, JSESSIONID=00D318215112D2B79A2544658507A0C2; Path=/; HttpOnly
+content-type: text/html;charset=UTF-8
+vary: Accept-Encoding
+content-language: en-US
+p3p: CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+content-length: 179126
+pragma: no-cache
+set-cookie: abtest=0; Domain=.liepin.com; Expires=Mon, 15-May-2017 05:49:17 GMT; Path=/, JSESSIONID=8ADA02CA707D12F9A2EFB39DD793F3BC; Path=/; HttpOnly
+date: Sun, 14 May 2017 05:49:17 GMT
+-content-encoding: gzip
 expires: Thu, 01 Jan 1970 00:00:00 GMT
+cache-control: no-cache
 -varied-accept-encoding: gzip, deflate
 
 
@@ -698,20 +698,82 @@ window.$CONFIG = {
 					            
 					        <div class="sojob-item-main clearfix">
 					          <div class="job-info" >
-					          	<span class="job-name" title="招聘人工智能算法工程师" >
-						              <a href="https://www.liepin.com/job/197624008.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>人工智能算法工程师</span>
+					          	<span class="job-name" title="招聘人脸识别高级开发工程师" >
+						              <a href="https://www.liepin.com/job/197384170.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>人脸识别高级开发工程师</span>
 						             </a>
 						              </span>
 						              
-						              <p class="condition clearfix" title="15-30万_深圳-福田区_硕士或以上_经验不限">
-						                <span class="text-warning">15-30万</span>
+						              <p class="condition clearfix" title="面议_深圳-南山区_本科或以上_1年工作经验">
+						                <span class="text-warning">面议</span>
 						                
 						                
-							                <span class="area">深圳-福田区</span>
+							                <span class="area">深圳-南山区</span>
 						                
-						                <span class="edu">硕士或以上</span>
-						                <span>经验不限</span>
+						                <span class="edu">本科或以上</span>
+						                <span>1年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司小道科技" href="https://www.liepin.com/company/8970554/" target="_blank">
+					            	    小道科技</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-040/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">互联网/移动互联网/电子商务</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>股票期权</span>
+										        
+										        <span>五险一金</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘人工智能工程师" >
+						              <a href="https://www.liepin.com/job/197981928.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>人工智能工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="面议_深圳-龙华新区_本科或以上_3年工作经验">
+						                <span class="text-warning">面议</span>
+						                
+						                
+							                <span class="area">深圳-龙华新区</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>3年工作经验</span>
 						              </p>
 						              <p class="time-info clearfix">
 						                <time>前天</time>
@@ -723,8 +785,8 @@ window.$CONFIG = {
 					            
 					            	    <div class="company-info" >
 					            		<p class="company-name">
-					            	    <a title="公司深圳市交投科技有限公司" href="https://www.liepin.com/company/8323780/" target="_blank">
-					            	    深圳市交投科技有限公司</a></p>
+					            	    <a title="公司精创光学" href="https://www.liepin.com/company/8024115/" target="_blank">
+					            	    精创光学</a></p>
 					              <p class="field-financing">
                                       
                                       
@@ -732,9 +794,9 @@ window.$CONFIG = {
                                            <span>
                                                
                                                <a class="industry-link"
-                                                                             href="/company/050090-010/"
+                                                                             href="/company/050090-340/"
                                                                              onclick="return false;"
-                                                                             target="_blank">计算机软件</a>
+                                                                             target="_blank">仪器/仪表/工业自动化/电气</a>
                                                
                                            </span>
                                           
@@ -743,11 +805,75 @@ window.$CONFIG = {
 					              </p>
 					              <p class="temptation clearfix">
 									
-										        <span>领导好</span>
+										        <span>五险一金</span>
 										        
-										        <span>技能培训</span>
+										        <span>年度旅游</span>
 										        
-										        <span>岗位晋升</span>
+										        <span>午餐补助</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘计算机视觉" >
+						              <a href="https://www.liepin.com/job/198436881.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>计算机视觉</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="28-56万_深圳-南山区_硕士或以上_5年工作经验">
+						                <span class="text-warning">28-56万</span>
+						                
+						                
+							                <span class="area">深圳-南山区</span>
+						                
+						                <span class="edu">硕士或以上</span>
+						                <span>5年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>前天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：10天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司美的集团中央研究院" href="https://www.liepin.com/company/8379220/" target="_blank">
+					            	    美的集团中央研究院</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-210/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">家具/家电</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>五险一金</span>
+										        
+										        <span>年底奖金</span>
+										        
+										        <span>带薪假期</span>
 										        
 					              </p>
 					             </div>
@@ -826,70 +952,6 @@ window.$CONFIG = {
 					            
 					        <div class="sojob-item-main clearfix">
 					          <div class="job-info" >
-					          	<span class="job-name" title="招聘机器视觉算法工程师" >
-						              <a href="https://www.liepin.com/job/198110380.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>机器视觉算法工程师</span>
-						             </a>
-						              </span>
-						              
-						              <p class="condition clearfix" title="面议_深圳-龙岗区_本科或以上_3年工作经验">
-						                <span class="text-warning">面议</span>
-						                
-						                
-							                <span class="area">深圳-龙岗区</span>
-						                
-						                <span class="edu">本科或以上</span>
-						                <span>3年工作经验</span>
-						              </p>
-						              <p class="time-info clearfix">
-						                <time>前天</time>
-						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：10天以内反馈</span>
-						                
-						              </p>
-					            </div>
-					            
-					            	    <div class="company-info" >
-					            		<p class="company-name">
-					            	    <a title="公司深圳市君奕豪科技有限公司" href="https://www.liepin.com/company/7899423/" target="_blank">
-					            	    深圳市君奕豪科技有限公司</a></p>
-					              <p class="field-financing">
-                                      
-                                      
-                                          
-                                           <span>
-                                               
-                                               <a class="industry-link"
-                                                                             href="/company/050090-340/"
-                                                                             onclick="return false;"
-                                                                             target="_blank">仪器/仪表/工业自动化/电气</a>
-                                               
-                                           </span>
-                                          
-                                          
-                                      
-					              </p>
-					              <p class="temptation clearfix">
-									
-										        <span>发展空间大</span>
-										        
-										        <span>绩效奖金</span>
-										        
-										        <span>带薪年假</span>
-										        
-					              </p>
-					             </div>
-					          </div>
-					        </li>
-							
-							
-							
-							<li>
-					        
-					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
-					            
-					        <div class="sojob-item-main clearfix">
-					          <div class="job-info" >
 					          	<span class="job-name" title="招聘计算机视觉专家" >
 						              <a href="https://www.liepin.com/job/198436732.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
 						          		<span>计算机视觉专家</span>
@@ -906,7 +968,7 @@ window.$CONFIG = {
 						                <span>5年工作经验</span>
 						              </p>
 						              <p class="time-info clearfix">
-						                <time>昨天</time>
+						                <time>前天</time>
 						                
 						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：10天以内反馈</span>
 						                
@@ -954,401 +1016,19 @@ window.$CONFIG = {
 					            
 					        <div class="sojob-item-main clearfix">
 					          <div class="job-info" >
-					          	<span class="job-name" title="招聘计算机视觉" >
-						              <a href="https://www.liepin.com/job/198436881.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>计算机视觉</span>
+					          	<span class="job-name" title="招聘智能算法软件工程师" >
+						              <a href="https://www.liepin.com/job/194767642.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>智能算法软件工程师</span>
 						             </a>
 						              </span>
 						              
-						              <p class="condition clearfix" title="28-56万_深圳-南山区_硕士或以上_5年工作经验">
-						                <span class="text-warning">28-56万</span>
+						              <p class="condition clearfix" title="18-30万_深圳-南山区_硕士或以上_5年工作经验">
+						                <span class="text-warning">18-30万</span>
 						                
 						                
 							                <span class="area">深圳-南山区</span>
 						                
 						                <span class="edu">硕士或以上</span>
-						                <span>5年工作经验</span>
-						              </p>
-						              <p class="time-info clearfix">
-						                <time>昨天</time>
-						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：10天以内反馈</span>
-						                
-						              </p>
-					            </div>
-					            
-					            	    <div class="company-info" >
-					            		<p class="company-name">
-					            	    <a title="公司美的集团中央研究院" href="https://www.liepin.com/company/8379220/" target="_blank">
-					            	    美的集团中央研究院</a></p>
-					              <p class="field-financing">
-                                      
-                                      
-                                          
-                                           <span>
-                                               
-                                               <a class="industry-link"
-                                                                             href="/company/050090-210/"
-                                                                             onclick="return false;"
-                                                                             target="_blank">家具/家电</a>
-                                               
-                                           </span>
-                                          
-                                          
-                                      
-					              </p>
-					              <p class="temptation clearfix">
-									
-										        <span>五险一金</span>
-										        
-										        <span>年底奖金</span>
-										        
-										        <span>带薪假期</span>
-										        
-					              </p>
-					             </div>
-					          </div>
-					        </li>
-							
-							
-							
-							<li>
-					        
-					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
-					            
-					        <div class="sojob-item-main clearfix">
-					          <div class="job-info" >
-					          	<span class="job-name" title="招聘Linux驱动开发工程师" >
-						              <a href="https://www.liepin.com/job/194798741.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>Linux驱动开发工程师</span>
-						             </a>
-						              </span>
-						              
-						              <p class="condition clearfix" title="18-30万_深圳-南山区_学历不限_5年工作经验">
-						                <span class="text-warning">18-30万</span>
-						                
-						                
-							                <span class="area">深圳-南山区</span>
-						                
-						                <span class="edu">学历不限</span>
-						                <span>5年工作经验</span>
-						              </p>
-						              <p class="time-info clearfix">
-						                <time>前天</time>
-						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
-						                
-						              </p>
-					            </div>
-					            
-					            	    <div class="company-info" >
-					            		<p class="company-name">
-					            	    <a title="公司同为数码" href="https://www.liepin.com/company/7908087/" target="_blank">
-					            	    同为数码</a></p>
-					              <p class="field-financing">
-                                      
-                                      
-                                          
-                                           <span>
-                                               
-                                               <a class="industry-link"
-                                                                             href="/company/050090-050/"
-                                                                             onclick="return false;"
-                                                                             target="_blank">电子技术/半导体/集成电路</a>
-                                               
-                                           </span>
-                                          
-                                          
-                                      
-					              </p>
-					              <p class="temptation clearfix">
-									
-										        <span>绩效奖金</span>
-										        
-										        <span>带薪年假</span>
-										        
-										        <span>节日礼物</span>
-										        
-					              </p>
-					             </div>
-					          </div>
-					        </li>
-							
-							
-							
-							<li>
-					        
-					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
-					            
-					        <div class="sojob-item-main clearfix">
-					          <div class="job-info" >
-					          	<span class="job-name" title="招聘视频工程师" >
-						              <a href="https://www.liepin.com/job/195260905.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>视频工程师</span>
-						             </a>
-						              </span>
-						              
-						              <p class="condition clearfix" title="7-11万_深圳-南山区_本科或以上_2年工作经验">
-						                <span class="text-warning">7-11万</span>
-						                
-						                
-							                <span class="area">深圳-南山区</span>
-						                
-						                <span class="edu">本科或以上</span>
-						                <span>2年工作经验</span>
-						              </p>
-						              <p class="time-info clearfix">
-						                <time>昨天</time>
-						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
-						                
-						              </p>
-					            </div>
-					            
-					            	    <div class="company-info" >
-					            		<p class="company-name">
-					            	    <a title="公司神州医疗" href="https://www.liepin.com/company/612381/" target="_blank">
-					            	    神州医疗</a></p>
-					              <p class="field-financing">
-                                      
-                                      
-                                          
-                                           <span>
-                                               
-                                               <a class="industry-link"
-                                                                             href="/company/050090-290/"
-                                                                             onclick="return false;"
-                                                                             target="_blank">医疗设备/器械</a>
-                                               
-                                           </span>
-                                          
-                                          
-                                      
-					              </p>
-					              <p class="temptation clearfix">
-									
-										        <span>绩效奖金</span>
-										        
-										        <span>发展空间大</span>
-										        
-					              </p>
-					             </div>
-					          </div>
-					        </li>
-							
-							
-							
-							<li>
-					        
-					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
-					            
-					        <div class="sojob-item-main clearfix">
-					          <div class="job-info" >
-					          	<span class="job-name" title="招聘GPU软件工程师" >
-						              <a href="https://www.liepin.com/job/197211209.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>GPU软件工程师</span>
-						             </a>
-						              </span>
-						              
-						              <p class="condition clearfix" title="18-24万_深圳_本科或以上_3年工作经验">
-						                <span class="text-warning">18-24万</span>
-						                
-						                
-							                <span class="area">深圳</span>
-						                
-						                <span class="edu">本科或以上</span>
-						                <span>3年工作经验</span>
-						              </p>
-						              <p class="time-info clearfix">
-						                <time>前天</time>
-						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
-						                
-						              </p>
-					            </div>
-					            
-					            	    <div class="company-info" >
-					            		<p class="company-name">
-					            	    <a title="公司斯尔顿科技" href="https://www.liepin.com/company/7923194/" target="_blank">
-					            	    斯尔顿科技</a></p>
-					              <p class="field-financing">
-                                      
-                                      
-                                          
-                                           <span>
-                                               
-                                               <a class="industry-link"
-                                                                             href="/company/050090-290/"
-                                                                             onclick="return false;"
-                                                                             target="_blank">医疗设备/器械</a>
-                                               
-                                           </span>
-                                          
-                                          
-                                      
-					              </p>
-					              <p class="temptation clearfix">
-									
-										        <span>带薪年假</span>
-										        
-										        <span>午餐补助</span>
-										        
-										        <span>定期体检</span>
-										        
-					              </p>
-					             </div>
-					          </div>
-					        </li>
-							
-							
-							
-							<li>
-					        
-					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
-					            
-					        <div class="sojob-item-main clearfix">
-					          <div class="job-info" >
-					          	<span class="job-name" title="招聘图形算法工程师" >
-						              <a href="https://www.liepin.com/job/197370904.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>图形算法工程师</span>
-						             </a>
-						              </span>
-						              
-						              <p class="condition clearfix" title="面议_深圳_本科或以上_2年工作经验">
-						                <span class="text-warning">面议</span>
-						                
-						                
-							                <span class="area">深圳</span>
-						                
-						                <span class="edu">本科或以上</span>
-						                <span>2年工作经验</span>
-						              </p>
-						              <p class="time-info clearfix">
-						                <time>昨天</time>
-						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
-						                
-						              </p>
-					            </div>
-					            
-					            	    <div class="company-info" >
-					            		<p class="company-name">
-					            	    <a title="公司晗竣雅科技" href="https://www.liepin.com/company/8410158/" target="_blank">
-					            	    晗竣雅科技</a></p>
-					              <p class="field-financing">
-                                      
-                                      
-                                          
-                                           <span>
-                                               
-                                               <a class="industry-link"
-                                                                             href="/company/050090-290/"
-                                                                             onclick="return false;"
-                                                                             target="_blank">医疗设备/器械</a>
-                                               
-                                           </span>
-                                          
-                                          
-                                      
-					              </p>
-					              <p class="temptation clearfix">
-									
-										        <span>带薪年假</span>
-										        
-										        <span>绩效奖金</span>
-										        
-										        <span>弹性工作</span>
-										        
-					              </p>
-					             </div>
-					          </div>
-					        </li>
-							
-							
-							
-							<li>
-					        
-					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
-					            
-					        <div class="sojob-item-main clearfix">
-					          <div class="job-info" >
-					          	<span class="job-name" title="招聘硬件（主管）工程师（FPGA/AS..." >
-						              <a href="https://www.liepin.com/job/197140712.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>硬件（主管）工程师（FPGA/AS...</span>
-						             </a>
-						              </span>
-						              
-						              <p class="condition clearfix" title="18-36万_深圳_本科或以上_5年工作经验">
-						                <span class="text-warning">18-36万</span>
-						                
-						                
-							                <span class="area">深圳</span>
-						                
-						                <span class="edu">本科或以上</span>
-						                <span>5年工作经验</span>
-						              </p>
-						              <p class="time-info clearfix">
-						                <time>前天</time>
-						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
-						                
-						              </p>
-					            </div>
-					            
-					            	    <div class="company-info" >
-					            		<p class="company-name">
-					            	    <a title="公司云天励飞" href="https://www.liepin.com/company/8714658/" target="_blank">
-					            	    云天励飞</a></p>
-					              <p class="field-financing">
-                                      
-                                      
-                                          
-                                           <span>
-                                               
-                                               <a class="industry-link"
-                                                                             href="/company/050090-010/"
-                                                                             onclick="return false;"
-                                                                             target="_blank">计算机软件</a>
-                                               
-                                           </span>
-                                          
-                                          
-                                      
-					              </p>
-					              <p class="temptation clearfix">
-									
-										        <span>领导好</span>
-										        
-										        <span>技能培训</span>
-										        
-										        <span>岗位晋升</span>
-										        
-					              </p>
-					             </div>
-					          </div>
-					        </li>
-							
-							
-							
-							<li>
-					        
-					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
-					            
-					        <div class="sojob-item-main clearfix">
-					          <div class="job-info" >
-					          	<span class="job-name" title="招聘高级linux驱动工程师" >
-						              <a href="https://www.liepin.com/job/193725721.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>高级linux驱动工程师</span>
-						             </a>
-						              </span>
-						              
-						              <p class="condition clearfix" title="18-30万_深圳-南山区_本科或以上_5年工作经验">
-						                <span class="text-warning">18-30万</span>
-						                
-						                
-							                <span class="area">深圳-南山区</span>
-						                
-						                <span class="edu">本科或以上</span>
 						                <span>5年工作经验</span>
 						              </p>
 						              <p class="time-info clearfix">
@@ -1464,19 +1144,81 @@ window.$CONFIG = {
 					            
 					        <div class="sojob-item-main clearfix">
 					          <div class="job-info" >
-					          	<span class="job-name" title="招聘智能算法软件工程师" >
-						              <a href="https://www.liepin.com/job/194767642.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>智能算法软件工程师</span>
+					          	<span class="job-name" title="招聘视频工程师" >
+						              <a href="https://www.liepin.com/job/195260905.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>视频工程师</span>
 						             </a>
 						              </span>
 						              
-						              <p class="condition clearfix" title="18-30万_深圳-南山区_硕士或以上_5年工作经验">
+						              <p class="condition clearfix" title="7-11万_深圳-南山区_本科或以上_2年工作经验">
+						                <span class="text-warning">7-11万</span>
+						                
+						                
+							                <span class="area">深圳-南山区</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>2年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司神州医疗" href="https://www.liepin.com/company/612381/" target="_blank">
+					            	    神州医疗</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-290/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">医疗设备/器械</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>绩效奖金</span>
+										        
+										        <span>发展空间大</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘Linux驱动开发工程师" >
+						              <a href="https://www.liepin.com/job/194798741.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>Linux驱动开发工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="18-30万_深圳-南山区_学历不限_5年工作经验">
 						                <span class="text-warning">18-30万</span>
 						                
 						                
 							                <span class="area">深圳-南山区</span>
 						                
-						                <span class="edu">硕士或以上</span>
+						                <span class="edu">学历不限</span>
 						                <span>5年工作经验</span>
 						              </p>
 						              <p class="time-info clearfix">
@@ -1509,11 +1251,11 @@ window.$CONFIG = {
 					              </p>
 					              <p class="temptation clearfix">
 									
+										        <span>绩效奖金</span>
+										        
 										        <span>带薪年假</span>
 										        
 										        <span>节日礼物</span>
-										        
-										        <span>五险一金</span>
 										        
 					              </p>
 					             </div>
@@ -1592,20 +1334,20 @@ window.$CONFIG = {
 					            
 					        <div class="sojob-item-main clearfix">
 					          <div class="job-info" >
-					          	<span class="job-name" title="招聘算法设计工程师－计算机视觉方向" >
-						              <a href="https://www.liepin.com/job/197925873.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>算法设计工程师－计算机视觉方向</span>
+					          	<span class="job-name" title="招聘高级linux驱动工程师" >
+						              <a href="https://www.liepin.com/job/193725721.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>高级linux驱动工程师</span>
 						             </a>
 						              </span>
 						              
-						              <p class="condition clearfix" title="18-36万_深圳-南山区_硕士或以上_经验不限">
-						                <span class="text-warning">18-36万</span>
+						              <p class="condition clearfix" title="18-30万_深圳-南山区_本科或以上_5年工作经验">
+						                <span class="text-warning">18-30万</span>
 						                
 						                
 							                <span class="area">深圳-南山区</span>
 						                
-						                <span class="edu">硕士或以上</span>
-						                <span>经验不限</span>
+						                <span class="edu">本科或以上</span>
+						                <span>5年工作经验</span>
 						              </p>
 						              <p class="time-info clearfix">
 						                <time>前天</time>
@@ -1617,8 +1359,8 @@ window.$CONFIG = {
 					            
 					            	    <div class="company-info" >
 					            		<p class="company-name">
-					            	    <a title="公司敏行医学" href="https://www.liepin.com/company/8113561/" target="_blank">
-					            	    敏行医学</a></p>
+					            	    <a title="公司同为数码" href="https://www.liepin.com/company/7908087/" target="_blank">
+					            	    同为数码</a></p>
 					              <p class="field-financing">
                                       
                                       
@@ -1626,9 +1368,9 @@ window.$CONFIG = {
                                            <span>
                                                
                                                <a class="industry-link"
-                                                                             href="/company/050090-290/"
+                                                                             href="/company/050090-050/"
                                                                              onclick="return false;"
-                                                                             target="_blank">医疗设备/器械</a>
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
                                                
                                            </span>
                                           
@@ -1637,75 +1379,11 @@ window.$CONFIG = {
 					              </p>
 					              <p class="temptation clearfix">
 									
-										        <span>股票期权</span>
+										        <span>带薪年假</span>
 										        
-										        <span>创新能力强</span>
+										        <span>节日礼物</span>
 										        
-										        <span>发展空间大</span>
-										        
-					              </p>
-					             </div>
-					          </div>
-					        </li>
-							
-							
-							
-							<li>
-					        
-					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
-					            
-					        <div class="sojob-item-main clearfix">
-					          <div class="job-info" >
-					          	<span class="job-name" title="招聘算法工程师（IVD）" >
-						              <a href="https://www.liepin.com/job/197422606.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>算法工程师（IVD）</span>
-						             </a>
-						              </span>
-						              
-						              <p class="condition clearfix" title="10-20万_深圳-宝安区_硕士或以上_2年工作经验">
-						                <span class="text-warning">10-20万</span>
-						                
-						                
-							                <span class="area">深圳-宝安区</span>
-						                
-						                <span class="edu">硕士或以上</span>
-						                <span>2年工作经验</span>
-						              </p>
-						              <p class="time-info clearfix">
-						                <time>前天</time>
-						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
-						                
-						              </p>
-					            </div>
-					            
-					            	    <div class="company-info" >
-					            		<p class="company-name">
-					            	    <a title="公司江苏康尚生物医疗科技有限公司" href="https://www.liepin.com/company/7979444/" target="_blank">
-					            	    江苏康尚生物医疗科技有限公司</a></p>
-					              <p class="field-financing">
-                                      
-                                      
-                                          
-                                           <span>
-                                               
-                                               <a class="industry-link"
-                                                                             href="/company/050090-290/"
-                                                                             onclick="return false;"
-                                                                             target="_blank">医疗设备/器械</a>
-                                               
-                                           </span>
-                                          
-                                          
-                                      
-					              </p>
-					              <p class="temptation clearfix">
-									
-										        <span>领导好</span>
-										        
-										        <span>技能培训</span>
-										        
-										        <span>岗位晋升</span>
+										        <span>五险一金</span>
 										        
 					              </p>
 					             </div>
@@ -1784,84 +1462,20 @@ window.$CONFIG = {
 					            
 					        <div class="sojob-item-main clearfix">
 					          <div class="job-info" >
-					          	<span class="job-name" title="招聘FPGA开发" >
-						              <a href="https://www.liepin.com/job/198359579.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>FPGA开发</span>
+					          	<span class="job-name" title="招聘图形算法工程师" >
+						              <a href="https://www.liepin.com/job/197370904.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>图形算法工程师</span>
 						             </a>
 						              </span>
 						              
-						              <p class="condition clearfix" title="12-24万_深圳_本科或以上_3年工作经验">
-						                <span class="text-warning">12-24万</span>
+						              <p class="condition clearfix" title="面议_深圳_本科或以上_2年工作经验">
+						                <span class="text-warning">面议</span>
 						                
 						                
 							                <span class="area">深圳</span>
 						                
 						                <span class="edu">本科或以上</span>
-						                <span>3年工作经验</span>
-						              </p>
-						              <p class="time-info clearfix">
-						                <time>前天</time>
-						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：48小时反馈</span>
-						                
-						              </p>
-					            </div>
-					            
-					            	    <div class="company-info" >
-					            		<p class="company-name">
-					            	    <a title="公司深圳市超节点网络科技有限公司" href="https://www.liepin.com/company/8776958/" target="_blank">
-					            	    深圳市超节点网络科技有限公司</a></p>
-					              <p class="field-financing">
-                                      
-                                      
-                                          
-                                           <span>
-                                               
-                                               <a class="industry-link"
-                                                                             href="/company/050090-010/"
-                                                                             onclick="return false;"
-                                                                             target="_blank">计算机软件</a>
-                                               
-                                           </span>
-                                          
-                                          
-                                      
-					              </p>
-					              <p class="temptation clearfix">
-									
-										        <span>领导好</span>
-										        
-										        <span>五险一金</span>
-										        
-										        <span>定期调薪</span>
-										        
-					              </p>
-					             </div>
-					          </div>
-					        </li>
-							
-							
-							
-							<li>
-					        
-					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
-					            
-					        <div class="sojob-item-main clearfix">
-					          <div class="job-info" >
-					          	<span class="job-name" title="招聘机器视觉工程师" >
-						              <a href="https://www.liepin.com/job/198389885.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>机器视觉工程师</span>
-						             </a>
-						              </span>
-						              
-						              <p class="condition clearfix" title="10-12万_深圳_大专或以上_3年工作经验">
-						                <span class="text-warning">10-12万</span>
-						                
-						                
-							                <span class="area">深圳</span>
-						                
-						                <span class="edu">大专或以上</span>
-						                <span>3年工作经验</span>
+						                <span>2年工作经验</span>
 						              </p>
 						              <p class="time-info clearfix">
 						                <time>前天</time>
@@ -1873,8 +1487,8 @@ window.$CONFIG = {
 					            
 					            	    <div class="company-info" >
 					            		<p class="company-name">
-					            	    <a title="公司源明杰科技" href="https://www.liepin.com/company/7873901/" target="_blank">
-					            	    源明杰科技</a></p>
+					            	    <a title="公司晗竣雅科技" href="https://www.liepin.com/company/8410158/" target="_blank">
+					            	    晗竣雅科技</a></p>
 					              <p class="field-financing">
                                       
                                       
@@ -1882,9 +1496,9 @@ window.$CONFIG = {
                                            <span>
                                                
                                                <a class="industry-link"
-                                                                             href="/company/050090-340/"
+                                                                             href="/company/050090-290/"
                                                                              onclick="return false;"
-                                                                             target="_blank">仪器/仪表/工业自动化/电气</a>
+                                                                             target="_blank">医疗设备/器械</a>
                                                
                                            </span>
                                           
@@ -1893,75 +1507,11 @@ window.$CONFIG = {
 					              </p>
 					              <p class="temptation clearfix">
 									
-										        <span>五险一金</span>
+										        <span>带薪年假</span>
 										        
 										        <span>绩效奖金</span>
 										        
-										        <span>周末双休</span>
-										        
-					              </p>
-					             </div>
-					          </div>
-					        </li>
-							
-							
-							
-							<li>
-					        
-					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
-					            
-					        <div class="sojob-item-main clearfix">
-					          <div class="job-info" >
-					          	<span class="job-name" title="招聘电路设计" >
-						              <a href="https://www.liepin.com/job/198383595.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>电路设计</span>
-						             </a>
-						              </span>
-						              
-						              <p class="condition clearfix" title="12-24万_深圳_本科或以上_3年工作经验">
-						                <span class="text-warning">12-24万</span>
-						                
-						                
-							                <span class="area">深圳</span>
-						                
-						                <span class="edu">本科或以上</span>
-						                <span>3年工作经验</span>
-						              </p>
-						              <p class="time-info clearfix">
-						                <time>前天</time>
-						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：48小时反馈</span>
-						                
-						              </p>
-					            </div>
-					            
-					            	    <div class="company-info" >
-					            		<p class="company-name">
-					            	    <a title="公司深圳市超节点网络科技有限公司" href="https://www.liepin.com/company/8776958/" target="_blank">
-					            	    深圳市超节点网络科技有限公司</a></p>
-					              <p class="field-financing">
-                                      
-                                      
-                                          
-                                           <span>
-                                               
-                                               <a class="industry-link"
-                                                                             href="/company/050090-010/"
-                                                                             onclick="return false;"
-                                                                             target="_blank">计算机软件</a>
-                                               
-                                           </span>
-                                          
-                                          
-                                      
-					              </p>
-					              <p class="temptation clearfix">
-									
-										        <span>领导好</span>
-										        
-										        <span>五险一金</span>
-										        
-										        <span>定期调薪</span>
+										        <span>弹性工作</span>
 										        
 					              </p>
 					             </div>
@@ -2040,6 +1590,198 @@ window.$CONFIG = {
 					            
 					        <div class="sojob-item-main clearfix">
 					          <div class="job-info" >
+					          	<span class="job-name" title="招聘GPU软件工程师" >
+						              <a href="https://www.liepin.com/job/197211209.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>GPU软件工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="18-24万_深圳_本科或以上_3年工作经验">
+						                <span class="text-warning">18-24万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>前天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司斯尔顿科技" href="https://www.liepin.com/company/7923194/" target="_blank">
+					            	    斯尔顿科技</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-290/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">医疗设备/器械</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>带薪年假</span>
+										        
+										        <span>午餐补助</span>
+										        
+										        <span>定期体检</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘硬件（主管）工程师（FPGA/AS..." >
+						              <a href="https://www.liepin.com/job/197140712.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>硬件（主管）工程师（FPGA/AS...</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="18-36万_深圳_本科或以上_5年工作经验">
+						                <span class="text-warning">18-36万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>5年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>前天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司云天励飞" href="https://www.liepin.com/company/8714658/" target="_blank">
+					            	    云天励飞</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-010/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">计算机软件</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>领导好</span>
+										        
+										        <span>技能培训</span>
+										        
+										        <span>岗位晋升</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘算法工程师（IVD）" >
+						              <a href="https://www.liepin.com/job/197422606.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>算法工程师（IVD）</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="10-20万_深圳-宝安区_硕士或以上_2年工作经验">
+						                <span class="text-warning">10-20万</span>
+						                
+						                
+							                <span class="area">深圳-宝安区</span>
+						                
+						                <span class="edu">硕士或以上</span>
+						                <span>2年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>前天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司江苏康尚生物医疗科技有限公司" href="https://www.liepin.com/company/7979444/" target="_blank">
+					            	    江苏康尚生物医疗科技有限公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-290/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">医疗设备/器械</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>领导好</span>
+										        
+										        <span>技能培训</span>
+										        
+										        <span>岗位晋升</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
 					          	<span class="job-name" title="招聘高级视觉算法工程师" >
 						              <a href="https://www.liepin.com/job/198481850.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
 						          		<span>高级视觉算法工程师</span>
@@ -2104,33 +1846,33 @@ window.$CONFIG = {
 					            
 					        <div class="sojob-item-main clearfix">
 					          <div class="job-info" >
-					          	<span class="job-name" title="招聘资深软件开发工程师" >
-						              <a href="https://www.liepin.com/job/198467148.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>资深软件开发工程师</span>
+					          	<span class="job-name" title="招聘算法设计工程师－计算机视觉方向" >
+						              <a href="https://www.liepin.com/job/197925873.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>算法设计工程师－计算机视觉方向</span>
 						             </a>
 						              </span>
 						              
-						              <p class="condition clearfix" title="18-30万_深圳-南山区_本科或以上_5年工作经验">
-						                <span class="text-warning">18-30万</span>
+						              <p class="condition clearfix" title="18-36万_深圳-南山区_硕士或以上_经验不限">
+						                <span class="text-warning">18-36万</span>
 						                
 						                
 							                <span class="area">深圳-南山区</span>
 						                
-						                <span class="edu">本科或以上</span>
-						                <span>5年工作经验</span>
+						                <span class="edu">硕士或以上</span>
+						                <span>经验不限</span>
 						              </p>
 						              <p class="time-info clearfix">
 						                <time>前天</time>
 						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：10天以内反馈</span>
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
 						                
 						              </p>
 					            </div>
 					            
 					            	    <div class="company-info" >
 					            		<p class="company-name">
-					            	    <a title="公司深圳市华信天线技术有限公司" href="https://www.liepin.com/company/7742137/" target="_blank">
-					            	    深圳市华信天线技术有限公司</a></p>
+					            	    <a title="公司敏行医学" href="https://www.liepin.com/company/8113561/" target="_blank">
+					            	    敏行医学</a></p>
 					              <p class="field-financing">
                                       
                                       
@@ -2138,9 +1880,9 @@ window.$CONFIG = {
                                            <span>
                                                
                                                <a class="industry-link"
-                                                                             href="/company/050090-050/"
+                                                                             href="/company/050090-290/"
                                                                              onclick="return false;"
-                                                                             target="_blank">电子技术/半导体/集成电路</a>
+                                                                             target="_blank">医疗设备/器械</a>
                                                
                                            </span>
                                           
@@ -2149,11 +1891,75 @@ window.$CONFIG = {
 					              </p>
 					              <p class="temptation clearfix">
 									
-										        <span>管理规范</span>
+										        <span>股票期权</span>
 										        
-										        <span>团队聚餐</span>
+										        <span>创新能力强</span>
 										        
-										        <span>带薪年假</span>
+										        <span>发展空间大</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘机器视觉工程师" >
+						              <a href="https://www.liepin.com/job/198389885.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>机器视觉工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="10-12万_深圳_大专或以上_3年工作经验">
+						                <span class="text-warning">10-12万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">大专或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>前天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司源明杰科技" href="https://www.liepin.com/company/7873901/" target="_blank">
+					            	    源明杰科技</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-340/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">仪器/仪表/工业自动化/电气</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>五险一金</span>
+										        
+										        <span>绩效奖金</span>
+										        
+										        <span>周末双休</span>
 										        
 					              </p>
 					             </div>
@@ -2296,33 +2102,33 @@ window.$CONFIG = {
 					            
 					        <div class="sojob-item-main clearfix">
 					          <div class="job-info" >
-					          	<span class="job-name" title="招聘算法高级主管工程师" >
-						              <a href="https://www.liepin.com/job/196038293.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>算法高级主管工程师</span>
+					          	<span class="job-name" title="招聘电路设计" >
+						              <a href="https://www.liepin.com/job/198383595.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>电路设计</span>
 						             </a>
 						              </span>
 						              
-						              <p class="condition clearfix" title="20-28万_深圳-福田区_硕士或以上_2年工作经验">
-						                <span class="text-warning">20-28万</span>
+						              <p class="condition clearfix" title="12-24万_深圳_本科或以上_3年工作经验">
+						                <span class="text-warning">12-24万</span>
 						                
 						                
-							                <span class="area">深圳-福田区</span>
+							                <span class="area">深圳</span>
 						                
-						                <span class="edu">硕士或以上</span>
-						                <span>2年工作经验</span>
+						                <span class="edu">本科或以上</span>
+						                <span>3年工作经验</span>
 						              </p>
 						              <p class="time-info clearfix">
 						                <time>前天</time>
 						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：48小时反馈</span>
 						                
 						              </p>
 					            </div>
 					            
 					            	    <div class="company-info" >
 					            		<p class="company-name">
-					            	    <a title="公司云天励飞" href="https://www.liepin.com/company/8714658/" target="_blank">
-					            	    云天励飞</a></p>
+					            	    <a title="公司深圳市超节点网络科技有限公司" href="https://www.liepin.com/company/8776958/" target="_blank">
+					            	    深圳市超节点网络科技有限公司</a></p>
 					              <p class="field-financing">
                                       
                                       
@@ -2341,9 +2147,73 @@ window.$CONFIG = {
 					              </p>
 					              <p class="temptation clearfix">
 									
-										        <span>股票期权</span>
+										        <span>领导好</span>
 										        
-										        <span>绩效奖金</span>
+										        <span>五险一金</span>
+										        
+										        <span>定期调薪</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘资深软件开发工程师" >
+						              <a href="https://www.liepin.com/job/198467148.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>资深软件开发工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="18-30万_深圳-南山区_本科或以上_5年工作经验">
+						                <span class="text-warning">18-30万</span>
+						                
+						                
+							                <span class="area">深圳-南山区</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>5年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>前天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：10天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司深圳市华信天线技术有限公司" href="https://www.liepin.com/company/7742137/" target="_blank">
+					            	    深圳市华信天线技术有限公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-050/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>管理规范</span>
+										        
+										        <span>团队聚餐</span>
 										        
 										        <span>带薪年假</span>
 										        
@@ -2360,50 +2230,56 @@ window.$CONFIG = {
 					            
 					        <div class="sojob-item-main clearfix">
 					          <div class="job-info" >
-					          	<span class="job-name" title="招聘高级数据挖掘工程师" >
-						              <a href="https://www.liepin.com/job/195252579.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>高级数据挖掘工程师</span>
+					          	<span class="job-name" title="招聘FPGA开发" >
+						              <a href="https://www.liepin.com/job/198359579.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>FPGA开发</span>
 						             </a>
 						              </span>
 						              
-						              <p class="condition clearfix" title="面议_深圳-南山区_硕士或以上_3年工作经验">
-						                <span class="text-warning">面议</span>
+						              <p class="condition clearfix" title="12-24万_深圳_本科或以上_3年工作经验">
+						                <span class="text-warning">12-24万</span>
 						                
 						                
-							                <span class="area">深圳-南山区</span>
+							                <span class="area">深圳</span>
 						                
-						                <span class="edu">硕士或以上</span>
+						                <span class="edu">本科或以上</span>
 						                <span>3年工作经验</span>
 						              </p>
 						              <p class="time-info clearfix">
 						                <time>前天</time>
 						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：10天以内反馈</span>
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：48小时反馈</span>
 						                
 						              </p>
 					            </div>
 					            
 					            	    <div class="company-info" >
 					            		<p class="company-name">
-					            	    <a title="公司牛鼎丰" href="https://www.liepin.com/company/8768803/" target="_blank">
-					            	    牛鼎丰</a></p>
+					            	    <a title="公司深圳市超节点网络科技有限公司" href="https://www.liepin.com/company/8776958/" target="_blank">
+					            	    深圳市超节点网络科技有限公司</a></p>
 					              <p class="field-financing">
                                       
                                       
                                           
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-010/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">计算机软件</a>
+                                               
+                                           </span>
                                           
-                                              <span>互联网金融</span>
-                                              <span>未融资</span>
                                           
                                       
 					              </p>
 					              <p class="temptation clearfix">
 									
-										        <span>弹性工作</span>
+										        <span>领导好</span>
 										        
-										        <span>交通补助</span>
+										        <span>五险一金</span>
 										        
-										        <span>午餐补助</span>
+										        <span>定期调薪</span>
 										        
 					              </p>
 					             </div>
@@ -2480,20 +2356,20 @@ window.$CONFIG = {
 					            
 					        <div class="sojob-item-main clearfix">
 					          <div class="job-info" >
-					          	<span class="job-name" title="招聘摄像机3A算法软件工程师" >
-						              <a href="https://www.liepin.com/job/194767608.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>摄像机3A算法软件工程师</span>
+					          	<span class="job-name" title="招聘大数据工程师" >
+						              <a href="https://www.liepin.com/job/194928122.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>大数据工程师</span>
 						             </a>
 						              </span>
 						              
-						              <p class="condition clearfix" title="18-30万_深圳-南山区_本科或以上_3年工作经验">
-						                <span class="text-warning">18-30万</span>
+						              <p class="condition clearfix" title="24-30万_深圳-南山区_本科或以上_经验不限">
+						                <span class="text-warning">24-30万</span>
 						                
 						                
 							                <span class="area">深圳-南山区</span>
 						                
 						                <span class="edu">本科或以上</span>
-						                <span>3年工作经验</span>
+						                <span>经验不限</span>
 						              </p>
 						              <p class="time-info clearfix">
 						                <time>前天</time>
@@ -2505,8 +2381,8 @@ window.$CONFIG = {
 					            
 					            	    <div class="company-info" >
 					            		<p class="company-name">
-					            	    <a title="公司同为数码" href="https://www.liepin.com/company/7908087/" target="_blank">
-					            	    同为数码</a></p>
+					            	    <a title="公司大数金融" href="https://www.liepin.com/company/8498044/" target="_blank">
+					            	    大数金融</a></p>
 					              <p class="field-financing">
                                       
                                       
@@ -2514,9 +2390,9 @@ window.$CONFIG = {
                                            <span>
                                                
                                                <a class="industry-link"
-                                                                             href="/company/050090-050/"
+                                                                             href="/company/050090-150/"
                                                                              onclick="return false;"
-                                                                             target="_blank">电子技术/半导体/集成电路</a>
+                                                                             target="_blank">基金/证券/期货/投资</a>
                                                
                                            </span>
                                           
@@ -2525,11 +2401,75 @@ window.$CONFIG = {
 					              </p>
 					              <p class="temptation clearfix">
 									
+										        <span>绩效奖金</span>
+										        
 										        <span>带薪年假</span>
 										        
-										        <span>节日礼物</span>
+										        <span>午餐补助</span>
 										        
-										        <span>五险一金</span>
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘微电子智能系统研究中心主任" >
+						              <a href="https://www.liepin.com/job/195669222.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>微电子智能系统研究中心主任</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="18-30万_深圳-南山区_学历不限_5年工作经验">
+						                <span class="text-warning">18-30万</span>
+						                
+						                
+							                <span class="area">深圳-南山区</span>
+						                
+						                <span class="edu">学历不限</span>
+						                <span>5年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司神州医疗" href="https://www.liepin.com/company/612381/" target="_blank">
+					            	    神州医疗</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-290/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">医疗设备/器械</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>发展空间大</span>
+										        
+										        <span>绩效奖金</span>
+										        
+										        <span>扁平管理</span>
 										        
 					              </p>
 					             </div>
@@ -2560,7 +2500,7 @@ window.$CONFIG = {
 						                <span>2年工作经验</span>
 						              </p>
 						              <p class="time-info clearfix">
-						                <time>昨天</time>
+						                <time>前天</time>
 						                
 						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
 						                
@@ -2594,6 +2534,134 @@ window.$CONFIG = {
 										        <span>鼓励学习与创新</span>
 										        
 										        <span>领导好</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘算法高级主管工程师" >
+						              <a href="https://www.liepin.com/job/196038293.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>算法高级主管工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="20-28万_深圳-福田区_硕士或以上_2年工作经验">
+						                <span class="text-warning">20-28万</span>
+						                
+						                
+							                <span class="area">深圳-福田区</span>
+						                
+						                <span class="edu">硕士或以上</span>
+						                <span>2年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>前天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司云天励飞" href="https://www.liepin.com/company/8714658/" target="_blank">
+					            	    云天励飞</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-010/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">计算机软件</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>股票期权</span>
+										        
+										        <span>绩效奖金</span>
+										        
+										        <span>带薪年假</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘高级软件工程师" >
+						              <a href="https://www.liepin.com/job/193982013.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>高级软件工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="12-30万_深圳-宝安区_学历不限_3年工作经验">
+						                <span class="text-warning">12-30万</span>
+						                
+						                
+							                <span class="area">深圳-宝安区</span>
+						                
+						                <span class="edu">学历不限</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>前天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：24小时反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司汉匠自动化" href="https://www.liepin.com/company/8163438/" target="_blank">
+					            	    汉匠自动化</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-340/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">仪器/仪表/工业自动化/电气</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>年底双薪</span>
+										        
+										        <span>绩效奖金</span>
+										        
+										        <span>带薪年假</span>
 										        
 					              </p>
 					             </div>
@@ -2672,23 +2740,81 @@ window.$CONFIG = {
 					            
 					        <div class="sojob-item-main clearfix">
 					          <div class="job-info" >
-					          	<span class="job-name" title="招聘微电子智能系统研究中心主任" >
-						              <a href="https://www.liepin.com/job/195669222.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>微电子智能系统研究中心主任</span>
+					          	<span class="job-name" title="招聘高级数据挖掘工程师" >
+						              <a href="https://www.liepin.com/job/195252579.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>高级数据挖掘工程师</span>
 						             </a>
 						              </span>
 						              
-						              <p class="condition clearfix" title="18-30万_深圳-南山区_学历不限_5年工作经验">
+						              <p class="condition clearfix" title="面议_深圳-南山区_硕士或以上_3年工作经验">
+						                <span class="text-warning">面议</span>
+						                
+						                
+							                <span class="area">深圳-南山区</span>
+						                
+						                <span class="edu">硕士或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>前天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：10天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司牛鼎丰" href="https://www.liepin.com/company/8768803/" target="_blank">
+					            	    牛鼎丰</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                          
+                                              <span>互联网金融</span>
+                                              <span>未融资</span>
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>弹性工作</span>
+										        
+										        <span>交通补助</span>
+										        
+										        <span>午餐补助</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘摄像机3A算法软件工程师" >
+						              <a href="https://www.liepin.com/job/194767608.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>摄像机3A算法软件工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="18-30万_深圳-南山区_本科或以上_3年工作经验">
 						                <span class="text-warning">18-30万</span>
 						                
 						                
 							                <span class="area">深圳-南山区</span>
 						                
-						                <span class="edu">学历不限</span>
-						                <span>5年工作经验</span>
+						                <span class="edu">本科或以上</span>
+						                <span>3年工作经验</span>
 						              </p>
 						              <p class="time-info clearfix">
-						                <time>昨天</time>
+						                <time>前天</time>
 						                
 						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
 						                
@@ -2697,8 +2823,8 @@ window.$CONFIG = {
 					            
 					            	    <div class="company-info" >
 					            		<p class="company-name">
-					            	    <a title="公司神州医疗" href="https://www.liepin.com/company/612381/" target="_blank">
-					            	    神州医疗</a></p>
+					            	    <a title="公司同为数码" href="https://www.liepin.com/company/7908087/" target="_blank">
+					            	    同为数码</a></p>
 					              <p class="field-financing">
                                       
                                       
@@ -2706,9 +2832,9 @@ window.$CONFIG = {
                                            <span>
                                                
                                                <a class="industry-link"
-                                                                             href="/company/050090-290/"
+                                                                             href="/company/050090-050/"
                                                                              onclick="return false;"
-                                                                             target="_blank">医疗设备/器械</a>
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
                                                
                                            </span>
                                           
@@ -2717,11 +2843,197 @@ window.$CONFIG = {
 					              </p>
 					              <p class="temptation clearfix">
 									
-										        <span>发展空间大</span>
+										        <span>带薪年假</span>
+										        
+										        <span>节日礼物</span>
+										        
+										        <span>五险一金</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘产品经理（罗湖）" >
+						              <a href="https://www.liepin.com/job/198082129.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>产品经理（罗湖）</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="12-24万_深圳_本科或以上_2年工作经验">
+						                <span class="text-warning">12-24万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>2年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>前天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司深圳世联行地产顾问股份有限公司" href="https://www.liepin.com/company/7899366/" target="_blank">
+					            	    深圳世联行地产顾问股份有限公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-090/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">房地产服务(物业管理/地产经纪)</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>上市公司</span>
+										        
+										        <span>带薪年假</span>
 										        
 										        <span>绩效奖金</span>
 										        
-										        <span>扁平管理</span>
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘副总经理（研发）" >
+						              <a href="https://www.liepin.com/job/197906279.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>副总经理（研发）</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="面议_深圳_本科或以上_10年工作经验">
+						                <span class="text-warning">面议</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>10年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>前天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：48小时反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司一电科技" href="https://www.liepin.com/company/4665652/" target="_blank">
+					            	    一电科技</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-250/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">交通/物流/运输</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>有公积金</span>
+										        
+										        <span>提供住宿</span>
+										        
+										        <span>股票期权</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘高级自然语言处理工程师" >
+						              <a href="https://www.liepin.com/job/196463522.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>高级自然语言处理工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="面议_深圳-南山区_博士或以上_3年工作经验">
+						                <span class="text-warning">面议</span>
+						                
+						                
+							                <span class="area">深圳-南山区</span>
+						                
+						                <span class="edu">博士或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>前天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：10天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司牛鼎丰" href="https://www.liepin.com/company/8768803/" target="_blank">
+					            	    牛鼎丰</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                          
+                                              <span>互联网金融</span>
+                                              <span>未融资</span>
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>弹性工作</span>
+										        
+										        <span>交通补助</span>
+										        
+										        <span>午餐补助</span>
 										        
 					              </p>
 					             </div>
@@ -2864,274 +3176,20 @@ window.$CONFIG = {
 					            
 					        <div class="sojob-item-main clearfix">
 					          <div class="job-info" >
-					          	<span class="job-name" title="招聘视觉工程师" >
-						              <a href="https://www.liepin.com/job/197421149.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>视觉工程师</span>
+					          	<span class="job-name" title="招聘系统测试工程师" >
+						              <a href="https://www.liepin.com/job/197343944.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>系统测试工程师</span>
 						             </a>
 						              </span>
 						              
-						              <p class="condition clearfix" title="面议_深圳-龙岗区_本科或以上_6年工作经验">
-						                <span class="text-warning">面议</span>
-						                
-						                
-							                <span class="area">深圳-龙岗区</span>
-						                
-						                <span class="edu">本科或以上</span>
-						                <span>6年工作经验</span>
-						              </p>
-						              <p class="time-info clearfix">
-						                <time>昨天</time>
-						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：48小时反馈</span>
-						                
-						              </p>
-					            </div>
-					            
-					            	    <div class="company-info" >
-					            		<p class="company-name">
-					            	    <a title="公司SIFO" href="https://www.liepin.com/company/8879960/" target="_blank">
-					            	    SIFO</a></p>
-					              <p class="field-financing">
-                                      
-                                      
-                                          
-                                           <span>
-                                               
-                                               <a class="industry-link"
-                                                                             href="/company/050090-340/"
-                                                                             onclick="return false;"
-                                                                             target="_blank">仪器/仪表/工业自动化/电气</a>
-                                               
-                                           </span>
-                                          
-                                          
-                                      
-					              </p>
-					              <p class="temptation clearfix">
-									
-										        <span>年底双薪</span>
-										        
-										        <span>带薪年假</span>
-										        
-										        <span>绩效奖金</span>
-										        
-					              </p>
-					             </div>
-					          </div>
-					        </li>
-							
-							
-							
-							<li>
-					        
-					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
-					            
-					        <div class="sojob-item-main clearfix">
-					          <div class="job-info" >
-					          	<span class="job-name" title="招聘IC设计工程师" >
-						              <a href="https://www.liepin.com/job/197421509.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>IC设计工程师</span>
-						             </a>
-						              </span>
-						              
-						              <p class="condition clearfix" title="面议_深圳_本科或以上_2年工作经验">
+						              <p class="condition clearfix" title="面议_深圳_本科或以上_经验不限">
 						                <span class="text-warning">面议</span>
 						                
 						                
 							                <span class="area">深圳</span>
 						                
 						                <span class="edu">本科或以上</span>
-						                <span>2年工作经验</span>
-						              </p>
-						              <p class="time-info clearfix">
-						                <time>前天</time>
-						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
-						                
-						              </p>
-					            </div>
-					            
-					            	    <div class="company-info" >
-					            		<p class="company-name">
-					            	    <a title="公司泰山在线科技" href="https://www.liepin.com/company/870712/" target="_blank">
-					            	    泰山在线科技</a></p>
-					              <p class="field-financing">
-                                      
-                                      
-                                          
-                                           <span>
-                                               
-                                               <a class="industry-link"
-                                                                             href="/company/050090-040/"
-                                                                             onclick="return false;"
-                                                                             target="_blank">互联网/移动互联网/电子商务</a>
-                                               
-                                           </span>
-                                          
-                                          
-                                      
-					              </p>
-					              <p class="temptation clearfix">
-									
-										        <span>发展空间大</span>
-										        
-										        <span>定期体检</span>
-										        
-										        <span>节日礼物</span>
-										        
-					              </p>
-					             </div>
-					          </div>
-					        </li>
-							
-							
-							
-							<li>
-					        
-					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
-					            
-					        <div class="sojob-item-main clearfix">
-					          <div class="job-info" >
-					          	<span class="job-name" title="招聘软件总工" >
-						              <a href="https://www.liepin.com/job/197229697.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>软件总工</span>
-						             </a>
-						              </span>
-						              
-						              <p class="condition clearfix" title="面议_深圳_本科或以上_8年工作经验">
-						                <span class="text-warning">面议</span>
-						                
-						                
-							                <span class="area">深圳</span>
-						                
-						                <span class="edu">本科或以上</span>
-						                <span>8年工作经验</span>
-						              </p>
-						              <p class="time-info clearfix">
-						                <time>前天</time>
-						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：48小时反馈</span>
-						                
-						              </p>
-					            </div>
-					            
-					            	    <div class="company-info" >
-					            		<p class="company-name">
-					            	    <a title="公司一电科技" href="https://www.liepin.com/company/4665652/" target="_blank">
-					            	    一电科技</a></p>
-					              <p class="field-financing">
-                                      
-                                      
-                                          
-                                           <span>
-                                               
-                                               <a class="industry-link"
-                                                                             href="/company/050090-250/"
-                                                                             onclick="return false;"
-                                                                             target="_blank">交通/物流/运输</a>
-                                               
-                                           </span>
-                                          
-                                          
-                                      
-					              </p>
-					              <p class="temptation clearfix">
-									
-										        <span>发展空间大</span>
-										        
-										        <span>绩效奖金</span>
-										        
-										        <span>带薪年假</span>
-										        
-					              </p>
-					             </div>
-					          </div>
-					        </li>
-							
-							
-							
-							<li>
-					        
-					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
-					            
-					        <div class="sojob-item-main clearfix">
-					          <div class="job-info" >
-					          	<span class="job-name" title="招聘深度学习研发总监" >
-						              <a href="https://www.liepin.com/job/197371233.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>深度学习研发总监</span>
-						             </a>
-						              </span>
-						              
-						              <p class="condition clearfix" title="面议_深圳-南山区_硕士或以上_经验不限">
-						                <span class="text-warning">面议</span>
-						                
-						                
-							                <span class="area">深圳-南山区</span>
-						                
-						                <span class="edu">硕士或以上</span>
 						                <span>经验不限</span>
-						              </p>
-						              <p class="time-info clearfix">
-						                <time>昨天</time>
-						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
-						                
-						              </p>
-					            </div>
-					            
-					            	    <div class="company-info" >
-					            		<p class="company-name">
-					            	    <a title="公司小道科技" href="https://www.liepin.com/company/8970554/" target="_blank">
-					            	    小道科技</a></p>
-					              <p class="field-financing">
-                                      
-                                      
-                                          
-                                           <span>
-                                               
-                                               <a class="industry-link"
-                                                                             href="/company/050090-040/"
-                                                                             onclick="return false;"
-                                                                             target="_blank">互联网/移动互联网/电子商务</a>
-                                               
-                                           </span>
-                                          
-                                          
-                                      
-					              </p>
-					              <p class="temptation clearfix">
-									
-										        <span>股票期权</span>
-										        
-										        <span>五险一金</span>
-										        
-					              </p>
-					             </div>
-					          </div>
-					        </li>
-							
-							
-							
-							<li>
-					        
-					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
-					            
-					        <div class="sojob-item-main clearfix">
-					          <div class="job-info" >
-					          	<span class="job-name" title="招聘高级自然语言处理工程师" >
-						              <a href="https://www.liepin.com/job/196463522.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>高级自然语言处理工程师</span>
-						             </a>
-						              </span>
-						              
-						              <p class="condition clearfix" title="面议_深圳-南山区_博士或以上_3年工作经验">
-						                <span class="text-warning">面议</span>
-						                
-						                
-							                <span class="area">深圳-南山区</span>
-						                
-						                <span class="edu">博士或以上</span>
-						                <span>3年工作经验</span>
 						              </p>
 						              <p class="time-info clearfix">
 						                <time>前天</time>
@@ -3143,66 +3201,8 @@ window.$CONFIG = {
 					            
 					            	    <div class="company-info" >
 					            		<p class="company-name">
-					            	    <a title="公司牛鼎丰" href="https://www.liepin.com/company/8768803/" target="_blank">
-					            	    牛鼎丰</a></p>
-					              <p class="field-financing">
-                                      
-                                      
-                                          
-                                          
-                                              <span>互联网金融</span>
-                                              <span>未融资</span>
-                                          
-                                      
-					              </p>
-					              <p class="temptation clearfix">
-									
-										        <span>弹性工作</span>
-										        
-										        <span>交通补助</span>
-										        
-										        <span>午餐补助</span>
-										        
-					              </p>
-					             </div>
-					          </div>
-					        </li>
-							
-							
-							
-							<li>
-					        
-					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
-					            
-					        <div class="sojob-item-main clearfix">
-					          <div class="job-info" >
-					          	<span class="job-name" title="招聘大数据工程师" >
-						              <a href="https://www.liepin.com/job/194928122.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
-						          		<span>大数据工程师</span>
-						             </a>
-						              </span>
-						              
-						              <p class="condition clearfix" title="24-30万_深圳-南山区_本科或以上_经验不限">
-						                <span class="text-warning">24-30万</span>
-						                
-						                
-							                <span class="area">深圳-南山区</span>
-						                
-						                <span class="edu">本科或以上</span>
-						                <span>经验不限</span>
-						              </p>
-						              <p class="time-info clearfix">
-						                <time>前天</time>
-						                
-						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
-						                
-						              </p>
-					            </div>
-					            
-					            	    <div class="company-info" >
-					            		<p class="company-name">
-					            	    <a title="公司大数金融" href="https://www.liepin.com/company/8498044/" target="_blank">
-					            	    大数金融</a></p>
+					            	    <a title="公司深圳市锐明技术股份有限公司" href="https://www.liepin.com/company/8835709/" target="_blank">
+					            	    深圳市锐明技术股份有限公司</a></p>
 					              <p class="field-financing">
                                       
                                       
@@ -3210,9 +3210,9 @@ window.$CONFIG = {
                                            <span>
                                                
                                                <a class="industry-link"
-                                                                             href="/company/050090-150/"
+                                                                             href="/company/050090-050/"
                                                                              onclick="return false;"
-                                                                             target="_blank">基金/证券/期货/投资</a>
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
                                                
                                            </span>
                                           
@@ -3221,11 +3221,11 @@ window.$CONFIG = {
 					              </p>
 					              <p class="temptation clearfix">
 									
-										        <span>绩效奖金</span>
+										        <span>五险一金</span>
 										        
 										        <span>带薪年假</span>
 										        
-										        <span>午餐补助</span>
+										        <span>绩效奖金</span>
 										        
 					              </p>
 					             </div>

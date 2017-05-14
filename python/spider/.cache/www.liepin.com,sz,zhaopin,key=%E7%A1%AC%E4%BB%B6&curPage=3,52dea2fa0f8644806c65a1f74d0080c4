@@ -1,0 +1,3700 @@
+status: 200
+connection: keep-alive
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+content-type: text/html;charset=UTF-8
+date: Sun, 14 May 2017 04:00:03 GMT
+vary: Accept-Encoding
+content-language: en-US
+p3p: CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+pragma: no-cache
+set-cookie: abtest=0; Domain=.liepin.com; Expires=Mon, 15-May-2017 04:00:03 GMT; Path=/, JSESSIONID=B0EA1DCF9C07A59FB2249F7CF1232A1C; Path=/; HttpOnly
+content-location: https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3
+cache-control: no-cache
+-content-encoding: gzip
+content-length: 185834
+-varied-accept-encoding: gzip, deflate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>【深圳招聘信息_深圳最新招聘_深圳招聘网】-深圳猎聘网-第4页</title>
+<meta name="keywords" content="深圳招聘信息,深圳最新招聘">
+<meta name="description" content="猎聘网深圳招聘信息频道为个人求职者提供最新最全的深圳招聘信息，每日更新10000+深圳高薪职位招聘信息，深圳找工作就来猎聘网深圳招聘信息频道。">
+<link rel="canonical" href="https://www.liepin.com/sz/zhaopin/pn3/">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.liepin.com/sz/zhaopin/pn3/"/>
+<meta name="mobile-agent" content="format=html5;url=https://m.liepin.com/sz/zhaopin/pn3/">
+<meta name="applicable-device" content="pc">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="location" content="province=广东;city=深圳">
+
+<!--#set var='compatible' value=''-->
+<link rel="icon" href="//concat.lietou-static.com/dev/core/pc/revs/v3/static/images/favicon_1c83d380.ico" type="image/x-icon" />
+<script src="//concat.lietou-static.com/dev/core/pc/revs/v3/build/js/loader_6de14b93.js"></script>
+<script>
+FeLoader.get(
+  '//concat.lietou-static.com/dev/www/pc/revs/v3/build/js/common_c45f1932.js',
+  '//concat.lietou-static.com/dev/www/pc/revs/v3/build/css/common_f82ddab6.css',
+  '//concat.lietou-static.com/dev/c/pc/revs/v3/build/css/message/index_3aa671e7.css'
+);
+</script>
+<script type="text/javascript">
+FeLoader.get('//concat.lietou-static.com/dev/www/pc/revs/v3/build/css/pages/city/zhaopin_e824f1f8.css');
+</script>
+<script type="text/javascript">
+window.$CONFIG = {
+		  params:{
+			  searchField:'1',
+		        key:'硬件',
+		        industries:'',
+		        jobTitles:'',
+		        compscale:'',
+		        compkind:'',
+		        pubTime:'',
+		        salaryHigh:'',
+		        salaryLow:'',
+		        sortFlag:'15',
+		        searchType : '1',
+		        clean_condition:'',
+		        jobKind:'',
+		        isAnalysis:'',
+		        init:'1',
+		        dqs:'050090',
+		        currentPage:'3',
+		        totalPage:'40',
+		        searchTip:''
+		}
+	};
+</script>
+<!-- ç¬¬ä¸æ¹ç»è®¡ä»£ç  -->
+<script type='text/javascript'>
+  var _vds = _vds || [];
+  window._vds = _vds;
+  (function(){
+    function cookieVds(name){
+      var nameEQ = name + '=';
+      var ca = document.cookie.split(';');
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) === 0) {
+          return decodeURIComponent(c.substring(nameEQ.length, c.length));
+        }
+      }
+      return null;
+    }
+    _vds.push(['setAccountId', 'bad1b2d9162fab1f80dde1897f7a2972']);
+    _vds.push(['trackBot', false]);
+    if(cookieVds('UniqueKey')){
+      _vds.push(['setCS1', 'UniqueKey', cookieVds('UniqueKey')]);
+    } 
+    if(cookieVds('_uuid')) {
+      _vds.push(['setCS2', '_uuid', cookieVds('_uuid')]);
+    }
+    
+    (function() {
+      var vds = document.createElement('script');
+      vds.type='text/javascript';
+      vds.async = true;
+      vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(vds, s);
+    })();
+  })();
+</script>
+</head>
+<body id="city-invite" data-navbar="job">
+	
+
+
+
+
+
+<script>FeLoader.get('//concat.lietou-static.com/dev/core/pc/revs/v3/build/css/header_980929aa.css');</script>
+<header id="header-p-beta2">
+	<div class="header">
+		<div class="wrap">
+			<div class="logo">
+				<span class="logo-city clearfix"> <a class="logo-link"
+					href="https://www.liepin.com/"><img alt="猎聘网logo" class="pngfix"
+						src="//concat.lietou-static.com/core/pc/revs/images/common/logo_e062b0a3.png"
+						width="110" height="40" /></a> <a
+					class="change-city" data-selector="change-city" href="/citylist/"><span>深圳</span>
+						<span data-selector="change-city-label" class="change-city-label">[切换城市]<i class="icons16 icons16-city-change"></i></span>
+				</a>
+				</span>
+			</div>
+			<nav>
+				<ul>
+					<li data-name="home"><a href="https://www.liepin.com/sz/">首页</a></li>
+					<li data-name="job"><a href="https://www.liepin.com/sz/zhaopin/">职位</a></li>
+					<li data-name="article"><a
+						href="https://article.liepin.com/#sfrom=click-pc_homepage-front_navigation-aritcle_new">社区</a></li>
+				    <li data-name="overseas"><a onclick="tlog=window.tlog||[];tlog.push('c:C000010258')" href="https://www.liepin.com/abroad/getabroadjob/">海外</a><em class="new">new</em> </li>
+                    <li data-name="campus"><a onclick="tlog=window.tlog||[];tlog.push('c:C000010256')" href="https://campus.liepin.com/" target="_blank">校园</a></li>
+      
+				</ul>
+			</nav>
+			<div class="quick-menu"></div>
+		</div>
+	</div>
+</header>
+<script>FeLoader.get('//concat.lietou-static.com/dev/core/pc/revs/v3/build/js/header_55fa5ed4.js');</script>
+	<script>window.HeaderHelper.activeTab("job")</script>
+	
+
+
+    <div class="navbars clearfix" data-selector="crumbs-link">
+        <strong>当前位置：</strong>
+        
+        
+            
+                
+                    <a href="https://www.liepin.com/sz/" class="home_link ">深圳招聘</a>
+                    <i>&gt;</i>
+                
+                
+            
+            
+        
+            
+                
+                
+                    <a href="https://www.liepin.com/sz/zhaopin/">深圳招聘信息</a>
+                
+            
+            
+        
+    </div>
+
+	<!-- 高级搜索器 begin -->
+<div class="container sojob-search">
+ <form method="get" data-selector="search-form" action="/zhaopin/" autocomplete="off">
+   <input type="hidden" name="industries" value=""/>
+   <input type="hidden" name="dqs" value="050090"/>
+   <input type="hidden" name="salary" value=""/>
+   <input type="hidden" name="jobKind" value=""/>
+   <input type="hidden" name="pubTime" value=""/>
+   <input type="hidden" name="compkind" value=""/>
+   <input type="hidden" name="compscale" value=""/>
+   <input type="hidden" name="industryType" value=""/>
+   
+   <input type="hidden" name="searchType" value="1">
+   <input type="hidden" name="clean_condition" value="" data-selector="clean-condition" />
+   <input type="hidden" name="isAnalysis" value="" />
+   <input type="hidden" name="init" value="1"/>
+   <input type="hidden" name="sortFlag" value="15"/>
+   
+   <input type="hidden" name="fromSearchBtn" value="1">
+	    
+   <div class="search-bar-wrap">
+     <div class="search-bar">
+       <div class="wrap">
+         <ul class="search-condition clearfix">
+           <li class="city-select">
+             <input type="text" class="city-more" data-selector="city-more">
+             <i class="caret"></i>
+             
+             <div class="show-text">深圳</div>
+           </li>
+           <li class="dropdown salary-select">
+             <div class="dropdown-toggle">
+               <i class="caret"></i>
+               
+               <div class="show-text">薪资</div>
+             </div>
+             <ul class="dropdown-list">
+             
+           		
+           		<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&salary=10$15&flushckid=1">10-15万</a></li>
+             
+           		<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&salary=15$20&flushckid=1">15-20万</a></li>
+             
+           		<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&salary=20$30&flushckid=1">20-30万</a></li>
+             
+           		<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&salary=30$50&flushckid=1">30-50万</a></li>
+             
+           		<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&salary=50$100&flushckid=1">50-100万</a></li>
+             
+           		<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&salary=100$999&flushckid=1">100万以上</a></li>
+             
+             </ul>
+           </li>
+           
+           <li class="dropdown">
+             <div class="dropdown-toggle">
+               <i class="caret"></i>
+               
+               <div class="show-text">城区</div>
+             </div>
+             <ul class="dropdown-list">
+             
+             	<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090010&flushckid=1">罗湖区</a></li>
+             
+             	<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090020&flushckid=1">福田区</a></li>
+             
+             	<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090030&flushckid=1">南山区</a></li>
+             
+             	<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090040&flushckid=1">宝安区</a></li>
+             
+             	<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090050&flushckid=1">龙岗区</a></li>
+             
+             	<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090060&flushckid=1">盐田区</a></li>
+             
+             	<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090070&flushckid=1">光明新区</a></li>
+             
+             	<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090080&flushckid=1">坪山新区</a></li>
+             
+             	<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090090&flushckid=1">大鹏新区</a></li>
+             
+             	<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090100&flushckid=1">龙华新区</a></li>
+             
+             </ul>
+           </li>
+	       
+           <li class="more-condition"><a href="javascript:;" data-selector="more-condition-btn">更多筛选</a></li>
+         </ul>
+         <div class="input-main">
+           <button type="submit" class="search-btn">搜索</button>
+           <input data-selector="keyword" placeholder="输入职位关键词：如 销售总监等" name="key" type="text" maxlength="100" value="硬件">
+         </div>
+         <div class="sojob-suggest" data-selector="sojob-suggest">
+           <ul>
+           </ul>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="wrap">
+     <div class="search-condition-ex">
+       <div class="search-conditions" data-selector="search-conditions">
+         <dl class="clearfix">
+           <dt class="search-title">行业：</dt>
+           <dd class="short-dd select-industry" data-param="industries">
+           
+             
+            <ul class="clearfix">
+                    
+            <li>
+            	<span>互联网·游戏·软件</span>
+            	<div class="sub-industry">
+            	
+            	<a href="https://www.liepin.com/sz/internet/" >互联网·电商</a>
+            	
+            	<a href="https://www.liepin.com/sz/wangluoyouxi/" >网络游戏</a>
+            	
+            	<a href="https://www.liepin.com/sz/ruanjian/" >计算机软件</a>
+            	
+            	<a href="https://www.liepin.com/sz/itfuwu/" >IT服务</a>
+            	
+            	</div>
+            </li>
+                 
+               
+            <li>
+            	<span>电子·通信·硬件</span>
+            	<div class="sub-industry">
+            	
+            	<a href="https://www.liepin.com/sz/dianzi/" >电子</a>
+            	
+            	<a href="https://www.liepin.com/sz/tongxin/" >通信工程</a>
+            	
+            	<a href="https://www.liepin.com/sz/yingjian/" >计算机硬件</a>
+            	
+            	</div>
+            </li>
+                 
+               
+            <li>
+            	<span>房地产·建筑·物业</span>
+            	<div class="sub-industry">
+            	
+            	<a href="https://www.liepin.com/sz/dichan/" >建筑工程</a>
+            	
+            	<a href="https://www.liepin.com/sz/shineisheji/" >规划设计</a>
+            	
+            	<a href="https://www.liepin.com/sz/fangchanfuwu/" >房地产服务</a>
+            	
+            	</div>
+            </li>
+                 
+               
+            <li>
+            	<span>金融</span>
+            	<div class="sub-industry">
+            	
+            	<a href="https://www.liepin.com/sz/yinhang/" >银行</a>
+            	
+            	<a href="https://www.liepin.com/sz/baoxian/" >保险</a>
+            	
+            	<a href="https://www.liepin.com/sz/jijingzhengquan/" >投资</a>
+            	
+            	<a href="https://www.liepin.com/sz/kuaijishenji/" >会计/审计</a>
+            	
+            	<a href="https://www.liepin.com/sz/xintuodanbao/" >信托/担保/拍卖/典当</a>
+            	
+            	</div>
+            </li>
+                 
+               
+            <li>
+            	<span>消费品</span>
+            	<div class="sub-industry">
+            	
+            	<a href="https://www.liepin.com/sz/kuaixiaolingshou/" >快消品</a>
+            	
+            	<a href="https://www.liepin.com/sz/pifalingshou/" >批发零售</a>
+            	
+            	<a href="https://www.liepin.com/sz/naiyongxiaofei/" >服装服饰</a>
+            	
+            	<a href="https://www.liepin.com/sz/jiadian/" >家电业</a>
+            	
+            	<a href="https://www.liepin.com/sz/bangongshebei/" >办公设备</a>
+            	
+            	<a href="https://www.liepin.com/sz/shechipinshoucang/" >奢侈品收藏品</a>
+            	
+            	<a href="https://www.liepin.com/sz/gongyipinzhubao/" >工艺品珠宝玩具</a>
+            	
+            	</div>
+            </li>
+                 
+               
+            <li>
+            	<span>汽车·机械·制造</span>
+            	<div class="sub-industry">
+            	
+            	<a href="https://www.liepin.com/sz/qiche/" >汽车·摩托车</a>
+            	
+            	<a href="https://www.liepin.com/sz/jixiezhizao/" >机械制造</a>
+            	
+            	<a href="https://www.liepin.com/sz/yinshuabaozhuang/" >印刷·包装·造纸</a>
+            	
+            	<a href="https://www.liepin.com/sz/yuancailiao/" >原材料加工</a>
+            	
+            	<a href="https://www.liepin.com/sz/yiqiyibiao/" >工业自动化</a>
+            	
+            	</div>
+            </li>
+                 
+               
+            <li>
+            	<span>制药·医疗</span>
+            	<div class="sub-industry">
+            	
+            	<a href="https://www.liepin.com/sz/zhiyao/" >生物制药工程</a>
+            	
+            	<a href="https://www.liepin.com/sz/yiliao/" >医疗保健·美容</a>
+            	
+            	<a href="https://www.liepin.com/sz/yiliaoshebei/" >医疗器械</a>
+            	
+            	</div>
+            </li>
+                 
+               
+            <li>
+            	<span>能源·化工·环保</span>
+            	<div class="sub-industry">
+            	
+            	<a href="https://www.liepin.com/sz/nengyuan/" >能源·水利</a>
+            	
+            	<a href="https://www.liepin.com/sz/huagong/" >化工行业</a>
+            	
+            	<a href="https://www.liepin.com/sz/caijueyelian/" >采掘·冶炼</a>
+            	
+            	<a href="https://www.liepin.com/sz/huanbao/" >环保行业</a>
+            	
+            	<a href="https://www.liepin.com/sz/xinnegnyuan/" >新能源</a>
+            	
+            	</div>
+            </li>
+                 
+               
+            <li>
+            	<span>服务·外包·中介</span>
+            	<div class="sub-industry">
+            	
+            	<a href="https://www.liepin.com/sz/zhuanyefuwu/" >专业咨询</a>
+            	
+            	<a href="https://www.liepin.com/sz/zhongjiefuwu/" >中介服务</a>
+            	
+            	<a href="https://www.liepin.com/sz/waibaofuwu/" >外包服务</a>
+            	
+            	<a href="https://www.liepin.com/sz/jiancerenzheng/" >检测认证</a>
+            	
+            	<a href="https://www.liepin.com/sz/jiudiancanyin/" >旅游酒店餐饮</a>
+            	
+            	<a href="https://www.liepin.com/sz/yuleyundong/" >娱乐休闲</a>
+            	
+            	<a href="https://www.liepin.com/sz/zupingfuwu/" >租赁服务</a>
+            	
+            	</div>
+            </li>
+                 
+               
+            <li>
+            	<span>广告·传媒·教育·文化</span>
+            	<div class="sub-industry">
+            	
+            	<a href="https://www.liepin.com/sz/guanggaohuizhan/" >广告会展</a>
+            	
+            	<a href="https://www.liepin.com/sz/meiti/" >影视文化</a>
+            	
+            	<a href="https://www.liepin.com/sz/jiaoyu/" >教育培训</a>
+            	
+            	</div>
+            </li>
+                 
+               
+            <li>
+            	<span>交通·贸易·物流</span>
+            	<div class="sub-industry">
+            	
+            	<a href="https://www.liepin.com/sz/yunshuwuliu/" >运输物流</a>
+            	
+            	<a href="https://www.liepin.com/sz/maoyi/" >进出口贸易</a>
+            	
+            	<a href="https://www.liepin.com/sz/hangkonghangtian/" >航空航天</a>
+            	
+            	</div>
+            </li>
+                 
+               
+            <li>
+            	<span>政府·农林牧渔</span>
+            	<div class="sub-industry">
+            	
+            	<a href="https://www.liepin.com/sz/zhengfu/" >政府机构</a>
+            	
+            	<a href="https://www.liepin.com/sz/nongye/" >农林牧渔</a>
+            	
+            	<a href="https://www.liepin.com/sz/qitahangye/" >其他行业</a>
+            	
+            	</div>
+            </li>
+                 
+           
+                </ul>
+                 
+           </dd>
+           
+         </dl>
+         
+         <dl class="clearfix">
+           <dt class="search-title">地区：</dt>
+           <dd class="short-dd" data-param="dqs">
+           	
+           	<a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090010&flushckid=1" rel="nofollow" >罗湖区</a>
+           
+           	<a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090020&flushckid=1" rel="nofollow" >福田区</a>
+           
+           	<a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090030&flushckid=1" rel="nofollow" >南山区</a>
+           
+           	<a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090040&flushckid=1" rel="nofollow" >宝安区</a>
+           
+           	<a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090050&flushckid=1" rel="nofollow" >龙岗区</a>
+           
+           	<a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090060&flushckid=1" rel="nofollow" >盐田区</a>
+           
+           	<a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090070&flushckid=1" rel="nofollow" >光明新区</a>
+           
+           	<a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090080&flushckid=1" rel="nofollow" >坪山新区</a>
+           
+           	<a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090090&flushckid=1" rel="nofollow" >大鹏新区</a>
+           
+           	<a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=050090100&flushckid=1" rel="nofollow" >龙华新区</a>
+           
+           </dd>
+         </dl>
+         
+         <dl class="clearfix">
+           <dt class="search-title">薪资：</dt>
+           <dd data-param="salary">
+           
+             
+           	
+           	<a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&salary=10$15&flushckid=1" rel="nofollow" >10-15万</a>
+           
+           	<a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&salary=15$20&flushckid=1" rel="nofollow" >15-20万</a>
+           
+           	<a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&salary=20$30&flushckid=1" rel="nofollow" >20-30万</a>
+           
+           	<a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&salary=30$50&flushckid=1" rel="nofollow" >30-50万</a>
+           
+           	<a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&salary=50$100&flushckid=1" rel="nofollow" >50-100万</a>
+           
+           	<a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&salary=100$999&flushckid=1" rel="nofollow" >100万以上</a>
+           
+             <div class="custom-salary" ><a href="javascript:;" data-selector="custom-salary-btn" rel="nofollow"  >自定义</a><p><input type="text" placeholder="万元" maxlength="4" data-selector="custom-salary-start" value="" > — <input type="text" placeholder="万元" maxlength="4" data-selector="custom-salary-end" value=""><a href="javascript:;" class="btn btn-primary" data-selector="btn-salary">确定</a></p></div>
+           </dd>
+         </dl>
+         <dl class="clearfix">
+           <dt class="search-title">更多：</dt>
+           <dd class="dropdown dropdown-time">
+             <div class="dropdown-toggle">
+               <i class="caret"></i>
+               
+               <div class="show-text">发布时间</div>
+             </div>
+             <ul class="dropdown-list">
+             
+           	
+           	<li class="dropdown-item active"><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&pubTime=&flushckid=1" rel="nofollow">不限</a></li>
+             
+           	<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&pubTime=1&flushckid=1" rel="nofollow">一天以内</a></li>
+             
+           	<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&pubTime=3&flushckid=1" rel="nofollow">三天以内</a></li>
+             
+           	<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&pubTime=7&flushckid=1" rel="nofollow">一周以内</a></li>
+             
+           	<li class="dropdown-item "><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&pubTime=30&flushckid=1" rel="nofollow">一个月以内</a></li>
+             
+             </ul>
+           </dd>
+           <dd class="dropdown dropdown-jobkind">
+             <div class="dropdown-toggle">
+               <i class="caret"></i>
+               
+               <div class="show-text">职位类型</div>
+             </div>
+             <ul class="dropdown-list">
+             
+           	
+           	<li class="dropdown-item active"><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&jobKind=&flushckid=1">不限</a></li>
+             
+           	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&jobKind=1&flushckid=1">猎头职位</a></li>
+             
+           	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&jobKind=2&flushckid=1">企业职位</a></li>
+             
+             </ul>
+           </dd>
+           <dd class="dropdown dropdown-compscale">
+             <div class="dropdown-toggle">
+               <i class="caret"></i>
+               
+               <div class="show-text">企业规模</div>
+             </div>
+             <ul class="dropdown-list">
+               
+            	
+            	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&compscale=010&flushckid=1">1-49人</a></li>
+            
+            	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&compscale=020&flushckid=1">50-99人</a></li>
+            
+            	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&compscale=030&flushckid=1">100-499人</a></li>
+            
+            	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&compscale=040&flushckid=1">500-999人</a></li>
+            
+            	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&compscale=050&flushckid=1">1000-2000人</a></li>
+            
+            	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&compscale=060&flushckid=1">2000-5000人</a></li>
+            
+            	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&compscale=070&flushckid=1">5000-10000人</a></li>
+            
+            	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&compscale=080&flushckid=1">10000人以上</a></li>
+            
+             </ul>
+           </dd>
+           <dd class="dropdown dropdown-compkind">
+             <div class="dropdown-toggle">
+               <i class="caret"></i>
+               
+               <div class="show-text">企业性质</div>
+             </div>
+             <ul class="dropdown-list">
+               
+            	
+            	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&compkind=010&flushckid=1">外企/外商独资</a></li>
+            
+            	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&compkind=020&flushckid=1">中外合营/合资</a></li>
+            
+            	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&compkind=030&flushckid=1">私营/民营企业</a></li>
+            
+            	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&compkind=040&flushckid=1">国有企业</a></li>
+            
+            	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&compkind=050&flushckid=1">上市公司</a></li>
+            
+            	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&compkind=060&flushckid=1">政府/非盈利机构</a></li>
+            
+            	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&compkind=070&flushckid=1">事业单位</a></li>
+            
+            	<li class="dropdown-item "><a rel="nofollow" href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&compkind=999&flushckid=1">其他</a></li>
+            
+             </ul>
+           </dd>
+         </dl>
+       </div>
+       <div class="selected-condition">
+         <p class="result-count">共找到 <em>1000+</em> 职位</p>
+         <dl class="clearfix">
+             
+           <dt>已选条件：</dt>
+           <dd>
+           	
+           		<span><a href="https://www.liepin.com/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=3&dqs=&flushckid=1">深圳 ×</a></span>
+             
+	        </dd>
+           	 
+         </dl>
+       </div>
+     </div>
+   </div>
+ </form>
+</div>
+<!-- 高级搜索器 end -->
+	<div class="wrap">
+	
+		
+		<div class="clearfix recruit-main">
+			<div class="recruit-left">
+				<div class="job-search-result">
+					<div class="search-result-box">
+						
+					    
+						<ul class="sojob-list" data-selector="result-list">
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘消费类电子硬件技术主管" >
+						              <a href="https://www.liepin.com/a/9218664.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>消费类电子硬件技术主管</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="40-45万_深圳,广州,东莞_本科或以上_6年工作经验">
+						                <span class="text-warning">40-45万</span>
+						                
+						                
+							                <span class="area">深圳,广州,东莞</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>6年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司国内某汽车电子公司"  target="_blank">
+					            	    国内某汽车电子公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-050/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘硬件开发工程师" >
+						              <a href="https://www.liepin.com/a/8575115.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>硬件开发工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="10-25万_深圳,佛山_本科或以上_3年工作经验">
+						                <span class="text-warning">10-25万</span>
+						                
+						                
+							                <span class="area">深圳,佛山</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司全球知名汽车照明公司"  target="_blank">
+					            	    全球知名汽车照明公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-350/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">汽车/摩托车</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-340/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">仪器/仪表/工业自动化/电气</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-360/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">机械制造/机电/重工</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘嵌入式硬件工程师" >
+						              <a href="https://www.liepin.com/a/9237221.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>嵌入式硬件工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="15-20万_广州,佛山,深圳_本科或以上_3年工作经验">
+						                <span class="text-warning">15-20万</span>
+						                
+						                
+							                <span class="area">广州,佛山,深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司某环保行业上市公司"  target="_blank">
+					            	    某环保行业上市公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-300/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">环保</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘硬件总监" >
+						              <a href="https://www.liepin.com/a/7823199.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>硬件总监</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="60-90万_深圳,广州,上海_本科或以上_8年工作经验">
+						                <span class="text-warning">60-90万</span>
+						                
+						                
+							                <span class="area">深圳,广州,上海</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>8年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>15小时前</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司一线通讯上市集团"  target="_blank">
+					            	    一线通讯上市集团</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-050/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-060/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">通信(设备/运营/增值)</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-020/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">计算机硬件/网络设备</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘技术顾问（硬件开发）（Home office ）" >
+						              <a href="https://www.liepin.com/a/8134308.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>技术顾问（硬件开发）（Home office ）</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="25-35万_深圳_本科或以上_5年工作经验">
+						                <span class="text-warning">25-35万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>5年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>20小时前</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司德国知名集团公司"  target="_blank">
+					            	    德国知名集团公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-360/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">机械制造/机电/重工</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-370/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">原材料及加工</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘硬件工程师" >
+						              <a href="https://www.liepin.com/a/9010580.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>硬件工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="10-30万_深圳_学历不限_1年工作经验">
+						                <span class="text-warning">10-30万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">学历不限</span>
+						                <span>1年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司深圳某生物医疗技术有限公司"  target="_blank">
+					            	    深圳某生物医疗技术有限公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-040/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">互联网/移动互联网/电子商务</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-290/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">医疗设备/器械</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-280/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">医疗/保健/美容/卫生服务</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘硬件开发工程师" >
+						              <a href="https://www.liepin.com/a/9213118.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>硬件开发工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="15-20万_深圳_大专或以上_2年工作经验">
+						                <span class="text-warning">15-20万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">大专或以上</span>
+						                <span>2年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>19小时前</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司深圳知名互联网公司"  target="_blank">
+					            	    深圳知名互联网公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-040/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">互联网/移动互联网/电子商务</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-010/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">计算机软件</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-020/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">计算机硬件/网络设备</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘硬件经理/硬件工程师" >
+						              <a href="https://www.liepin.com/a/9183273.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>硬件经理/硬件工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="12-22万_珠海,广州,深圳_本科或以上_5年工作经验">
+						                <span class="text-warning">12-22万</span>
+						                
+						                
+							                <span class="area">珠海,广州,深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>5年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>18小时前</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司某A股上市知名企业（在所属领域名列前茅） "  target="_blank">
+					            	    某A股上市知名企业（在所属领域名列前茅） </a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-010/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">计算机软件</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-330/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">能源(电力/水利)</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-340/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">仪器/仪表/工业自动化/电气</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘硬件工程师" >
+						              <a href="https://www.liepin.com/a/9274046.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>硬件工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="10-20万_深圳_本科或以上_2年工作经验">
+						                <span class="text-warning">10-20万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>2年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>16小时前</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司上市移动通信天线、射频产品之深圳集团公司"  target="_blank">
+					            	    上市移动通信天线、射频产品之深圳集团公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-060/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">通信(设备/运营/增值)</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-050/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-360/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">机械制造/机电/重工</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘智能硬件总经理" >
+						              <a href="https://www.liepin.com/a/8452692.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>智能硬件总经理</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="150-200万_上海,北京,深圳_本科或以上_8年工作经验">
+						                <span class="text-warning">150-200万</span>
+						                
+						                
+							                <span class="area">上海,北京,深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>8年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>16小时前</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司罗执管理咨询（北京）有限公司"  target="_blank">
+					            	    罗执管理咨询（北京）有限公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-040/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">互联网/移动互联网/电子商务</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-230/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">旅游/酒店/餐饮服务/生活服务</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘射频工程师/基带硬件工程师" >
+						              <a href="https://www.liepin.com/a/9177964.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>射频工程师/基带硬件工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="30-60万_深圳,东莞_本科或以上_2年工作经验">
+						                <span class="text-warning">30-60万</span>
+						                
+						                
+							                <span class="area">深圳,东莞</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>2年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>18小时前</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司国内著名手机公司"  target="_blank">
+					            	    国内著名手机公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-050/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-020/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">计算机硬件/网络设备</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-010/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">计算机软件</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘硬件工程师" >
+						              <a href="https://www.liepin.com/a/8970887.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>硬件工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="12-25万_深圳_本科或以上_5年工作经验">
+						                <span class="text-warning">12-25万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>5年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>20小时前</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司深圳某环保科技公司"  target="_blank">
+					            	    深圳某环保科技公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-040/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">互联网/移动互联网/电子商务</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-020/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">计算机硬件/网络设备</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘嵌入式硬件开发" >
+						              <a href="https://www.liepin.com/a/7960868.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>嵌入式硬件开发</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="30-50万_深圳_本科或以上_3年工作经验">
+						                <span class="text-warning">30-50万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>13小时前</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司国际知名某科技大型企业"  target="_blank">
+					            	    国际知名某科技大型企业</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-040/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">互联网/移动互联网/电子商务</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-010/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">计算机软件</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-050/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘硬件测试经理" >
+						              <a href="https://www.liepin.com/a/9325600.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>硬件测试经理</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="20-35万_北京,广州,深圳_本科或以上_3年工作经验">
+						                <span class="text-warning">20-35万</span>
+						                
+						                
+							                <span class="area">北京,广州,深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司国内某上市公司"  target="_blank">
+					            	    国内某上市公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-060/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">通信(设备/运营/增值)</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-010/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">计算机软件</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-050/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘手机音频硬件工程师" >
+						              <a href="https://www.liepin.com/a/9356584.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>手机音频硬件工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="15-40万_深圳,广州_本科或以上_3年工作经验">
+						                <span class="text-warning">15-40万</span>
+						                
+						                
+							                <span class="area">深圳,广州</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>18小时前</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司某大型手机集团"  target="_blank">
+					            	    某大型手机集团</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-060/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">通信(设备/运营/增值)</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘硬件总监" >
+						              <a href="https://www.liepin.com/a/9022296.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>硬件总监</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="20-30万_深圳_本科或以上_8年工作经验">
+						                <span class="text-warning">20-30万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>8年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>19小时前</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司国内某知名互联网公司"  target="_blank">
+					            	    国内某知名互联网公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-040/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">互联网/移动互联网/电子商务</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-blue-triangle" title="猎头职位反馈及时沟通有效"><b>猎</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘硬件工程师" >
+						              <a href="https://www.liepin.com/a/7148831.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>硬件工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="15-25万_上海,深圳,北京_学历不限_2年工作经验">
+						                <span class="text-warning">15-25万</span>
+						                
+						                
+							                <span class="area">上海,深圳,北京</span>
+						                
+						                <span class="edu">学历不限</span>
+						                <span>2年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>22小时前</time>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info nohover" >
+					            		<p class="company-name">
+					            	    <a title="公司知名500强公司 电子行业"  target="_blank">
+					            	    知名500强公司 电子行业</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-050/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-360/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">机械制造/机电/重工</a>
+                                               ,
+                                           
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-340/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">仪器/仪表/工业自动化/电气</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘手机电子工程师" >
+						              <a href="https://www.liepin.com/job/195762968.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>手机电子工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="6-8万_深圳-南山区_学历不限_2年工作经验">
+						                <span class="text-warning">6-8万</span>
+						                
+						                
+							                <span class="area">深圳-南山区</span>
+						                
+						                <span class="edu">学历不限</span>
+						                <span>2年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司小辣椒手机" href="https://www.liepin.com/company/8518989/" target="_blank">
+					            	    小辣椒手机</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-060/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">通信(设备/运营/增值)</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>发展空间大</span>
+										        
+										        <span>带薪年假</span>
+										        
+										        <span>年度旅游</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘电子工程师" >
+						              <a href="https://www.liepin.com/job/197863769.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>电子工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="12-16万_深圳_大专或以上_3年工作经验">
+						                <span class="text-warning">12-16万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">大专或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：24小时反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司蓝韵医学影像" href="https://www.liepin.com/company/8764929/" target="_blank">
+					            	    蓝韵医学影像</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-280/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">医疗/保健/美容/卫生服务</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>绩效奖金</span>
+										        
+										        <span>岗位晋升</span>
+										        
+										        <span>五险一金</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘云计算运维工程师" >
+						              <a href="https://www.liepin.com/job/197774317.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>云计算运维工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="18-30万_深圳-南山区_本科或以上_3年工作经验">
+						                <span class="text-warning">18-30万</span>
+						                
+						                
+							                <span class="area">深圳-南山区</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>23小时前</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：10天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司怡和祥云" href="https://www.liepin.com/company/8960790/" target="_blank">
+					            	    怡和祥云</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                          
+                                              <span>综合门户</span>
+                                              <span>天使轮融资</span>
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>年底双薪</span>
+										        
+										        <span>绩效奖金</span>
+										        
+										        <span>带薪年假</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘美容仪器产品经理" >
+						              <a href="https://www.liepin.com/job/196037573.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>美容仪器产品经理</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="面议_深圳-南山区_本科或以上_5年工作经验">
+						                <span class="text-warning">面议</span>
+						                
+						                
+							                <span class="area">深圳-南山区</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>5年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司深圳可思美科技有限公司" href="https://www.liepin.com/company/8873225/" target="_blank">
+					            	    深圳可思美科技有限公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-290/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">医疗设备/器械</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>绩效奖金</span>
+										        
+										        <span>股票期权</span>
+										        
+										        <span>带薪年假</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘嵌入式软件工程师" >
+						              <a href="https://www.liepin.com/job/196532544.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>嵌入式软件工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="面议_深圳-南山区_本科或以上_2年工作经验">
+						                <span class="text-warning">面议</span>
+						                
+						                
+							                <span class="area">深圳-南山区</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>2年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>23小时前</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司弗徕威智能机器人" href="https://www.liepin.com/company/7914840/" target="_blank">
+					            	    弗徕威智能机器人</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-040/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">互联网/移动互联网/电子商务</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>年底双薪</span>
+										        
+										        <span>年度旅游</span>
+										        
+										        <span>节日礼物</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘音频工程师(终端产品中心)" >
+						              <a href="https://www.liepin.com/job/198175149.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>音频工程师(终端产品中心)</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="21-35万_深圳_本科或以上_2年工作经验">
+						                <span class="text-warning">21-35万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>2年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司金立" href="https://www.liepin.com/company/859965/" target="_blank">
+					            	    金立</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-060/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">通信(设备/运营/增值)</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>年底双薪</span>
+										        
+										        <span>带薪年假</span>
+										        
+										        <span>交通补助</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘储能BMS测试与支持组组长" >
+						              <a href="https://www.liepin.com/job/197539979.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>储能BMS测试与支持组组长</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="12-18万_深圳-光明新区_大专或以上_3年工作经验">
+						                <span class="text-warning">12-18万</span>
+						                
+						                
+							                <span class="area">深圳-光明新区</span>
+						                
+						                <span class="edu">大专或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：24小时反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司天邦达科技" href="https://www.liepin.com/company/8316365/" target="_blank">
+					            	    天邦达科技</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-050/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>年底双薪</span>
+										        
+										        <span>带薪年假</span>
+										        
+										        <span>五险一金</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘储能BMS测试工程师" >
+						              <a href="https://www.liepin.com/job/197143759.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>储能BMS测试工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="12-18万_深圳-光明新区_大专或以上_3年工作经验">
+						                <span class="text-warning">12-18万</span>
+						                
+						                
+							                <span class="area">深圳-光明新区</span>
+						                
+						                <span class="edu">大专或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司天邦达科技" href="https://www.liepin.com/company/8316365/" target="_blank">
+					            	    天邦达科技</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-050/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>年底双薪</span>
+										        
+										        <span>带薪年假</span>
+										        
+										        <span>五险一金</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘Android资深系统工程师" >
+						              <a href="https://www.liepin.com/job/197156685.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>Android资深系统工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="面议_深圳_学历不限_经验不限">
+						                <span class="text-warning">面议</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">学历不限</span>
+						                <span>经验不限</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：48小时反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司一加手机" href="https://www.liepin.com/company/8058261/" target="_blank">
+					            	    一加手机</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-040/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">互联网/移动互联网/电子商务</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>弹性工作</span>
+										        
+										        <span>定期体检</span>
+										        
+										        <span>带薪年假</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘JAVA软件工程师" >
+						              <a href="https://www.liepin.com/job/195846704.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>JAVA软件工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="面议_深圳_本科或以上_3年工作经验">
+						                <span class="text-warning">面议</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>22小时前</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司兰丁科技" href="https://www.liepin.com/company/8397894/" target="_blank">
+					            	    兰丁科技</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-040/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">互联网/移动互联网/电子商务</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>领导好</span>
+										        
+										        <span>技能培训</span>
+										        
+										        <span>岗位晋升</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘逻辑工程师（超声研发）" >
+						              <a href="https://www.liepin.com/job/196402680.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>逻辑工程师（超声研发）</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="面议_深圳_本科或以上_3年工作经验">
+						                <span class="text-warning">面议</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司蓝韵医学影像" href="https://www.liepin.com/company/8764929/" target="_blank">
+					            	    蓝韵医学影像</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-280/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">医疗/保健/美容/卫生服务</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>绩效奖金</span>
+										        
+										        <span>免费班车</span>
+										        
+										        <span>岗位晋升</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘客户经理（深圳）" >
+						              <a href="https://www.liepin.com/job/198421220.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>客户经理（深圳）</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="10-12万_深圳_大专或以上_经验不限">
+						                <span class="text-warning">10-12万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">大专或以上</span>
+						                <span>经验不限</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>22小时前</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：10天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司瑞银金融" href="https://www.liepin.com/company/8835887/" target="_blank">
+					            	    瑞银金融</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-010/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">计算机软件</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>管理规范</span>
+										        
+										        <span>定期体检</span>
+										        
+										        <span>技能培训</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘产品经理 智能方向" >
+						              <a href="https://www.liepin.com/job/198093316.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>产品经理 智能方向</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="12-24万_深圳_本科或以上_3年工作经验">
+						                <span class="text-warning">12-24万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>22小时前</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：48小时反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司兰丁科技" href="https://www.liepin.com/company/8397894/" target="_blank">
+					            	    兰丁科技</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-040/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">互联网/移动互联网/电子商务</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>绩效奖金</span>
+										        
+										        <span>五险一金</span>
+										        
+										        <span>节日礼物</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘嵌入式wifi驱动开发" >
+						              <a href="https://www.liepin.com/job/197767964.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>嵌入式wifi驱动开发</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="18-30万_深圳-宝安区_本科或以上_3年工作经验">
+						                <span class="text-warning">18-30万</span>
+						                
+						                
+							                <span class="area">深圳-宝安区</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>22小时前</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：24小时反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司深圳市顾凯信息技术有限公司" href="https://www.liepin.com/company/7985067/" target="_blank">
+					            	    深圳市顾凯信息技术有限公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-050/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>发展空间大</span>
+										        
+										        <span>绩效奖金</span>
+										        
+										        <span>带薪年假</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘应用工程师" >
+						              <a href="https://www.liepin.com/job/198244840.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>应用工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="12-24万_深圳_大专或以上_2年工作经验">
+						                <span class="text-warning">12-24万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">大专或以上</span>
+						                <span>2年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：24小时反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司精泰达" href="https://www.liepin.com/company/8624297/" target="_blank">
+					            	    精泰达</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-360/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">机械制造/机电/重工</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>带薪年假</span>
+										        
+										        <span>通讯津贴</span>
+										        
+										        <span>绩效奖金</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘产品测试工程师" >
+						              <a href="https://www.liepin.com/job/195568215.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>产品测试工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="6-10万_深圳-宝安区_大专或以上_3年工作经验">
+						                <span class="text-warning">6-10万</span>
+						                
+						                
+							                <span class="area">深圳-宝安区</span>
+						                
+						                <span class="edu">大专或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司倍量电子" href="https://www.liepin.com/company/7984678/" target="_blank">
+					            	    倍量电子</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-050/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>领导好</span>
+										        
+										        <span>技能培训</span>
+										        
+										        <span>岗位晋升</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘实施工程师" >
+						              <a href="https://www.liepin.com/job/197636590.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>实施工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="6-10万_深圳_大专或以上_1年工作经验">
+						                <span class="text-warning">6-10万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">大专或以上</span>
+						                <span>1年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司国显科技" href="https://www.liepin.com/company/7426485/" target="_blank">
+					            	    国显科技</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-050/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>领导好</span>
+										        
+										        <span>技能培训</span>
+										        
+										        <span>岗位晋升</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘电脑应用/维修工程师" >
+						              <a href="https://www.liepin.com/job/197642674.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>电脑应用/维修工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="6-7万_深圳_中专或以上_2年工作经验">
+						                <span class="text-warning">6-7万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">中专或以上</span>
+						                <span>2年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司深圳诺博医疗设备有限公司" href="https://www.liepin.com/company/8886601/" target="_blank">
+					            	    深圳诺博医疗设备有限公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-290/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">医疗设备/器械</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>领导好</span>
+										        
+										        <span>技能培训</span>
+										        
+										        <span>岗位晋升</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘电机测试工程师" >
+						              <a href="https://www.liepin.com/job/197409139.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>电机测试工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="10-12万_深圳_本科或以上_3年工作经验">
+						                <span class="text-warning">10-12万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>3年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：48小时反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司石家庄通合电子科技股份有限公司" href="https://www.liepin.com/company/3370879/" target="_blank">
+					            	    石家庄通合电子科技股份有限公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-490/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">新能源</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>五险一金</span>
+										        
+										        <span>上市公司</span>
+										        
+										        <span>绩效奖金</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘产品经理" >
+						              <a href="https://www.liepin.com/job/197314065.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>产品经理</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="面议_深圳_本科或以上_2年工作经验">
+						                <span class="text-warning">面议</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>2年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>22小时前</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司兰丁科技" href="https://www.liepin.com/company/8397894/" target="_blank">
+					            	    兰丁科技</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-040/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">互联网/移动互联网/电子商务</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>绩效奖金</span>
+										        
+										        <span>带薪年假</span>
+										        
+										        <span>定期体检</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘桌面运维工程师" >
+						              <a href="https://www.liepin.com/job/197868773.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>桌面运维工程师</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="6-10万_深圳_本科或以上_经验不限">
+						                <span class="text-warning">6-10万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>经验不限</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：24小时反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司深圳前海金土财富管理有限公司" href="https://www.liepin.com/company/8954325/" target="_blank">
+					            	    深圳前海金土财富管理有限公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-150/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">基金/证券/期货/投资</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>带薪年假</span>
+										        
+										        <span>绩效奖金</span>
+										        
+										        <span>上市公司</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘研发主管/经理" >
+						              <a href="https://www.liepin.com/job/197831876.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>研发主管/经理</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="6-10万_深圳_大专或以上_5年工作经验">
+						                <span class="text-warning">6-10万</span>
+						                
+						                
+							                <span class="area">深圳</span>
+						                
+						                <span class="edu">大专或以上</span>
+						                <span>5年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司深圳奥莱仕电子有限公司" href="https://www.liepin.com/company/9116215/" target="_blank">
+					            	    深圳奥莱仕电子有限公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-050/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">电子技术/半导体/集成电路</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>年底双薪</span>
+										        
+										        <span>带薪年假</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+							<li>
+					        
+					            <i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>
+					            
+					        <div class="sojob-item-main clearfix">
+					          <div class="job-info" >
+					          	<span class="job-name" title="招聘技术总监" >
+						              <a href="https://www.liepin.com/job/197749958.shtml" data-promid="" target="_blank" onclick="tlog=window.tlog||[];tlog.push('c:w_sojob_jobclick_9')">
+						          		<span>技术总监</span>
+						             </a>
+						              </span>
+						              
+						              <p class="condition clearfix" title="24-36万_深圳-宝安区_本科或以上_8年工作经验">
+						                <span class="text-warning">24-36万</span>
+						                
+						                
+							                <span class="area">深圳-宝安区</span>
+						                
+						                <span class="edu">本科或以上</span>
+						                <span>8年工作经验</span>
+						              </p>
+						              <p class="time-info clearfix">
+						                <time>昨天</time>
+						                
+						                <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：10天以内反馈</span>
+						                
+						              </p>
+					            </div>
+					            
+					            	    <div class="company-info" >
+					            		<p class="company-name">
+					            	    <a title="公司深圳诺博医疗设备有限公司" href="https://www.liepin.com/company/8886601/" target="_blank">
+					            	    深圳诺博医疗设备有限公司</a></p>
+					              <p class="field-financing">
+                                      
+                                      
+                                          
+                                           <span>
+                                               
+                                               <a class="industry-link"
+                                                                             href="/company/050090-290/"
+                                                                             onclick="return false;"
+                                                                             target="_blank">医疗设备/器械</a>
+                                               
+                                           </span>
+                                          
+                                          
+                                      
+					              </p>
+					              <p class="temptation clearfix">
+									
+										        <span>五险一金</span>
+										        
+										        <span>弹性工作</span>
+										        
+										        <span>领导好</span>
+										        
+					              </p>
+					             </div>
+					          </div>
+					        </li>
+							
+							
+							
+						</ul>
+						<div class="pager-box">
+							<div class="pagerbar"><a class="first" href="/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6" title="首页"></a><a href="/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=2">上一页</a><a href="/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=1">2</a><a href="/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=2">3</a><a class="current" href="javascript:;">4</a><a href="/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=4">5</a><a href="/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=5">6</a><span class="ellipsis">…</span><a href="/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=4">下一页</a><a class="last" href="/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=78" title="末页"></a><span class="addition"><span class="redirect">跳转到<input class="pn" value="5" name="pn" type="text" />页<a class="go" href="javascript:;" onclick="var $pn=this.parentNode.getElementsByTagName('input')[0].value||1;$pn=/[^\d]/g.test($pn)?0:$pn;$pn=Math.min(Math.max($pn, 1),79);location.href='/sz/zhaopin/?key=%E7%A1%AC%E4%BB%B6&curPage=$pn$'.replace(/\$pn\$/ig, $pn-1);return false;">确定</a></span></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<aside class="recruit-right">
+				 
+			          
+			              <div id="LPAdSlots-22042" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22043" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22044" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22045" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22046" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22047" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22048" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22049" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22050" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22051" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22052" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22053" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22054" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22055" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22056" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22057" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22058" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22059" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22060" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22061" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-22062" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-23149" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-23150" class="LPAdSlots"></div>
+			          
+			              <div id="LPAdSlots-23151" class="LPAdSlots"></div>
+			          
+			      
+			     
+			     <div class="related-box">
+			     	<h3>深圳相关职位</h3>
+			     	<ul>
+			     		
+			     			<li><a href="/sz/zppezhuligongchengshi/" title="深圳PE助理工程师" target="_blank">深圳PE助理工程师招聘</a></li>
+			     		
+			     			<li><a href="/sz/zpgaojiwangluoyingxiaojingli/" title="深圳高级网络营销经理" target="_blank">深圳高级网络营销经理招聘</a></li>
+			     		
+			     			<li><a href="/sz/zpwangluoyingxiaobujingli/" title="深圳网络营销部经理" target="_blank">深圳网络营销部经理招聘</a></li>
+			     		
+			     			<li><a href="/sz/zpwangluotuiguangwenyuan/" title="深圳网络推广文员" target="_blank">深圳网络推广文员招聘</a></li>
+			     		
+			     			<li><a href="/sz/zpgaojishichangxiangmujingli/" title="深圳高级市场项目经理" target="_blank">深圳高级市场项目经理招聘</a></li>
+			     		
+			     			<li><a href="/sz/zpyuanchangbangongshimishu/" title="深圳院长办公室秘书" target="_blank">深圳院长办公室秘书招聘</a></li>
+			     		
+			     			<li><a href="/sz/zpwangluoseo/" title="深圳网络seo" target="_blank">深圳网络seo招聘</a></li>
+			     		
+			     			<li><a href="/sz/zprenshixingzhengbufujingli/" title="深圳人事行政部副经理" target="_blank">深圳人事行政部副经理招聘</a></li>
+			     		
+			     			<li><a href="/sz/zpuizhizuogongchengshi/" title="深圳UI制作工程师" target="_blank">深圳UI制作工程师招聘</a></li>
+			     		
+			     			<li><a href="/sz/zpshujukuyingyonggongchengshi/" title="深圳数据库应用工程师" target="_blank">深圳数据库应用工程师招聘</a></li>
+			     		
+			     	</ul>
+			     </div>
+			     
+			     
+			</aside>
+		</div>
+        <div class="web-link" data-selector="web-link">
+    <ul class="link-tab clearfix" data-selector="link-tab">
+                <li class="active">热门城市</li>
+            <li>热门行业</li>
+            <li>热门职位</li>
+            <li>推荐职位</li>
+            <li>周边城市</li>
+    </ul>
+            <div class="link-content content-active clearfix" data-selector="link-content">
+                <a title="北京招聘" target="_blank"  href="/bj/zhaopin/">北京招聘</a>
+                <a title="上海招聘" target="_blank"  href="/sh/zhaopin/">上海招聘</a>
+                <a title="深圳招聘" target="_blank"  href="/sz/zhaopin/">深圳招聘</a>
+                <a title="广州招聘" target="_blank"  href="/gz/zhaopin/">广州招聘</a>
+                <a title="厦门招聘" target="_blank"  href="/xiamen/zhaopin/">厦门招聘</a>
+                <a title="杭州招聘" target="_blank"  href="/hz/zhaopin/">杭州招聘</a>
+                <a title="郑州招聘" target="_blank"  href="/zhengzhou/zhaopin/">郑州招聘</a>
+                <a title="南京招聘" target="_blank"  href="/nj/zhaopin/">南京招聘</a>
+                <a title="天津招聘" target="_blank"  href="/tj/zhaopin/">天津招聘</a>
+                <a title="合肥招聘" target="_blank"  href="/hefei/zhaopin/">合肥招聘</a>
+                <a title="佛山招聘" target="_blank"  href="/foshan/zhaopin/">佛山招聘</a>
+                <a title="常州招聘" target="_blank"  href="/changzhou/zhaopin/">常州招聘</a>
+                <a title="成都招聘" target="_blank"  href="/cd/zhaopin/">成都招聘</a>
+                <a title="苏州招聘" target="_blank"  href="/suzhou/zhaopin/">苏州招聘</a>
+                <a title="哈尔滨招聘" target="_blank"  href="/haerbin/zhaopin/">哈尔滨招聘</a>
+                <a title="大连招聘" target="_blank"  href="/dl/zhaopin/">大连招聘</a>
+                <a title="济南招聘" target="_blank"  href="/jinan/zhaopin/">济南招聘</a>
+                <a title="东莞招聘" target="_blank"  href="/dongguan/zhaopin/">东莞招聘</a>
+                <a title="昆明招聘" target="_blank"  href="/kunming/zhaopin/">昆明招聘</a>
+                <a title="宁波招聘" target="_blank"  href="/ningbo/zhaopin/">宁波招聘</a>
+                <a title="南宁招聘" target="_blank"  href="/nanning/zhaopin/">南宁招聘</a>
+                <a title="石家庄招聘" target="_blank"  href="/shijiazhuang/zhaopin/">石家庄招聘</a>
+                <a title="青岛招聘" target="_blank"  href="/qingdao/zhaopin/">青岛招聘</a>
+                <a title="无锡招聘" target="_blank"  href="/wuxi/zhaopin/">无锡招聘</a>
+                <a title="沈阳招聘" target="_blank"  href="/shenyang/zhaopin/">沈阳招聘</a>
+                <a title="太原招聘" target="_blank"  href="/taiyuan/zhaopin/">太原招聘</a>
+                <a title="武汉招聘" target="_blank"  href="/wuhan/zhaopin/">武汉招聘</a>
+                <a title="西安招聘" target="_blank"  href="/xian/zhaopin/">西安招聘</a>
+                <a title="长春招聘" target="_blank"  href="/changchun/zhaopin/">长春招聘</a>
+                <a title="长沙招聘" target="_blank"  href="/changsha/zhaopin/">长沙招聘</a>
+        </div>
+            <div class="link-content clearfix" data-selector="link-content">
+                <a title="深圳网络游戏招聘" target="_blank"  href="/sz/wangluoyouxi/">深圳网络游戏招聘</a>
+                <a title="深圳计算机软件招聘" target="_blank"  href="/sz/ruanjian/">深圳计算机软件招聘</a>
+                <a title="深圳IT服务招聘" target="_blank"  href="/sz/itfuwu/">深圳IT服务招聘</a>
+                <a title="深圳电子招聘" target="_blank"  href="/sz/dianzi/">深圳电子招聘</a>
+                <a title="深圳通信工程招聘" target="_blank"  href="/sz/tongxin/">深圳通信工程招聘</a>
+                <a title="深圳计算机硬件招聘" target="_blank"  href="/sz/yingjian/">深圳计算机硬件招聘</a>
+                <a title="深圳建筑工程招聘" target="_blank"  href="/sz/dichan/">深圳建筑工程招聘</a>
+                <a title="深圳房地产服务招聘" target="_blank"  href="/sz/fangchanfuwu/">深圳房地产服务招聘</a>
+                <a title="深圳规划设计招聘" target="_blank"  href="/sz/shineisheji/">深圳规划设计招聘</a>
+                <a title="深圳银行招聘" target="_blank"  href="/sz/yinhang/">深圳银行招聘</a>
+                <a title="深圳保险招聘" target="_blank"  href="/sz/baoxian/">深圳保险招聘</a>
+                <a title="深圳投资招聘" target="_blank"  href="/sz/jijingzhengquan/">深圳投资招聘</a>
+                <a title="深圳会计/审计招聘" target="_blank"  href="/sz/kuaijishenji/">深圳会计/审计招聘</a>
+                <a title="深圳批发零售招聘" target="_blank"  href="/sz/pifalingshou/">深圳批发零售招聘</a>
+                <a title="深圳服装服饰招聘" target="_blank"  href="/sz/naiyongxiaofei/">深圳服装服饰招聘</a>
+                <a title="深圳家电业招聘" target="_blank"  href="/sz/jiadian/">深圳家电业招聘</a>
+                <a title="深圳奢侈品收藏品招聘" target="_blank"  href="/sz/shechipinshoucang/">深圳奢侈品收藏品招聘</a>
+                <a title="深圳印刷·包装·造纸招聘" target="_blank"  href="/sz/yinshuabaozhuang/">深圳印刷·包装·造纸招聘</a>
+                <a title="深圳中介服务招聘" target="_blank"  href="/sz/zhongjiefuwu/">深圳中介服务招聘</a>
+                <a title="深圳专业咨询招聘" target="_blank"  href="/sz/zhuanyefuwu/">深圳专业咨询招聘</a>
+                <a title="深圳外包服务招聘" target="_blank"  href="/sz/waibaofuwu/">深圳外包服务招聘</a>
+                <a title="深圳检测认证招聘" target="_blank"  href="/sz/jiancerenzheng/">深圳检测认证招聘</a>
+                <a title="深圳旅游酒店餐饮招聘" target="_blank"  href="/sz/jiudiancanyin/">深圳旅游酒店餐饮招聘</a>
+                <a title="深圳教育培训招聘" target="_blank"  href="/sz/jiaoyu/">深圳教育培训招聘</a>
+                <a title="深圳进出口贸易招聘" target="_blank"  href="/sz/maoyi/">深圳进出口贸易招聘</a>
+                <a title="深圳航空航天招聘" target="_blank"  href="/sz/hangkonghangtian/">深圳航空航天招聘</a>
+                <a title="深圳医疗保健·美容招聘" target="_blank"  href="/sz/yiliao/">深圳医疗保健·美容招聘</a>
+                <a title="深圳化工行业招聘" target="_blank"  href="/sz/huagong/">深圳化工行业招聘</a>
+                <a title="深圳农林牧渔招聘" target="_blank"  href="/sz/nongye/">深圳农林牧渔招聘</a>
+                <a title="深圳其他行业招聘" target="_blank"  href="/sz/qitahangye/">深圳其他行业招聘</a>
+        </div>
+            <div class="link-content clearfix" data-selector="link-content">
+                <a title="深圳不孕不育男医生招聘" target="_blank"  href="/sz/zpbuyunbuyunanyisheng/">深圳不孕不育男医生招聘</a>
+                <a title="深圳波兰语教师招聘" target="_blank"  href="/sz/zpbolanyujiaoshi/">深圳波兰语教师招聘</a>
+                <a title="深圳保险培训师招聘" target="_blank"  href="/sz/zpbaoxianpeixunshi/">深圳保险培训师招聘</a>
+                <a title="深圳PLC项目主管招聘" target="_blank"  href="/sz/zpplcxiangmuzhuguan/">深圳PLC项目主管招聘</a>
+                <a title="深圳ECM渠道主管招聘" target="_blank"  href="/sz/zpecmqudaozhuguan/">深圳ECM渠道主管招聘</a>
+                <a title="深圳DSP运营招聘" target="_blank"  href="/sz/zpdspyunying/">深圳DSP运营招聘</a>
+                <a title="深圳租车业务招聘" target="_blank"  href="/sz/zpzucheyewu/">深圳租车业务招聘</a>
+                <a title="深圳岩土专业招聘" target="_blank"  href="/sz/zpyantuzhuanye/">深圳岩土专业招聘</a>
+                <a title="深圳储备城市经理招聘" target="_blank"  href="/sz/zpchubeichengshijingli/">深圳储备城市经理招聘</a>
+                <a title="深圳团操教练招聘" target="_blank"  href="/sz/zptuancaojiaolian/">深圳团操教练招聘</a>
+                <a title="深圳规划助理总监招聘" target="_blank"  href="/sz/zpguihuazhulizongjian/">深圳规划助理总监招聘</a>
+                <a title="深圳绩效高级经理招聘" target="_blank"  href="/sz/zpjixiaogaojijingli/">深圳绩效高级经理招聘</a>
+                <a title="深圳行政人事部长招聘" target="_blank"  href="/sz/zpxingzhengrenshibuchang/">深圳行政人事部长招聘</a>
+                <a title="深圳兽医招聘" target="_blank"  href="/sz/zpshouyi/">深圳兽医招聘</a>
+                <a title="深圳分布式计算平台招聘" target="_blank"  href="/sz/zpfenbushijisuanpingtai/">深圳分布式计算平台招聘</a>
+                <a title="深圳主创景观招聘" target="_blank"  href="/sz/zpzhuchuangjingguan/">深圳主创景观招聘</a>
+                <a title="深圳担保经理招聘" target="_blank"  href="/sz/zpdanbaojingli/">深圳担保经理招聘</a>
+                <a title="深圳行业人力资源招聘" target="_blank"  href="/sz/zpxingyerenliziyuan/">深圳行业人力资源招聘</a>
+                <a title="深圳微波技术工程师招聘" target="_blank"  href="/sz/zpweibojishugongchengshi/">深圳微波技术工程师招聘</a>
+                <a title="深圳副总助理招聘" target="_blank"  href="/sz/zpfuzongzhuli/">深圳副总助理招聘</a>
+                <a title="深圳董事会助理招聘" target="_blank"  href="/sz/zpdongshihuizhuli/">深圳董事会助理招聘</a>
+                <a title="深圳主板硬件招聘" target="_blank"  href="/sz/zpzhubanyingjian/">深圳主板硬件招聘</a>
+                <a title="深圳样车试制招聘" target="_blank"  href="/sz/zpyangcheshizhi/">深圳样车试制招聘</a>
+                <a title="深圳行政人资总经理招聘" target="_blank"  href="/sz/zpxingzhengrenzizongjingli/">深圳行政人资总经理招聘</a>
+                <a title="深圳主管岗位招聘" target="_blank"  href="/sz/zpzhuguangangwei/">深圳主管岗位招聘</a>
+                <a title="深圳企划经理企划招聘" target="_blank"  href="/sz/zpqihuajingliqihua/">深圳企划经理企划招聘</a>
+                <a title="深圳探测器工程师招聘" target="_blank"  href="/sz/zptanceqigongchengshi/">深圳探测器工程师招聘</a>
+                <a title="深圳总经理事务助理招聘" target="_blank"  href="/sz/zpzongjinglishiwuzhuli/">深圳总经理事务助理招聘</a>
+                <a title="深圳资深企划专员招聘" target="_blank"  href="/sz/zpzishenqihuazhuanyuan/">深圳资深企划专员招聘</a>
+                <a title="深圳项目部职员招聘" target="_blank"  href="/sz/zpxiangmubuzhiyuan/">深圳项目部职员招聘</a>
+        </div>
+            <div class="link-content clearfix" data-selector="link-content">
+                <a title="深圳市场招聘" target="_blank"  href="/sz/shichang/">深圳市场招聘</a>
+                <a title="深圳电分操作员招聘" target="_blank"  href="/sz/250200/">深圳电分操作员招聘</a>
+                <a title="深圳电器工程师招聘" target="_blank"  href="/sz/diqigongchengshis/">深圳电器工程师招聘</a>
+                <a title="深圳销售招聘" target="_blank"  href="/sz/xiaoshou/">深圳销售招聘</a>
+                <a title="深圳建筑工程招聘" target="_blank"  href="/sz/553/">深圳建筑工程招聘</a>
+                <a title="深圳税务专员招聘" target="_blank"  href="/sz/shuiwuzhuanyuan/">深圳税务专员招聘</a>
+                <a title="深圳其他农/林/牧/渔业招聘" target="_blank"  href="/sz/320050/">深圳其他农/林/牧/渔业招聘</a>
+                <a title="深圳房地产销售人员招聘" target="_blank"  href="/sz/510007/">深圳房地产销售人员招聘</a>
+                <a title="深圳区域销售经理招聘" target="_blank"  href="/sz/quyuxiaoshoujingli/">深圳区域销售经理招聘</a>
+                <a title="深圳培训生招聘" target="_blank"  href="/sz/310040/">深圳培训生招聘</a>
+                <a title="深圳用户研究员招聘" target="_blank"  href="/sz/360280/">深圳用户研究员招聘</a>
+                <a title="深圳核保理赔招聘" target="_blank"  href="/sz/hebaolipei/">深圳核保理赔招聘</a>
+                <a title="深圳水利/港口工程招聘" target="_blank"  href="/sz/shuilijishu/">深圳水利/港口工程招聘</a>
+                <a title="深圳广告客户总监招聘" target="_blank"  href="/sz/470001/">深圳广告客户总监招聘</a>
+                <a title="深圳日语翻译招聘" target="_blank"  href="/sz/riyu/">深圳日语翻译招聘</a>
+                <a title="深圳销售人员招聘" target="_blank"  href="/sz/370/">深圳销售人员招聘</a>
+                <a title="深圳区域销售招聘" target="_blank"  href="/sz/quyuxiaoshou/">深圳区域销售招聘</a>
+                <a title="深圳录音音效师招聘" target="_blank"  href="/sz/luyinshi/">深圳录音音效师招聘</a>
+                <a title="深圳工厂生产招聘" target="_blank"  href="/sz/gongchang/">深圳工厂生产招聘</a>
+                <a title="深圳其他交通运输服务招聘" target="_blank"  href="/sz/292040/">深圳其他交通运输服务招聘</a>
+                <a title="深圳投资者关系招聘" target="_blank"  href="/sz/010101/">深圳投资者关系招聘</a>
+                <a title="深圳公关/媒介招聘" target="_blank"  href="/sz/460/">深圳公关/媒介招聘</a>
+                <a title="深圳其他招聘" target="_blank"  href="/sz/qita/">深圳其他招聘</a>
+                <a title="深圳采购经理招聘" target="_blank"  href="/sz/caigouzongjian/">深圳采购经理招聘</a>
+                <a title="深圳4S店管理招聘" target="_blank"  href="/sz/430003/">深圳4S店管理招聘</a>
+                <a title="深圳客户总监招聘" target="_blank"  href="/sz/kehuzongjian/">深圳客户总监招聘</a>
+                <a title="深圳系统工程师招聘" target="_blank"  href="/sz/360331/">深圳系统工程师招聘</a>
+                <a title="深圳运维总监招聘" target="_blank"  href="/sz/360329/">深圳运维总监招聘</a>
+                <a title="深圳其他媒体/影视招聘" target="_blank"  href="/sz/480003/">深圳其他媒体/影视招聘</a>
+                <a title="深圳游戏界面设计招聘" target="_blank"  href="/sz/youxijmsjs/">深圳游戏界面设计招聘</a>
+        </div>
+            <div class="link-content clearfix" data-selector="link-content">
+                <a title="广州招聘" target="_blank"  href="/gz/zhaopin/">广州招聘</a>
+                <a title="潮州招聘" target="_blank"  href="/chaozhou/zhaopin/">潮州招聘</a>
+                <a title="东莞招聘" target="_blank"  href="/dongguan/zhaopin/">东莞招聘</a>
+                <a title="佛山招聘" target="_blank"  href="/foshan/zhaopin/">佛山招聘</a>
+                <a title="惠州招聘" target="_blank"  href="/huizhou/zhaopin/">惠州招聘</a>
+                <a title="清远招聘" target="_blank"  href="/qingyuan/zhaopin/">清远招聘</a>
+                <a title="汕头招聘" target="_blank"  href="/shantou/zhaopin/">汕头招聘</a>
+                <a title="湛江招聘" target="_blank"  href="/zhanjiang/zhaopin/">湛江招聘</a>
+                <a title="肇庆招聘" target="_blank"  href="/zhaoqing/zhaopin/">肇庆招聘</a>
+                <a title="中山招聘" target="_blank"  href="/zhongshan/zhaopin/">中山招聘</a>
+                <a title="珠海招聘" target="_blank"  href="/zhuhai/zhaopin/">珠海招聘</a>
+                <a title="江门招聘" target="_blank"  href="/jiangmen/zhaopin/">江门招聘</a>
+                <a title="阳江招聘" target="_blank"  href="/yangjiang/zhaopin/">阳江招聘</a>
+                <a title="韶关招聘" target="_blank"  href="/shaoguan/zhaopin/">韶关招聘</a>
+                <a title="茂名招聘" target="_blank"  href="/maoming/zhaopin/">茂名招聘</a>
+                <a title="梅州招聘" target="_blank"  href="/meizhou/zhaopin/">梅州招聘</a>
+                <a title="汕尾招聘" target="_blank"  href="/shanwei/zhaopin/">汕尾招聘</a>
+                <a title="河源招聘" target="_blank"  href="/heyuan/zhaopin/">河源招聘</a>
+                <a title="揭阳招聘" target="_blank"  href="/jieyang/zhaopin/">揭阳招聘</a>
+                <a title="云浮招聘" target="_blank"  href="/yunfu/zhaopin/">云浮招聘</a>
+                <a title="开平招聘" target="_blank"  href="/kaiping/zhaopin/">开平招聘</a>
+        </div>
+</div>
+        <div class="commonweblink-main wrap">
+            
+                
+                    
+                        <div class="commonweblink-box clearfix">
+                            <h3>友情链接：</h3>
+                            
+                                <p>
+                                    <a title="深圳生活信息网" target="_blank" href="http://sz.5ol.com/">深圳生活信息网</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="深圳信息网" target="_blank" href="http://sz.pangwo.com/">深圳信息网</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="深圳人才网" target="_blank" href="http://shenzhen.56job.com.cn/">深圳人才网</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="深圳招聘网" target="_blank" href="http://www.kanzhun.com/job/c49/">深圳招聘网</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="深圳招聘" target="_blank" href="http://shenzhen.caihao.com/JobSearch">深圳招聘</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="深圳人才网最新招聘信息" target="_blank" href="http://www.chinahr.com/shenzhen/jobs/">深圳人才网最新招聘信息</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="深圳招标" target="_blank" href="http://www.qianlima.com/zb/area_316/">深圳招标</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="深圳招聘网" target="_blank" href="http://m.liepin.com/shenzhen/zhaopin/">深圳招聘网</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="深圳供求网" target="_blank" href="http://shenzhen.lbx.cc/gongqiu/">深圳供求网</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="深圳兼职招聘信息" target="_blank" href="http://sz.bqqm.com/jianzhi/">深圳兼职招聘信息</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="深圳兼职网" target="_blank" href="http://sz.400jz.com/">深圳兼职网</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="江西医疗招聘" target="_blank" href="http://www.doctorjob.com.cn/area/jiangxi.html">江西医疗招聘</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="深圳劳务派遣" target="_blank" href="http://shenzhen.huangye88.com/fuwu-laowupaiqian/">深圳劳务派遣</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="随州找工作" target="_blank" href="http://suizhou.58.com/searchjob.shtml">随州找工作</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="深圳找工作" target="_blank" href="http://a.liepin.com/shenzhen.shtml">深圳找工作</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="深圳招聘" target="_blank" href="http://www.quanzhi.com/shenzhen/">深圳招聘</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="深圳医疗招聘" target="_blank" href="http://job.hxyjw.com/city/shenzhen">深圳医疗招聘</a>
+                                </p>
+                            
+                                <p>
+                                    <a title="深圳市场公关招聘" target="_blank" href="http://shenzhen.baixing.com/shichang/">深圳市场公关招聘</a>
+                                </p>
+                            
+                        </div>
+                    
+                
+            
+        </div>
+	</div>
+	<!--#set var='compatible' value=''-->
+<script>FeLoader.get('//concat.lietou-static.com/dev/core/pc/revs/v3/build/css/footer_9e37f82a.css');</script>
+<footer id="footer-p-beta2">
+  <hr />
+  <div class="wrap">
+    <div class="copyright">
+      <div class="copy-side">
+        服务热线 (免长话费)<br /><strong>400-6212-266</strong><br /><small>工作日 9:00-19:00</small>
+      </div>
+      <div class="copy-main">
+        <div class="item">
+          <dl>
+            <dt>简介</dt>
+            <dd><a href="https://www.liepin.com/about/introduction.shtml" target="_blank" rel="nofollow">猎聘网简介</a></dd>
+            <dd><a href="https://www.liepin.com/about/productsandservices.shtml" target="_blank" rel="nofollow">产品服务</a></dd>
+            <dd><a href="https://www.liepin.com/about/innovation.shtml" target="_blank" rel="nofollow">创新优势</a></dd>
+            <dd><a href="https://www.liepin.com/about/weblink/" target="_blank" rel="nofollow">友情链接</a></dd>
+            <dd><a href="https://www.liepin.com/about/about_us.shtml" target="_blank" rel="nofollow">联系我们</a></dd>
+          </dl>
+        </div>
+        <div class="item">
+          <dl>
+            <dt>帮助</dt>
+            <dd><a href="https://www.liepin.com/help/" target="_blank" rel="nofollow">经理人帮助</a></dd>
+            <dd><a href="https://www.liepin.com/help/itemlist/2/0" target="_blank" rel="nofollow">用户注册</a></dd>
+            <dd><a href="https://www.liepin.com/help/itemlist/3/0" target="_blank" rel="nofollow">关于您的简历</a></dd>
+            <dd><a href="https://www.liepin.com/help/itemlist/4/0" target="_blank" rel="nofollow">关于猎头</a></dd>
+            <dd><a href="https://www.liepin.com/help/itemlist/5/0" target="_blank" rel="nofollow">关于职位</a></dd>
+          </dl>
+        </div>
+        <div class="item">
+          <dl>
+            <dt>共赢</dt>
+            <dd><a href="https://www.liepin.com/cooperation.shtml" target="_blank" rel="nofollow">网站合作</a></dd>
+            <dd><a href="https://www.liepin.com/user/agreement.shtml" target="_blank" rel="nofollow">用户协议</a></dd>
+            <dd><a href="https://www.liepin.com/sitemap.shtml" target="_blank" rel="nofollow">网站地图</a></dd>
+            <dd><a href="https://www.liepin.com/user/feedback/" target="_blank" rel="nofollow">意见反馈</a></dd>
+            <dd><a href="https://www.liepin.com/inshr/index.shtml" target="_blank" rel="nofollow">加入猎聘网</a></dd>
+          </dl>
+        </div>
+        <div class="item">
+          <dl>
+            <dt>导航</dt>
+            <dd><a href="https://www.liepin.com/a/" target="_blank">全部招聘</a></dd>
+            <dd><a href="https://www.liepin.com/qiuzhi/" target="_blank">职位大全</a></dd>
+            <dd><a href="https://www.liepin.com/job/" target="_blank">招聘职位</a></dd>
+            <dd><a href="https://www.liepin.com/company/" target="_blank">企业名录</a></dd>
+            <dd><a href="/citylist/" target="_blank">城市列表</a></dd>
+          </dl>
+        </div>
+        <div class="item item-weibo">
+          <a href="http://weibo.com/lietouwang" target="_blank" rel="nofollow"><i class="weibo"></i></a>
+          <p>猎聘微博</p>
+          <a class="btn-sina" href="http://weibo.com/lietouwang" target="_blank" rel="nofollow"></a>
+        </div>
+        <div class="item item-apps">
+          <i class="mishu"></i>
+          <p>猎聘同道APP</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copy-footer">
+    <p>京ICP备09083200号 京ICP证070419号 人才服务许可证:RC0710280 京公网安备:11010502026763</p>
+    <p>Copyright &copy; 2000-2016 liepin.com All Rights Reserved</p>
+  </div>
+</footer>
+
+	<script type="text/javascript">
+		FeLoader.get('//concat.lietou-static.com/dev/www/pc/revs/v3/build/js/pages/city/zhaopin_47404124.js');
+	</script>
+	<script type="text/javascript">
+	window.FeLoader && FeLoader.get('//concat.lietou-static.com/dev/core/pc/revs/v3/static/js/stat_82d2bce1.js'); 
+</script>
+<script>var _hmt=_hmt||[];(function(){var hm=document.createElement("script");hm.src="//hm.baidu.com/hm.js?a2647413544f5a04f00da7eee0d5e200";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s);})();</script>
+<script type="text/javascript">
+if(LT.Browser.IE6 || LT.Browser.IE7 || LT.Browser.IE8){
+	  $('#header-c-beta2 [data-selector="drop-menu-friends"]').show().on('click', function(event) {
+	    messageDialog();
+	  });
+	  $('#header-c-beta2 [data-selector="drop-menu-message"]').show().on('click', function(event) {
+	    messageDialog();
+	  });;
+	  function messageDialog(){
+	    vdialog.alert('æ¨çæµè§å¨çæ¬å¤ªä½ï¼è¯·æ´æ¢é«çº§æµè§å¨æèåçº§å½åæµè§å¨çæ¬è³9ä»¥ä¸');
+	  }
+	}else{
+
+FeLoader.get('//concat.lietou-static.com/dev/core/pc/revs/v3/static/unpack_files/react_2bc957e9.js', '//concat.lietou-static.com/dev/core/pc/revs/v3/static/unpack_files/react-dom_2b6233b6.js', '//concat.lietou-static.com/dev/c/pc/revs/v3/build/js/message/index_cce66ba5.js');
+	}
+</script>
+</body>
+</html>

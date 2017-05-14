@@ -89,21 +89,26 @@ class spider(object):
         if _url == None:
             return None
         else:
-            httplib2.debuglevel = 0
-            h = httplib2.Http(cache='.cache', timeout=self.timeout)
-            if _type == "GET":
-                response, content = h.request(uri=_url, method=_type)
-            else:
-                response, content = h.request(uri=_url, method=_type, body=_body, headers=_header)
-            '''
-            print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
-            print(len(content))
-            print(response.status)
-            print(response.fromcache)
-            print(response)
-            print(content)
-            print("################################")'''
-            return content
+            try:
+                httplib2.debuglevel = 0
+                h = httplib2.Http(cache='.cache', timeout=self.timeout)
+                if _type == "GET":
+                    response, content = h.request(uri=_url, method=_type)
+                else:
+                    response, content = h.request(uri=_url, method=_type, body=_body, headers=_header)
+                '''
+                print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
+                print(len(content))
+                print(response.status)
+                print(response.fromcache)
+                print(response)
+                print(content)
+                print("################################")'''
+                return content
+            except:
+                print("httplib2 error occurs, go on to next.")
+                content = ''
+                return content
 
     def to_city(self, var_str, type):
         if isinstance(var_str, str):
@@ -166,7 +171,8 @@ class spider(object):
         for idx in range(0,self.max_pn):
             url, body, header, type = self.set_url_info(_pn=idx, _keyword=skeyword, _city=scity)
             page = self.get_page(_url=url, _body=body, _header=header, _type=type)
-            self.get_job(_page=page, _type=self.search_type)
+            if page != '':
+                self.get_job(_page=page, _type=self.search_type)
 
     def save2excel(self, jsData, excel=None):
         if excel == None:

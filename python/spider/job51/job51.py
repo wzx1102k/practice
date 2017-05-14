@@ -2,6 +2,7 @@
 from urllib import request, parse
 from bs4 import BeautifulSoup as Bs
 from socket import timeout
+from socket import error as SocketError
 import json
 import xlwt
 import datetime
@@ -105,8 +106,11 @@ class job51(spider):
                         print("*********************************************")
                         print(self.job)
                         self.save2excel(self.job)
-                    except timeout:
-                        print("urllib2 timeout")
+                    except SocketError as e:
+                        print('[Error]', e.args[0])
+                        print('URL:', url)
+                    except:
+                        print('Other error occurs')
 
 
 if __name__ == '__main__':
@@ -122,6 +126,3 @@ if __name__ == '__main__':
         city = None
     job51Spider = job51()
     job51Spider.get_jobs(keyword, city)
-
-
-
