@@ -10,7 +10,7 @@ import datetime
 import re
 import os,sys
 import pinyin
-
+import csv
 
 class spider(object):
     def __init__(self):
@@ -68,6 +68,8 @@ class spider(object):
         self.excel_cnt = 0
         for j, col in enumerate(self.title):
                 self.booksheet.write(self.excel_cnt, j, col)
+        self.csv = 'job.csv'
+
 
     def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
         _body = ''
@@ -175,11 +177,17 @@ class spider(object):
                 self.get_job(_page=page, _type=self.search_type)
 
     def save2excel(self, jsData, excel=None):
+        csvlist = []
         if excel == None:
             excel = self.excel
         self.excel_cnt += 1
         for j, col in enumerate(self.job_type):
             self.booksheet.write(self.excel_cnt, j, jsData[col])
+            csvlist.append(jsData[col])
+        csv_file = open(self.csv, "a+")
+        csv_writer = csv.writer(csv_file, delimiter=',')
+        csv_writer.writerow(csvlist)
+        csv_file.close()
         self.workbook.save(excel)
 
 

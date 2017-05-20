@@ -1,14 +1,14 @@
 status: 200
-content-location: https://www.zhipin.com/job_detail/?scity=101280600&query=%E5%9B%BE%E5%83%8F&page=5
-connection: keep-alive
-content-type: text/html;charset=UTF-8
-vary: Accept-Encoding
-content-language: en-US
 cache-control: no-cache
-set-cookie: __a=31247856.1494740962..1494740962.0.1.0.0; Expires=Wed, 12-May-2027 05:49:22 GMT; Path=/, __c=1494740962; Path=/, __l="r=&l=%2Fjob_detail%2F%3Fscity%3D101280600%26query%3D%E5%9B%BE%E5%83%8F%26page%3D5"; Version=1; Path=/, lastCity=101280600; Domain=.zhipin.com; Path=/
-date: Sun, 14 May 2017 05:49:22 GMT
+content-length: 136010
+set-cookie: __a=4683447.1495263361..1495263361.0.1.0.0; Expires=Tue, 18-May-2027 06:56:01 GMT; Path=/, __c=1495263361; Path=/, __l="r=&l=%2Fjob_detail%2F%3Fscity%3D101280600%26query%3D%E5%9B%BE%E5%83%8F%26page%3D5"; Version=1; Path=/, lastCity=101280600; Domain=.zhipin.com; Path=/
+date: Sat, 20 May 2017 06:56:01 GMT
+content-language: en-US
+connection: keep-alive
 -content-encoding: gzip
-content-length: 135505
+content-location: https://www.zhipin.com/job_detail/?scity=101280600&query=%E5%9B%BE%E5%83%8F&page=5
+vary: Accept-Encoding
+content-type: text/html;charset=UTF-8
 -varied-accept-encoding: gzip, deflate
 
 
@@ -40,6 +40,7 @@ content-length: 135505
     <title>【深圳图像招聘】2017年深圳图像最新人才招聘信息-BOSS直聘</title>
     <meta name="keywords" content="深圳图像招聘,深圳图像人才网,深圳图像招聘网"/>
     <meta name="description" content="BOSS直聘为求职者提供2017年最新的深圳图像招聘信息，百万Boss在线直聘，直接开聊，在线面试，找工作就上BOSS直聘网站或APP，直接与Boss开聊吧！"/>
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.zhipin.com/c101280600/h_101280600/?query=%E5%9B%BE%E5%83%8F">
     <link href="/v2/web/geek/css/main.css" type="text/css" rel="stylesheet">
 </head>
 <body>
@@ -1112,7 +1113,7 @@ content-length: 135505
                 <dt>商圈：</dt>
                 <dd><a class="selected" href="/c101280600/h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-0">不限</a>
                     
-                        <a href="/c101280600/a_%E7%A7%91%E6%8A%80%E5%9B%AD-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-1">科技园</a><a href="/c101280600/a_%E8%A5%BF%E4%B8%BD-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-2">西丽</a><a href="/c101280600/a_%E5%9D%82%E7%94%B0-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-3">坂田</a><a href="/c101280600/a_%E5%8D%97%E5%A4%B4-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-4">南头</a><a href="/c101280600/a_%E6%B0%91%E6%B2%BB-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-5">民治</a><a href="/c101280600/a_%E5%A4%A7%E5%86%B2-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-6">大冲</a><a href="/c101280600/a_%E5%8D%8E%E4%BE%A8%E5%9F%8E-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-7">华侨城</a><a href="/c101280600/a_%E9%BE%99%E5%8D%8E-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-8">龙华</a><a href="/c101280600/a_%E8%A5%BF%E4%B9%A1-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-9">西乡</a><a href="/c101280600/a_%E6%96%B0%E5%AE%89-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-10">新安</a><a href="/c101280600/a_%E4%B8%8A%E6%AD%A5-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-11">上步</a><a href="/c101280600/a_%E5%85%AB%E5%8D%A6%E5%B2%AD-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-12">八卦岭</a><a href="/c101280600/a_%E6%B7%B1%E5%9C%B3%E6%B9%BE-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-13">深圳湾</a><a href="/c101280600/a_%E8%9B%87%E5%8F%A3-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-14">蛇口</a><a href="/c101280600/a_%E7%9B%8A%E7%94%B0%E6%9D%91-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-15">益田村</a><a href="/c101280600/a_%E5%89%8D%E6%B5%B7-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-16">前海</a><a href="/c101280600/a_%E5%90%8E%E6%B5%B7-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-17">后海</a><a href="/c101280600/a_%E4%B8%9C%E9%97%A8-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-18">东门</a><a href="/c101280600/a_%E8%BD%A6%E5%85%AC%E5%BA%99-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-19">车公庙</a><a href="/c101280600/a_%E6%A2%85%E6%9E%97-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-20">梅林</a><a href="/c101280600/a_%E8%94%A1%E5%B1%8B%E5%9B%B4-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-21">蔡屋围</a><a href="/c101280600/a_%E5%B2%97%E5%8E%A6-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-22">岗厦</a><a href="/c101280600/a_%E7%9F%B3%E5%8E%A6-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-23">石厦</a><a href="/c101280600/a_%E7%9F%B3%E5%B2%A9-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-24">石岩</a><a href="/c101280600/a_%E8%A7%82%E6%BE%9C-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-25">观澜</a><a href="/c101280600/a_%E5%8D%97%E6%B2%B9-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-26">南油</a><a href="/c101280600/a_%E4%B8%87%E7%A7%91%E5%9F%8E-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-27">万科城</a><a href="/c101280600/a_%E6%9D%BE%E5%B2%97-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-28">松岗</a><a href="/c101280600/a_%E7%A6%8F%E6%B0%B8-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-29">福永</a><a href="/c101280600/a_%E7%81%AB%E8%BD%A6%E7%AB%99-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-30">火车站</a><a href="/c101280600/a_%E5%B8%83%E5%90%89-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-31">布吉</a><a href="/c101280600/a_%E8%B4%AD%E7%89%A9%E5%85%AC%E5%9B%AD-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-32">购物公园</a><a href="/c101280600/a_%E9%A6%99%E8%9C%9C%E6%B9%96-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-33">香蜜湖</a><a href="/c101280600/a_%E4%B8%8A%E6%A2%85%E6%9E%97-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-34">上梅林</a><a href="/c101280600/a_%E7%9A%87%E5%B2%97-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-35">皇岗</a><a href="/c101280600/a_%E6%B2%99%E4%BA%95-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-36">沙井</a><a href="/c101280600/a_%E9%94%A6%E7%BB%A3%E6%B1%9F%E5%8D%97-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-37">锦绣江南</a><a href="/c101280600/a_%E6%B2%99%E5%A4%B4%E8%A7%92-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-38">沙头角</a><a href="/c101280600/a_%E6%B5%B7%E4%B8%8A%E4%B8%96%E7%95%8C-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-39">海上世界</a><a href="/c101280600/a_%E7%99%BD%E7%9F%B3%E6%B4%B2-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-40">白石洲</a><a href="/c101280600/a_%E9%BE%99%E5%8D%8E-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-41">龙华</a><a href="/c101280600/a_%E6%B0%B4%E8%B4%9D-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-42">水贝</a><a href="/c101280600/a_%E7%94%B0%E8%B4%9D-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-43">田贝</a><a href="/c101280600/a_%E7%AC%8B%E5%B2%97-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-44">笋岗</a><a href="/c101280600/a_%E8%8E%B2%E5%A1%98-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-45">莲塘</a><a href="/c101280600/a_%E4%B8%9C%E6%B9%96-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-46">东湖</a><a href="/c101280600/a_%E5%9B%AD%E5%B2%AD-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-47">园岭</a><a href="/c101280600/a_%E7%BF%A0%E7%AB%B9-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-48">翠竹</a><a href="/c101280600/a_%E5%9D%AA%E5%B1%B1-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-49">坪山</a><a href="/c101280600/a_%E6%BB%A2%E6%B0%B4%E5%B1%B1%E5%BA%84-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-50">滢水山庄</a><a href="/c101280600/a_%E6%B2%99%E5%A4%B4-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-51">沙头</a><a href="/c101280600/a_%E6%96%B0%E6%B4%B2-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-52">新洲</a><a href="/c101280600/a_%E6%B2%99%E5%B0%BE-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-53">沙尾</a><a href="/c101280600/a_%E7%AB%B9%E5%AD%90%E6%9E%97-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-54">竹子林</a>
+                        <a href="/c101280600/a_%E7%A7%91%E6%8A%80%E5%9B%AD-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-1">科技园</a><a href="/c101280600/a_%E5%9D%82%E7%94%B0-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-2">坂田</a><a href="/c101280600/a_%E8%A5%BF%E4%B8%BD-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-3">西丽</a><a href="/c101280600/a_%E5%8D%8E%E4%BE%A8%E5%9F%8E-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-4">华侨城</a><a href="/c101280600/a_%E8%A5%BF%E4%B9%A1-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-5">西乡</a><a href="/c101280600/a_%E5%A4%A7%E5%86%B2-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-6">大冲</a><a href="/c101280600/a_%E6%B0%91%E6%B2%BB-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-7">民治</a><a href="/c101280600/a_%E5%8D%97%E5%A4%B4-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-8">南头</a><a href="/c101280600/a_%E9%BE%99%E5%8D%8E-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-9">龙华</a><a href="/c101280600/a_%E4%B8%8A%E6%AD%A5-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-10">上步</a><a href="/c101280600/a_%E8%9B%87%E5%8F%A3-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-11">蛇口</a><a href="/c101280600/a_%E6%96%B0%E5%AE%89-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-12">新安</a><a href="/c101280600/a_%E5%85%AB%E5%8D%A6%E5%B2%AD-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-13">八卦岭</a><a href="/c101280600/a_%E6%B7%B1%E5%9C%B3%E6%B9%BE-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-14">深圳湾</a><a href="/c101280600/a_%E7%9B%8A%E7%94%B0%E6%9D%91-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-15">益田村</a><a href="/c101280600/a_%E8%BD%A6%E5%85%AC%E5%BA%99-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-16">车公庙</a><a href="/c101280600/a_%E8%94%A1%E5%B1%8B%E5%9B%B4-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-17">蔡屋围</a><a href="/c101280600/a_%E4%B8%9C%E9%97%A8-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-18">东门</a><a href="/c101280600/a_%E7%9F%B3%E5%8E%A6-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-19">石厦</a><a href="/c101280600/a_%E6%A2%85%E6%9E%97-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-20">梅林</a><a href="/c101280600/a_%E5%89%8D%E6%B5%B7-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-21">前海</a><a href="/c101280600/a_%E5%B2%97%E5%8E%A6-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-22">岗厦</a><a href="/c101280600/a_%E4%B8%87%E7%A7%91%E5%9F%8E-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-23">万科城</a><a href="/c101280600/a_%E5%90%8E%E6%B5%B7-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-24">后海</a><a href="/c101280600/a_%E7%9F%B3%E5%B2%A9-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-25">石岩</a><a href="/c101280600/a_%E8%A7%82%E6%BE%9C-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-26">观澜</a><a href="/c101280600/a_%E8%8E%B2%E5%A1%98-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-27">莲塘</a><a href="/c101280600/a_%E7%81%AB%E8%BD%A6%E7%AB%99-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-28">火车站</a><a href="/c101280600/a_%E7%9A%87%E5%B2%97-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-29">皇岗</a><a href="/c101280600/a_%E8%B4%AD%E7%89%A9%E5%85%AC%E5%9B%AD-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-30">购物公园</a><a href="/c101280600/a_%E9%A6%99%E8%9C%9C%E6%B9%96-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-31">香蜜湖</a><a href="/c101280600/a_%E4%B8%8A%E6%A2%85%E6%9E%97-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-32">上梅林</a><a href="/c101280600/a_%E5%B8%83%E5%90%89-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-33">布吉</a><a href="/c101280600/a_%E5%8D%97%E6%B2%B9-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-34">南油</a><a href="/c101280600/a_%E7%A6%8F%E6%B0%B8-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-35">福永</a><a href="/c101280600/a_%E6%9D%BE%E5%B2%97-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-36">松岗</a><a href="/c101280600/a_%E9%BE%99%E5%8D%8E-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-37">龙华</a><a href="/c101280600/a_%E4%B8%9C%E6%B9%96-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-38">东湖</a><a href="/c101280600/a_%E7%94%B0%E8%B4%9D-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-39">田贝</a><a href="/c101280600/a_%E7%AC%8B%E5%B2%97-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-40">笋岗</a><a href="/c101280600/a_%E7%BF%A0%E7%AB%B9-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-41">翠竹</a><a href="/c101280600/a_%E5%9B%AD%E5%B2%AD-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-42">园岭</a><a href="/c101280600/a_%E6%B0%B4%E8%B4%9D-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-43">水贝</a><a href="/c101280600/a_%E6%B2%99%E5%B0%BE-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-44">沙尾</a><a href="/c101280600/a_%E7%AB%B9%E5%AD%90%E6%9E%97-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-45">竹子林</a><a href="/c101280600/a_%E6%B2%99%E5%A4%B4-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-46">沙头</a><a href="/c101280600/a_%E6%96%B0%E6%B4%B2-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-47">新洲</a><a href="/c101280600/a_%E6%BB%A2%E6%B0%B4%E5%B1%B1%E5%BA%84-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-48">滢水山庄</a><a href="/c101280600/a_%E5%9D%AA%E5%B1%B1-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-49">坪山</a><a href="/c101280600/a_%E6%B5%B7%E4%B8%8A%E4%B8%96%E7%95%8C-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-50">海上世界</a><a href="/c101280600/a_%E7%99%BD%E7%9F%B3%E6%B4%B2-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-51">白石洲</a><a href="/c101280600/a_%E6%B2%99%E4%BA%95-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-52">沙井</a><a href="/c101280600/a_%E9%94%A6%E7%BB%A3%E6%B1%9F%E5%8D%97-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-53">锦绣江南</a><a href="/c101280600/a_%E5%85%89%E6%98%8E-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-54">光明</a><a href="/c101280600/a_%E6%B2%99%E5%A4%B4%E8%A7%92-h_101280600/?query=%E5%9B%BE%E5%83%8F" ka="sel-area-55">沙头角</a>
                     
                 </dd>
             </dl>
@@ -1170,9 +1171,16 @@ content-length: 135505
         <div class="job-box">
             <div class="sider">
                 <div class="promotion-img nomargin"><a href="/app.html" target="_blank" ka="ad_banner_1"><img src="/v2/web/geek/images/pro-1.png" alt="" /></a></div>
-                <div class="promotion-img"><a href="/user/login.html?initType=3" target="_blank" ka="ad_banner_2"><img src="/v2/web/geek/images/pro-2.png" alt="" /></a></div>
+                
+                
+                
+                    
+                    
+                        <div class="promotion-img"><a href="/user/login.html?initType=3" target="_blank" ka="ad_banner_2"><img src="/v2/web/geek/images/pro-2.png" alt="" /></a></div>
+                    
+                
             </div>
-            <div class="job-list" data-filter="" data-keyword="图像" data-l3code="" data-rescount="591" data-page="5" data-source="">
+            <div class="job-list" data-filter="" data-keyword="图像" data-l3code="" data-rescount="620" data-page="5" data-source="">
                 
                 <div class="job-tab">
                 </div>
@@ -1183,16 +1191,16 @@ content-length: 135505
                         <ul>
                             
                                 <li>
-                                    <a href="/job_detail/1407099163.html" ka="search_list_61" data-itemId="61" data-lid="0-6v7o41x" data-jobid="7099163" data-index="1" target="_blank">
+                                    <a href="/job_detail/1404809056.html" ka="search_list_61" data-itemId="61" data-lid="0-rbtfZNQ" data-jobid="4809056" data-index="1" target="_blank">
                                     <div class="job-primary">
                                         <div class="info-primary">
-                                            <h3 class="name">图像算法工程师 <span class="red">15K-30K</span></h3>
-                                            <p>深圳<em class="vline"></em>3-5年<em class="vline"></em>本科</p>
+                                            <h3 class="name">嵌入式研发(图像算法) <span class="red">15K-25K</span></h3>
+                                            <p>深圳<em class="vline"></em>5-10年<em class="vline"></em>大专</p>
                                         </div>
                                         <div class="info-company">
                                             <div class="company-text">
-                                                <h3 class="name">保千里集团</h3>
-                                                <p>智能硬件<em class="vline"></em>已上市<em class="vline"></em>1000-9999人</p>
+                                                <h3 class="name">车智佳</h3>
+                                                <p>智能硬件<em class="vline"></em>天使轮<em class="vline"></em>0-20人</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1200,11 +1208,11 @@ content-length: 135505
                                         
                                             <div class="job-tags">
                                                 <div class="job-author">
-                                                    <p>李莉<em class="vline"></em>招聘经理<img src="https://img.bosszhipin.com/beijin/mcs/useravatar/20161201/a3978099807e2772d792d8e9885a87778c7dd922ad47494fc02c388e12c00eac_s.jpg" /></p>
+                                                    <p>黄麟杰<em class="vline"></em>CEO<img src="https://img2.bosszhipin.com/mcs/useravatar/20151112/65dbe51c67fc9cb77fa886fb7931ee95585a8c89fed58fd0dd574c8cdae130ad_s.jpg" /></p>
                                                 </div>
-                                                <span>图像算法</span>
+                                                <span>ARM</span><span>FPGA</span><span>嵌入式</span>
                                             </div>
-                                            <div class="job-time"><span class="time">发布于02月20日</span></div>
+                                            <div class="job-time"><span class="time">发布于12月04日</span></div>
                                         
                                         
                                     
@@ -1212,7 +1220,123 @@ content-length: 135505
                                 </li>
                             
                                 <li>
-                                    <a href="/job_detail/1406482394.html" ka="search_list_62" data-itemId="62" data-lid="0-6v7o41x" data-jobid="6482394" data-index="2" target="_blank">
+                                    <a href="/job_detail/1411095320.html" ka="search_list_62" data-itemId="62" data-lid="0-rbtfZNQ" data-jobid="11095320" data-index="2" target="_blank">
+                                    <div class="job-primary">
+                                        <div class="info-primary">
+                                            <h3 class="name">图像算法 <span class="red">12K-18K</span></h3>
+                                            <p>深圳<em class="vline"></em>3-5年<em class="vline"></em>本科</p>
+                                        </div>
+                                        <div class="info-company">
+                                            <div class="company-text">
+                                                <h3 class="name">金蝶</h3>
+                                                <p>IT软件<em class="vline"></em>已上市<em class="vline"></em>20-99人</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                        
+                                            <div class="job-tags">
+                                                <div class="job-author">
+                                                    <p>蒋女士<em class="vline"></em>图像处理工程师<img src="https://img2.bosszhipin.com/boss/avatar/avatar_1.png" /></p>
+                                                </div>
+                                                <span>算法</span>
+                                            </div>
+                                            <div class="job-time"><span class="time">发布于04月20日</span></div>
+                                        
+                                        
+                                    
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="/job_detail/1406843003.html" ka="search_list_63" data-itemId="63" data-lid="0-rbtfZNQ" data-jobid="6843003" data-index="3" target="_blank">
+                                    <div class="job-primary">
+                                        <div class="info-primary">
+                                            <h3 class="name">图像识别深度学习算法工程师 <span class="red">15K-30K</span></h3>
+                                            <p>深圳<em class="vline"></em>经验不限<em class="vline"></em>本科</p>
+                                        </div>
+                                        <div class="info-company">
+                                            <div class="company-text">
+                                                <h3 class="name">玩学帮</h3>
+                                                <p>游戏<em class="vline"></em>天使轮<em class="vline"></em>20-99人</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                        
+                                            <div class="job-tags">
+                                                <div class="job-author">
+                                                    <p>武庆三<em class="vline"></em>技术总监<img src="https://img2.bosszhipin.com/boss/avatar/avatar_6.png" /></p>
+                                                </div>
+                                                <span>神经网络</span><span>计算机视觉</span><span>机器学习</span>
+                                            </div>
+                                            <div class="job-time"><span class="time">发布于05月11日</span></div>
+                                        
+                                        
+                                    
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="/job_detail/1410714162.html" ka="search_list_64" data-itemId="64" data-lid="0-rbtfZNQ" data-jobid="10714162" data-index="4" target="_blank">
+                                    <div class="job-primary">
+                                        <div class="info-primary">
+                                            <h3 class="name">图像识别 <span class="red">5K-10K</span></h3>
+                                            <p>深圳<em class="vline"></em>1-3年<em class="vline"></em>本科</p>
+                                        </div>
+                                        <div class="info-company">
+                                            <div class="company-text">
+                                                <h3 class="name">亿德自动化</h3>
+                                                <p>IT软件<em class="vline"></em>20-99人</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                        
+                                            <div class="job-tags">
+                                                <div class="job-author">
+                                                    <p>陈晓<em class="vline"></em>人事<img src="https://img2.bosszhipin.com/boss/avatar/avatar_3.png" /></p>
+                                                </div>
+                                                <span>数据分析</span><span>机器学习</span><span>算法</span>
+                                            </div>
+                                            <div class="job-time"><span class="time">发布于03月28日</span></div>
+                                        
+                                        
+                                    
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="/job_detail/1400228886.html" ka="search_list_65" data-itemId="65" data-lid="0-rbtfZNQ" data-jobid="228886" data-index="5" target="_blank">
+                                    <div class="job-primary">
+                                        <div class="info-primary">
+                                            <h3 class="name">图像算法工程师 <span class="red">12K-20K</span></h3>
+                                            <p>深圳<em class="vline"></em>1-3年<em class="vline"></em>本科</p>
+                                        </div>
+                                        <div class="info-company">
+                                            <div class="company-text">
+                                                <h3 class="name">车智佳</h3>
+                                                <p>智能硬件<em class="vline"></em>天使轮<em class="vline"></em>0-20人</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                        
+                                            <div class="job-tags">
+                                                <div class="job-author">
+                                                    <p>黄麟杰<em class="vline"></em>CEO<img src="https://img2.bosszhipin.com/mcs/useravatar/20151112/65dbe51c67fc9cb77fa886fb7931ee95585a8c89fed58fd0dd574c8cdae130ad_s.jpg" /></p>
+                                                </div>
+                                                <span>图像算法</span><span>机器学习</span><span>C/C++</span>
+                                            </div>
+                                            <div class="job-time"><span class="time">发布于11月28日</span></div>
+                                        
+                                        
+                                    
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="/job_detail/1406482394.html" ka="search_list_66" data-itemId="66" data-lid="0-rbtfZNQ" data-jobid="6482394" data-index="6" target="_blank">
                                     <div class="job-primary">
                                         <div class="info-primary">
                                             <h3 class="name">图像处理算法工程师 <span class="red">20K-40K</span></h3>
@@ -1241,16 +1365,16 @@ content-length: 135505
                                 </li>
                             
                                 <li>
-                                    <a href="/job_detail/1406404856.html" ka="search_list_63" data-itemId="63" data-lid="0-6v7o41x" data-jobid="6404856" data-index="3" target="_blank">
+                                    <a href="/job_detail/1406779566.html" ka="search_list_67" data-itemId="67" data-lid="0-rbtfZNQ" data-jobid="6779566" data-index="7" target="_blank">
                                     <div class="job-primary">
                                         <div class="info-primary">
-                                            <h3 class="name">图像算法工程师 <span class="red">10K-20K</span></h3>
-                                            <p>深圳<em class="vline"></em>经验不限<em class="vline"></em>本科</p>
+                                            <h3 class="name">图形图像工程师 <span class="red">20K-40K</span></h3>
+                                            <p>深圳<em class="vline"></em>3-5年<em class="vline"></em>本科</p>
                                         </div>
                                         <div class="info-company">
                                             <div class="company-text">
-                                                <h3 class="name">中电数通科技</h3>
-                                                <p>移动互联网<em class="vline"></em>未融资<em class="vline"></em>100-499人</p>
+                                                <h3 class="name">云之梦科技</h3>
+                                                <p>互联网<em class="vline"></em>A轮<em class="vline"></em>20-99人</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1258,11 +1382,11 @@ content-length: 135505
                                         
                                             <div class="job-tags">
                                                 <div class="job-author">
-                                                    <p>王元鹏<em class="vline"></em>CTO<img src="https://img2.bosszhipin.com/mcs/useravatar/20150522/0690e903ec96d84ee7d122571335ce838c7dd922ad47494fc02c388e12c00eac_s.jpg" /></p>
+                                                    <p>荣洁<em class="vline"></em>人力资源主管<img src="https://img.bosszhipin.com/beijin/mcs/useravatar/20161124/d71afd2aef133275a94da31156e317f28c7dd922ad47494fc02c388e12c00eac_s.jpg" /></p>
                                                 </div>
-                                                <span>图像算法</span><span>图像识别</span><span>C/C++</span>
+                                                <span>图形图像开发</span><span>机器视觉开发</span><span>图像处理</span>
                                             </div>
-                                            <div class="job-time"><span class="time">发布于05月02日</span></div>
+                                            <div class="job-time"><span class="time">发布于01月23日</span></div>
                                         
                                         
                                     
@@ -1270,16 +1394,16 @@ content-length: 135505
                                 </li>
                             
                                 <li>
-                                    <a href="/job_detail/1406258158.html" ka="search_list_64" data-itemId="64" data-lid="0-6v7o41x" data-jobid="6258158" data-index="4" target="_blank">
+                                    <a href="/job_detail/1407071878.html" ka="search_list_68" data-itemId="68" data-lid="0-rbtfZNQ" data-jobid="7071878" data-index="8" target="_blank">
                                     <div class="job-primary">
                                         <div class="info-primary">
-                                            <h3 class="name">图像质量工程师 <span class="red">15K-25K</span></h3>
-                                            <p>深圳<em class="vline"></em>3-5年<em class="vline"></em>大专</p>
+                                            <h3 class="name">图像算法工程师 <span class="red">8K-12K</span></h3>
+                                            <p>深圳<em class="vline"></em>1-3年<em class="vline"></em>大专</p>
                                         </div>
                                         <div class="info-company">
                                             <div class="company-text">
-                                                <h3 class="name">量子视觉</h3>
-                                                <p>智能硬件<em class="vline"></em>B轮<em class="vline"></em>20-99人</p>
+                                                <h3 class="name">找材宝</h3>
+                                                <p>移动互联网<em class="vline"></em>未融资<em class="vline"></em>20-99人</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1287,11 +1411,11 @@ content-length: 135505
                                         
                                             <div class="job-tags">
                                                 <div class="job-author">
-                                                    <p>韩庆龙<em class="vline"></em>合伙人<img src="https://img.bosszhipin.com/beijin/mcs/useravatar/20160719/7ce74c07027dd7c3c4729801d2984d228c7dd922ad47494fc02c388e12c00eac_s.jpg" /></p>
+                                                    <p>Simon<em class="vline"></em>CTO<img src="https://img.bosszhipin.com/beijin/mcs/useravatar/20160729/1a09237cd7615f624a9cce5d4134b258793832f264abc6ef0d48aa368145ad97_s.jpg" /></p>
                                                 </div>
-                                                <span>嵌入式</span><span>ISP</span><span>图像测试</span>
+                                                <span>C\/C++</span><span>图像识别</span><span>图像编程</span>
                                             </div>
-                                            <div class="job-time"><span class="time">发布于01月09日</span></div>
+                                            <div class="job-time"><span class="time">发布于02月20日</span></div>
                                         
                                         
                                     
@@ -1299,36 +1423,7 @@ content-length: 135505
                                 </li>
                             
                                 <li>
-                                    <a href="/job_detail/1407302108.html" ka="search_list_65" data-itemId="65" data-lid="0-6v7o41x" data-jobid="7302108" data-index="5" target="_blank">
-                                    <div class="job-primary">
-                                        <div class="info-primary">
-                                            <h3 class="name">图像质量测试 <span class="red">8K-16K</span></h3>
-                                            <p>深圳<em class="vline"></em>1-3年<em class="vline"></em>本科</p>
-                                        </div>
-                                        <div class="info-company">
-                                            <div class="company-text">
-                                                <h3 class="name">软通动力</h3>
-                                                <p>IT软件<em class="vline"></em>已上市<em class="vline"></em>10000人以上</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                        
-                                            <div class="job-tags">
-                                                <div class="job-author">
-                                                    <p>王小姐<em class="vline"></em>招聘顾问<img src="https://img.bosszhipin.com/beijin/mcs/useravatar/20160824/7e00da61ae16370853813167feff9c7b9fb0940c9f654088fca3b3a9ee82bdaf_s.jpg" /></p>
-                                                </div>
-                                                <span>画质测评</span><span>PQ图像</span><span>图像效果评审</span>
-                                            </div>
-                                            <div class="job-time"><span class="time">发布于03月03日</span></div>
-                                        
-                                        
-                                    
-                                    </a>
-                                </li>
-                            
-                                <li>
-                                    <a href="/job_detail/1406503923.html" ka="search_list_66" data-itemId="66" data-lid="0-6v7o41x" data-jobid="6503923" data-index="6" target="_blank">
+                                    <a href="/job_detail/1406503923.html" ka="search_list_69" data-itemId="69" data-lid="0-rbtfZNQ" data-jobid="6503923" data-index="9" target="_blank">
                                     <div class="job-primary">
                                         <div class="info-primary">
                                             <h3 class="name">图像识别算法工程师 <span class="red">10K-15K</span></h3>
@@ -1357,16 +1452,16 @@ content-length: 135505
                                 </li>
                             
                                 <li>
-                                    <a href="/job_detail/1410663844.html" ka="search_list_67" data-itemId="67" data-lid="0-6v7o41x" data-jobid="10663844" data-index="7" target="_blank">
+                                    <a href="/job_detail/1407327547.html" ka="search_list_70" data-itemId="70" data-lid="0-rbtfZNQ" data-jobid="7327547" data-index="10" target="_blank">
                                     <div class="job-primary">
                                         <div class="info-primary">
-                                            <h3 class="name">硬件工程师（图像传感器方向） <span class="red">15K-20K</span></h3>
-                                            <p>深圳<em class="vline"></em>1-3年<em class="vline"></em>本科</p>
+                                            <h3 class="name">图像识别深度学习工程师 <span class="red">20K-40K</span></h3>
+                                            <p>深圳<em class="vline"></em>5-10年<em class="vline"></em>本科</p>
                                         </div>
                                         <div class="info-company">
                                             <div class="company-text">
-                                                <h3 class="name">科创数字</h3>
-                                                <p>智能硬件<em class="vline"></em>未融资<em class="vline"></em>100-499人</p>
+                                                <h3 class="name">深圳百诺国际</h3>
+                                                <p>健康医疗<em class="vline"></em>100-499人</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1374,11 +1469,11 @@ content-length: 135505
                                         
                                             <div class="job-tags">
                                                 <div class="job-author">
-                                                    <p>Hellen <em class="vline"></em>人力资源部经理<img src="https://img2.bosszhipin.com/boss/avatar/avatar_11.png" /></p>
+                                                    <p>辛泉预<em class="vline"></em>互联网部总经理<img src="https://img.bosszhipin.com/beijin/mcs/useravatar/20170206/57d4d181f6eedc1c329108e745474fde8c7dd922ad47494fc02c388e12c00eac_s.jpg" /></p>
                                                 </div>
-                                                <span>传感器</span><span>智能硬件</span><span>硬件开发</span>
+                                                <span>图像算法</span><span>图像识别</span><span>机器学习</span>
                                             </div>
-                                            <div class="job-time"><span class="time">发布于03月24日</span></div>
+                                            <div class="job-time"><span class="time">发布于03月04日</span></div>
                                         
                                         
                                     
@@ -1386,16 +1481,16 @@ content-length: 135505
                                 </li>
                             
                                 <li>
-                                    <a href="/job_detail/1405669719.html" ka="search_list_68" data-itemId="68" data-lid="0-6v7o41x" data-jobid="5669719" data-index="8" target="_blank">
+                                    <a href="/job_detail/1407101364.html" ka="search_list_71" data-itemId="71" data-lid="0-rbtfZNQ" data-jobid="7101364" data-index="11" target="_blank">
                                     <div class="job-primary">
                                         <div class="info-primary">
-                                            <h3 class="name">动漫产品设计师 <span class="red">5K-10K</span></h3>
-                                            <p>深圳<em class="vline"></em>3-5年<em class="vline"></em>本科</p>
+                                            <h3 class="name">高级图像算法研发工程师（深圳） <span class="red">15K-25K</span></h3>
+                                            <p>深圳<em class="vline"></em>经验不限<em class="vline"></em>硕士</p>
                                         </div>
                                         <div class="info-company">
                                             <div class="company-text">
-                                                <h3 class="name">数虎图像</h3>
-                                                <p>文化娱乐<em class="vline"></em>已上市<em class="vline"></em>100-499人</p>
+                                                <h3 class="name">腾讯</h3>
+                                                <p>互联网<em class="vline"></em>已上市<em class="vline"></em>10000人以上</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1403,11 +1498,11 @@ content-length: 135505
                                         
                                             <div class="job-tags">
                                                 <div class="job-author">
-                                                    <p>May<em class="vline"></em>衍生品开发主管<img src="https://img.bosszhipin.com/beijin/mcs/useravatar/20160728/6e4e5cbca4d2186a5c0448cfba7fda418c7dd922ad47494fc02c388e12c00eac_s.jpg" /></p>
+                                                    <p>LULU<em class="vline"></em>HR<img src="https://img.bosszhipin.com/beijin/mcs/useravatar/20161213/a76cf93c987b485678eccdd770a12c918c7dd922ad47494fc02c388e12c00eac_s.jpg" /></p>
                                                 </div>
-                                                <span>玩具设计</span><span>工业设计</span><span>产品外观结构</span>
+                                                <span>Java</span>
                                             </div>
-                                            <div class="job-time"><span class="time">发布于01月18日</span></div>
+                                            <div class="job-time"><span class="time">发布于02月20日</span></div>
                                         
                                         
                                     
@@ -1415,94 +1510,7 @@ content-length: 135505
                                 </li>
                             
                                 <li>
-                                    <a href="/job_detail/1411306654.html" ka="search_list_69" data-itemId="69" data-lid="0-6v7o41x" data-jobid="11306654" data-index="9" target="_blank">
-                                    <div class="job-primary">
-                                        <div class="info-primary">
-                                            <h3 class="name">图像算法 <span class="red">13K-20K</span></h3>
-                                            <p>深圳<em class="vline"></em>1年以内<em class="vline"></em>本科</p>
-                                        </div>
-                                        <div class="info-company">
-                                            <div class="company-text">
-                                                <h3 class="name">民富集团</h3>
-                                                <p>金融<em class="vline"></em>未融资<em class="vline"></em>100-499人</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                        
-                                            <div class="job-tags">
-                                                <div class="job-author">
-                                                    <p>李东红<em class="vline"></em>招聘经理<img src="https://img.bosszhipin.com/beijin/mcs/useravatar/20170427/a7ea068abbddf639010623d4fb2610d8e755660c4e8d4ea642762bd2862274b7_s.jpg" /></p>
-                                                </div>
-                                                <span>算法</span><span>数据分析</span>
-                                            </div>
-                                            <div class="job-time"><span class="time">发布于05月03日</span></div>
-                                        
-                                        
-                                    
-                                    </a>
-                                </li>
-                            
-                                <li>
-                                    <a href="/job_detail/1405842514.html" ka="search_list_70" data-itemId="70" data-lid="0-6v7o41x" data-jobid="5842514" data-index="10" target="_blank">
-                                    <div class="job-primary">
-                                        <div class="info-primary">
-                                            <h3 class="name">图像识别算法工程师 <span class="red">15K-30K</span></h3>
-                                            <p>深圳<em class="vline"></em>1-3年<em class="vline"></em>本科</p>
-                                        </div>
-                                        <div class="info-company">
-                                            <div class="company-text">
-                                                <h3 class="name">喏喏</h3>
-                                                <p>IT软件<em class="vline"></em>不需要融资<em class="vline"></em>0-20人</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                        
-                                            <div class="job-tags">
-                                                <div class="job-author">
-                                                    <p>厉玲<em class="vline"></em>人事行政总监<img src="https://img2.bosszhipin.com/boss/avatar/avatar_3.png" /></p>
-                                                </div>
-                                                <span>机器学习</span><span>图像算法</span><span>C/C++</span>
-                                            </div>
-                                            <div class="job-time"><span class="time">发布于05月05日</span></div>
-                                        
-                                        
-                                    
-                                    </a>
-                                </li>
-                            
-                                <li>
-                                    <a href="/job_detail/1405543863.html" ka="search_list_71" data-itemId="71" data-lid="0-6v7o41x" data-jobid="5543863" data-index="11" target="_blank">
-                                    <div class="job-primary">
-                                        <div class="info-primary">
-                                            <h3 class="name">衍生产品设计师-儿童类 <span class="red">5K-10K</span></h3>
-                                            <p>深圳<em class="vline"></em>1-3年<em class="vline"></em>本科</p>
-                                        </div>
-                                        <div class="info-company">
-                                            <div class="company-text">
-                                                <h3 class="name">数虎图像</h3>
-                                                <p>文化娱乐<em class="vline"></em>已上市<em class="vline"></em>100-499人</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                        
-                                            <div class="job-tags">
-                                                <div class="job-author">
-                                                    <p>May<em class="vline"></em>衍生品开发主管<img src="https://img.bosszhipin.com/beijin/mcs/useravatar/20160728/6e4e5cbca4d2186a5c0448cfba7fda418c7dd922ad47494fc02c388e12c00eac_s.jpg" /></p>
-                                                </div>
-                                                <span>产品助理</span><span>产品设计师</span><span>项目管理</span>
-                                            </div>
-                                            <div class="job-time"><span class="time">发布于12月28日</span></div>
-                                        
-                                        
-                                    
-                                    </a>
-                                </li>
-                            
-                                <li>
-                                    <a href="/job_detail/1405422350.html" ka="search_list_72" data-itemId="72" data-lid="0-6v7o41x" data-jobid="5422350" data-index="12" target="_blank">
+                                    <a href="/job_detail/1405422350.html" ka="search_list_72" data-itemId="72" data-lid="0-rbtfZNQ" data-jobid="5422350" data-index="12" target="_blank">
                                     <div class="job-primary">
                                         <div class="info-primary">
                                             <h3 class="name">图像处理工程师（TV） <span class="red">10K-20K</span></h3>
@@ -1531,7 +1539,36 @@ content-length: 135505
                                 </li>
                             
                                 <li>
-                                    <a href="/job_detail/1405997004.html" ka="search_list_73" data-itemId="73" data-lid="0-6v7o41x" data-jobid="5997004" data-index="13" target="_blank">
+                                    <a href="/job_detail/1410771942.html" ka="search_list_73" data-itemId="73" data-lid="0-rbtfZNQ" data-jobid="10771942" data-index="13" target="_blank">
+                                    <div class="job-primary">
+                                        <div class="info-primary">
+                                            <h3 class="name">机器学习图像识别 <span class="red">20K-40K</span></h3>
+                                            <p>深圳<em class="vline"></em>3-5年<em class="vline"></em>硕士</p>
+                                        </div>
+                                        <div class="info-company">
+                                            <div class="company-text">
+                                                <h3 class="name">玩学帮</h3>
+                                                <p>游戏<em class="vline"></em>天使轮<em class="vline"></em>20-99人</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                        
+                                            <div class="job-tags">
+                                                <div class="job-author">
+                                                    <p>潘鑫<em class="vline"></em>COO<img src="https://img.bosszhipin.com/beijin/mcs/useravatar/20161121/460304c8a588e4454d780eba8043a32974a9b65d3ccbfb7de4e13266f790c915_s.jpg" /></p>
+                                                </div>
+                                                <span>机器学习</span><span>算法</span>
+                                            </div>
+                                            <div class="job-time"><span class="time">发布于05月02日</span></div>
+                                        
+                                        
+                                    
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="/job_detail/1405997004.html" ka="search_list_74" data-itemId="74" data-lid="0-rbtfZNQ" data-jobid="5997004" data-index="14" target="_blank">
                                     <div class="job-primary">
                                         <div class="info-primary">
                                             <h3 class="name">图像处理实习生 <span class="red">6K-12K</span></h3>
@@ -1560,16 +1597,16 @@ content-length: 135505
                                 </li>
                             
                                 <li>
-                                    <a href="/job_detail/1405996959.html" ka="search_list_74" data-itemId="74" data-lid="0-6v7o41x" data-jobid="5996959" data-index="14" target="_blank">
+                                    <a href="/job_detail/1406404856.html" ka="search_list_75" data-itemId="75" data-lid="0-rbtfZNQ" data-jobid="6404856" data-index="15" target="_blank">
                                     <div class="job-primary">
                                         <div class="info-primary">
-                                            <h3 class="name">深圳学习图像算法工程师 <span class="red">20K-40K</span></h3>
-                                            <p>深圳<em class="vline"></em>3-5年<em class="vline"></em>硕士</p>
+                                            <h3 class="name">图像算法工程师 <span class="red">10K-20K</span></h3>
+                                            <p>深圳<em class="vline"></em>经验不限<em class="vline"></em>本科</p>
                                         </div>
                                         <div class="info-company">
                                             <div class="company-text">
-                                                <h3 class="name">坎德拉</h3>
-                                                <p>智能硬件<em class="vline"></em>未融资<em class="vline"></em>20-99人</p>
+                                                <h3 class="name">中电数通科技</h3>
+                                                <p>移动互联网<em class="vline"></em>未融资<em class="vline"></em>100-499人</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1577,40 +1614,11 @@ content-length: 135505
                                         
                                             <div class="job-tags">
                                                 <div class="job-author">
-                                                    <p>siva<em class="vline"></em>HR<img src="https://img.bosszhipin.com/beijin/mcs/useravatar/20160714/fad91ccb4edf6f1b2ea6e6390593cf308c7dd922ad47494fc02c388e12c00eac_s.jpg" /></p>
+                                                    <p>王元鹏<em class="vline"></em>CTO<img src="https://img2.bosszhipin.com/mcs/useravatar/20150522/0690e903ec96d84ee7d122571335ce838c7dd922ad47494fc02c388e12c00eac_s.jpg" /></p>
                                                 </div>
-                                                <span>Caffe</span><span>Torch</span>
+                                                <span>图像算法</span><span>图像识别</span><span>C/C++</span>
                                             </div>
-                                            <div class="job-time"><span class="time">发布于01月18日</span></div>
-                                        
-                                        
-                                    
-                                    </a>
-                                </li>
-                            
-                                <li>
-                                    <a href="/job_detail/1411114890.html" ka="search_list_75" data-itemId="75" data-lid="0-6v7o41x" data-jobid="11114890" data-index="15" target="_blank">
-                                    <div class="job-primary">
-                                        <div class="info-primary">
-                                            <h3 class="name">图像标注 <span class="red">6K-9K</span></h3>
-                                            <p>深圳<em class="vline"></em>1-3年<em class="vline"></em>大专</p>
-                                        </div>
-                                        <div class="info-company">
-                                            <div class="company-text">
-                                                <h3 class="name">中软国际</h3>
-                                                <p>IT软件<em class="vline"></em>已上市<em class="vline"></em>10000人以上</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                        
-                                            <div class="job-tags">
-                                                <div class="job-author">
-                                                    <p>张鹏<em class="vline"></em>hr<img src="https://img.bosszhipin.com/beijin/mcs/useravatar/20161206/51751d613050c77e22d62f9591f8d72f8c7dd922ad47494fc02c388e12c00eac_s.jpg" /></p>
-                                                </div>
-                                                <span>自动化</span><span>办公软件</span>
-                                            </div>
-                                            <div class="job-time"><span class="time">发布于04月20日</span></div>
+                                            <div class="job-time"><span class="time">发布于05月02日</span></div>
                                         
                                         
                                     
@@ -1901,6 +1909,16 @@ content-length: 135505
 		var r = window.location.search.substr(1).match(reg);
 		if(r!=null)return  unescape(r[2]); return null;
 	}
+</script>
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?194df3105ad7148dcf2b98a91b5e727a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
 </script>
 </body>
 </html>

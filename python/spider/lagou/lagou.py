@@ -7,6 +7,7 @@ import xlwt
 import datetime
 import re
 import os,sys
+import csv
 
 sys.path.append('../')
 from spider import spider
@@ -24,12 +25,18 @@ class lagou(spider):
         }
         self.url = r'http://www.lagou.com/jobs/positionAjax.json'
         self.excel = 'lagou.xls'
+        self.csv = 'lagou.csv'
         '''with open('config.txt', 'r') as fd:
             self.conf = json.load(fd)
             self._db = MysqlDb(self.conf['user'], self.conf['password'], self.conf['db'], self.conf['host'], int(self.conf['port'])).set_table(self.conf['table'])
             self._db.create('lagou.sql')
             self._db.create('job.sql')'''
-        #excel init
+        if os.path.isfile(self.csv) == True:
+            os.remove(self.csv)
+        csv_file = open(self.csv, "w")
+        csv_writer = csv.writer(csv_file, delimiter=',')
+        csv_writer.writerow(self.title)
+        csv_file.close()
 
     def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
         if _headers != None:

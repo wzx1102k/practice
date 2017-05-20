@@ -9,6 +9,7 @@ import datetime
 import re
 import os,sys
 import pinyin
+import csv
 
 sys.path.append('../')
 from spider import spider
@@ -30,7 +31,14 @@ class job51(spider):
             'Content-Type': 'text/html',
         }
         self.excel = 'job51.xls'
+        self.csv = 'job51.csv'
         self.url = r'http://search.51job.com/jobsearch/search_result.php'
+        if os.path.isfile(self.csv) == True:
+            os.remove(self.csv)
+        csv_file = open(self.csv, "w")
+        csv_writer = csv.writer(csv_file, delimiter=',')
+        csv_writer.writerow(self.title)
+        csv_file.close()
 
     def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
         if _headers != None:

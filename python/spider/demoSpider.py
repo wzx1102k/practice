@@ -11,6 +11,7 @@ import re
 import os,sys
 import pinyin
 from os import listdir
+import csv
 
 
 sys.path.append('./lagou')
@@ -41,6 +42,12 @@ def mergeExcel(path, keyword):
     for j, col in enumerate(title):
         booksheet.write(excel_cnt, j, col)
     workbook.save('job.xls')
+    job_csv = 'job.csv'
+    if os.path.isfile(job_csv) == True:
+        os.remove(job_csv)
+    csv_file = open(job_csv, "w")
+    csv_writer = csv.writer(csv_file, delimiter=',')
+    csv_writer.writerow(title)
     for xls in list:
         if 'xls' in xls:
             rb = xlrd.open_workbook(xls, formatting_info=True)
@@ -58,11 +65,14 @@ def mergeExcel(path, keyword):
                         excel_cnt += 1
                         for j in range(0, len(title)):
                             booksheet.write(excel_cnt, j, row[j])
+                        csv_writer.writerow(row)
                 else:
                     excel_cnt += 1
                     for j in range(0, len(title)):
                         booksheet.write(excel_cnt, j, row[j])
+                    csv_writer.writerow(row)
     workbook.save('job.xls')
+    csv_file.close()
 
 if __name__ == '__main__':
     cnt = len(sys.argv)

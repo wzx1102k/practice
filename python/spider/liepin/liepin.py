@@ -8,6 +8,7 @@ import datetime
 import re
 import os,sys
 import pinyin
+import csv
 
 sys.path.append('../')
 from spider import spider
@@ -24,7 +25,14 @@ class liepin(spider):
             'cache-control': 'no-cache',
         }
         self.excel = 'liepin.xls'
+        self.csv = 'liepin.csv'
         self.url = r'https://www.liepin.com/sz/zhaopin/'
+        if os.path.isfile(self.csv) == True:
+            os.remove(self.csv)
+        csv_file = open(self.csv, "w")
+        csv_writer = csv.writer(csv_file, delimiter=',')
+        csv_writer.writerow(self.title)
+        csv_file.close()
 
     def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
         if _headers != None:

@@ -7,6 +7,7 @@ import xlwt
 import datetime
 import re
 import os,sys
+import csv
 
 sys.path.append('../')
 from spider import spider
@@ -20,7 +21,14 @@ class zhilian(spider):
             'cache-control': 'no-cache',
         }
         self.excel = 'zhilian.xls'
+        self.csv = 'zhilian.csv'
         self.url = r'http://sou.zhaopin.com/jobs/searchresult.ashx'
+        if os.path.isfile(self.csv) == True:
+            os.remove(self.csv)
+        csv_file = open(self.csv, "w")
+        csv_writer = csv.writer(csv_file, delimiter=',')
+        csv_writer.writerow(self.title)
+        csv_file.close()
 
     def set_url_info(self, _headers=None, _url=None, _pn=None, _keyword=None, _city=None):
         if _headers != None:
