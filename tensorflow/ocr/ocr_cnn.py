@@ -39,6 +39,25 @@ def image_info_decode(line):
     label_conv = np.reshape(label_conv, [1, 324])
     return img, label_conv
 
+def read_and_decode(tf_record_path, label_path): # read iris_contact.tfrecords
+    filename_queue = tf.train.string_input_producer([tf_record_path])# create a queue
+
+    reader = tf.TFRecordReader()
+    _, serialized_example = reader.read(filename_queue)#return file_name and file
+    features = tf.parse_single_example(serialized_example,
+                                       features={
+                                           'label': tf.FixedLenFeature([], tf.int64),
+                                           'img_raw' : tf.FixedLenFeature([], tf.string),
+                                       })#return image and label
+
+    img = tf.decode_raw(features['img_raw'], tf.uint8)
+    img = tf.reshape(img, [1, 10000])  #reshape image
+    img = tf.cast(img, tf.float32) * (1. / 255) - 0.5 #throw img tensor
+    cnt = tf.cast(features['label'], tf.int32) #throw label tensor
+    f = open('../filename')
+    f.readlines()[cnt]
+    return img, label
+
 ## initial cnn variables
 IMAGE_DIR = './png/train/'
 LABEL_FILE = './label.txt'
@@ -75,6 +94,13 @@ b_conv2 = bias_variable([64])
 h_con2 = tf.nn.relu(con2d(h_pool1, W_conv2) + b_conv2) #output 100*25*64
 h_pool2 = max_pooling_2x2(h_con2)  #output 50 * 13 * 64
 
+#conv3 layer
+W_conv3 = weight_variable([5, 5, 64, 128])
+b_conv3 = bias_variable([128])
+
+h_con3 = tf.nn.relu(con2d(h_pool2, W_conv3) + b_conv3) #output 100*25*64
+h_pool3 = max_pooling_2x2(h_con3)  #output 25 * 7 * 128
+
 #func1 layer
 W_fc1 = weight_variable([50*13*64, 1024])
 b_fc1 = bias_variable([1024])
@@ -82,6 +108,13 @@ b_fc1 = bias_variable([1024])
 h_pool2_flat = tf.reshape(h_pool2, [-1, 50*13*64]) # [n_samples, 7, 7, 64] ==> [n_samples, 7*7*64]
 h_fc1 = tf.nn.relu(tf.matmul(h_pool2_flat, W_fc1) + b_fc1)
 h_fc1_drop = tf.nn.dropout(h_fc1, keep_prob)
+
+'''W_fc1 = weight_variable([25*7*128, 1024])
+b_fc1 = bias_variable([1024])
+
+h_pool2_flat = tf.reshape(h_pool3, [-1, 25*7*128]) # [n_samples, 7, 7, 64] ==> [n_samples, 7*7*64]
+h_fc1 = tf.nn.relu(tf.matmul(h_pool2_flat, W_fc1) + b_fc1)
+h_fc1_drop = tf.nn.dropout(h_fc1, keep_prob)'''
 
 #func2_layer_1
 W_fc2_1 = weight_variable([1024, 54])
@@ -133,7 +166,9 @@ for i in range(10):
         img, label = image_info_decode(line)
         img = (255-img) / 255
         sess.run(train_step, feed_dict={xs: img, ys: label, keep_prob: 1})
+        print(sess.run(h_pool2_flat, feed_dict={xs:img, ys:label, keep_prob:1}))
         print(sess.run(cross_entrop, feed_dict={xs:img, ys:label, keep_prob:1}))
+        #print(np.shape(sess.run(h_pool3, feed_dict={xs: img, ys: label, keep_prob: 1})))
 
     #print(sess.run(fc2_5, feed_dict={xs:img, ys:label, keep_prob:1}))
     #print(sess.run(tf.log(predict), feed_dict={xs:img, ys:label, keep_prob:1}))
