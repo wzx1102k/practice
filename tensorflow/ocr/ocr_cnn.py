@@ -22,41 +22,26 @@ def max_pooling_2x2(x):
     #step change to 2
     return tf.nn.max_pool(x, ksize=[1,2,2,1], strides=[1,2,2,1], padding='SAME')
 
-## line : 1: abcdefg
-def image_info_decode(line):
-    global IMAGE_DIR
-    global  sample_list
-    cnt, label = line.split(': ')
-    label = label[:-1]
-    image_path = IMAGE_DIR + cnt + '.png'
-    label_conv = np.zeros(54*6)
-    offset = 0
-    for i in label:
-        label_conv[sample_list.index(i) + offset] = 1
-        offset += 54
-    img = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
-    img = np.reshape(img, [1, 10000])
-    label_conv = np.reshape(label_conv, [1, 324])
-    return img, label_conv
-
-def read_and_decode(tf_record_path, label_path): # read iris_contact.tfrecords
+def read_and_decode(tf_record_path): # read iris_contact.tfrecords
     filename_queue = tf.train.string_input_producer([tf_record_path])# create a queue
 
     reader = tf.TFRecordReader()
     _, serialized_example = reader.read(filename_queue)#return file_name and file
     features = tf.parse_single_example(serialized_example,
                                        features={
-                                           'label': tf.FixedLenFeature([], tf.int64),
+                                           'cnt': tf.FixedLenFeature([], tf.int64),
                                            'img_raw' : tf.FixedLenFeature([], tf.string),
+                                           'label': tf.FixedLenFeature([], tf.string),
                                        })#return image and label
 
     img = tf.decode_raw(features['img_raw'], tf.uint8)
-    img = tf.reshape(img, [1, 10000])  #reshape image
+    img = tf.reshape(img, [10000])  #reshape image
     img = tf.cast(img, tf.float32) * (1. / 255) - 0.5 #throw img tensor
-    cnt = tf.cast(features['label'], tf.int32) #throw label tensor
-    f = open('../filename')
-    f.readlines()[cnt]
-    return img, label
+    cnt = features['cnt'] #throw label tensor
+    label = tf.decode_raw(features['label'], tf.uint8)
+    label = tf.reshape(label, [324])
+    label = tf.cast(label, tf.float32)
+    return cnt, img, label
 
 ## initial cnn variables
 IMAGE_DIR = './png/train/'
@@ -93,13 +78,13 @@ b_conv2 = bias_variable([64])
 
 h_con2 = tf.nn.relu(con2d(h_pool1, W_conv2) + b_conv2) #output 100*25*64
 h_pool2 = max_pooling_2x2(h_con2)  #output 50 * 13 * 64
-
+'''
 #conv3 layer
 W_conv3 = weight_variable([5, 5, 64, 128])
 b_conv3 = bias_variable([128])
 
 h_con3 = tf.nn.relu(con2d(h_pool2, W_conv3) + b_conv3) #output 100*25*64
-h_pool3 = max_pooling_2x2(h_con3)  #output 25 * 7 * 128
+h_pool3 = max_pooling_2x2(h_con3)  #output 25 * 7 * 128'''
 
 #func1 layer
 W_fc1 = weight_variable([50*13*64, 1024])
@@ -151,6 +136,7 @@ W_fc2_6 = weight_variable([1024, 54])
 b_fc2_6 = bias_variable([54])
 
 fc2_6 = tf.nn.softmax(tf.matmul(h_fc1_drop, W_fc2_6) + b_fc2_6)
+
 predict = tf.concat([fc2_1, fc2_2, fc2_3, fc2_4, fc2_5, fc2_6], 1)
 
 #cross
@@ -158,22 +144,21 @@ cross_entrop =tf.reduce_mean(-tf.reduce_sum(ys * tf.log(predict), reduction_indi
 
 train_step = tf.train.AdamOptimizer(1e-4).minimize(cross_entrop)
 
+cnt, img, label = read_and_decode('train.tfrecords')
+print(cnt)
+print(img)
+print(label)
+cnt_batch, img_batch, label_batch = tf.train.shuffle_batch([cnt, img, label], batch_size=1,
+                                capacity=500, min_after_dequeue=200, num_threads=2)
+print('run1')
 sess = tf.Session()
 sess.run(tf.global_variables_initializer())
 
-for i in range(10):
-    for line in open(LABEL_FILE, 'r'):
-        img, label = image_info_decode(line)
-        img = (255-img) / 255
-        sess.run(train_step, feed_dict={xs: img, ys: label, keep_prob: 1})
-        print(sess.run(h_pool2_flat, feed_dict={xs:img, ys:label, keep_prob:1}))
-        print(sess.run(cross_entrop, feed_dict={xs:img, ys:label, keep_prob:1}))
-        #print(np.shape(sess.run(h_pool3, feed_dict={xs: img, ys: label, keep_prob: 1})))
+tf.train.start_queue_runners(sess=sess)
 
-    #print(sess.run(fc2_5, feed_dict={xs:img, ys:label, keep_prob:1}))
-    #print(sess.run(tf.log(predict), feed_dict={xs:img, ys:label, keep_prob:1}))
-    #print(np.shape(predict))
-    #print(np.shape(cross_entrop))
-    #print(sess.run(xs, feed_dict={xs:img, keep_prob:1}))
-    #print(sess.run(fc2_5, feed_dict={xs: img, ys: label, keep_prob: 1}))
-    #break
+for i in range(100):
+    cnt_val, img_val, label_val = sess.run([cnt_batch, img_batch, label_batch])
+    print('run')
+    sess.run(train_step, feed_dict={xs: img_val, ys: label_val, keep_prob: 1})
+    print(sess.run(cross_entrop, feed_dict={xs: img_val, ys: label_val, keep_prob: 1}))
+
