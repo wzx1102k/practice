@@ -61,7 +61,7 @@ predict = add_layer(xs, 1600, 54, n_layer=1, activation_function=tf.nn.softmax)
 cross = tf.reduce_mean(-tf.reduce_sum(ys*tf.log(tf.clip_by_value(predict, 1e-10,1.0)), reduction_indices=[1]))
 #cross = tf.reduce_mean(tf.reduce_mean(-tf.reduce_sum(ys*tf.log(predict), reduction_indices=[1])))
 #train = tf.train.AdamOptimizer(1e-4).minimize(cross)
-train = tf.train.GradientDescentOptimizer(0.05).minimize(cross)
+train = tf.train.GradientDescentOptimizer(0.2).minimize(cross)
 
 img, label, cnt = read_and_decode('train.tfrecords')
 #img_batch, label_batch, cnt_batch = tf.train.shuffle_batch([img, label, cnt], batch_size=1500,
