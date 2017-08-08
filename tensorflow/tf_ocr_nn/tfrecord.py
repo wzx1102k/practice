@@ -30,7 +30,8 @@ def tfrecord(input, output):
             cnt = cnt + 1
             fullname = os.path.join(parent, filename)
             label = parent[-1]
-            print(label)
+            #print(label)
+            print(cnt)
             img_org = cv2.imread(fullname, cv2.IMREAD_GRAYSCALE)
             img = cv2.resize(img_org, (32, 50), interpolation=cv2.INTER_CUBIC)
             img_raw = img.tobytes()
