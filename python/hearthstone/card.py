@@ -80,6 +80,21 @@ class card(object):
             card_cost = cv2.resize(card_cost, (10, 16))
             cv2.imwrite(des_path, card_cost)
 
+    def get_card_name(self, des_path):
+        height, width = self.card_img.shape[:2]
+        h_start = int(height/2 - height/8)
+        h_end = int(height/2 + height/8)
+        card_img = self.card_img[h_start:h_end, :]
+        (T, card_img) = cv2.threshold(card_img, 240, 255, cv2.THRESH_BINARY)
+        name_sum = np.zeros((h_end- h_start - 45, 1), np.uint16)
+        for i in range(0, h_end- h_start - 45):
+            num_img = card_img[i:i + 45, :]
+            name_sum[i, :] = np.sum(num_img == 255)
+        y, x = np.where(name_sum == np.max(name_sum))
+        y = y[y.size >> 1]
+        card_name = card_img[y:y+45, :]
+        cv2.imwrite(des_path, card_name)
+
 class magic_card(card):
     def __init__(self):
         super(magic_card, self).__init__()
@@ -104,4 +119,5 @@ class minion_card(card):
 if __name__ == '__main__':
     card_demo = card()
     card_demo.get_card_img(sys.argv[1])
-    card_demo.get_card_cost(sys.argv[2])
+    card_demo.get_card_name(sys.argv[2])
+    #card_demo.get_card_cost(sys.argv[2])
