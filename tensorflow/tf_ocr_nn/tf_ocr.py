@@ -53,9 +53,9 @@ xs = tf.placeholder(tf.float32, [None, 1600])
 ys = tf.placeholder(tf.float32, [None, 54])
 keep_prob = tf.placeholder(tf.float32)
 
-#layer1 = add_layer(xs, 1600, 1600, n_layer=1, activation_function=tf.nn.relu)
+layer1 = add_layer(xs, 1600, 1600, n_layer=1, activation_function=tf.nn.relu)
 #layer1 = add_layer(xs, 1600, 1600, n_layer=1)
-predict = add_layer(xs, 1600, 54, n_layer=1, activation_function=tf.nn.softmax)
+predict = add_layer(layer1, 1600, 54, n_layer=2, activation_function=tf.nn.softmax)
 
 #cross entropy
 cross = tf.reduce_mean(-tf.reduce_sum(ys*tf.log(tf.clip_by_value(predict, 1e-10,1.0)), reduction_indices=[1]))
@@ -77,11 +77,12 @@ sess = tf.Session()
 sess.run(tf.global_variables_initializer())
 tf.train.start_queue_runners(sess=sess)
 
-for i in range(3000):
+for i in range(30000):
     img_val, label_val, cnt_val = sess.run([img_batch, label_batch, cnt_batch])
     np.set_printoptions(threshold=np.inf)
     sess.run(train, feed_dict={xs: img_val, ys: label_val, keep_prob:1})
     if i%50 == 0:
+        print('%d:' %i)
         img_t_val, label_t_val, cnt_t_val = sess.run([img_t_batch, label_t_batch, cnt_t_batch])
         #print(label_t_val)
         print(sess.run(cross, feed_dict={xs: img_val, ys: label_val, keep_prob: 1}))
