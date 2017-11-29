@@ -4,52 +4,40 @@ import os
 import numpy as np
 
 class maze(object):
-    def __init__(self):
-        self.width = 200
-        self.height = 200
-        self.line_step = 5
-        self.maze = np.zeros([self.width, self.height])
-
-    def resize_maze(self, width, height, line_step):
-        list = [width, height]
-        if line_step > list.index(min(list))//10:
-            return None
+    def __init__(self, width = 200, height = 200, line_step = 10):
         self.width = width
-        self.height = height
+        self.heigth = height
         self.line_step = line_step
-        self.maze = np.zeros([self.width, self.height])
+        self.cell_row = self.heigth // self.line_step
+        self.cell_col = self.width // self.line_step
+        self.maze = np.ones([self.heigth + 1, self.width + 1]) * 255
+        for i in range(0, self.heigth + 1):
+            if i%self.line_step == 0:
+                self.maze[i, :] = 0
 
-    def save_maze(self, path):
-        cv2.imwrite(path, self.maze)
+        for i in range(0, self.width + 1):
+            if i%self.line_step == 0:
+                self.maze[:, i] = 0
 
-
-class cell(object):
-    def __init__(self, row = 200, col = 200):
-        self.row = row
-        self.col = col
-        self.cell = np.zeros([self.row + 2, self.col + 2])
-        self.direction = []
-        self.search_end = False
-        self.cell_stack = []
-
-    def random_generate(self, x_start=None, y_start=None, x_end=None, y_end=None):
-        if x_start != 1 or x_start != self.col \
-            or y_start != 1 or y_start != self.row \
-            or y_end != 1 or y_end != self.row \
-            or x_end != 1 or x_end != self.col:
+    def maze_generate(self, x_start=None, y_start=None, x_end=None, y_end=None, path=None):
+        if x_start != 1 and x_end != self.cell_col:
             x_start = 1
-            y_start = np.random.randint(1, self.col + 1)
-            x_end = self.row
-            y_end = np.random.randint(1, self.col + 1)
+            y_start = np.random.randint(1, self.cell_col + 1)
+            x_end = self.cell_row
+            y_end = np.random.randint(1, self.cell_col + 1)
+
+        self.maze[0, (y_start-1)*self.line_step : y_start*self.line_step] = 255
+        self.maze[self.width, (y_end-1)*self.line_step : y_end*self.line_step] = 255
+
 
         print('x1: %d, y1: %d, x2: %d, y2: %d' %(x_start, y_start, x_end, y_end))
         search_x = x_start
         search_y = y_start
-        cell = np.zeros([self.row + 2, self.col + 2])
+        cell = np.zeros([self.cell_row + 2, self.cell_col + 2])
         cell[0, :] = 1
         cell[:, 0] = 1
-        cell[self.row+1, :] = 1
-        cell[:, self.col+1] = 1
+        cell[self.cell_row+1, :] = 1
+        cell[:, self.cell_col+1] = 1
         cell_x_stack = []
         cell_y_stack = []
 
@@ -60,8 +48,8 @@ class cell(object):
                 cell_x_stack.append(search_x)
                 cell_y_stack.append(search_y)
                 cell[search_x, search_y] = 1
-                print('---------------------')
-                print(cell)
+                #print('---------------------')
+                #print(cell)
 
             if search_x == x_end and search_y == y_end:
                 break
@@ -91,16 +79,28 @@ class cell(object):
                 direct_index = np.random.randint(len(diretion))
                 if diretion[direct_index] == 'UP':
                     search_x = search_x - 1
+                    self.maze[search_x * self.line_step, \
+                        (search_y - 1) * self.line_step : search_y * self.line_step] = 255
                 elif diretion[direct_index] == 'DOWN':
+                    self.maze[search_x * self.line_step, \
+                        (search_y - 1) * self.line_step : search_y * self.line_step] = 255
                     search_x = search_x + 1
                 elif diretion[direct_index] == 'LEFT':
                     search_y = search_y - 1
+                    self.maze[(search_x-1) * self.line_step : search_x * self.line_step, \
+                        search_y * self.line_step] = 255
                 elif diretion[direct_index] == 'RIGHT':
+                    self.maze[(search_x - 1) * self.line_step: search_x * self.line_step, \
+                        search_y * self.line_step] = 255
                     search_y = search_y + 1
+        #cv2.imshow('maze', self.maze)
+        #cv2.waitKey(0)
+        if path != None:
+            cv2.imwrite(path, self.maze)
 
 if __name__ == '__main__':
-    cellDemo = cell(8, 8)
-    cellDemo.random_generate()
+    mazeDemo = maze(width=200, height=200)
+    mazeDemo.maze_generate(path='maze.jpg')
 
 
         
