@@ -51,8 +51,8 @@ class maze(object):
                 #print('---------------------')
                 #print(cell)
 
-            if search_x == x_end and search_y == y_end:
-                break
+            #if search_x == x_end and search_y == y_end:
+            #    break
 
             #print(search_x, search_y)
             if cell[search_x-1, search_y] == 0:
@@ -67,7 +67,7 @@ class maze(object):
             print('search x : %d, y: %d' % (search_x, search_y))
             print(diretion)
             if len(diretion) == 0 and len(cell_x_stack) <= 1:
-                print('Wrong search !!')
+                print('End search !!')
                 break
             elif len(diretion) == 0:
                 print('Dead road, pop back')
@@ -99,7 +99,7 @@ class maze(object):
             cv2.imwrite(path, self.maze)
 
 if __name__ == '__main__':
-    mazeDemo = maze(width=200, height=200)
+    mazeDemo = maze(width=400, height=400)
     mazeDemo.maze_generate(path='maze.jpg')
 
 
