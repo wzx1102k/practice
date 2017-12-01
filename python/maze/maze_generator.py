@@ -31,6 +31,8 @@ class maze(object):
 
         self.maze[0, (y_start-1)*self.line_step : y_start*self.line_step] = 255
         self.maze[self.width, (y_end-1)*self.line_step : y_end*self.line_step] = 255
+        self.solution[0, (y_start-1)*self.line_step : y_start*self.line_step] = 255
+        self.solution[self.width, (y_end-1)*self.line_step : y_end*self.line_step] = 255
 
 
         print('x1: %d, y1: %d, x2: %d, y2: %d' %(x_start, y_start, x_end, y_end))
