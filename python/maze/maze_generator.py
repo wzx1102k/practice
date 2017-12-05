@@ -91,62 +91,62 @@ class maze(object):
                     if search_y - search_y_old == 0:
                         if search_x > search_x_old:
                             self.solution[(search_x_old * self.line_step - self.line_step // 2) \
-                                : (search_x_old * self.line_step + self.line_step // 2), \
+                                : (search_x_old * self.line_step + self.line_step // 2 + 1), \
                                 search_y * self.line_step - self.line_step // 2] = 255
                         else:
                             self.solution[(search_x * self.line_step - self.line_step // 2) \
-                                : (search_x * self.line_step + self.line_step // 2), \
+                                : (search_x * self.line_step + self.line_step // 2 + 1), \
                                 search_y * self.line_step - self.line_step // 2] = 255
                     else:
                         if search_y > search_y_old:
                             self.solution[search_x * self.line_step - self.line_step // 2, \
                                 (search_y_old * self.line_step - self.line_step // 2) \
-                                : (search_y_old * self.line_step + self.line_step // 2)] = 255
+                                : (search_y_old * self.line_step + self.line_step // 2 + 1)] = 255
                         else:
                             self.solution[search_x * self.line_step - self.line_step // 2, \
                                 (search_y * self.line_step - self.line_step // 2) \
-                                : (search_y * self.line_step + self.line_step // 2)] = 255
+                                : (search_y * self.line_step + self.line_step // 2 + 1)] = 255
             else:
                 direct_index = np.random.randint(len(diretion))
                 if diretion[direct_index] == 'UP':
                     search_x = search_x - 1
                     self.maze[search_x * self.line_step, \
-                        (search_y - 1) * self.line_step : search_y * self.line_step] = 255
+                        (search_y - 1) * self.line_step + 1: search_y * self.line_step] = 255
                     self.solution[search_x * self.line_step, \
-                    (search_y - 1) * self.line_step: search_y * self.line_step] = 255
+                        (search_y - 1) * self.line_step + 1: search_y * self.line_step] = 255
                     if solution_end == 0:
                         self.solution[(search_x*self.line_step - self.line_step//2) \
-                            : (search_x*self.line_step + self.line_step//2), \
+                            : (search_x*self.line_step + self.line_step//2 + 1), \
                             search_y*self.line_step - self.line_step//2] = 100
                 elif diretion[direct_index] == 'DOWN':
                     self.maze[search_x * self.line_step, \
-                        (search_y - 1) * self.line_step : search_y * self.line_step] = 255
+                        (search_y - 1) * self.line_step + 1: search_y * self.line_step] = 255
                     self.solution[search_x * self.line_step, \
-                    (search_y - 1) * self.line_step: search_y * self.line_step] = 255
+                    (search_y - 1) * self.line_step + 1: search_y * self.line_step] = 255
                     if solution_end == 0:
                         self.solution[(search_x * self.line_step - self.line_step // 2) \
-                            : (search_x * self.line_step + self.line_step // 2), \
+                            : (search_x * self.line_step + self.line_step // 2 + 1), \
                             search_y * self.line_step - self.line_step // 2] = 100
                     search_x = search_x + 1
                 elif diretion[direct_index] == 'LEFT':
                     search_y = search_y - 1
-                    self.maze[(search_x-1) * self.line_step : search_x * self.line_step, \
+                    self.maze[(search_x-1) * self.line_step + 1: search_x * self.line_step, \
                         search_y * self.line_step] = 255
-                    self.solution[(search_x - 1) * self.line_step: search_x * self.line_step, \
+                    self.solution[(search_x - 1) * self.line_step + 1: search_x * self.line_step, \
                     search_y * self.line_step] = 255
                     if solution_end == 0:
                         self.solution[search_x*self.line_step - self.line_step//2, \
                             (search_y * self.line_step - self.line_step // 2) \
-                            : (search_y * self.line_step + self.line_step // 2)] = 100
+                            : (search_y * self.line_step + self.line_step // 2 + 1)] = 100
                 elif diretion[direct_index] == 'RIGHT':
-                    self.maze[(search_x - 1) * self.line_step: search_x * self.line_step, \
+                    self.maze[(search_x - 1) * self.line_step + 1: search_x * self.line_step, \
                         search_y * self.line_step] = 255
-                    self.solution[(search_x - 1) * self.line_step: search_x * self.line_step, \
+                    self.solution[(search_x - 1) * self.line_step + 1: search_x * self.line_step, \
                     search_y * self.line_step] = 255
                     if solution_end == 0:
                         self.solution[search_x * self.line_step - self.line_step // 2, \
                             (search_y * self.line_step - self.line_step // 2) \
-                            : (search_y * self.line_step + self.line_step // 2)] = 100
+                            : (search_y * self.line_step + self.line_step // 2 + 1)] = 100
                     search_y = search_y + 1
         #cv2.imshow('maze', self.maze)
         #cv2.waitKey(0)
@@ -169,8 +169,13 @@ class maze(object):
 
 
 if __name__ == '__main__':
-    mazeDemo = maze(width=800, height=800, line_step=20)
-    mazeDemo.maze_generate(cell_path='maze.png', solution_path='solution.png')
+    cnt = sys.argv[1]
+    MAZE_PATH = './maze/'
+    SOLUTION_PATH = './solution/'
+    for i in range(int(cnt)):
+        MAZE_NAME = str(i) + '.png'
+        mazeDemo = maze(width=200, height=200, line_step=10)
+        mazeDemo.maze_generate(cell_path=MAZE_PATH+MAZE_NAME, solution_path=SOLUTION_PATH+MAZE_NAME)
 
 
         
