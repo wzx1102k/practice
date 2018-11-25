@@ -42,13 +42,13 @@ try:
 
     class MyFrame1 ( wx.Frame ):
         def __init__( self, parent ):
-            wx.Frame.__init__ ( self, parent, id = wx.ID_ANY, title = wx.EmptyString, pos = wx.DefaultPosition, size = wx.Size( 932,473 ), style = wx.DEFAULT_FRAME_STYLE|wx.TAB_TRAVERSAL )
+            wx.Frame.__init__ ( self, parent, id = wx.ID_ANY, title = wx.EmptyString, pos = wx.DefaultPosition, size = wx.Size( 1132,673 ), style = wx.DEFAULT_FRAME_STYLE|wx.TAB_TRAVERSAL )
             
             self.SetSizeHintsSz( wx.DefaultSize, wx.DefaultSize )
             
             bSizer1 = wx.BoxSizer( wx.VERTICAL )
             
-            bSizer1.SetMinSize( wx.Size( 800,500 ) ) 
+            bSizer1.SetMinSize( wx.Size( 800,600 ) ) 
             self.header = wx.StaticText( self, wx.ID_ANY, u"人事管理系统", wx.Point( -1,-1 ), wx.DefaultSize, 0 )
             self.header.Wrap( -1 )
             self.header.SetFont( wx.Font( 24, 70, 90, 92, False, "宋体" ) )
@@ -112,15 +112,18 @@ try:
             
             bSizer8.Add( bSizer6, 1, wx.EXPAND, 1 )
             bSizer7 = wx.BoxSizer( wx.HORIZONTAL )
-            self.time = wx.StaticText( self, wx.ID_ANY, u"查询时间:", wx.DefaultPosition, wx.DefaultSize, 0 )
-            self.time.Wrap( -1 )
-            bSizer7.Add( self.time, 0, wx.ALL, 5 )
+
+            self.m_staticText11 = wx.StaticText( self, wx.ID_ANY, u"花名册选择:", wx.DefaultPosition, wx.DefaultSize, 0 )
+            self.m_staticText11.Wrap( -1 )
+            self.m_staticText11.SetMinSize( wx.Size( 70,-1 ) )
+            bSizer7.Add( self.m_staticText11, 0, wx.ALL, 5 )
             
-            m_timeChoices = [ u"全年", u"下半年", u"最近三个月", u"当月", u"上半年", u"--" ]
-            self.m_time = wx.Choice( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, m_timeChoices, 0 )
-            self.m_time.SetSelection( 5 )
-            bSizer7.Add( self.m_time, 0, wx.ALL, 5 )
-            
+        
+            m_tableChoices = [ u"--" ]
+            self.m_listBox1 = wx.ListBox( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, m_tableChoices, wx.LB_MULTIPLE )
+            self.m_listBox1.SetMinSize( wx.Size( 80,-1 ) )
+            bSizer7.Add( self.m_listBox1, 0, wx.ALL, 5 )
+
             self.depart = wx.StaticText( self, wx.ID_ANY, u"部门:", wx.DefaultPosition, wx.DefaultSize, 0 )
             self.depart.Wrap( -1 )
             bSizer7.Add( self.depart, 0, wx.ALL, 5 )
@@ -138,12 +141,26 @@ try:
             self.m_status = wx.Choice( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, m_statusChoices, 0 )
             self.m_status.SetSelection( 0 )
             bSizer7.Add( self.m_status, 0, wx.ALL, 5 )
+                  
+            self.m_staticText13 = wx.StaticText( self, wx.ID_ANY, u"时间段:", wx.DefaultPosition, wx.DefaultSize, 0 )
+            self.m_staticText13.Wrap( -1 )
+            bSizer7.Add( self.m_staticText13, 0, wx.ALL, 5 )
             
+            self.m_time_start = wx.TextCtrl( self, wx.ID_ANY, u"2018/01", wx.DefaultPosition, wx.DefaultSize, 0 )
+            bSizer7.Add( self.m_time_start, 0, wx.ALL, 5 )
             
+            self.m_staticText14 = wx.StaticText( self, wx.ID_ANY, u"-", wx.DefaultPosition, wx.DefaultSize, 0 )
+            self.m_staticText14.Wrap( -1 )
+            bSizer7.Add( self.m_staticText14, 0, wx.ALL, 5 )
+            
+            self.m_time_end = wx.TextCtrl( self, wx.ID_ANY, u"2018/09", wx.DefaultPosition, wx.DefaultSize, 0 )
+            bSizer7.Add( self.m_time_end, 0, wx.ALL, 5 )
             bSizer8.Add( bSizer7, 1, wx.EXPAND, 1 )
             
             bSizer51 = wx.BoxSizer( wx.HORIZONTAL )
             
+            self.m_checkBox4 = wx.CheckBox( self, wx.ID_ANY, u"薪资总额", wx.DefaultPosition, wx.DefaultSize, 0 )
+            bSizer51.Add( self.m_checkBox4, 0, wx.ALL, 5 )
             self.m_checkBox1 = wx.CheckBox( self, wx.ID_ANY, u"平均薪资", wx.DefaultPosition, wx.DefaultSize, 0 )
             bSizer51.Add( self.m_checkBox1, 0, wx.ALL, 5 )
             
@@ -160,7 +177,8 @@ try:
             bSizer51.Add( self.m_button3, 0, wx.ALL, 5 )
             bSizer8.Add( bSizer51, 1, wx.EXPAND, 1 )
             
-            self.log = wx.TextCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, wx.TE_MULTILINE|wx.HSCROLL|wx.TE_READONLY )
+            #self.log = wx.TextCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, wx.TE_MULTILINE|wx.HSCROLL|wx.TE_READONLY )
+            self.log = wx.TextCtrl(self, id=wx.ID_ANY, value=wx.EmptyString, pos=(-1, -1), size=(250, 150), style=wx.TE_MULTILINE|wx.HSCROLL|wx.TE_READONLY)
             bSizer8.Add( self.log, 0, wx.ALL|wx.EXPAND|wx.FIXED_MINSIZE, 5 )
             
             
@@ -180,16 +198,7 @@ try:
             
             self.Centre( wx.BOTH )
             # Connect Events
-            self.m_name.Bind( wx.EVT_TEXT, self.f_name )
-            self.m_gender.Bind( wx.EVT_CHOICE, self.f_gender )
-            self.m_age_min.Bind( wx.EVT_TEXT, self.f_age_min )
-            self.m_age_max.Bind( wx.EVT_TEXT, self.f_age_max )
-            self.m_time.Bind( wx.EVT_CHOICE, self.f_time )
-            self.m_depart.Bind( wx.EVT_CHOICE, self.f_depart )
             self.m_status.Bind( wx.EVT_CHOICE, self.f_status )
-            self.m_checkBox1.Bind( wx.EVT_CHECKBOX, self.f_salaery )
-            self.m_checkBox2.Bind( wx.EVT_CHECKBOX, self.f_num )
-            self.m_checkBox3.Bind( wx.EVT_CHECKBOX, self.f_info )
             self.query.Bind( wx.EVT_BUTTON, self.f_query )
             self.m_button3.Bind( wx.EVT_BUTTON, self.f_clear )
             
@@ -197,6 +206,7 @@ try:
             self.validate = False
             self.queryer = Query()
             self.timeChoices = ['--']
+            self.leaveChoices = ['--']
             self.departChoices = ['--']
         
             handler = WxTextCtrlHandler(self.log) 
@@ -213,60 +223,35 @@ try:
                 print(u"未找到花名册")
             else:
                 self.validate = True
-                self.timeChoices, self.departChoices = self.manager.load_main_info()
+                self.timeChoices, self.leaveChoices, self.departChoices = self.manager.load_main_info()
                 
                 self.m_depart.SetItems(self.departChoices)
                 self.m_depart.SetSelection( 0 )
                 
-                self.m_time.SetItems(self.timeChoices)
-                self.m_time.SetSelection( 0 )
+                if self.queryer.input.status != u'离职':
+                    self.m_listBox1.SetItems(self.timeChoices)
+                else:
+                    self.m_listBox1.SetItems(self.leaveChoices)
+
         
-        # Virtual event handlers, overide them in your derived class
-        def f_name( self, event ):
-            self.queryer.input.name = event.GetString()
-            print(self.queryer.input.name)
-        
-        def f_gender( self, event ):
-            self.queryer.input.gender = event.GetString()
-            print(self.queryer.input.gender)
-        
-        def f_age_min( self, event ):
-            self.queryer.input.age_min = int(event.GetString())
-            print(self.queryer.input.age_min)
-        
-        def f_age_max( self, event ):
-            self.queryer.input.age_max = int(event.GetString())
-            print(self.queryer.input.age_max)
-        
-        def f_time( self, event ):
-            self.queryer.input.query_time = event.GetString()
-            print(self.queryer.input.query_time)
-        
-        def f_depart( self, event ):
-            self.queryer.input.depart = event.GetString()
-            print(self.queryer.input.depart)
-        
+        # Virtual event handlers, overide them in your derived class      
         def f_status( self, event ):
             self.queryer.input.status = event.GetString()
+            if self.queryer.input.status != u'离职':
+                self.m_listBox1.SetItems(self.timeChoices)
+            else:
+                self.m_listBox1.SetItems(self.leaveChoices)
             print(self.queryer.input.status)
         
-        def f_salaery( self, event ):
-            cb = event.GetEventObject() 
-            self.queryer.output.salary = cb.GetValue()
-            print(self.queryer.output.salary)
-        
-        def f_num( self, event ):
-            cb = event.GetEventObject() 
-            self.queryer.output.num = cb.GetValue()
-            print(self.queryer.output.num)
-        
-        def f_info( self, event ):
-            cb = event.GetEventObject() 
-            self.queryer.output.info = cb.GetValue()
-            print(self.queryer.output.info)
         
         def f_query( self, event ):
+            self.f_load_info()
+            if self.queryer.input.query_time == []:
+                wx.MessageBox(u'请选择花名册!!','Error',wx.OK|wx.ICON_INFORMATION)
+                logger.log(logging.INFO, msg)
+                return
             flag, msg = self.queryer.check(self.manager.info_dict)
+            print(self.m_listBox1.GetSelections())
             if self.validate == False or flag == False:
                 wx.MessageBox(msg,'Error',wx.OK|wx.ICON_INFORMATION)
                 logger.log(logging.INFO, msg)
@@ -277,6 +262,55 @@ try:
         def f_clear( self, event ):
             self.log.SetLabel("")
         
+        def f_load_info(self):
+            #input
+            self.queryer.input.name = self.m_name.GetValue()
+            self.queryer.input.gender = self.m_gender.GetString(self.m_gender.GetSelection())
+            self.queryer.input.age_min = self.m_age_min.GetValue()
+            if self.queryer.input.age_min == '' or self.queryer.input.age_min == u'':
+                self.queryer.input.age_min = 0
+            else:
+                self.queryer.input.age_min = int(self.queryer.input.age_min)
+            self.queryer.input.age_max = self.m_age_max.GetValue()
+            if self.queryer.input.age_max == '' or self.queryer.input.age_max == u'':
+                self.queryer.input.age_max = 0
+            else:
+                self.queryer.input.age_max = int(self.queryer.input.age_max)
+            self.queryer.input.depart = self.m_depart.GetString(self.m_depart.GetSelection())
+            
+            self.queryer.input.start_time = self.m_time_start.GetValue()
+            self.queryer.input.end_time = self.m_time_end.GetValue()
+            #output
+            self.queryer.output.salary_total = self.m_checkBox4.GetValue()
+            self.queryer.output.info = self.m_checkBox3.GetValue()
+            self.queryer.output.num = self.m_checkBox2.GetValue()
+            self.queryer.output.salary = self.m_checkBox1.GetValue()
+            
+            self.queryer.input.query_time = []
+            if self.queryer.input.status != u'离职':
+                for i in self.m_listBox1.GetSelections():
+                    self.queryer.input.query_time.append(self.timeChoices[i])
+            else:
+                for i in self.m_listBox1.GetSelections():
+                    self.queryer.input.query_time.append(self.leaveChoices[i])
+
+            print(self.queryer.input.query_time)
+            print(self.queryer.input.status)
+            print(self.queryer.input.name)
+            print(self.queryer.input.gender)
+            print(self.queryer.input.age_min)
+            print(self.queryer.input.age_max)
+            print(self.queryer.input.depart)
+            print(self.queryer.output.salary_total)
+            print(self.queryer.output.info)
+            print(self.queryer.output.num)
+            print(self.queryer.output.salary)
+            print(self.queryer.input.start_time)
+            print(self.queryer.input.end_time)
+            
+            
+        
+      
         def __del__( self ):
             pass
         

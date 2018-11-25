@@ -36,13 +36,18 @@ try:
         
         def load_main_info(self):
             excel = self.main_excel
-            timeChoices = ['--', u'全部']
+            timeChoices = ['--']
+            leaveChoices = ['--']
             departChoices = ['--', u'全部']
             with xlrd.open_workbook(excel) as workbook:
                 for i in workbook.sheet_names():
                     print(i)
-                    if u'离职' not in i and i not in timeChoices:
-                        timeChoices.append(i)
+                    if u'离职' not in i:
+                        if i not in timeChoices:
+                            timeChoices.append(i)
+                    else:
+                        if i not in leaveChoices:
+                            leaveChoices.append(i)
                     self.depart = u''
                     self.info_dict[i] = {}
                     table = workbook.sheet_by_name(i)
@@ -59,7 +64,7 @@ try:
                                 departChoices.append(self.depart)
                         elif title != []:
                             self.add_person(title, row_data, 'main', i)
-            return timeChoices, departChoices
+            return timeChoices, leaveChoices, departChoices
 
         def add_person(self, title, input, excel_type, info_dict_key):
             idx = title.index("姓名")
@@ -91,7 +96,10 @@ try:
             info.main.person_dict[u'部门'] = self.depart
             for i in range(0, len(title)):
                 info.main.person_dict[title[i]] = input[i]
-            info.main.person_dict[u'入职日期'] = self.convert_time(info.main.person_dict[u'入职日期'])
+            if u'入职日期' in info.main.person_dict:
+                info.main.person_dict[u'入职日期'] = self.convert_time(info.main.person_dict[u'入职日期'])
+            if u'离职日期' in info.main.person_dict:
+                info.main.person_dict[u'离职日期'] = self.convert_time(info.main.person_dict[u'离职日期'])
             
             ### 通过身份证计算年龄
             id = info.main.person_dict[u'身份证号码']
@@ -120,7 +128,7 @@ try:
         def convert_time(self, input):
             time = xldate_as_tuple(input, 0)
             date = datetime(*time)
-            return date.strftime('%Y/%d/%m')
+            return date.strftime('%Y/%m/%d')
 
         def check_excel_exist(self, path):
             excel_list = []
